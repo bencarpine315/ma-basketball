@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Team Profile — MIAA Hoops</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f7f6f2; --surface: #ffffff; --border: #e8e5de;
+    --text: #1a1a18; --muted: #8a8880; --accent: #c8392b;
+    --accent2: #1a3a5c; --green: #2e7d4f; --radius: 6px;
+    --mono: 'DM Mono', monospace;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; font-size: 15px; }
+
+  header {
+    background: var(--accent2); color: #fff; padding: 0 32px;
+    display: flex; align-items: center; justify-content: space-between;
+    height: 60px; position: sticky; top: 0; z-index: 100;
+    border-bottom: 3px solid var(--accent);
+  }
+  .logo { font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 2px; color: #fff; text-decoration: none; }
+  .logo span { color: var(--accent); }
+  .back-btn {
+    display: flex; align-items: center; gap: 8px;
+    color: rgba(255,255,255,0.7); text-decoration: none; font-size: 13px;
+    font-weight: 500; letter-spacing: 0.5px; text-transform: uppercase;
+    transition: color 0.15s; cursor: pointer;
+  }
+  .back-btn:hover { color: #fff; }
+  .back-btn::before { content: '←'; font-size: 16px; }
+
+  .hero {
+    background: var(--accent2); color: #fff;
+    padding: 36px 32px 32px; border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+  .hero-inner { max-width: 1100px; margin: 0 auto; }
+  .hero-top { display: flex; align-items: flex-start; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
+  .gender-badge {
+    display: inline-block; font-size: 11px; font-weight: 600;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    color: rgba(255,255,255,0.6); margin-bottom: 8px;
+    font-family: var(--mono);
+  }
+  .hero h1 { font-family: 'Bebas Neue', sans-serif; font-size: 52px; letter-spacing: 2px; line-height: 1; }
+  .hero-rank { text-align: right; }
+  .hero-rank .rank-big { font-family: 'Bebas Neue', sans-serif; font-size: 72px; line-height: 1; color: var(--accent); letter-spacing: -2px; }
+  .hero-rank .rank-label { font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: rgba(255,255,255,0.5); font-family: var(--mono); }
+  .stat-strip { display: flex; gap: 40px; margin-top: 24px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1); flex-wrap: wrap; }
+  .stat-item label { display: block; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: rgba(255,255,255,0.45); margin-bottom: 4px; font-family: var(--mono); }
+  .stat-item .val { font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 1px; }
+  .stat-item .val.pos { color: #6fcf97; }
+  .stat-item .val.neg { color: #eb5757; }
+
+  .page { max-width: 1100px; margin: 0 auto; padding: 32px; display: grid; grid-template-columns: 1fr 300px; gap: 24px; align-items: start; }
+
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; margin-bottom: 20px; }
+  .card-header { padding: 16px 20px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
+  .card-header h2 { font-family: 'Bebas Neue', sans-serif; font-size: 20px; letter-spacing: 1.5px; }
+  .card-header .badge { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.8px; color: var(--muted); font-family: var(--mono); }
+
+  /* Schedule table */
+  .schedule-table { width: 100%; border-collapse: collapse; }
+  .schedule-table th { padding: 10px 16px; text-align: left; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.8px; color: var(--muted); font-family: var(--mono); background: #f2f0eb; border-bottom: 1px solid var(--border); }
+  .schedule-table th.right { text-align: right; }
+  .schedule-table td { padding: 11px 16px; border-bottom: 1px solid var(--border); font-size: 14px; }
+  .schedule-table tr:last-child td { border-bottom: none; }
+  .schedule-table tr:hover td { background: #faf9f6; }
+  .result-w { font-family: var(--mono); font-weight: 600; color: var(--green); }
+  .result-l { font-family: var(--mono); font-weight: 600; color: var(--accent); }
+  .opp-link { color: var(--text); text-decoration: none; font-weight: 600; }
+  .opp-link:hover { color: var(--accent2); text-decoration: underline; }
+  .opp-oos { color: var(--muted); font-style: italic; font-weight: 400; }
+  .margin-cell { font-family: var(--mono); font-size: 13px; text-align: right; }
+  .margin-pos { color: var(--green); }
+  .margin-neg { color: var(--accent); }
+  .pred-cell { font-family: var(--mono); font-size: 13px; text-align: right; color: var(--muted); }
+  .correct-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-left: 6px; }
+  .correct-dot.yes { background: var(--green); }
+  .correct-dot.no { background: var(--accent); }
+  .date-cell { font-family: var(--mono); font-size: 12px; color: var(--muted); white-space: nowrap; }
+
+  /* Sidebar cards */
+  .sidebar-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; margin-bottom: 16px; }
+  .sidebar-card h3 { font-family: 'Bebas Neue', sans-serif; font-size: 18px; letter-spacing: 1px; margin-bottom: 16px; color: var(--text); }
+  .stat-row { display: flex; justify-content: space-between; align-items: center; padding: 9px 0; border-bottom: 1px solid var(--border); }
+  .stat-row:last-child { border-bottom: none; }
+  .stat-row .label { font-size: 13px; color: var(--muted); }
+  .stat-row .value { font-family: var(--mono); font-size: 14px; font-weight: 500; }
+  .stat-row .value.green { color: var(--green); }
+  .stat-row .value.red { color: var(--accent); }
+
+  .record-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1px; background: var(--border); margin-top: 12px; border-radius: 4px; overflow: hidden; }
+  .record-cell { background: var(--surface); padding: 14px; text-align: center; }
+  .record-cell .big { font-family: 'Bebas Neue', sans-serif; font-size: 36px; line-height: 1; }
+  .record-cell .big.wins { color: var(--green); }
+  .record-cell .big.losses { color: var(--accent); }
+  .record-cell .lbl { font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); margin-top: 4px; font-family: var(--mono); }
+
+  .sos-bar-wrap { height: 8px; background: var(--border); border-radius: 4px; overflow: hidden; margin-top: 8px; }
+  .sos-bar-fill { height: 100%; background: var(--accent2); border-radius: 4px; }
+
+  .pred-summary { background: #f7f6f2; border-radius: var(--radius); padding: 14px; margin-top: 12px; text-align: center; }
+  .pred-summary .pct { font-family: 'Bebas Neue', sans-serif; font-size: 42px; color: var(--accent2); line-height: 1; }
+  .pred-summary .lbl { font-size: 12px; color: var(--muted); margin-top: 4px; }
+
+  .loading { text-align: center; padding: 80px 32px; color: var(--muted); font-family: var(--mono); }
+  .error { text-align: center; padding: 80px 32px; }
+  .error h2 { font-family: 'Bebas Neue', sans-serif; font-size: 32px; color: var(--accent); margin-bottom: 12px; }
+
+  @media (max-width: 768px) {
+    .page { grid-template-columns: 1fr; }
+    .hero h1 { font-size: 36px; }
+    .hero-rank .rank-big { font-size: 48px; }
+    .stat-strip { gap: 20px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <a class="logo" href="miaa_hoops.html">MIAA<span>Hoops</span></a>
+  <a class="back-btn" href="miaa_hoops.html">Rankings</a>
+</header>
+
+<div id="app"><div class="loading">Loading team profile…</div></div>
+
+<script>
+function getParams() {
+  const p = new URLSearchParams(window.location.search);
+  return { team: p.get('team'), gender: p.get('gender') || 'boys' };
+}
+
+function fmt(n, plus=false) {
+  return (plus && n > 0 ? '+' : '') + n.toFixed(1);
+}
+
+function ordinal(n) {
+  const s = ['th','st','nd','rd'], v = n % 100;
+  return n + (s[(v-20)%10] || s[v] || s[0]);
+}
+
+async function load() {
+  const { team, gender } = getParams();
+  if (!team) { showError('No team specified.'); return; }
+
+  try {
+    const res = await fetch(`data/${gender}/${team}.json`);
+    if (!res.ok) throw new Error('Not found');
+    const d = await res.json();
+    render(d);
+  } catch(e) {
+    showError(`Team profile not found.<br><small>${team} · ${gender}</small>`);
+  }
+}
+
+function showError(msg) {
+  document.getElementById('app').innerHTML = `
+    <div class="error">
+      <h2>Profile Not Found</h2>
+      <p>${msg}</p>
+      <a href="miaa_hoops.html" style="display:inline-block;margin-top:20px;color:var(--accent2);">← Back to Rankings</a>
+    </div>`;
+}
+
+function render(d) {
+  document.title = `${d.name} — MIAA Hoops`;
+  const gLabel = d.gender === 'boys' ? 'Boys' : 'Girls';
+  const ratingSign = d.rating >= 0 ? '+' : '';
+  const avgSign = d.avg_margin >= 0 ? '+' : '';
+  const sosBarPct = Math.round((1 - (d.sos_rank - 1) / d.total_teams) * 100);
+
+  // Schedule rows
+  const scheduleRows = d.schedule.map(g => {
+    const oppCell = g.opp_ma
+      ? `<a class="opp-link" href="team.html?team=${g.opp_slug}&gender=${d.gender}">${g.opponent}</a>`
+      : `<span class="opp-oos">${g.opponent}</span>`;
+    const resultClass = g.result === 'W' ? 'result-w' : 'result-l';
+    const marginClass = g.margin > 0 ? 'margin-pos' : 'margin-neg';
+    const predSign = g.predicted >= 0 ? '+' : '';
+    const dot = g.margin !== 0
+      ? `<span class="correct-dot ${g.pred_correct ? 'yes' : 'no'}"></span>`
+      : '';
+    return `
+      <tr>
+        <td class="date-cell">${g.date}</td>
+        <td>${oppCell}</td>
+        <td class="right"><span class="${resultClass}">${g.result}</span> ${g.score}</td>
+        <td class="margin-cell ${marginClass}">${fmt(g.margin, true)}</td>
+        <td class="pred-cell">${predSign}${g.predicted.toFixed(1)}${dot}</td>
+      </tr>`;
+  }).join('');
+
+  const wins   = d.schedule.filter(g => g.result === 'W').length;
+  const losses = d.schedule.filter(g => g.result === 'L').length;
+  const total  = d.schedule.length;
+
+  document.getElementById('app').innerHTML = `
+    <div class="hero">
+      <div class="hero-inner">
+        <div class="hero-top">
+          <div>
+            <div class="gender-badge">MIAA ${gLabel} Basketball</div>
+            <h1>${d.name}</h1>
+          </div>
+          <div class="hero-rank">
+            <div class="rank-big">#${d.net_rank}</div>
+            <div class="rank-label">of ${d.total_teams} MA teams</div>
+          </div>
+        </div>
+        <div class="stat-strip">
+          <div class="stat-item">
+            <label>NET Rating</label>
+            <div class="val ${d.rating >= 0 ? 'pos' : 'neg'}">${ratingSign}${d.rating.toFixed(2)}</div>
+          </div>
+          <div class="stat-item">
+            <label>Record</label>
+            <div class="val">${wins}–${losses}</div>
+          </div>
+          <div class="stat-item">
+            <label>Avg Margin</label>
+            <div class="val ${d.avg_margin >= 0 ? 'pos' : 'neg'}">${avgSign}${d.avg_margin.toFixed(1)}</div>
+          </div>
+          <div class="stat-item">
+            <label>SOS Rank</label>
+            <div class="val">${ordinal(d.sos_rank)}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="main-col">
+        <div class="card">
+          <div class="card-header">
+            <h2>Season Schedule</h2>
+            <span class="badge">${total} games</span>
+          </div>
+          <table class="schedule-table">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Opponent</th>
+                <th class="right">Result</th>
+                <th class="right">Margin</th>
+                <th class="right">Predicted <span style="font-weight:300;opacity:0.6">●=correct</span></th>
+              </tr>
+            </thead>
+            <tbody>${scheduleRows}</tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="sidebar-col">
+        <div class="sidebar-card">
+          <h3>Season Record</h3>
+          <div class="record-grid">
+            <div class="record-cell">
+              <div class="big wins">${wins}</div>
+              <div class="lbl">Wins</div>
+            </div>
+            <div class="record-cell">
+              <div class="big losses">${losses}</div>
+              <div class="lbl">Losses</div>
+            </div>
+            <div class="record-cell">
+              <div class="big">${total}</div>
+              <div class="lbl">Games</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sidebar-card">
+          <h3>Ratings Profile</h3>
+          <div class="stat-row">
+            <span class="label">NET Rating</span>
+            <span class="value ${d.rating >= 0 ? 'green' : 'red'}">${ratingSign}${d.rating.toFixed(2)}</span>
+          </div>
+          <div class="stat-row">
+            <span class="label">NET Rank</span>
+            <span class="value">${ordinal(d.net_rank)} of ${d.total_teams}</span>
+          </div>
+          <div class="stat-row">
+            <span class="label">Avg Margin</span>
+            <span class="value ${d.avg_margin >= 0 ? 'green' : 'red'}">${avgSign}${d.avg_margin.toFixed(1)} pts</span>
+          </div>
+          <div class="stat-row">
+            <span class="label">Residual σ</span>
+            <span class="value">${d.sigma} pts</span>
+          </div>
+        </div>
+
+        <div class="sidebar-card">
+          <h3>Strength of Schedule</h3>
+          <div class="stat-row">
+            <span class="label">SOS Rank</span>
+            <span class="value">${ordinal(d.sos_rank)} hardest</span>
+          </div>
+          <div class="stat-row">
+            <span class="label">Avg Opp Rating</span>
+            <span class="value ${d.sos >= 0 ? 'green' : 'red'}">${d.sos >= 0 ? '+' : ''}${d.sos.toFixed(2)}</span>
+          </div>
+          <div class="sos-bar-wrap">
+            <div class="sos-bar-fill" style="width:${sosBarPct}%"></div>
+          </div>
+          <p style="font-size:11px;color:var(--muted);margin-top:8px;font-family:var(--mono)">
+            Harder schedule → higher rank
+          </p>
+        </div>
+
+        <div class="sidebar-card">
+          <h3>Prediction Accuracy</h3>
+          <div class="pred-summary">
+            <div class="pct">${d.pred_accuracy}%</div>
+            <div class="lbl">of game results correctly predicted<br>
+              <span style="color:var(--green)">●</span> correct &nbsp;
+              <span style="color:var(--accent)">●</span> incorrect
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>`;
+}
+
+load();
+</script>
+</body>
+</html>

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How It Works — MIAA Hoops</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f7f6f2; --surface: #ffffff; --border: #e8e5de;
+    --text: #1a1a18; --muted: #8a8880; --accent: #c8392b;
+    --accent2: #1a3a5c; --green: #2e7d4f; --radius: 6px;
+    --mono: 'DM Mono', monospace;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; font-size: 16px; line-height: 1.7; }
+
+  header {
+    background: var(--accent2); color: #fff; padding: 0 32px;
+    display: flex; align-items: center; justify-content: space-between;
+    height: 60px; position: sticky; top: 0; z-index: 100;
+    border-bottom: 3px solid var(--accent);
+  }
+  .logo { font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 2px; color: #fff; text-decoration: none; }
+  .logo span { color: var(--accent); }
+  .back-btn {
+    color: rgba(255,255,255,0.7); text-decoration: none; font-size: 13px;
+    font-weight: 500; letter-spacing: 0.5px; text-transform: uppercase; transition: color 0.15s;
+  }
+  .back-btn:hover { color: #fff; }
+  .back-btn::before { content: '← '; }
+
+  .hero {
+    background: var(--accent2); color: #fff;
+    padding: 48px 32px 40px;
+  }
+  .hero-inner { max-width: 760px; margin: 0 auto; }
+  .hero-eyebrow { font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 2px; color: rgba(255,255,255,0.5); margin-bottom: 12px; }
+  .hero h1 { font-family: 'Bebas Neue', sans-serif; font-size: 56px; letter-spacing: 2px; line-height: 1; margin-bottom: 16px; }
+  .hero h1 span { color: var(--accent); }
+  .hero p { color: rgba(255,255,255,0.7); font-size: 17px; max-width: 600px; line-height: 1.6; }
+
+  .content { max-width: 760px; margin: 0 auto; padding: 48px 32px 80px; }
+
+  h2 {
+    font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 1.5px;
+    color: var(--accent2); margin: 48px 0 16px; padding-top: 48px;
+    border-top: 2px solid var(--border);
+  }
+  h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+
+  p { margin-bottom: 16px; color: var(--text); }
+  p:last-child { margin-bottom: 0; }
+
+  .callout {
+    background: var(--surface); border: 1px solid var(--border); border-left: 4px solid var(--accent2);
+    border-radius: var(--radius); padding: 20px 24px; margin: 24px 0;
+  }
+  .callout strong { display: block; font-size: 13px; text-transform: uppercase; letter-spacing: 1px; color: var(--accent2); margin-bottom: 8px; font-family: var(--mono); }
+
+  .example-table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 14px; }
+  .example-table th { background: var(--accent2); color: #fff; padding: 10px 14px; text-align: left; font-family: var(--mono); font-size: 12px; letter-spacing: 0.5px; }
+  .example-table td { padding: 10px 14px; border-bottom: 1px solid var(--border); background: var(--surface); }
+  .example-table tr:last-child td { border-bottom: none; }
+  .example-table .pos { color: var(--green); font-family: var(--mono); font-weight: 600; }
+  .example-table .neg { color: var(--accent); font-family: var(--mono); font-weight: 600; }
+
+  .faq-item { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); margin-bottom: 12px; overflow: hidden; }
+  .faq-q { padding: 16px 20px; font-weight: 600; cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none; }
+  .faq-q:hover { background: #faf9f6; }
+  .faq-q::after { content: '+'; font-size: 20px; color: var(--muted); transition: transform 0.2s; }
+  .faq-item.open .faq-q::after { transform: rotate(45deg); }
+  .faq-a { padding: 0 20px; max-height: 0; overflow: hidden; transition: max-height 0.3s ease, padding 0.3s; }
+  .faq-item.open .faq-a { max-height: 400px; padding: 0 20px 16px; }
+  .faq-a p { color: var(--muted); font-size: 14px; line-height: 1.6; margin: 0; }
+
+  .formula {
+    background: var(--accent2); color: #fff; border-radius: var(--radius);
+    padding: 20px 24px; font-family: var(--mono); font-size: 14px;
+    line-height: 1.8; margin: 20px 0;
+  }
+  .formula .comment { color: rgba(255,255,255,0.4); }
+
+  footer {
+    background: var(--accent2); color: rgba(255,255,255,0.5);
+    text-align: center; padding: 24px; font-size: 13px;
+  }
+  footer a { color: rgba(255,255,255,0.7); text-decoration: none; }
+  footer a:hover { color: #fff; }
+</style>
+</head>
+<body>
+
+<header>
+  <a class="logo" href="miaa_hoops.html">MIAA<span>Hoops</span></a>
+  <a class="back-btn" href="miaa_hoops.html">Rankings</a>
+</header>
+
+<div class="hero">
+  <div class="hero-inner">
+    <div class="hero-eyebrow">Methodology</div>
+    <h1>How the <span>NET Rating</span> Works</h1>
+    <p>A plain-English explanation of how we rank every team in Massachusetts high school basketball — boys and girls.</p>
+  </div>
+</div>
+
+<div class="content">
+
+  <h2>The Core Idea</h2>
+  <p>Every team gets a single number — their NET rating — that represents how strong they are relative to the average Massachusetts team. A rating of <strong>+20</strong> means a team is expected to beat an average MA team by 20 points on a neutral court. A rating of <strong>−10</strong> means they'd lose by 10.</p>
+  <p>The entire state is always centered at zero. That means for every team above zero, there's a corresponding weight below zero pulling the average back down. Ratings are directly comparable — the difference between any two teams' ratings is the predicted neutral-site margin.</p>
+
+  <div class="callout">
+    <strong>Key principle</strong>
+    Rating difference = predicted neutral-site point margin. Newton North (+20) vs Newton South (−5) → Newton North predicted to win by 25.
+  </div>
+
+  <h2>Where the Data Comes From</h2>
+  <p>All game scores are sourced directly from official MIAA records — the same data entered into Arbiter and verified by the MIAA. Every regular season game played by every MA team is included. Tournament games are not included in the current ratings.</p>
+  <p>Out-of-state opponents are included in the calculation — they affect the ratings of MA teams they played — but they never appear in the rankings themselves.</p>
+
+  <h2>How Ratings Are Calculated</h2>
+  <p>The system uses an <strong>iterative margin-based algorithm</strong> — a method used in various forms by college basketball analytics platforms. Here's how it works step by step:</p>
+
+  <p><strong>Step 1 — Start at zero.</strong> Every team begins with a rating of 0.0.</p>
+  <p><strong>Step 2 — Calculate each team's rating.</strong> For each game, take the actual point margin and add the opponent's current rating. Average all of those together. That becomes the team's new rating.</p>
+
+  <div class="formula">
+    New Rating = average of (actual margin + opponent's rating) across all games<br>
+    <span class="comment"># Example: won by 10 vs a +5 team → contributes 10 + 5 = 15</span><br>
+    <span class="comment"># Lost by 8 vs a −3 team → contributes −8 + (−3) = −11</span>
+  </div>
+
+  <p><strong>Step 3 — Re-center at zero.</strong> After updating every team, subtract the average so the whole system stays centered at zero.</p>
+  <p><strong>Step 4 — Repeat.</strong> Run steps 2 and 3 again and again — up to 500 times — until the ratings stop changing meaningfully. This is what makes the system <em>iterative</em>: a team's rating depends on its opponents' ratings, which depend on their opponents' ratings, and so on. The system finds the stable solution where everything is consistent.</p>
+
+  <h2>The Margin Cap</h2>
+  <p>Raw point margins are capped at ±30 points before being used in the calculation. A 60-point blowout counts the same as a 30-point win. This prevents dominant teams from inflating their ratings by running up the score against weak opponents, and stops a single catastrophic loss from destroying a team's rating.</p>
+
+  <div class="callout">
+    <strong>Why 30 points?</strong>
+    At 30 points, a game is effectively decided. Beyond that, the margin reflects the depth of a roster more than the quality of the team. The cap keeps the focus on competitive performance.
+  </div>
+
+  <h2>An Example</h2>
+  <table class="example-table">
+    <thead>
+      <tr><th>Game</th><th>Result</th><th>Actual Margin</th><th>Opp Rating</th><th>Contribution</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>vs Team A</td><td>Win</td><td class="pos">+14</td><td class="pos">+8</td><td class="pos">+22</td></tr>
+      <tr><td>vs Team B</td><td>Win</td><td class="pos">+6</td><td class="neg">−4</td><td class="pos">+2</td></tr>
+      <tr><td>vs Team C</td><td>Loss</td><td class="neg">−9</td><td class="pos">+12</td><td class="pos">+3</td></tr>
+      <tr><td>vs Team D</td><td>Loss</td><td class="neg">−18</td><td class="neg">−5</td><td class="neg">−23</td></tr>
+      <tr><td colspan="4" style="font-weight:600;font-family:var(--mono)">Average → Raw Rating</td><td style="font-family:var(--mono);font-weight:600">+1.0</td></tr>
+    </tbody>
+  </table>
+  <p>After centering the whole state at zero, this team might end up at, say, +3.2. The process repeats until every team's rating has stabilized.</p>
+
+  <h2>Win Probability</h2>
+  <p>Once ratings are computed, we can estimate win probabilities using the <strong>residual standard deviation</strong> (σ) of the model — a measure of how much actual game margins differ from predicted margins. For the 2025–26 season, σ = 10.9 pts for boys and 11.0 pts for girls.</p>
+  <p>We assume game margins are normally distributed around the prediction. The probability that Team A beats Team B is:</p>
+
+  <div class="formula">
+    P(A wins) = Φ(predicted margin / σ)<br>
+    <span class="comment"># Φ = normal cumulative distribution function</span><br>
+    <span class="comment"># Example: A favored by 11 pts → Φ(11/10.9) ≈ 84%</span>
+  </div>
+
+  <p>This means even a team favored by a full σ only wins about 84% of the time. Basketball is inherently unpredictable — the model captures that honestly.</p>
+
+  <h2>Strength of Schedule</h2>
+  <p>Each team's <strong>Strength of Schedule (SOS)</strong> is the average NET rating of all their MA opponents. A higher SOS means a team faced tougher competition. This is displayed on every team's profile page and used as context when interpreting their overall record and NET rating.</p>
+  <p>A team with a modest record against elite opponents may rank much higher than an undefeated team that never faced serious competition. The ratings account for this automatically — but the SOS stat makes it visible.</p>
+
+  <h2>What's Not Included</h2>
+  <p>A few important caveats about what this model does <em>not</em> account for:</p>
+  <p><strong>Home/away venue.</strong> Due to data limitations this season, all games are treated as neutral-site. Once reliable venue data is available, a home court adjustment will be incorporated.</p>
+  <p><strong>Roster changes and injuries.</strong> The model sees results, not rosters. A team that lost their best player halfway through the season will have ratings reflecting their full-season performance, not their current state.</p>
+  <p><strong>Recency weighting.</strong> All games count equally regardless of when they were played. Early-season games count the same as late-season games. Future versions may weight recent games more heavily.</p>
+  <p><strong>Tournament games.</strong> Only regular season games are currently included.</p>
+
+  <h2>Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+    <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">Why is a team with a great record ranked lower than a team with a worse record?</div>
+    <div class="faq-a"><p>Record alone doesn't tell you how good a team is — it tells you how they performed relative to who they played. A team that went 18-2 against weak opponents may have a lower NET rating than a team that went 14-6 against elite competition. NET rating adjusts for strength of schedule, which is what makes it a better predictor than wins and losses alone.</p></div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">Why do some undefeated teams rank outside the top 50?</div>
+    <div class="faq-a"><p>An undefeated record only means a team beat everyone they faced. If they played a schedule of weak opponents, their rating will reflect the quality of those wins — not just the quantity. The system rewards teams that beat good opponents by large margins more than teams that barely beat weak opponents.</p></div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">How is this different from just sorting by win percentage?</div>
+    <div class="faq-a"><p>Win percentage ignores margin of victory, strength of schedule, and the difference between a 1-point win and a 30-point win. NET ratings account for all three — who you beat, who they beat, and by how much.</p></div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">Does a forfeit count in the ratings?</div>
+    <div class="faq-a"><p>No. Forfeited games are excluded entirely from the dataset and do not affect any team's rating.</p></div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">How often are ratings updated?</div>
+    <div class="faq-a"><p>During the season, ratings are updated as new game results are added to the dataset. The date of last update is shown on the main rankings page.</p></div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">Are these the official MIAA power rankings?</div>
+    <div class="faq-a"><p>No. MIAA Hoops is an independent analytics project and is not affiliated with or endorsed by the MIAA. These ratings are our own calculations based on publicly available game data.</p></div>
+  </div>
+
+</div>
+
+<footer>
+  <p>MIAA Hoops is an independent analytics project. Not affiliated with or endorsed by the MIAA.</p><p style="margin-top:8px;"><a href="miaa_hoops.html">Rankings</a> &nbsp;·&nbsp; <a href="about.html">About</a></p>
+</footer>
+
+</body>
+</html>

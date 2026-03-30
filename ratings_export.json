@@ -1,0 +1,2471 @@
+{
+  "sigma": 11.022,
+  "home_adv": 0.0,
+  "margin_cap": 30,
+  "teams": [
+    {
+      "name": "Medfield",
+      "w": 20,
+      "l": 0,
+      "margin": 38.8,
+      "rating": 47.459
+    },
+    {
+      "name": "Springfield Central",
+      "w": 17,
+      "l": 3,
+      "margin": 16.7,
+      "rating": 46.234
+    },
+    {
+      "name": "Wachusett Regional",
+      "w": 17,
+      "l": 3,
+      "margin": 26.9,
+      "rating": 43.55
+    },
+    {
+      "name": "St. Mary's",
+      "w": 19,
+      "l": 3,
+      "margin": 19.1,
+      "rating": 41.414
+    },
+    {
+      "name": "Minnechaug",
+      "w": 17,
+      "l": 4,
+      "margin": 18.5,
+      "rating": 40.105
+    },
+    {
+      "name": "South High Community",
+      "w": 17,
+      "l": 3,
+      "margin": 20.8,
+      "rating": 39.17
+    },
+    {
+      "name": "Foxborough",
+      "w": 19,
+      "l": 1,
+      "margin": 22.9,
+      "rating": 39.044
+    },
+    {
+      "name": "Bishop Feehan",
+      "w": 17,
+      "l": 4,
+      "margin": 9.4,
+      "rating": 38.522
+    },
+    {
+      "name": "Pittsfield",
+      "w": 16,
+      "l": 5,
+      "margin": 14.0,
+      "rating": 38.157
+    },
+    {
+      "name": "Whitman Hanson Regional",
+      "w": 19,
+      "l": 2,
+      "margin": 13.2,
+      "rating": 37.365
+    },
+    {
+      "name": "Natick",
+      "w": 16,
+      "l": 4,
+      "margin": 20.2,
+      "rating": 36.985
+    },
+    {
+      "name": "Bishop Fenwick",
+      "w": 15,
+      "l": 5,
+      "margin": 12.0,
+      "rating": 36.177
+    },
+    {
+      "name": "Andover",
+      "w": 19,
+      "l": 1,
+      "margin": 18.8,
+      "rating": 35.949
+    },
+    {
+      "name": "Cathedral",
+      "w": 12,
+      "l": 8,
+      "margin": 10.2,
+      "rating": 34.583
+    },
+    {
+      "name": "Norwood",
+      "w": 17,
+      "l": 3,
+      "margin": 17.9,
+      "rating": 34.413
+    },
+    {
+      "name": "King Philip Regional",
+      "w": 14,
+      "l": 6,
+      "margin": 16.9,
+      "rating": 32.977
+    },
+    {
+      "name": "Apponequet Regional",
+      "w": 21,
+      "l": 1,
+      "margin": 20.6,
+      "rating": 32.507
+    },
+    {
+      "name": "Archbishop Williams",
+      "w": 12,
+      "l": 7,
+      "margin": 14.6,
+      "rating": 32.235
+    },
+    {
+      "name": "Walpole",
+      "w": 14,
+      "l": 6,
+      "margin": 9.0,
+      "rating": 32.074
+    },
+    {
+      "name": "Braintree",
+      "w": 15,
+      "l": 5,
+      "margin": 11.4,
+      "rating": 31.609
+    },
+    {
+      "name": "Oliver Ames",
+      "w": 15,
+      "l": 5,
+      "margin": 9.7,
+      "rating": 30.58
+    },
+    {
+      "name": "North Quincy",
+      "w": 13,
+      "l": 7,
+      "margin": 5.2,
+      "rating": 30.153
+    },
+    {
+      "name": "Needham",
+      "w": 14,
+      "l": 6,
+      "margin": 8.8,
+      "rating": 30.05
+    },
+    {
+      "name": "Pentucket Regional",
+      "w": 16,
+      "l": 5,
+      "margin": 13.8,
+      "rating": 29.819
+    },
+    {
+      "name": "North Attleborough",
+      "w": 13,
+      "l": 7,
+      "margin": 9.7,
+      "rating": 29.306
+    },
+    {
+      "name": "Medway",
+      "w": 16,
+      "l": 4,
+      "margin": 9.4,
+      "rating": 29.286
+    },
+    {
+      "name": "South Hadley",
+      "w": 11,
+      "l": 10,
+      "margin": 5.9,
+      "rating": 29.265
+    },
+    {
+      "name": "North Reading",
+      "w": 19,
+      "l": 2,
+      "margin": 19.2,
+      "rating": 29.002
+    },
+    {
+      "name": "Duxbury",
+      "w": 14,
+      "l": 6,
+      "margin": 7.5,
+      "rating": 28.836
+    },
+    {
+      "name": "Northampton",
+      "w": 13,
+      "l": 7,
+      "margin": 2.9,
+      "rating": 28.512
+    },
+    {
+      "name": "Quincy",
+      "w": 13,
+      "l": 7,
+      "margin": 7.9,
+      "rating": 28.126
+    },
+    {
+      "name": "Billerica Memorial",
+      "w": 16,
+      "l": 4,
+      "margin": 9.1,
+      "rating": 27.498
+    },
+    {
+      "name": "Mansfield",
+      "w": 13,
+      "l": 8,
+      "margin": 5.2,
+      "rating": 27.346
+    },
+    {
+      "name": "Hingham",
+      "w": 13,
+      "l": 8,
+      "margin": 6.2,
+      "rating": 27.315
+    },
+    {
+      "name": "Woburn Memorial",
+      "w": 19,
+      "l": 1,
+      "margin": 16.1,
+      "rating": 27.045
+    },
+    {
+      "name": "Pembroke",
+      "w": 13,
+      "l": 7,
+      "margin": 4.3,
+      "rating": 26.934
+    },
+    {
+      "name": "Acton Boxborough",
+      "w": 15,
+      "l": 6,
+      "margin": 11.3,
+      "rating": 26.86
+    },
+    {
+      "name": "Westford Academy",
+      "w": 15,
+      "l": 5,
+      "margin": 13.1,
+      "rating": 26.815
+    },
+    {
+      "name": "Frontier Regional",
+      "w": 17,
+      "l": 3,
+      "margin": 18.6,
+      "rating": 26.067
+    },
+    {
+      "name": "East Bridgewater",
+      "w": 16,
+      "l": 4,
+      "margin": 19.4,
+      "rating": 26.004
+    },
+    {
+      "name": "Longmeadow",
+      "w": 11,
+      "l": 9,
+      "margin": 2.5,
+      "rating": 25.529
+    },
+    {
+      "name": "Old Rochester Regional",
+      "w": 16,
+      "l": 4,
+      "margin": 16.1,
+      "rating": 24.86
+    },
+    {
+      "name": "Bridgewater Raynham",
+      "w": 11,
+      "l": 9,
+      "margin": 3.6,
+      "rating": 24.257
+    },
+    {
+      "name": "Arlington Catholic",
+      "w": 16,
+      "l": 6,
+      "margin": 13.0,
+      "rating": 24.215
+    },
+    {
+      "name": "Norwell",
+      "w": 11,
+      "l": 9,
+      "margin": 4.8,
+      "rating": 23.619
+    },
+    {
+      "name": "Franklin",
+      "w": 13,
+      "l": 8,
+      "margin": 0.4,
+      "rating": 23.616
+    },
+    {
+      "name": "Hanover",
+      "w": 12,
+      "l": 8,
+      "margin": 0.8,
+      "rating": 23.215
+    },
+    {
+      "name": "Lowell",
+      "w": 17,
+      "l": 3,
+      "margin": 10.8,
+      "rating": 22.909
+    },
+    {
+      "name": "Hopkinton",
+      "w": 14,
+      "l": 6,
+      "margin": 7.3,
+      "rating": 22.491
+    },
+    {
+      "name": "Silver Lake Regional",
+      "w": 9,
+      "l": 13,
+      "margin": -1.6,
+      "rating": 21.707
+    },
+    {
+      "name": "Fontbonne",
+      "w": 14,
+      "l": 6,
+      "margin": 8.1,
+      "rating": 21.677
+    },
+    {
+      "name": "Wahconah Regional",
+      "w": 12,
+      "l": 8,
+      "margin": 12.6,
+      "rating": 21.498
+    },
+    {
+      "name": "Newton North",
+      "w": 9,
+      "l": 11,
+      "margin": 1.1,
+      "rating": 21.309
+    },
+    {
+      "name": "Brookline",
+      "w": 11,
+      "l": 8,
+      "margin": 1.9,
+      "rating": 21.26
+    },
+    {
+      "name": "Dracut",
+      "w": 14,
+      "l": 8,
+      "margin": 5.2,
+      "rating": 21.207
+    },
+    {
+      "name": "Millis",
+      "w": 15,
+      "l": 5,
+      "margin": 7.0,
+      "rating": 21.132
+    },
+    {
+      "name": "Drury",
+      "w": 16,
+      "l": 5,
+      "margin": 15.1,
+      "rating": 19.115
+    },
+    {
+      "name": "Newburyport",
+      "w": 14,
+      "l": 6,
+      "margin": 5.5,
+      "rating": 18.648
+    },
+    {
+      "name": "Millbury",
+      "w": 14,
+      "l": 6,
+      "margin": 6.3,
+      "rating": 18.615
+    },
+    {
+      "name": "Danvers",
+      "w": 19,
+      "l": 1,
+      "margin": 18.2,
+      "rating": 18.405
+    },
+    {
+      "name": "Notre Dame (Hingham)",
+      "w": 13,
+      "l": 7,
+      "margin": 8.8,
+      "rating": 18.373
+    },
+    {
+      "name": "Malden Catholic",
+      "w": 13,
+      "l": 7,
+      "margin": 4.0,
+      "rating": 18.339
+    },
+    {
+      "name": "Marshfield",
+      "w": 6,
+      "l": 14,
+      "margin": -4.6,
+      "rating": 18.293
+    },
+    {
+      "name": "Arlington",
+      "w": 16,
+      "l": 4,
+      "margin": 6.5,
+      "rating": 17.907
+    },
+    {
+      "name": "Durfee",
+      "w": 16,
+      "l": 4,
+      "margin": 12.7,
+      "rating": 17.417
+    },
+    {
+      "name": "Milford",
+      "w": 9,
+      "l": 11,
+      "margin": -1.9,
+      "rating": 17.365
+    },
+    {
+      "name": "Bedford",
+      "w": 14,
+      "l": 10,
+      "margin": 0.2,
+      "rating": 17.065
+    },
+    {
+      "name": "Greater New Bedford",
+      "w": 16,
+      "l": 6,
+      "margin": 8.1,
+      "rating": 17.033
+    },
+    {
+      "name": "Norton",
+      "w": 6,
+      "l": 14,
+      "margin": -6.0,
+      "rating": 16.972
+    },
+    {
+      "name": "Central Catholic",
+      "w": 8,
+      "l": 12,
+      "margin": -1.1,
+      "rating": 16.938
+    },
+    {
+      "name": "Milton",
+      "w": 12,
+      "l": 9,
+      "margin": -0.4,
+      "rating": 16.609
+    },
+    {
+      "name": "Tewksbury Memorial",
+      "w": 11,
+      "l": 9,
+      "margin": 0.8,
+      "rating": 16.141
+    },
+    {
+      "name": "Oakmont Regional",
+      "w": 14,
+      "l": 6,
+      "margin": 10.8,
+      "rating": 16.091
+    },
+    {
+      "name": "Dartmouth",
+      "w": 9,
+      "l": 11,
+      "margin": 0.3,
+      "rating": 16.085
+    },
+    {
+      "name": "Southwick Regional",
+      "w": 15,
+      "l": 5,
+      "margin": 11.9,
+      "rating": 16.051
+    },
+    {
+      "name": "Belmont",
+      "w": 13,
+      "l": 7,
+      "margin": 6.0,
+      "rating": 15.772
+    },
+    {
+      "name": "Leominster",
+      "w": 11,
+      "l": 9,
+      "margin": -1.7,
+      "rating": 15.455
+    },
+    {
+      "name": "Taunton",
+      "w": 8,
+      "l": 12,
+      "margin": -4.6,
+      "rating": 15.411
+    },
+    {
+      "name": "Attleboro",
+      "w": 9,
+      "l": 13,
+      "margin": -4.5,
+      "rating": 15.382
+    },
+    {
+      "name": "Waltham",
+      "w": 11,
+      "l": 9,
+      "margin": 4.7,
+      "rating": 15.301
+    },
+    {
+      "name": "Hopedale",
+      "w": 13,
+      "l": 7,
+      "margin": 2.6,
+      "rating": 15.043
+    },
+    {
+      "name": "Algonquin",
+      "w": 9,
+      "l": 11,
+      "margin": -7.4,
+      "rating": 14.929
+    },
+    {
+      "name": "Plymouth North",
+      "w": 5,
+      "l": 15,
+      "margin": -6.5,
+      "rating": 14.697
+    },
+    {
+      "name": "Pope Francis",
+      "w": 12,
+      "l": 8,
+      "margin": -0.8,
+      "rating": 14.603
+    },
+    {
+      "name": "Westborough",
+      "w": 16,
+      "l": 4,
+      "margin": 15.9,
+      "rating": 14.516
+    },
+    {
+      "name": "Lynnfield",
+      "w": 13,
+      "l": 7,
+      "margin": 4.3,
+      "rating": 14.228
+    },
+    {
+      "name": "Douglas",
+      "w": 20,
+      "l": 0,
+      "margin": 21.6,
+      "rating": 14.191
+    },
+    {
+      "name": "Newton South",
+      "w": 7,
+      "l": 13,
+      "margin": -4.2,
+      "rating": 14.11
+    },
+    {
+      "name": "Shrewsbury",
+      "w": 9,
+      "l": 11,
+      "margin": -4.6,
+      "rating": 14.016
+    },
+    {
+      "name": "Westwood",
+      "w": 8,
+      "l": 12,
+      "margin": -7.0,
+      "rating": 13.704
+    },
+    {
+      "name": "Cohasset",
+      "w": 8,
+      "l": 12,
+      "margin": 0.3,
+      "rating": 13.471
+    },
+    {
+      "name": "Burlington",
+      "w": 11,
+      "l": 9,
+      "margin": 2.1,
+      "rating": 13.288
+    },
+    {
+      "name": "Plymouth South",
+      "w": 5,
+      "l": 15,
+      "margin": -6.9,
+      "rating": 13.287
+    },
+    {
+      "name": "Methuen",
+      "w": 9,
+      "l": 11,
+      "margin": -2.5,
+      "rating": 12.814
+    },
+    {
+      "name": "Manchester Essex",
+      "w": 12,
+      "l": 8,
+      "margin": 3.9,
+      "rating": 12.774
+    },
+    {
+      "name": "Sandwich",
+      "w": 16,
+      "l": 4,
+      "margin": 10.9,
+      "rating": 12.575
+    },
+    {
+      "name": "Sutton",
+      "w": 12,
+      "l": 8,
+      "margin": 5.0,
+      "rating": 12.256
+    },
+    {
+      "name": "Watertown",
+      "w": 12,
+      "l": 8,
+      "margin": 1.1,
+      "rating": 12.108
+    },
+    {
+      "name": "Dedham",
+      "w": 6,
+      "l": 14,
+      "margin": -5.8,
+      "rating": 11.969
+    },
+    {
+      "name": "Bellingham",
+      "w": 7,
+      "l": 13,
+      "margin": -7.4,
+      "rating": 11.81
+    },
+    {
+      "name": "Chelmsford",
+      "w": 7,
+      "l": 13,
+      "margin": -4.4,
+      "rating": 11.804
+    },
+    {
+      "name": "Hudson",
+      "w": 14,
+      "l": 6,
+      "margin": 12.4,
+      "rating": 11.774
+    },
+    {
+      "name": "Ashland",
+      "w": 7,
+      "l": 13,
+      "margin": -4.8,
+      "rating": 11.591
+    },
+    {
+      "name": "Peabody Veterans",
+      "w": 14,
+      "l": 6,
+      "margin": 6.1,
+      "rating": 11.131
+    },
+    {
+      "name": "Shepherd Hill Regional",
+      "w": 12,
+      "l": 8,
+      "margin": 5.0,
+      "rating": 10.996
+    },
+    {
+      "name": "Falmouth",
+      "w": 12,
+      "l": 8,
+      "margin": 6.7,
+      "rating": 10.883
+    },
+    {
+      "name": "Northbridge",
+      "w": 10,
+      "l": 10,
+      "margin": 0.5,
+      "rating": 10.866
+    },
+    {
+      "name": "Grafton",
+      "w": 9,
+      "l": 11,
+      "margin": -4.8,
+      "rating": 10.767
+    },
+    {
+      "name": "Somerset Berkley Regional",
+      "w": 10,
+      "l": 10,
+      "margin": -2.8,
+      "rating": 10.449
+    },
+    {
+      "name": "Seekonk",
+      "w": 14,
+      "l": 6,
+      "margin": 11.7,
+      "rating": 10.397
+    },
+    {
+      "name": "Scituate",
+      "w": 7,
+      "l": 15,
+      "margin": -9.5,
+      "rating": 10.235
+    },
+    {
+      "name": "Hampshire Regional",
+      "w": 12,
+      "l": 8,
+      "margin": 2.0,
+      "rating": 9.957
+    },
+    {
+      "name": "Winchester",
+      "w": 13,
+      "l": 8,
+      "margin": 1.0,
+      "rating": 9.947
+    },
+    {
+      "name": "Wellesley",
+      "w": 5,
+      "l": 15,
+      "margin": -10.6,
+      "rating": 9.824
+    },
+    {
+      "name": "Canton",
+      "w": 6,
+      "l": 14,
+      "margin": -13.8,
+      "rating": 9.813
+    },
+    {
+      "name": "Saint John Paul II",
+      "w": 18,
+      "l": 3,
+      "margin": 13.8,
+      "rating": 9.724
+    },
+    {
+      "name": "East Longmeadow",
+      "w": 12,
+      "l": 8,
+      "margin": 3.9,
+      "rating": 9.696
+    },
+    {
+      "name": "Tyngsborough",
+      "w": 13,
+      "l": 7,
+      "margin": 3.9,
+      "rating": 9.56
+    },
+    {
+      "name": "Middleborough",
+      "w": 9,
+      "l": 9,
+      "margin": -4.6,
+      "rating": 9.391
+    },
+    {
+      "name": "West Springfield",
+      "w": 12,
+      "l": 8,
+      "margin": 8.2,
+      "rating": 9.364
+    },
+    {
+      "name": "Springfield International",
+      "w": 15,
+      "l": 5,
+      "margin": 3.0,
+      "rating": 9.248
+    },
+    {
+      "name": "Nashoba Regional",
+      "w": 8,
+      "l": 12,
+      "margin": -2.8,
+      "rating": 8.981
+    },
+    {
+      "name": "Cambridge Rindge & Latin",
+      "w": 7,
+      "l": 13,
+      "margin": -4.7,
+      "rating": 8.972
+    },
+    {
+      "name": "New Bedford",
+      "w": 8,
+      "l": 11,
+      "margin": -2.6,
+      "rating": 8.765
+    },
+    {
+      "name": "Hamilton Wenham",
+      "w": 11,
+      "l": 9,
+      "margin": -0.1,
+      "rating": 8.531
+    },
+    {
+      "name": "Whittier RVT",
+      "w": 17,
+      "l": 3,
+      "margin": 13.4,
+      "rating": 8.444
+    },
+    {
+      "name": "Dover-Sherborn",
+      "w": 6,
+      "l": 14,
+      "margin": -13.6,
+      "rating": 8.408
+    },
+    {
+      "name": "Lee",
+      "w": 17,
+      "l": 4,
+      "margin": 13.6,
+      "rating": 8.374
+    },
+    {
+      "name": "Belchertown",
+      "w": 11,
+      "l": 9,
+      "margin": 1.1,
+      "rating": 8.069
+    },
+    {
+      "name": "Melrose",
+      "w": 8,
+      "l": 12,
+      "margin": -3.0,
+      "rating": 7.676
+    },
+    {
+      "name": "Amesbury",
+      "w": 13,
+      "l": 7,
+      "margin": 8.0,
+      "rating": 6.912
+    },
+    {
+      "name": "Marblehead",
+      "w": 13,
+      "l": 8,
+      "margin": 5.5,
+      "rating": 6.648
+    },
+    {
+      "name": "Tahanto Regional",
+      "w": 18,
+      "l": 2,
+      "margin": 26.3,
+      "rating": 6.497
+    },
+    {
+      "name": "Somerville",
+      "w": 15,
+      "l": 5,
+      "margin": 11.2,
+      "rating": 6.283
+    },
+    {
+      "name": "Barnstable",
+      "w": 8,
+      "l": 12,
+      "margin": -0.1,
+      "rating": 6.204
+    },
+    {
+      "name": "Wakefield Memorial",
+      "w": 6,
+      "l": 14,
+      "margin": -5.4,
+      "rating": 6.159
+    },
+    {
+      "name": "Swampscott",
+      "w": 12,
+      "l": 8,
+      "margin": 7.2,
+      "rating": 5.847
+    },
+    {
+      "name": "Masconomet Regional",
+      "w": 11,
+      "l": 9,
+      "margin": -1.6,
+      "rating": 5.762
+    },
+    {
+      "name": "Renaissance School",
+      "w": 9,
+      "l": 10,
+      "margin": -1.4,
+      "rating": 5.639
+    },
+    {
+      "name": "Reading Memorial",
+      "w": 7,
+      "l": 13,
+      "margin": -6.3,
+      "rating": 5.228
+    },
+    {
+      "name": "Ursuline Academy",
+      "w": 11,
+      "l": 11,
+      "margin": 5.0,
+      "rating": 5.112
+    },
+    {
+      "name": "Dighton Rehoboth Regional",
+      "w": 9,
+      "l": 11,
+      "margin": 1.9,
+      "rating": 5.086
+    },
+    {
+      "name": "West Bridgewater",
+      "w": 12,
+      "l": 8,
+      "margin": 2.4,
+      "rating": 5.013
+    },
+    {
+      "name": "Concord Carlisle",
+      "w": 7,
+      "l": 11,
+      "margin": -2.7,
+      "rating": 4.894
+    },
+    {
+      "name": "Lunenburg",
+      "w": 13,
+      "l": 7,
+      "margin": 6.5,
+      "rating": 4.715
+    },
+    {
+      "name": "Westfield",
+      "w": 5,
+      "l": 14,
+      "margin": -9.8,
+      "rating": 4.231
+    },
+    {
+      "name": "North Andover",
+      "w": 3,
+      "l": 17,
+      "margin": -9.7,
+      "rating": 4.229
+    },
+    {
+      "name": "Rockland",
+      "w": 11,
+      "l": 9,
+      "margin": 1.4,
+      "rating": 4.213
+    },
+    {
+      "name": "Auburn",
+      "w": 12,
+      "l": 8,
+      "margin": 6.7,
+      "rating": 3.889
+    },
+    {
+      "name": "Blackstone-Millville",
+      "w": 11,
+      "l": 9,
+      "margin": 11.2,
+      "rating": 3.849
+    },
+    {
+      "name": "Lincoln-Sudbury",
+      "w": 8,
+      "l": 12,
+      "margin": -6.2,
+      "rating": 3.766
+    },
+    {
+      "name": "Saint Paul Diocesan",
+      "w": 14,
+      "l": 6,
+      "margin": 11.5,
+      "rating": 3.637
+    },
+    {
+      "name": "Carver",
+      "w": 7,
+      "l": 12,
+      "margin": -2.9,
+      "rating": 3.56
+    },
+    {
+      "name": "Wilmington",
+      "w": 8,
+      "l": 12,
+      "margin": -7.3,
+      "rating": 3.52
+    },
+    {
+      "name": "Maynard",
+      "w": 11,
+      "l": 9,
+      "margin": 1.1,
+      "rating": 3.31
+    },
+    {
+      "name": "Mashpee",
+      "w": 8,
+      "l": 10,
+      "margin": -5.6,
+      "rating": 3.284
+    },
+    {
+      "name": "Tantasqua Regional",
+      "w": 13,
+      "l": 7,
+      "margin": 7.8,
+      "rating": 2.944
+    },
+    {
+      "name": "Stoneham",
+      "w": 5,
+      "l": 15,
+      "margin": -9.6,
+      "rating": 2.83
+    },
+    {
+      "name": "Hoosac Valley",
+      "w": 7,
+      "l": 13,
+      "margin": -4.8,
+      "rating": 2.716
+    },
+    {
+      "name": "Sharon",
+      "w": 3,
+      "l": 17,
+      "margin": -16.4,
+      "rating": 2.607
+    },
+    {
+      "name": "Southeastern RVT",
+      "w": 14,
+      "l": 5,
+      "margin": 10.7,
+      "rating": 2.236
+    },
+    {
+      "name": "Uxbridge",
+      "w": 10,
+      "l": 10,
+      "margin": -0.5,
+      "rating": 2.17
+    },
+    {
+      "name": "Haverhill",
+      "w": 9,
+      "l": 11,
+      "margin": -1.6,
+      "rating": 1.937
+    },
+    {
+      "name": "Beverly",
+      "w": 5,
+      "l": 15,
+      "margin": -5.5,
+      "rating": 1.933
+    },
+    {
+      "name": "Georgetown",
+      "w": 5,
+      "l": 14,
+      "margin": -7.2,
+      "rating": 1.676
+    },
+    {
+      "name": "Clinton",
+      "w": 8,
+      "l": 12,
+      "margin": 1.2,
+      "rating": 1.421
+    },
+    {
+      "name": "Weymouth",
+      "w": 2,
+      "l": 18,
+      "margin": -21.4,
+      "rating": 1.414
+    },
+    {
+      "name": "Gardner",
+      "w": 15,
+      "l": 5,
+      "margin": 15.5,
+      "rating": 1.103
+    },
+    {
+      "name": "Easthampton",
+      "w": 11,
+      "l": 9,
+      "margin": 3.5,
+      "rating": 0.998
+    },
+    {
+      "name": "Advanced Math & Science",
+      "w": 11,
+      "l": 9,
+      "margin": 0.7,
+      "rating": 0.939
+    },
+    {
+      "name": "Littleton",
+      "w": 8,
+      "l": 12,
+      "margin": 1.2,
+      "rating": 0.496
+    },
+    {
+      "name": "Chicopee",
+      "w": 6,
+      "l": 14,
+      "margin": -4.8,
+      "rating": 0.177
+    },
+    {
+      "name": "Framingham",
+      "w": 2,
+      "l": 17,
+      "margin": -23.3,
+      "rating": 0.097
+    },
+    {
+      "name": "Abington",
+      "w": 6,
+      "l": 14,
+      "margin": -5.0,
+      "rating": 0.048
+    },
+    {
+      "name": "Greater Lawrence Tech",
+      "w": 11,
+      "l": 9,
+      "margin": 1.6,
+      "rating": -0.01
+    },
+    {
+      "name": "Boston Latin",
+      "w": 6,
+      "l": 14,
+      "margin": -8.9,
+      "rating": -0.125
+    },
+    {
+      "name": "Lawrence",
+      "w": 5,
+      "l": 15,
+      "margin": -8.6,
+      "rating": -0.21
+    },
+    {
+      "name": "Holbrook",
+      "w": 15,
+      "l": 5,
+      "margin": 17.6,
+      "rating": -0.401
+    },
+    {
+      "name": "Saugus",
+      "w": 8,
+      "l": 12,
+      "margin": -1.1,
+      "rating": -0.439
+    },
+    {
+      "name": "Triton Regional",
+      "w": 4,
+      "l": 16,
+      "margin": -10.2,
+      "rating": -0.474
+    },
+    {
+      "name": "Mount Greylock Regional",
+      "w": 11,
+      "l": 9,
+      "margin": 6.0,
+      "rating": -0.531
+    },
+    {
+      "name": "Minuteman Regional",
+      "w": 19,
+      "l": 0,
+      "margin": 21.8,
+      "rating": -0.626
+    },
+    {
+      "name": "Pioneer Valley Christian",
+      "w": 10,
+      "l": 11,
+      "margin": 2.0,
+      "rating": -0.666
+    },
+    {
+      "name": "Agawam",
+      "w": 6,
+      "l": 14,
+      "margin": -8.4,
+      "rating": -0.726
+    },
+    {
+      "name": "Lexington",
+      "w": 2,
+      "l": 18,
+      "margin": -11.0,
+      "rating": -0.777
+    },
+    {
+      "name": "Brockton",
+      "w": 9,
+      "l": 11,
+      "margin": -5.8,
+      "rating": -0.793
+    },
+    {
+      "name": "Nipmuc Regional",
+      "w": 8,
+      "l": 11,
+      "margin": 2.2,
+      "rating": -0.793
+    },
+    {
+      "name": "Essex North Shore",
+      "w": 3,
+      "l": 17,
+      "margin": -14.1,
+      "rating": -1.124
+    },
+    {
+      "name": "Lenox Memorial",
+      "w": 5,
+      "l": 13,
+      "margin": -10.9,
+      "rating": -1.146
+    },
+    {
+      "name": "New Heights Charter",
+      "w": 17,
+      "l": 1,
+      "margin": 20.0,
+      "rating": -1.302
+    },
+    {
+      "name": "Wayland",
+      "w": 10,
+      "l": 10,
+      "margin": -0.3,
+      "rating": -1.395
+    },
+    {
+      "name": "Stoughton",
+      "w": 1,
+      "l": 21,
+      "margin": -22.0,
+      "rating": -1.401
+    },
+    {
+      "name": "Granby",
+      "w": 18,
+      "l": 3,
+      "margin": 15.0,
+      "rating": -1.552
+    },
+    {
+      "name": "Medford",
+      "w": 12,
+      "l": 8,
+      "margin": 5.4,
+      "rating": -1.636
+    },
+    {
+      "name": "Wareham",
+      "w": 17,
+      "l": 3,
+      "margin": 14.6,
+      "rating": -2.027
+    },
+    {
+      "name": "O'Bryant",
+      "w": 17,
+      "l": 1,
+      "margin": 23.7,
+      "rating": -2.228
+    },
+    {
+      "name": "Groton Dunstable",
+      "w": 6,
+      "l": 14,
+      "margin": -5.0,
+      "rating": -2.257
+    },
+    {
+      "name": "Bourne",
+      "w": 6,
+      "l": 14,
+      "margin": -12.0,
+      "rating": -2.289
+    },
+    {
+      "name": "Lynn Classical",
+      "w": 12,
+      "l": 4,
+      "margin": 10.8,
+      "rating": -2.314
+    },
+    {
+      "name": "Mahar Regional",
+      "w": 17,
+      "l": 3,
+      "margin": 12.6,
+      "rating": -3.747
+    },
+    {
+      "name": "Monomoy",
+      "w": 10,
+      "l": 10,
+      "margin": -1.3,
+      "rating": -3.919
+    },
+    {
+      "name": "Marlborough",
+      "w": 9,
+      "l": 11,
+      "margin": -7.0,
+      "rating": -4.027
+    },
+    {
+      "name": "Cardinal Spellman",
+      "w": 6,
+      "l": 15,
+      "margin": -21.0,
+      "rating": -4.331
+    },
+    {
+      "name": "Revere",
+      "w": 10,
+      "l": 10,
+      "margin": 3.4,
+      "rating": -4.533
+    },
+    {
+      "name": "Falmouth Academy",
+      "w": 13,
+      "l": 4,
+      "margin": 13.8,
+      "rating": -4.662
+    },
+    {
+      "name": "Shawsheen Valley Tech",
+      "w": 9,
+      "l": 11,
+      "margin": -3.7,
+      "rating": -4.858
+    },
+    {
+      "name": "Winthrop",
+      "w": 7,
+      "l": 13,
+      "margin": -7.0,
+      "rating": -5.339
+    },
+    {
+      "name": "Holliston",
+      "w": 1,
+      "l": 19,
+      "margin": -25.4,
+      "rating": -5.464
+    },
+    {
+      "name": "Case",
+      "w": 8,
+      "l": 12,
+      "margin": -7.2,
+      "rating": -5.536
+    },
+    {
+      "name": "Blue Hills RVT",
+      "w": 13,
+      "l": 6,
+      "margin": 4.6,
+      "rating": -5.832
+    },
+    {
+      "name": "Gloucester",
+      "w": 7,
+      "l": 12,
+      "margin": -2.1,
+      "rating": -6.301
+    },
+    {
+      "name": "Blackstone Valley RVT",
+      "w": 8,
+      "l": 10,
+      "margin": -5.8,
+      "rating": -6.511
+    },
+    {
+      "name": "Doherty Memorial",
+      "w": 12,
+      "l": 8,
+      "margin": 3.2,
+      "rating": -6.514
+    },
+    {
+      "name": "Norfolk County Agricultural",
+      "w": 17,
+      "l": 3,
+      "margin": 15.1,
+      "rating": -6.655
+    },
+    {
+      "name": "Holyoke",
+      "w": 6,
+      "l": 14,
+      "margin": -8.9,
+      "rating": -6.726
+    },
+    {
+      "name": "Monument Mountain",
+      "w": 7,
+      "l": 12,
+      "margin": -6.8,
+      "rating": -7.355
+    },
+    {
+      "name": "Neighborhood House",
+      "w": 14,
+      "l": 6,
+      "margin": 16.7,
+      "rating": -7.424
+    },
+    {
+      "name": "Prospect Hill Academy",
+      "w": 16,
+      "l": 4,
+      "margin": 18.4,
+      "rating": -7.467
+    },
+    {
+      "name": "Collegiate Charter of Lowell",
+      "w": 14,
+      "l": 4,
+      "margin": 23.0,
+      "rating": -8.982
+    },
+    {
+      "name": "Calvary Chapel Academy",
+      "w": 10,
+      "l": 10,
+      "margin": 5.9,
+      "rating": -9.087
+    },
+    {
+      "name": "Weston",
+      "w": 2,
+      "l": 16,
+      "margin": -12.3,
+      "rating": -9.666
+    },
+    {
+      "name": "Baystate Academy",
+      "w": 16,
+      "l": 4,
+      "margin": 12.6,
+      "rating": -9.744
+    },
+    {
+      "name": "Notre Dame (Worcester)",
+      "w": 5,
+      "l": 15,
+      "margin": -11.8,
+      "rating": -10.165
+    },
+    {
+      "name": "Everett",
+      "w": 6,
+      "l": 13,
+      "margin": -4.7,
+      "rating": -10.473
+    },
+    {
+      "name": "Fitchburg",
+      "w": 6,
+      "l": 14,
+      "margin": -8.1,
+      "rating": -10.555
+    },
+    {
+      "name": "Lynn VT",
+      "w": 13,
+      "l": 7,
+      "margin": 7.0,
+      "rating": -10.677
+    },
+    {
+      "name": "Nantucket",
+      "w": 10,
+      "l": 10,
+      "margin": 4.5,
+      "rating": -10.794
+    },
+    {
+      "name": "Oxford",
+      "w": 15,
+      "l": 5,
+      "margin": 12.1,
+      "rating": -11.108
+    },
+    {
+      "name": "Greenfield",
+      "w": 10,
+      "l": 10,
+      "margin": 2.9,
+      "rating": -11.308
+    },
+    {
+      "name": "Quabbin Regional",
+      "w": 6,
+      "l": 14,
+      "margin": -7.0,
+      "rating": -11.4
+    },
+    {
+      "name": "Martha's Vineyard Regional",
+      "w": 8,
+      "l": 12,
+      "margin": -6.0,
+      "rating": -11.464
+    },
+    {
+      "name": "Ware",
+      "w": 13,
+      "l": 7,
+      "margin": 3.8,
+      "rating": -12.089
+    },
+    {
+      "name": "Ipswich",
+      "w": 10,
+      "l": 10,
+      "margin": 2.9,
+      "rating": -12.328
+    },
+    {
+      "name": "Greater Lowell Tech",
+      "w": 7,
+      "l": 13,
+      "margin": -7.0,
+      "rating": -12.338
+    },
+    {
+      "name": "Malden",
+      "w": 8,
+      "l": 12,
+      "margin": -0.9,
+      "rating": -12.48
+    },
+    {
+      "name": "Quaboag Regional",
+      "w": 4,
+      "l": 15,
+      "margin": -2.9,
+      "rating": -12.883
+    },
+    {
+      "name": "Leicester",
+      "w": 8,
+      "l": 10,
+      "margin": -1.3,
+      "rating": -13.299
+    },
+    {
+      "name": "Sturgis West",
+      "w": 14,
+      "l": 4,
+      "margin": 10.8,
+      "rating": -13.518
+    },
+    {
+      "name": "Bishop Stang",
+      "w": 6,
+      "l": 14,
+      "margin": -8.9,
+      "rating": -13.623
+    },
+    {
+      "name": "Nauset Regional",
+      "w": 6,
+      "l": 14,
+      "margin": -13.6,
+      "rating": -13.702
+    },
+    {
+      "name": "Westport",
+      "w": 8,
+      "l": 12,
+      "margin": -6.5,
+      "rating": -14.104
+    },
+    {
+      "name": "Dennis Yarmouth Regional",
+      "w": 1,
+      "l": 18,
+      "margin": -24.0,
+      "rating": -14.457
+    },
+    {
+      "name": "Brooke Charter",
+      "w": 11,
+      "l": 7,
+      "margin": 13.1,
+      "rating": -14.486
+    },
+    {
+      "name": "New Mission",
+      "w": 15,
+      "l": 7,
+      "margin": 14.8,
+      "rating": -14.493
+    },
+    {
+      "name": "Tri-County RVT",
+      "w": 9,
+      "l": 10,
+      "margin": 2.7,
+      "rating": -14.821
+    },
+    {
+      "name": "Hull",
+      "w": 7,
+      "l": 13,
+      "margin": -9.6,
+      "rating": -15.076
+    },
+    {
+      "name": "St. Bernard's",
+      "w": 10,
+      "l": 8,
+      "margin": -0.3,
+      "rating": -15.242
+    },
+    {
+      "name": "Chicopee Comp",
+      "w": 3,
+      "l": 17,
+      "margin": -19.4,
+      "rating": -15.31
+    },
+    {
+      "name": "Pioneer Valley Regional",
+      "w": 11,
+      "l": 9,
+      "margin": -0.7,
+      "rating": -15.728
+    },
+    {
+      "name": "Lowell Catholic",
+      "w": 3,
+      "l": 16,
+      "margin": -14.5,
+      "rating": -15.789
+    },
+    {
+      "name": "Bristol Plymouth RVT",
+      "w": 7,
+      "l": 13,
+      "margin": -2.6,
+      "rating": -16.557
+    },
+    {
+      "name": "Narragansett Regional",
+      "w": 11,
+      "l": 9,
+      "margin": 0.8,
+      "rating": -16.758
+    },
+    {
+      "name": "Amherst Pelham Regional",
+      "w": 9,
+      "l": 11,
+      "margin": -5.3,
+      "rating": -16.906
+    },
+    {
+      "name": "West Boylston",
+      "w": 9,
+      "l": 11,
+      "margin": 1.3,
+      "rating": -17.143
+    },
+    {
+      "name": "Atlantis Charter",
+      "w": 10,
+      "l": 6,
+      "margin": 9.5,
+      "rating": -17.167
+    },
+    {
+      "name": "Rockport",
+      "w": 13,
+      "l": 7,
+      "margin": 7.2,
+      "rating": -17.339
+    },
+    {
+      "name": "Keefe Tech",
+      "w": 13,
+      "l": 4,
+      "margin": 8.9,
+      "rating": -17.747
+    },
+    {
+      "name": "Maimonides",
+      "w": 4,
+      "l": 10,
+      "margin": -7.3,
+      "rating": -17.788
+    },
+    {
+      "name": "Smith VT",
+      "w": 12,
+      "l": 8,
+      "margin": 5.8,
+      "rating": -18.041
+    },
+    {
+      "name": "Bromfield School",
+      "w": 9,
+      "l": 9,
+      "margin": -8.8,
+      "rating": -18.078
+    },
+    {
+      "name": "Boston Collegiate Charter",
+      "w": 14,
+      "l": 3,
+      "margin": 10.5,
+      "rating": -18.218
+    },
+    {
+      "name": "Palmer",
+      "w": 9,
+      "l": 11,
+      "margin": -4.5,
+      "rating": -18.389
+    },
+    {
+      "name": "North Middlesex Regional",
+      "w": 1,
+      "l": 19,
+      "margin": -21.7,
+      "rating": -18.63
+    },
+    {
+      "name": "Boston Latin Academy",
+      "w": 9,
+      "l": 11,
+      "margin": 3.2,
+      "rating": -18.681
+    },
+    {
+      "name": "Bay Path RVT",
+      "w": 2,
+      "l": 16,
+      "margin": -17.2,
+      "rating": -18.76
+    },
+    {
+      "name": "Taconic",
+      "w": 3,
+      "l": 17,
+      "margin": -25.1,
+      "rating": -18.806
+    },
+    {
+      "name": "Upper Cape Cod RVT",
+      "w": 8,
+      "l": 11,
+      "margin": -0.5,
+      "rating": -18.849
+    },
+    {
+      "name": "Mohawk Trail Regional",
+      "w": 9,
+      "l": 11,
+      "margin": -1.4,
+      "rating": -19.336
+    },
+    {
+      "name": "Hopkins Academy",
+      "w": 8,
+      "l": 12,
+      "margin": -3.3,
+      "rating": -19.379
+    },
+    {
+      "name": "HS of Science & Technology",
+      "w": 9,
+      "l": 11,
+      "margin": -2.0,
+      "rating": -19.671
+    },
+    {
+      "name": "Prouty",
+      "w": 11,
+      "l": 7,
+      "margin": 11.7,
+      "rating": -19.961
+    },
+    {
+      "name": "Putnam VT",
+      "w": 11,
+      "l": 6,
+      "margin": 10.5,
+      "rating": -20.086
+    },
+    {
+      "name": "Mystic Valley Charter",
+      "w": 7,
+      "l": 13,
+      "margin": -7.5,
+      "rating": -20.097
+    },
+    {
+      "name": "Chelsea",
+      "w": 6,
+      "l": 14,
+      "margin": -7.8,
+      "rating": -20.157
+    },
+    {
+      "name": "Randolph",
+      "w": 11,
+      "l": 9,
+      "margin": -2.0,
+      "rating": -21.054
+    },
+    {
+      "name": "McCann Tech",
+      "w": 16,
+      "l": 4,
+      "margin": 12.3,
+      "rating": -21.32
+    },
+    {
+      "name": "Fairhaven",
+      "w": 0,
+      "l": 18,
+      "margin": -22.0,
+      "rating": -21.797
+    },
+    {
+      "name": "Bethany Christian",
+      "w": 11,
+      "l": 1,
+      "margin": 15.5,
+      "rating": -21.954
+    },
+    {
+      "name": "Lynn English",
+      "w": 2,
+      "l": 16,
+      "margin": -19.0,
+      "rating": -22.18
+    },
+    {
+      "name": "Cape Cod RVT",
+      "w": 10,
+      "l": 9,
+      "margin": 3.3,
+      "rating": -22.227
+    },
+    {
+      "name": "Ludlow",
+      "w": 5,
+      "l": 15,
+      "margin": -8.4,
+      "rating": -23.045
+    },
+    {
+      "name": "Old Colony RVT",
+      "w": 9,
+      "l": 11,
+      "margin": 3.4,
+      "rating": -23.049
+    },
+    {
+      "name": "Academy of Notre Dame",
+      "w": 13,
+      "l": 7,
+      "margin": 5.5,
+      "rating": -23.144
+    },
+    {
+      "name": "Montachusett RVT",
+      "w": 8,
+      "l": 12,
+      "margin": -0.4,
+      "rating": -23.152
+    },
+    {
+      "name": "Smith Academy",
+      "w": 7,
+      "l": 13,
+      "margin": -6.5,
+      "rating": -23.225
+    },
+    {
+      "name": "Immaculate Heart of Mary",
+      "w": 11,
+      "l": 5,
+      "margin": 17.5,
+      "rating": -23.596
+    },
+    {
+      "name": "Diman RVT",
+      "w": 2,
+      "l": 17,
+      "margin": -14.4,
+      "rating": -23.741
+    },
+    {
+      "name": "Fenway",
+      "w": 9,
+      "l": 5,
+      "margin": 10.4,
+      "rating": -24.26
+    },
+    {
+      "name": "North Brookfield",
+      "w": 11,
+      "l": 6,
+      "margin": 7.9,
+      "rating": -24.471
+    },
+    {
+      "name": "Abby Kelley Foster",
+      "w": 15,
+      "l": 5,
+      "margin": 13.2,
+      "rating": -25.49
+    },
+    {
+      "name": "Franklin County Tech",
+      "w": 7,
+      "l": 13,
+      "margin": -7.3,
+      "rating": -25.507
+    },
+    {
+      "name": "Snowden International",
+      "w": 14,
+      "l": 1,
+      "margin": 12.2,
+      "rating": -25.771
+    },
+    {
+      "name": "Murdock",
+      "w": 5,
+      "l": 13,
+      "margin": -11.5,
+      "rating": -26.133
+    },
+    {
+      "name": "Pioneer Charter of Science II",
+      "w": 11,
+      "l": 8,
+      "margin": 1.9,
+      "rating": -26.283
+    },
+    {
+      "name": "Ayer Shirley",
+      "w": 4,
+      "l": 16,
+      "margin": -19.9,
+      "rating": -26.708
+    },
+    {
+      "name": "St. Mary Parish (Westfield)",
+      "w": 15,
+      "l": 5,
+      "margin": 8.8,
+      "rating": -26.916
+    },
+    {
+      "name": "Burncoat",
+      "w": 7,
+      "l": 13,
+      "margin": -9.4,
+      "rating": -27.207
+    },
+    {
+      "name": "Pathfinder RVT",
+      "w": 8,
+      "l": 10,
+      "margin": -1.1,
+      "rating": -28.074
+    },
+    {
+      "name": "Boston United",
+      "w": 6,
+      "l": 11,
+      "margin": -9.5,
+      "rating": -28.667
+    },
+    {
+      "name": "KIPP Academy Lynn Coll.",
+      "w": 10,
+      "l": 9,
+      "margin": -1.9,
+      "rating": -28.997
+    },
+    {
+      "name": "Whitinsville Christian",
+      "w": 5,
+      "l": 15,
+      "margin": -13.4,
+      "rating": -29.603
+    },
+    {
+      "name": "Sturgis East",
+      "w": 6,
+      "l": 10,
+      "margin": -6.2,
+      "rating": -29.879
+    },
+    {
+      "name": "Tech Boston Academy",
+      "w": 6,
+      "l": 10,
+      "margin": -0.6,
+      "rating": -29.963
+    },
+    {
+      "name": "North High",
+      "w": 2,
+      "l": 17,
+      "margin": -35.1,
+      "rating": -31.253
+    },
+    {
+      "name": "Worcester Tech",
+      "w": 5,
+      "l": 15,
+      "margin": -11.3,
+      "rating": -31.388
+    },
+    {
+      "name": "Pioneer Charter of Science I",
+      "w": 6,
+      "l": 12,
+      "margin": -3.9,
+      "rating": -31.434
+    },
+    {
+      "name": "Madison Park",
+      "w": 8,
+      "l": 10,
+      "margin": -8.0,
+      "rating": -31.757
+    },
+    {
+      "name": "Salem",
+      "w": 0,
+      "l": 19,
+      "margin": -35.9,
+      "rating": -32.078
+    },
+    {
+      "name": "South Shore Charter",
+      "w": 4,
+      "l": 13,
+      "margin": -18.1,
+      "rating": -32.659
+    },
+    {
+      "name": "Athol",
+      "w": 5,
+      "l": 15,
+      "margin": -8.6,
+      "rating": -34.101
+    },
+    {
+      "name": "Rising Tide Charter",
+      "w": 4,
+      "l": 12,
+      "margin": -8.7,
+      "rating": -34.562
+    },
+    {
+      "name": "Excel Academy Charter",
+      "w": 5,
+      "l": 13,
+      "margin": -7.9,
+      "rating": -34.934
+    },
+    {
+      "name": "Argosy Collegiate Charter",
+      "w": 4,
+      "l": 10,
+      "margin": -11.2,
+      "rating": -34.967
+    },
+    {
+      "name": "Community Charter of Cambridge",
+      "w": 2,
+      "l": 9,
+      "margin": -11.3,
+      "rating": -35.129
+    },
+    {
+      "name": "South Lancaster Academy",
+      "w": 6,
+      "l": 12,
+      "margin": -6.1,
+      "rating": -35.28
+    },
+    {
+      "name": "Foxborough Charter",
+      "w": 4,
+      "l": 11,
+      "margin": -21.6,
+      "rating": -35.312
+    },
+    {
+      "name": "Parker Charter School",
+      "w": 12,
+      "l": 8,
+      "margin": 3.2,
+      "rating": -35.505
+    },
+    {
+      "name": "Roxbury Prep Charter",
+      "w": 5,
+      "l": 11,
+      "margin": -18.2,
+      "rating": -35.676
+    },
+    {
+      "name": "Monson",
+      "w": 3,
+      "l": 17,
+      "margin": -27.9,
+      "rating": -36.347
+    },
+    {
+      "name": "Salem Academy Charter",
+      "w": 5,
+      "l": 13,
+      "margin": -13.5,
+      "rating": -36.535
+    },
+    {
+      "name": "Commerce",
+      "w": 9,
+      "l": 11,
+      "margin": -1.9,
+      "rating": -36.902
+    },
+    {
+      "name": "Nashoba Valley Tech",
+      "w": 3,
+      "l": 15,
+      "margin": -18.1,
+      "rating": -37.091
+    },
+    {
+      "name": "Northeast Metro RVT",
+      "w": 4,
+      "l": 16,
+      "margin": -19.2,
+      "rating": -37.63
+    },
+    {
+      "name": "Hampden Charter of Science",
+      "w": 8,
+      "l": 10,
+      "margin": -3.4,
+      "rating": -37.824
+    },
+    {
+      "name": "John J. Duggan Academy",
+      "w": 5,
+      "l": 13,
+      "margin": -13.5,
+      "rating": -37.965
+    },
+    {
+      "name": "Bristol County Agricultural",
+      "w": 4,
+      "l": 16,
+      "margin": -15.9,
+      "rating": -38.235
+    },
+    {
+      "name": "Southbridge",
+      "w": 5,
+      "l": 15,
+      "margin": -8.8,
+      "rating": -38.684
+    },
+    {
+      "name": "Codman Academy",
+      "w": 4,
+      "l": 5,
+      "margin": -4.0,
+      "rating": -38.74
+    },
+    {
+      "name": "Community Academy of Science & Health",
+      "w": 6,
+      "l": 8,
+      "margin": -10.2,
+      "rating": -39.546
+    },
+    {
+      "name": "Boston Preparatory",
+      "w": 2,
+      "l": 10,
+      "margin": -23.1,
+      "rating": -39.714
+    },
+    {
+      "name": "Edward M. Kennedy Acad.",
+      "w": 6,
+      "l": 7,
+      "margin": -9.0,
+      "rating": -39.881
+    },
+    {
+      "name": "Muniz Academy",
+      "w": 7,
+      "l": 11,
+      "margin": -5.0,
+      "rating": -41.302
+    },
+    {
+      "name": "University Park Campus",
+      "w": 3,
+      "l": 17,
+      "margin": -16.5,
+      "rating": -41.59
+    },
+    {
+      "name": "Avon",
+      "w": 1,
+      "l": 15,
+      "margin": -24.9,
+      "rating": -42.366
+    },
+    {
+      "name": "Westfield Technical Academy",
+      "w": 6,
+      "l": 10,
+      "margin": -4.9,
+      "rating": -43.463
+    },
+    {
+      "name": "Charlestown",
+      "w": 3,
+      "l": 10,
+      "margin": -19.2,
+      "rating": -44.549
+    },
+    {
+      "name": "Turners Falls",
+      "w": 2,
+      "l": 18,
+      "margin": -22.1,
+      "rating": -44.995
+    },
+    {
+      "name": "Ruth Batson Academy",
+      "w": 3,
+      "l": 10,
+      "margin": -10.2,
+      "rating": -46.17
+    },
+    {
+      "name": "Cape Cod Academy",
+      "w": 0,
+      "l": 12,
+      "margin": -34.3,
+      "rating": -46.188
+    },
+    {
+      "name": "Brighton",
+      "w": 1,
+      "l": 8,
+      "margin": -27.2,
+      "rating": -46.23
+    },
+    {
+      "name": "Gateway Regional",
+      "w": 4,
+      "l": 10,
+      "margin": -9.0,
+      "rating": -47.532
+    },
+    {
+      "name": "East Boston",
+      "w": 2,
+      "l": 12,
+      "margin": -18.8,
+      "rating": -47.536
+    },
+    {
+      "name": "South Shore VT",
+      "w": 2,
+      "l": 17,
+      "margin": -24.9,
+      "rating": -48.572
+    },
+    {
+      "name": "Assabet Valley RVT",
+      "w": 0,
+      "l": 18,
+      "margin": -34.6,
+      "rating": -48.691
+    },
+    {
+      "name": "Trivium School",
+      "w": 4,
+      "l": 12,
+      "margin": -16.6,
+      "rating": -49.007
+    },
+    {
+      "name": "Notre Dame Cristo Rey",
+      "w": 0,
+      "l": 17,
+      "margin": -29.0,
+      "rating": -49.682
+    },
+    {
+      "name": "Innovation Academy",
+      "w": 4,
+      "l": 10,
+      "margin": -10.7,
+      "rating": -49.764
+    },
+    {
+      "name": "Cristo Rey Boston",
+      "w": 4,
+      "l": 12,
+      "margin": -16.2,
+      "rating": -49.841
+    },
+    {
+      "name": "Academy of the Pacific Rim",
+      "w": 0,
+      "l": 4,
+      "margin": -41.2,
+      "rating": -52.227
+    },
+    {
+      "name": "Match Charter Public",
+      "w": 1,
+      "l": 13,
+      "margin": -16.6,
+      "rating": -52.601
+    },
+    {
+      "name": "Pioneer Valley Chinese Immersion",
+      "w": 0,
+      "l": 16,
+      "margin": -19.1,
+      "rating": -53.879
+    },
+    {
+      "name": "Sizer School",
+      "w": 0,
+      "l": 17,
+      "margin": -32.5,
+      "rating": -55.513
+    }
+  ]
+}

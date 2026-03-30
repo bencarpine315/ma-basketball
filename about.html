@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — MIAA Hoops</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f7f6f2; --surface: #ffffff; --border: #e8e5de;
+    --text: #1a1a18; --muted: #8a8880; --accent: #c8392b;
+    --accent2: #1a3a5c; --green: #2e7d4f; --radius: 6px;
+    --mono: 'DM Mono', monospace;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; font-size: 16px; line-height: 1.7; }
+
+  header {
+    background: var(--accent2); color: #fff; padding: 0 32px;
+    display: flex; align-items: center; justify-content: space-between;
+    height: 60px; position: sticky; top: 0; z-index: 100;
+    border-bottom: 3px solid var(--accent);
+  }
+  .logo { font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 2px; color: #fff; text-decoration: none; }
+  .logo span { color: var(--accent); }
+  .back-btn {
+    color: rgba(255,255,255,0.7); text-decoration: none; font-size: 13px;
+    font-weight: 500; letter-spacing: 0.5px; text-transform: uppercase; transition: color 0.15s;
+  }
+  .back-btn:hover { color: #fff; }
+  .back-btn::before { content: '← '; }
+
+  .hero {
+    background: var(--accent2); color: #fff;
+    padding: 48px 32px 40px;
+  }
+  .hero-inner { max-width: 760px; margin: 0 auto; display: flex; align-items: flex-end; justify-content: space-between; gap: 32px; flex-wrap: wrap; }
+  .hero-text { flex: 1; }
+  .hero-eyebrow { font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 2px; color: rgba(255,255,255,0.5); margin-bottom: 12px; }
+  .hero h1 { font-family: 'Bebas Neue', sans-serif; font-size: 56px; letter-spacing: 2px; line-height: 1; margin-bottom: 16px; }
+  .hero h1 span { color: var(--accent); }
+  .hero p { color: rgba(255,255,255,0.7); font-size: 17px; line-height: 1.6; }
+  .hero-accent {
+    font-family: 'Bebas Neue', sans-serif; font-size: 100px; line-height: 1;
+    color: rgba(255,255,255,0.06); letter-spacing: -4px; user-select: none;
+    flex-shrink: 0;
+  }
+
+  .content { max-width: 760px; margin: 0 auto; padding: 48px 32px 80px; }
+
+  .bio-block {
+    display: grid; grid-template-columns: 200px 1fr; gap: 40px;
+    align-items: start; margin-bottom: 48px;
+  }
+  .bio-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); overflow: hidden; text-align: center;
+  }
+  .bio-avatar {
+    width: 100%; aspect-ratio: 1; background: var(--accent2);
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Bebas Neue', sans-serif; font-size: 64px;
+    color: rgba(255,255,255,0.15); letter-spacing: 2px;
+  }
+  .bio-card-info { padding: 16px; }
+  .bio-name { font-family: 'Bebas Neue', sans-serif; font-size: 22px; letter-spacing: 1px; margin-bottom: 4px; }
+  .bio-title { font-size: 12px; color: var(--muted); font-family: var(--mono); text-transform: uppercase; letter-spacing: 1px; }
+  .bio-divider { height: 1px; background: var(--border); margin: 12px 0; }
+  .contact-link {
+    display: block; padding: 8px 12px; background: var(--accent2); color: #fff;
+    text-decoration: none; border-radius: var(--radius); font-size: 13px;
+    font-weight: 500; text-align: center; transition: background 0.15s; margin-top: 8px;
+  }
+  .contact-link:hover { background: #142d4a; }
+
+  h2 {
+    font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 1.5px;
+    color: var(--accent2); margin: 48px 0 16px; padding-top: 48px;
+    border-top: 2px solid var(--border);
+  }
+  h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+  p { margin-bottom: 16px; color: var(--text); }
+  p:last-child { margin-bottom: 0; }
+
+  .callout {
+    background: var(--surface); border: 1px solid var(--border); border-left: 4px solid var(--accent);
+    border-radius: var(--radius); padding: 20px 24px; margin: 24px 0;
+    font-style: italic; color: var(--muted); font-size: 15px; line-height: 1.7;
+  }
+
+  .stat-pills { display: flex; gap: 12px; flex-wrap: wrap; margin: 24px 0; }
+  .pill {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 999px;
+    padding: 8px 18px; font-family: var(--mono); font-size: 13px;
+  }
+  .pill strong { color: var(--accent2); }
+
+  .disclaimer {
+    background: #fff8f7; border: 1px solid #f5cac3; border-radius: var(--radius);
+    padding: 20px 24px; margin: 32px 0;
+  }
+  .disclaimer strong { display: block; font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: var(--accent); margin-bottom: 8px; font-family: var(--mono); }
+  .disclaimer p { font-size: 14px; color: var(--muted); margin: 0; }
+
+  footer {
+    background: var(--accent2); color: rgba(255,255,255,0.5);
+    text-align: center; padding: 24px 32px; font-size: 13px;
+  }
+  footer a { color: rgba(255,255,255,0.7); text-decoration: none; margin: 0 8px; }
+  footer a:hover { color: #fff; }
+
+  @media (max-width: 640px) {
+    .bio-block { grid-template-columns: 1fr; }
+    .hero-accent { display: none; }
+    .hero h1 { font-size: 40px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <a class="logo" href="miaa_hoops.html">MIAA<span>Hoops</span></a>
+  <a class="back-btn" href="miaa_hoops.html">Rankings</a>
+</header>
+
+<div class="hero">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <div class="hero-eyebrow">About</div>
+      <h1>The Person<br>Behind <span>the Numbers</span></h1>
+      <p>A Massachusetts basketball fan who built the analytics platform the state never had.</p>
+    </div>
+    <div class="hero-accent">BC</div>
+  </div>
+</div>
+
+<div class="content">
+
+  <div class="bio-block">
+    <div class="bio-card">
+      <div class="bio-avatar">BC</div>
+      <div class="bio-card-info">
+        <div class="bio-name">Ben Carpine</div>
+        <div class="bio-title">Founder · MIAA Hoops</div>
+        <div class="bio-divider"></div>
+        <div style="font-size:12px;color:var(--muted);font-family:var(--mono);">Massachusetts</div>
+        <!-- Add your contact link below — replace # with your email or social -->
+        <!-- <a class="contact-link" href="mailto:you@email.com">Get in Touch</a> -->
+      </div>
+    </div>
+    <div class="bio-text">
+      <h2>About Me</h2>
+      <p>
+        <!-- REPLACE THIS with your own words. A few sentences about who you are,
+             your connection to MA high school basketball, and what drives you. -->
+        My name is Ben Carpine, and I've followed Massachusetts high school basketball for as long as I can remember.
+        Whether it was playing for my hometown of Rockland, following the MIAA tournament, or debating seedings with 
+        friends, hoops has always been a big part of how I experience this state.
+      </p>
+      <p>
+        <!-- Add more about yourself here — background, school, career, whatever you're comfortable sharing -->
+        I built MIAA Hoops because I wanted to bring the kind of data-driven analysis that college and
+        professional basketball enjoy down to the high school level. Massachusetts has incredible talent
+        and incredible programs. They deserve to be talked about with the same rigor. As an actuarial
+        science student at the University of Connecticut (go Huskies!), working with data is a facet
+        of my everyday life, and the opportunity to merge data analytics with basketball was one I
+        couldn't turn down.
+      </p>
+    </div>
+  </div>
+
+  <h2>About This Project</h2>
+  <p>
+    MIAA Hoops started as a question: <em>what if you could objectively rank every high school basketball
+    team in Massachusetts?</em> Not by record, but by actual performance, adjusted for who they played.
+    The answer turned out to be a NET rating system built from the ground up using every regular season
+    game played in the state.
+  </p>
+  <p>
+    The ratings are powered by an iterative margin-based algorithm that accounts for strength of schedule,
+    point margins, and opponent quality — the same fundamental approach used by serious college basketball
+    analytics platforms, applied here for the first time to Massachusetts high school hoops.
+  </p>
+
+  <div class="callout">
+    "A team's record tells you what happened. Their NET rating tells you why — and what it means."
+  </div>
+
+  <p>
+    The dataset covers every MIAA regular season game for both boys and girls basketball, sourced directly
+    from official MIAA records. Every score, every team, every result — entered, verified, and run through
+    the model. The result is the most comprehensive picture of Massachusetts high school basketball
+    performance ever published in one place.
+  </p>
+
+  <div class="stat-pills">
+    <div class="pill"><strong>3,557</strong> boys games</div>
+    <div class="pill"><strong>3,411</strong> girls games</div>
+    <div class="pill"><strong>358</strong> boys teams ranked</div>
+    <div class="pill"><strong>352</strong> girls teams ranked</div>
+    <div class="pill"><strong>710</strong> team profiles</div>
+  </div>
+
+  <h2>Why It Matters</h2>
+  <p>
+    High school sports coverage in Massachusetts — and across the country — is severely underserved
+    compared to college and professional athletics. Local beat reporters do heroic work, but no one
+    has had the tools to answer questions like: <em>Is that team really as good as their record suggests?
+    How does a South Shore program stack up against a program from Western Mass?
+    Who has the toughest schedule in the state?</em>
+  </p>
+  <p>
+    MIAA Hoops answers those questions. Every team profile shows not just results, but context —
+    strength of schedule, predicted vs actual margins, and where a team truly stands among all
+    300-plus programs in the state. For coaches, fans, journalists, and anyone who loves the game,
+    that context matters.
+  </p>
+
+  <h2>What's Next</h2>
+  <p>
+    This season's ratings are the foundation. Going forward, the plan is to update ratings in real time
+    throughout the season, add tournament bracket projections before MIAA Selection Sunday, and build
+    out year-over-year historical tracking so you can see how programs have evolved over time.
+  </p>
+  <p>
+    <!-- Feel free to add or remove plans here based on what you actually intend to build -->
+    The goal is to make MIAA Hoops the definitive home for Massachusetts high school basketball analytics —
+    a resource that players, coaches, and fans come back to every week of the season.
+  </p>
+
+  <div class="disclaimer">
+    <strong>Independence Notice</strong>
+    <p>MIAA Hoops is an independent project and is not affiliated with, sponsored by, or endorsed by the
+    Massachusetts Interscholastic Athletic Association (MIAA). All ratings and analysis represent the
+    independent views of the author. Game data is sourced from publicly available MIAA records.</p>
+  </div>
+
+</div>
+
+<footer>
+  <p>
+    <a href="miaa_hoops.html">Rankings</a>
+    <a href="methodology.html">How It Works</a>
+    <a href="about.html">About</a>
+  </p>
+  <p style="margin-top:8px;">© 2026 Ben Carpine · MIAA Hoops · Independent analytics, not affiliated with the MIAA</p>
+</footer>
+
+</body>
+</html>

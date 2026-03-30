@@ -1,0 +1,3412 @@
+﻿GameID,Date,HomeTeam,HomeScore,AwayTeam,AwayScore,HomeMA,AwayMA
+1,12/12,Abby Kelley Foster,24,Murdock,22,True,True
+2,12/11,Acton Boxborough,66,Shrewsbury,42,True,True
+3,12/15,Abby Kelley Foster,19,Keefe Tech,38,True,True
+4,12/16,Acton Boxborough,42,Fontbonne,46,True,True
+5,12/17,Abby Kelley Foster,46,Trivium School,13,True,True
+6,12/19,Acton Boxborough,56,Lincoln-Sudbury,33,True,True
+7,12/19,Abby Kelley Foster,39,Worcester Tech,41,True,True
+8,12/23,Acton Boxborough,50,St. Mary's,56,True,True
+9,1/7,Abby Kelley Foster,40,Southbridge,26,True,True
+10,12/29,Acton Boxborough,29,East Bridgewater,58,True,True
+11,1/9,Abby Kelley Foster,31,Prouty,33,True,True
+12,1/3,Acton Boxborough,68,Newton North,47,True,True
+13,1/12,Abby Kelley Foster,32,Worcester Tech,30,True,True
+14,1/6,Acton Boxborough,45,Waltham,28,True,True
+15,1/14,Abby Kelley Foster,29,University Park Campus,13,True,True
+16,1/9,Acton Boxborough,56,Newton South,46,True,True
+17,1/16,Abby Kelley Foster,49,Assabet Valley RVT,19,True,True
+18,1/16,Acton Boxborough,37,Westford Academy,33,True,True
+19,1/21,Abby Kelley Foster,32,Parker Charter School,28,True,True
+20,1/18,Acton Boxborough,38,Westford Academy,58,True,True
+21,1/23,Abby Kelley Foster,33,Southbridge,29,True,True
+22,1/21,Acton Boxborough,42,East Bridgewater,38,True,True
+23,1/28,Abby Kelley Foster,40,Prouty,51,True,True
+24,1/23,Acton Boxborough,56,Wayland,18,True,True
+25,1/30,Abby Kelley Foster,55,University Park Campus,27,True,True
+26,1/29,Acton Boxborough,51,Algonquin,24,True,True
+27,2/2,Abby Kelley Foster,65,Assabet Valley RVT,28,True,True
+28,1/30,Acton Boxborough,63,Weston,42,True,True
+29,2/4,Abby Kelley Foster,45,Trivium School,23,True,True
+30,2/3,Acton Boxborough,68,Boston Latin,35,True,True
+31,2/5,Abby Kelley Foster,57,Sizer School,22,True,True
+32,2/6,Acton Boxborough,55,Bedford,62,True,True
+33,2/9,Abby Kelley Foster,27,Parker Charter School,23,True,True
+34,2/8,Acton Boxborough,69,Newton North,47,True,True
+35,2/10,Abby Kelley Foster,55,Montachusett RVT,41,True,True
+36,2/10,Acton Boxborough,64,Concord Carlisle,32,True,True
+37,2/12,Abby Kelley Foster,45,Murdock,47,True,True
+38,2/12,Acton Boxborough,61,Cambridge Rindge & Latin,44,True,True
+39,2/17,Abby Kelley Foster,69,Sizer School,14,True,True
+40,2/14,Acton Boxborough,49,Apponequet Regional,52,True,True
+41,12/12,Abington,55,Brockton,35,True,True
+42,2/16,Acton Boxborough,53,Burlington,39,True,True
+43,12/15,Abington,38,Rockland,50,True,True
+44,12/11,Advanced Math & Science,53,Marlborough,59,True,True
+45,12/17,Abington,30,Sharon,42,True,True
+46,12/13,Advanced Math & Science,37,Quaboag Regional,23,True,True
+47,12/19,Abington,31,East Bridgewater,74,True,True
+48,12/15,Advanced Math & Science,30,Hopedale,55,True,True
+49,12/22,Abington,50,Calvary Chapel Academy,32,True,True
+50,12/17,Advanced Math & Science,45,Doherty Memorial,38,True,True
+51,12/23,Abington,59,Carver,52,True,True
+52,12/19,Advanced Math & Science,55,Gardner,33,True,True
+53,1/5,Abington,38,Cohasset,53,True,True
+54,12/23,Advanced Math & Science,47,Blackstone-Millville,34,True,True
+55,1/7,Abington,49,Mashpee,59,True,True
+56,1/5,Advanced Math & Science,53,Blackstone Valley RVT,51,True,True
+57,1/12,Abington,40,Saint John Paul II,51,True,True
+58,1/9,Advanced Math & Science,41,Bay Path RVT,23,True,True
+59,1/14,Abington,65,Hull,31,True,True
+60,1/12,Advanced Math & Science,30,Westborough,60,True,True
+61,1/16,Abington,56,Middleborough,73,True,True
+62,1/16,Advanced Math & Science,48,Uxbridge,34,True,True
+63,1/20,Abington,32,Rockland,52,True,True
+64,1/21,Advanced Math & Science,49,Tantasqua Regional,48,True,True
+65,1/23,Abington,40,Norwell,53,True,True
+66,1/23,Advanced Math & Science,39,Saint Paul Diocesan,40,True,True
+67,1/28,Abington,54,Hull,42,True,True
+68,1/28,Advanced Math & Science,46,Bay Path RVT,25,True,True
+69,1/30,Abington,43,Carver,55,True,True
+70,1/29,Advanced Math & Science,35,Saint Paul Diocesan,41,True,True
+71,2/2,Abington,56,Sharon,47,True,True
+72,2/2,Advanced Math & Science,53,Littleton,43,True,True
+73,2/4,Abington,52,Saint John Paul II,60,True,True
+74,2/4,Advanced Math & Science,38,Uxbridge,47,True,True
+75,2/5,Abington,39,Cohasset,45,True,True
+76,2/6,Advanced Math & Science,44,Tantasqua Regional,43,True,True
+77,2/10,Abington,40,Mashpee,55,True,True
+78,2/9,Advanced Math & Science,39,Northbridge,52,True,True
+79,2/13,Abington,39,Brockton,45,True,True
+80,2/11,Advanced Math & Science,35,Maynard,44,True,True
+81,12/15,Academy of Notre Dame,20,Amesbury,42,True,True
+82,2/13,Advanced Math & Science,41,Tahanto Regional,52,True,True
+83,12/18,Academy of Notre Dame,31,Lynn VT,42,True,True
+84,12/19,Academy of Notre Dame,40,Randolph,39,True,True
+85,12/13,Agawam,26,West Springfield,39,True,True
+86,12/26,Academy of Notre Dame,17,Ipswich,50,True,True
+87,12/17,Agawam,26,East Longmeadow,37,True,True
+88,1/5,Academy of Notre Dame,43,Innovation Academy,18,True,True
+89,12/20,Agawam,41,Springfield International,45,True,True
+90,1/7,Academy of Notre Dame,33,KIPP Academy Lynn Coll.,28,True,True
+91,12/23,Agawam,40,West Springfield,28,True,True
+92,1/9,Academy of Notre Dame,48,Northeast Metro RVT,28,True,True
+93,12/30,Agawam,46,Holyoke,50,True,True
+94,1/12,Academy of Notre Dame,26,Minuteman Regional,50,True,True
+95,1/5,Agawam,30,Westfield,40,True,True
+96,1/13,Academy of Notre Dame,43,Northeast Metro RVT,20,True,True
+97,1/6,Agawam,36,Chicopee Comp,37,True,True
+98,1/15,Academy of Notre Dame,41,Northeast Metro RVT,23,True,True
+99,1/9,Agawam,48,Renaissance School,42,True,True
+100,1/20,Academy of Notre Dame,47,Notre Dame Cristo Rey,17,True,True
+101,1/14,Agawam,31,Hampshire Regional,58,True,True
+102,1/21,Academy of Notre Dame,59,KIPP Academy Lynn Coll.,16,True,True
+103,1/15,Agawam,21,Springfield International,37,True,True
+104,1/23,Academy of Notre Dame,29,Randolph,47,True,True
+105,1/20,Agawam,40,Belchertown,62,True,True
+106,1/28,Academy of Notre Dame,47,Notre Dame Cristo Rey,25,True,True
+107,1/23,Agawam,21,Drury,51,True,True
+108,1/29,Academy of Notre Dame,29,Nashoba Valley Tech,22,True,True
+109,1/28,Agawam,37,Chicopee,35,True,True
+110,1/30,Academy of Notre Dame,24,Lynn VT,49,True,True
+111,1/29,Agawam,43,Chicopee Comp,21,True,True
+112,2/2,Academy of Notre Dame,29,Minuteman Regional,50,True,True
+113,2/2,Agawam,40,Renaissance School,49,True,True
+114,2/5,Academy of Notre Dame,34,Cristo Rey Boston,14,True,True
+115,2/3,Agawam,51,Holyoke,28,True,True
+116,2/6,Academy of Notre Dame,48,Nashoba Valley Tech,27,True,True
+117,2/5,Agawam,28,Pope Francis,54,True,True
+118,2/9,Academy of Notre Dame,54,Innovation Academy,24,True,True
+119,2/7,Agawam,39,East Longmeadow,37,True,True
+120,12/20,Acad. Of Holy Names,60,Malden Catholic,61,False,True
+121,2/11,Agawam,29,Springfield Central,83,True,True
+122,12/11,Academy of the Pacific Rim,12,Neighborhood House,55,True,True
+123,2/13,Agawam,41,Westfield,50,True,True
+124,12/12,Academy of the Pacific Rim,20,Codman Academy,40,True,True
+125,1/18,Albany,71,Renaissance School,45,False,True
+126,12/16,Academy of the Pacific Rim,19,Maimonides,60,True,True
+127,12/12,Algonquin,53,Westborough,44,True,True
+128,12/18,Academy of the Pacific Rim,2,Argosy Collegiate Charter,63,True,True
+129,12/16,Algonquin,33,Wachusett Regional,68,True,True
+130,12/22,Algonquin,29,Natick,80,True,True
+131,12/27,Algonquin,33,Milford,45,True,True
+132,12/28,Algonquin,49,Medford,33,True,True
+133,1/2,Algonquin,56,Lincoln-Sudbury,31,True,True
+134,1/6,Algonquin,53,Leominster,48,True,True
+135,1/9,Algonquin,41,Nashoba Regional,34,True,True
+136,1/13,Algonquin,26,St. Mary's,58,True,True
+137,1/16,Algonquin,47,Grafton,42,True,True
+138,1/20,Algonquin,39,Shrewsbury,36,True,True
+139,1/23,Algonquin,26,Wachusett Regional,62,True,True
+140,1/30,Algonquin,47,Leominster,53,True,True
+141,2/3,Algonquin,46,Nashoba Regional,33,True,True
+142,2/5,Algonquin,31,Andover,46,True,True
+143,2/6,Apponequet Regional,54,Seekonk,28,True,True
+144,2/6,Algonquin,69,Grafton,41,True,True
+145,2/11,Apponequet Regional,50,Dartmouth,38,True,True
+146,2/10,Algonquin,33,Shrewsbury,44,True,True
+147,2/13,Apponequet Regional,54,Seekonk,35,True,True
+148,2/17,Algonquin,37,Medway,61,True,True
+149,2/18,Algonquin,38,Hopkinton,48,True,True
+150,2/16,Apponequet Regional,52,Central Catholic,43,True,True
+151,12/12,Amesbury,52,Hamilton Wenham,43,True,True
+152,2/19,Apponequet Regional,46,Bridgewater Raynham,31,True,True
+153,12/16,Archbishop Williams,50,Bishop Feehan,61,True,True
+154,12/16,Amesbury,52,Manchester Essex,62,True,True
+155,12/19,Archbishop Williams,75,Cardinal Spellman,12,True,True
+156,12/19,Amesbury,46,Georgetown,39,True,True
+157,12/22,Archbishop Williams,69,Somerset Berkley Regional,28,True,True
+158,12/22,Amesbury,54,Ipswich,23,True,True
+159,12/27,Archbishop Williams,84,Georgetown,44,True,True
+160,12/29,Amesbury,57,Randolph,33,True,True
+161,12/29,Archbishop Williams,58,Braintree,51,True,True
+162,12/30,Amesbury,52,Whittier RVT,46,True,True
+163,1/2,Archbishop Williams,55,St. Mary's,67,True,True
+164,1/6,Amesbury,46,Essex North Shore,35,True,True
+165,1/9,Archbishop Williams,43,Bishop Fenwick,56,True,True
+166,1/9,Amesbury,43,Triton Regional,26,True,True
+167,1/12,Archbishop Williams,60,Arlington Catholic,42,True,True
+168,1/12,Amesbury,58,Weston,41,True,True
+169,1/15,Archbishop Williams,47,Cathedral,62,True,True
+170,1/14,Amesbury,44,Beverly,54,True,True
+171,1/19,Archbishop Williams,74,Wilmington,31,True,True
+172,1/17,Amesbury,76,Muniz Academy,8,True,True
+173,1/23,Archbishop Williams,38,Bishop Feehan,48,True,True
+174,1/19,Amesbury,30,Pentucket Regional,62,True,True
+175,1/29,Archbishop Williams,65,Norwell,46,True,True
+176,1/23,Amesbury,55,Hamilton Wenham,44,True,True
+177,1/30,Archbishop Williams,40,Arlington Catholic,53,True,True
+178,1/28,Amesbury,47,Manchester Essex,60,True,True
+179,2/3,Archbishop Williams,75,Bishop Guertin,45,True,False
+180,1/30,Amesbury,39,North Reading,64,True,True
+181,2/8,Archbishop Williams,47,Bishop Fenwick,56,True,True
+182,2/3,Amesbury,64,Georgetown,51,True,True
+183,2/11,Archbishop Williams,79,Canton,47,True,True
+184,2/6,Amesbury,61,Bay Path RVT,27,True,True
+185,2/13,Archbishop Williams,71,Norwell,50,True,True
+186,2/10,Amesbury,48,Newburyport,62,True,True
+187,2/15,Archbishop Williams,67,Boston Latin,21,True,True
+188,2/12,Amesbury,43,Lynnfield,50,True,True
+189,2/16,Archbishop Williams,45,Hingham,44,True,True
+190,12/11,Amherst Pelham Regional,33,Ludlow,26,True,True
+191,12/11,Argosy Collegiate Charter,33,South Shore Charter,37,True,True
+192,12/13,Amherst Pelham Regional,39,Smith Academy,25,True,True
+193,12/17,Argosy Collegiate Charter,34,New Heights Charter,67,True,True
+194,12/16,Amherst Pelham Regional,34,Palmer,19,True,True
+195,12/19,Amherst Pelham Regional,43,Monson,14,True,True
+196,12/22,Argosy Collegiate Charter,28,Atlantis Charter,67,True,True
+197,12/23,Amherst Pelham Regional,16,Ware,31,True,True
+198,12/30,Argosy Collegiate Charter,12,Seekonk,57,True,True
+199,1/2,Amherst Pelham Regional,19,Granby,42,True,True
+200,1/6,Argosy Collegiate Charter,21,Boston Collegiate Charter,54,True,True
+201,1/5,Amherst Pelham Regional,35,Chicopee,46,True,True
+202,1/7,Argosy Collegiate Charter,38,Boston Preparatory,23,True,True
+203,1/9,Amherst Pelham Regional,26,Granby,22,True,True
+204,1/12,Argosy Collegiate Charter,39,Codman Academy,31,True,True
+205,1/15,Amherst Pelham Regional,33,Ludlow,25,True,True
+206,1/13,Argosy Collegiate Charter,26,Roxbury Prep Charter,38,True,True
+207,1/20,Amherst Pelham Regional,19,Pope Francis,49,True,True
+208,1/20,Argosy Collegiate Charter,41,Foxborough Charter,43,True,True
+209,1/22,Amherst Pelham Regional,46,Palmer,41,True,True
+210,1/22,Argosy Collegiate Charter,35,Codman Academy,36,True,True
+211,1/24,Amherst Pelham Regional,49,HS of Science & Technology,30,True,True
+212,1/28,Argosy Collegiate Charter,23,Brooke Charter,51,True,True
+213,1/28,Amherst Pelham Regional,26,West Springfield,57,True,True
+214,1/29,Argosy Collegiate Charter,25,Foxborough Charter,14,True,True
+215,1/29,Amherst Pelham Regional,24,Ware,29,True,True
+216,1/30,Argosy Collegiate Charter,12,Neighborhood House,67,True,True
+217,1/31,Amherst Pelham Regional,32,HS of Science & Technology,39,True,True
+218,12/12,Arlington Catholic,49,Cambridge Rindge & Latin,43,True,True
+219,2/4,Amherst Pelham Regional,24,Easthampton,50,True,True
+220,12/15,Arlington Catholic,46,Notre Dame (Hingham),38,True,True
+221,2/6,Amherst Pelham Regional,29,Holyoke,60,True,True
+222,12/16,Arlington Catholic,60,Lowell Catholic,30,True,True
+223,2/9,Amherst Pelham Regional,32,Monson,23,True,True
+224,12/21,Arlington Catholic,26,Bishop Fenwick,53,True,True
+225,2/11,Amherst Pelham Regional,32,Monument Mountain,54,True,True
+226,12/23,Arlington Catholic,69,Winthrop,25,True,True
+227,2/13,Amherst Pelham Regional,34,Chicopee,49,True,True
+228,12/28,Arlington Catholic,60,Newburyport,33,True,True
+229,12/16,Andover,70,Cambridge Rindge & Latin,48,True,True
+230,12/29,Arlington Catholic,49,Reading Memorial,28,True,True
+231,12/27,Andover,52,Methuen,25,True,True
+232,1/2,Arlington Catholic,21,Bishop Feehan,59,True,True
+233,12/28,Andover,48,Bridgewater Raynham,39,True,True
+234,1/6,Arlington Catholic,47,Ursuline Academy,27,True,True
+235,12/30,Andover,41,Natick,57,True,True
+236,1/9,Arlington Catholic,61,Cathedral,57,True,True
+237,1/4,Andover,58,Fontbonne,38,True,True
+238,1/6,Andover,56,Haverhill,21,True,True
+239,1/15,Arlington Catholic,60,Saugus,29,True,True
+240,1/9,Andover,55,North Andover,27,True,True
+241,1/16,Arlington Catholic,69,Cardinal Spellman,13,True,True
+242,1/13,Andover,40,Billerica Memorial,24,True,True
+243,1/20,Arlington Catholic,63,Notre Dame (Hingham),40,True,True
+244,1/16,Andover,58,Lawrence,31,True,True
+245,1/23,Arlington Catholic,60,Bishop Stang,10,True,True
+246,1/18,Andover,57,Central Catholic,31,True,True
+247,1/27,Arlington Catholic,38,St. Mary's,51,True,True
+248,1/20,Andover,56,Dracut,47,True,True
+249,1/23,Andover,62,Tewksbury Memorial,27,True,True
+250,2/3,Arlington Catholic,72,Lowell Catholic,20,True,True
+251,1/28,Andover,59,Methuen,26,True,True
+252,2/6,Arlington Catholic,42,St. Mary's,65,True,True
+253,1/30,Andover,30,Lowell,28,True,True
+254,2/9,Arlington Catholic,55,Fontbonne,54,True,True
+255,2/3,Andover,53,Chelmsford,32,True,True
+256,2/11,Arlington Catholic,50,Ursuline Academy,29,True,True
+257,2/16,Arlington Catholic,50,Arlington,51,True,True
+258,2/9,Andover,54,Chelmsford,23,True,True
+259,12/12,Arlington,55,Wilmington,42,True,True
+260,2/12,Andover,42,Billerica Memorial,31,True,True
+261,12/16,Arlington,46,Burlington,36,True,True
+262,2/14,Andover,58,Newton North,44,True,True
+263,12/19,Arlington,42,Belmont,37,True,True
+264,2/16,Andover,52,St. Mary's,41,True,True
+265,12/22,Arlington,44,Reading Memorial,31,True,True
+266,12/12,Apponequet Regional,52,Norton,39,True,True
+267,12/29,Arlington,48,Lowell,51,True,True
+268,12/16,Apponequet Regional,38,Old Rochester Regional,24,True,True
+269,12/30,Arlington,58,Peabody Veterans,41,True,True
+270,12/19,Apponequet Regional,48,Somerset Berkley Regional,29,True,True
+271,1/6,Arlington,34,Stoneham,29,True,True
+272,12/27,Apponequet Regional,61,Dartmouth,43,True,True
+273,1/9,Arlington,39,Woburn Memorial,46,True,True
+274,12/30,Apponequet Regional,39,Medway,43,True,True
+275,1/13,Arlington,52,Melrose,42,True,True
+276,1/2,Apponequet Regional,64,Greater New Bedford,50,True,True
+277,1/16,Arlington,40,Lexington,26,True,True
+278,1/5,Apponequet Regional,64,Middleborough,35,True,True
+279,1/20,Arlington,58,Watertown,40,True,True
+280,1/6,Apponequet Regional,62,Bourne,33,True,True
+281,1/23,Arlington,38,Winchester,45,True,True
+282,1/10,Apponequet Regional,69,West Bridgewater,42,True,True
+283,1/25,Arlington,61,Wellesley,59,True,True
+284,1/13,Apponequet Regional,84,Dighton Rehoboth Regional,34,True,True
+285,1/28,Arlington,36,Wakefield Memorial,33,True,True
+286,1/16,Apponequet Regional,50,Somerset Berkley Regional,34,True,True
+287,1/30,Arlington,46,Belmont,34,True,True
+288,1/20,Apponequet Regional,61,Case,28,True,True
+289,2/3,Arlington,42,Reading Memorial,37,True,True
+290,1/23,Apponequet Regional,74,Greater New Bedford,34,True,True
+291,2/6,Arlington,50,Woburn Memorial,55,True,True
+292,1/28,Apponequet Regional,61,Old Rochester Regional,28,True,True
+293,2/10,Arlington,42,Lexington,36,True,True
+294,2/2,Apponequet Regional,50,Middleborough,34,True,True
+295,2/12,Arlington,52,Winchester,34,True,True
+296,2/3,Apponequet Regional,64,Dighton Rehoboth Regional,42,True,True
+297,12/12,Ashland,39,Blackstone Valley RVT,34,True,True
+298,1/6,Attleboro,32,Oliver Ames,52,True,True
+299,12/16,Ashland,42,Norwood,63,True,True
+300,1/9,Attleboro,52,Franklin,68,True,True
+301,12/19,Ashland,50,Dedham,57,True,True
+302,1/13,Attleboro,38,Foxborough,73,True,True
+303,12/22,Ashland,50,Hopedale,53,True,True
+304,1/15,Attleboro,55,Framingham,28,True,True
+305,12/23,Ashland,19,Medfield,77,True,True
+306,1/16,Attleboro,48,Sharon,27,True,True
+307,12/29,Ashland,55,Weston,28,True,True
+308,1/20,Attleboro,32,North Attleborough,48,True,True
+309,12/30,Ashland,55,Sharon,52,True,True
+310,1/23,Attleboro,32,King Philip Regional,59,True,True
+311,1/5,Ashland,72,Dover-Sherborn,40,True,True
+312,1/28,Attleboro,48,Stoughton,17,True,True
+313,1/7,Ashland,35,Medway,52,True,True
+314,1/30,Attleboro,43,Taunton,47,True,True
+315,1/9,Ashland,61,Holliston,62,True,True
+316,2/1,Attleboro,53,Durfee,47,True,True
+317,1/13,Ashland,41,Hopkinton,58,True,True
+318,2/3,Attleboro,44,Milford,41,True,True
+319,1/16,Ashland,38,Westwood,47,True,True
+320,2/6,Attleboro,57,Franklin,73,True,True
+321,1/20,Ashland,46,Millis,53,True,True
+322,2/10,Attleboro,54,Sharon,48,True,True
+323,1/23,Ashland,48,Bellingham,58,True,True
+324,2/13,Attleboro,34,King Philip Regional,57,True,True
+325,1/30,Ashland,34,Norwood,76,True,True
+326,2/16,Attleboro,38,Natick,53,True,True
+327,2/3,Ashland,46,Dedham,26,True,True
+328,2/18,Attleboro,41,Westford Academy,50,True,True
+329,2/6,Ashland,54,Holliston,28,True,True
+330,12/11,Auburn,42,Tantasqua Regional,47,True,True
+331,2/9,Ashland,56,Norton,53,True,True
+332,12/18,Auburn,20,Millbury,44,True,True
+333,2/10,Ashland,43,Hopkinton,45,True,True
+334,12/22,Auburn,37,Westborough,48,True,True
+335,2/13,Ashland,37,Westwood,56,True,True
+336,1/5,Auburn,52,Tahanto Regional,64,True,True
+337,12/12,Assabet Valley RVT,24,Tahanto Regional,73,True,True
+338,1/9,Auburn,60,Blackstone-Millville,48,True,True
+339,12/15,Assabet Valley RVT,7,Oxford,50,True,True
+340,1/12,Auburn,52,Notre Dame (Worcester),38,True,True
+341,12/17,Assabet Valley RVT,32,North High,50,True,True
+342,1/14,Auburn,49,Leicester,26,True,True
+343,12/22,Assabet Valley RVT,18,Keefe Tech,55,True,True
+344,1/16,Auburn,27,Douglas,44,True,True
+345,12/26,Assabet Valley RVT,8,Clinton,76,True,True
+346,1/21,Auburn,45,Nipmuc Regional,37,True,True
+347,12/27,Assabet Valley RVT,2,West Boylston,67,True,True
+348,1/23,Auburn,62,North High,14,True,True
+349,1/6,Assabet Valley RVT,25,Parker Charter School,45,True,True
+350,1/28,Auburn,45,Blackstone-Millville,37,True,True
+351,1/9,Assabet Valley RVT,28,University Park Campus,34,True,True
+352,1/30,Auburn,47,Leicester,34,True,True
+353,1/12,Assabet Valley RVT,8,Leicester,59,True,True
+354,2/2,Auburn,74,North High,12,True,True
+355,1/14,Assabet Valley RVT,27,Southbridge,48,True,True
+356,2/4,Auburn,25,Douglas,35,True,True
+357,2/6,Auburn,46,Nipmuc Regional,37,True,True
+358,1/21,Assabet Valley RVT,19,Prouty,63,True,True
+359,2/11,Auburn,39,Uxbridge,38,True,True
+360,1/23,Assabet Valley RVT,18,Parker Charter School,32,True,True
+361,2/13,Auburn,45,Grafton,49,True,True
+362,1/28,Assabet Valley RVT,23,University Park Campus,47,True,True
+363,2/14,Auburn,43,Hudson,47,True,True
+364,2/16,Auburn,45,Doherty Memorial,23,True,True
+365,2/6,Assabet Valley RVT,13,Prouty,60,True,True
+366,2/18,Auburn,37,Groton Dunstable,36,True,True
+367,2/9,Assabet Valley RVT,20,Worcester Tech,61,True,True
+368,12/11,Avon,14,Atlantis Charter,41,True,True
+369,2/11,Assabet Valley RVT,27,Southbridge,34,True,True
+370,12/17,Avon,18,Randolph,47,True,True
+371,12/11,Athol,26,Mount Greylock Regional,66,True,True
+372,12/19,Avon,26,South Shore VT,20,True,True
+373,12/12,Athol,27,St. Mary Parish (Westfield),48,True,True
+374,12/30,Avon,26,Old Colony RVT,46,True,True
+375,12/16,Athol,34,Baystate Academy,48,True,True
+376,1/5,Avon,7,Bristol County Agricultural,25,True,True
+377,12/19,Athol,44,Mahar Regional,63,True,True
+378,1/7,Avon,17,Holbrook,49,True,True
+379,12/23,Athol,40,John J. Duggan Academy,21,True,True
+380,1/13,Avon,25,Westport,48,True,True
+381,12/30,Athol,18,Pathfinder RVT,39,True,True
+382,1/15,Avon,11,Atlantis Charter,53,True,True
+383,1/2,Athol,46,Turners Falls,22,True,True
+384,1/20,Avon,7,Wareham,43,True,True
+385,1/6,Athol,51,Putnam VT,71,True,True
+386,1/21,Avon,30,St. Mary Parish (Westfield),46,True,True
+387,1/9,Athol,25,Smith VT,34,True,True
+388,1/29,Avon,24,Westport,48,True,True
+389,1/12,Athol,38,Pathfinder RVT,40,True,True
+390,2/2,Avon,20,Holbrook,57,True,True
+391,1/15,Athol,22,Baystate Academy,54,True,True
+392,2/4,Avon,14,Wareham,45,True,True
+393,1/16,Athol,23,Mahar Regional,53,True,True
+394,2/6,Avon,14,Randolph,34,True,True
+395,1/21,Athol,45,Pioneer Valley Chinese Immersion,16,True,True
+396,2/11,Avon,19,South Shore VT,28,True,True
+397,1/29,Athol,43,Turners Falls,31,True,True
+398,2/13,Avon,16,Old Colony RVT,56,True,True
+399,2/2,Athol,29,Putnam VT,68,True,True
+400,12/13,Ayer Shirley,13,Lunenburg,70,True,True
+401,2/5,Athol,27,Smith VT,53,True,True
+402,12/15,Ayer Shirley,38,Montachusett RVT,37,True,True
+403,2/6,Athol,69,Pioneer Valley Chinese Immersion,16,True,True
+404,12/16,Ayer Shirley,27,West Boylston,65,True,True
+405,2/9,Athol,42,John J. Duggan Academy,45,True,True
+406,12/19,Ayer Shirley,13,Nashoba Regional,52,True,True
+407,2/10,Athol,27,Ludlow,41,True,True
+408,12/23,Ayer Shirley,15,Tahanto Regional,67,True,True
+409,2/11,Athol,34,Franklin County Tech,52,True,True
+410,12/30,Ayer Shirley,25,Littleton,67,True,True
+411,1/2,Ayer Shirley,26,North Middlesex Regional,48,True,True
+412,12/16,Atlantis Charter,44,Bristol County Agricultural,35,True,True
+413,1/5,Ayer Shirley,36,Bromfield School,40,True,True
+414,1/8,Ayer Shirley,20,Gardner,56,True,True
+415,1/5,Atlantis Charter,60,Sturgis East,26,True,True
+416,1/13,Ayer Shirley,20,Narragansett Regional,47,True,True
+417,1/7,Atlantis Charter,50,Westport,59,True,True
+418,1/14,Ayer Shirley,63,Sizer School,13,True,True
+419,1/9,Atlantis Charter,32,Wareham,49,True,True
+420,1/16,Ayer Shirley,28,Murdock,37,True,True
+421,1/20,Ayer Shirley,50,West Boylston,40,True,True
+422,1/16,Atlantis Charter,48,Rising Tide Charter,23,True,True
+423,1/21,Ayer Shirley,18,Maynard,59,True,True
+424,1/20,Atlantis Charter,20,Holbrook,60,True,True
+425,1/28,Ayer Shirley,27,Tahanto Regional,65,True,True
+426,1/23,Atlantis Charter,31,Westport,47,True,True
+427,1/30,Ayer Shirley,23,Bromfield School,25,True,True
+428,1/28,Atlantis Charter,45,Rising Tide Charter,14,True,True
+429,2/2,Ayer Shirley,16,Gardner,59,True,True
+430,1/31,Atlantis Charter,34,Wareham,59,True,True
+431,2/6,Ayer Shirley,26,Narragansett Regional,40,True,True
+432,2/2,Atlantis Charter,60,Sturgis East,32,True,True
+433,2/10,Ayer Shirley,58,Murdock,40,True,True
+434,2/4,Atlantis Charter,27,Holbrook,48,True,True
+435,2/12,Ayer Shirley,31,Quabbin Regional,44,True,True
+436,12/12,Barnstable,53,Bourne,28,True,True
+437,2/10,Atlantis Charter,45,Bristol County Agricultural,27,True,True
+438,12/16,Barnstable,36,New Bedford,43,True,True
+439,2/12,Atlantis Charter,52,Match Charter Public,25,True,True
+440,12/19,Barnstable,36,Durfee,57,True,True
+441,12/12,Attleboro,45,Durfee,22,True,True
+442,12/22,Barnstable,47,Nauset Regional,21,True,True
+443,12/16,Attleboro,53,Canton,48,True,True
+444,1/2,Barnstable,47,Nauset Regional,26,True,True
+445,12/20,Attleboro,25,Mansfield,53,True,True
+446,1/3,Barnstable,47,Plymouth North,55,True,True
+447,12/22,Attleboro,38,Taunton,40,True,True
+448,1/6,Barnstable,44,Mashpee,47,True,True
+449,12/30,Attleboro,34,Norton,29,True,True
+450,1/9,Barnstable,22,Dartmouth,40,True,True
+451,1/2,Attleboro,34,Milford,50,True,True
+452,1/13,Barnstable,26,Falmouth,41,True,True
+453,1/16,Barnstable,34,Bridgewater Raynham,40,True,True
+454,1/15,Belchertown,55,East Longmeadow,54,True,True
+455,1/20,Barnstable,39,Durfee,42,True,True
+456,1/24,Barnstable,52,Nantucket,31,True,True
+457,1/22,Belchertown,42,Westfield,39,True,True
+458,1/30,Barnstable,52,New Bedford,46,True,True
+459,1/29,Belchertown,45,Chicopee,35,True,True
+460,2/3,Barnstable,48,Dartmouth,62,True,True
+461,1/30,Belchertown,59,Pope Francis,70,True,True
+462,2/6,Barnstable,38,Falmouth,35,True,True
+463,2/2,Belchertown,37,Southwick Regional,67,True,True
+464,2/9,Barnstable,33,Plymouth North,36,True,True
+465,2/4,Belchertown,54,Monument Mountain,40,True,True
+466,2/10,Barnstable,25,Bridgewater Raynham,46,True,True
+467,2/5,Belchertown,28,Hampshire Regional,43,True,True
+468,2/12,Barnstable,40,Nantucket,41,True,True
+469,2/8,Belchertown,63,Hampshire Regional,66,True,True
+470,2/14,Barnstable,53,Dennis Yarmouth Regional,37,True,True
+471,2/9,Belchertown,21,Minnechaug,67,True,True
+472,2/17,Barnstable,47,Mashpee,46,True,True
+473,2/17,Belchertown,70,Mount Greylock Regional,30,True,True
+474,12/17,Bay Path RVT,22,Westborough,64,True,True
+475,2/19,Belchertown,49,Easthampton,44,True,True
+476,12/19,Bay Path RVT,36,Doherty Memorial,37,True,True
+477,12/12,Bellingham,33,Dracut,73,True,True
+478,12/22,Bay Path RVT,30,Blackstone Valley RVT,49,True,True
+479,12/16,Bellingham,47,Millis,50,True,True
+480,12/28,Bay Path RVT,17,Whittier RVT,53,True,True
+481,12/18,Bellingham,21,Medway,43,True,True
+482,12/30,Bay Path RVT,41,Monument Mountain,53,True,True
+483,12/22,Bellingham,48,Dedham,43,True,True
+484,1/5,Bay Path RVT,45,Worcester Tech,11,True,True
+485,12/29,Bellingham,51,Watertown,36,True,True
+486,1/7,Bay Path RVT,25,Uxbridge,51,True,True
+487,1/2,Bellingham,46,Nipmuc Regional,38,True,True
+488,1/5,Bellingham,32,Hopkinton,60,True,True
+489,1/14,Bay Path RVT,17,Saint Paul Diocesan,47,True,True
+490,1/7,Bellingham,76,Holliston,46,True,True
+491,1/16,Bay Path RVT,22,Tantasqua Regional,54,True,True
+492,1/9,Bellingham,37,Medfield,85,True,True
+493,1/20,Bay Path RVT,26,Uxbridge,41,True,True
+494,1/13,Bellingham,44,Dover-Sherborn,51,True,True
+495,1/23,Bay Path RVT,20,Tantasqua Regional,51,True,True
+496,1/16,Bellingham,46,Norton,49,True,True
+497,1/20,Bellingham,39,Westwood,44,True,True
+498,1/30,Bay Path RVT,25,Saint Paul Diocesan,46,True,True
+499,2/2,Bay Path RVT,23,Northbridge,52,True,True
+500,1/27,Bellingham,27,Norwood,62,True,True
+501,1/30,Bellingham,49,Millis,51,True,True
+502,2/13,Bay Path RVT,61,North High,20,True,True
+503,2/3,Bellingham,38,Medway,50,True,True
+504,2/18,Bay Path RVT,29,Tri-County RVT,47,True,True
+505,2/10,Bellingham,57,Dover-Sherborn,33,True,True
+506,12/12,Baystate Academy,48,Putnam VT,27,True,True
+507,2/13,Bellingham,31,Norton,61,True,True
+508,2/16,Bellingham,52,Sandwich,32,True,True
+509,12/17,Baystate Academy,37,Renaissance School,54,True,True
+510,2/18,Bellingham,35,Marshfield,60,True,True
+511,12/18,Baystate Academy,43,Pathfinder RVT,17,True,True
+512,12/12,Belmont,54,Watertown,63,True,True
+513,12/29,Baystate Academy,40,Greenfield,31,True,True
+514,12/16,Belmont,43,Wakefield Memorial,23,True,True
+515,1/2,Baystate Academy,17,Southwick Regional,57,True,True
+516,1/6,Baystate Academy,56,John J. Duggan Academy,28,True,True
+517,12/22,Belmont,45,Woburn Memorial,71,True,True
+518,1/8,Baystate Academy,48,Hopkins Academy,32,True,True
+519,12/29,Belmont,62,Cambridge Rindge & Latin,40,True,True
+520,1/9,Baystate Academy,47,Turners Falls,22,True,True
+521,12/30,Belmont,53,Brookline,61,True,True
+522,1/12,Baystate Academy,55,Putnam VT,38,True,True
+523,1/6,Belmont,51,Burlington,41,True,True
+524,1/9,Belmont,44,Lexington,29,True,True
+525,1/20,Baystate Academy,48,Monson,24,True,True
+526,1/13,Belmont,52,Wilmington,35,True,True
+527,1/22,Baystate Academy,54,Pathfinder RVT,35,True,True
+528,1/16,Belmont,42,Winchester,41,True,True
+529,1/30,Baystate Academy,53,Southwick Regional,80,True,True
+530,1/20,Belmont,53,Stoneham,41,True,True
+531,2/2,Baystate Academy,62,John J. Duggan Academy,23,True,True
+532,1/22,Belmont,56,Brockton,37,True,True
+533,2/5,Baystate Academy,67,Turners Falls,23,True,True
+534,1/23,Belmont,48,Reading Memorial,35,True,True
+535,2/9,Baystate Academy,48,Smith VT,41,True,True
+536,1/28,Belmont,53,Melrose,42,True,True
+537,2/10,Baystate Academy,46,Smith VT,40,True,True
+538,2/11,Baystate Academy,32,Pioneer Valley Regional,39,True,True
+539,2/3,Belmont,50,Woburn Memorial,60,True,True
+540,2/13,Baystate Academy,37,Hopkins Academy,22,True,True
+541,2/6,Belmont,58,Lexington,28,True,True
+542,12/16,Bedford,49,Waltham,46,True,True
+543,2/10,Belmont,56,Winchester,49,True,True
+544,12/19,Bedford,52,Concord Carlisle,35,True,True
+545,2/12,Belmont,50,Reading Memorial,56,True,True
+546,12/22,Bedford,67,Beverly,47,True,True
+547,2/13,Belmont,66,Georgetown,47,True,True
+548,12/27,Bedford,43,Burlington,55,True,True
+549,12/15,Bethany Christian,51,Immaculate Heart of Mary,50,True,True
+550,12/28,Bedford,55,Chelmsford,43,True,True
+551,12/19,Bethany Christian,63,Trivium School,21,True,True
+552,1/2,Bedford,37,North Reading,62,True,True
+553,1/9,Bethany Christian,35,North Brookfield,27,True,True
+554,1/6,Bedford,44,Newton South,53,True,True
+555,1/12,Bethany Christian,23,South Lancaster Academy,21,True,True
+556,1/9,Bedford,47,Lincoln-Sudbury,32,True,True
+557,1/16,Bethany Christian,51,Sizer School,21,True,True
+558,1/13,Bedford,52,Newton South,38,True,True
+559,1/20,Bethany Christian,55,Immaculate Heart of Mary,42,True,True
+560,1/16,Bedford,48,Wayland,36,True,True
+561,1/30,Bethany Christian,50,North Brookfield,37,True,True
+562,1/19,Bedford,51,North Reading,47,True,True
+563,2/2,Bethany Christian,52,Sizer School,22,True,True
+564,1/23,Bedford,56,Waltham,50,True,True
+565,2/9,Bethany Christian,56,South Lancaster Academy,24,True,True
+566,1/27,Bedford,58,Weston,25,True,True
+567,2/10,Bethany Christian,21,North Brookfield,48,True,True
+568,1/28,Bedford,42,Malden Catholic,59,True,True
+569,2/16,Bethany Christian,43,Trivium School,14,True,True
+570,1/30,Bedford,48,Westford Academy,43,True,True
+571,2/19,Bethany Christian,33,South Lancaster Academy,20,True,True
+572,2/3,Bedford,41,Malden Catholic,64,True,True
+573,12/12,Beverly,24,Peabody Veterans,67,True,True
+574,12/16,Beverly,20,Marblehead,33,True,True
+575,2/10,Bedford,57,Cambridge Rindge & Latin,51,True,True
+576,12/20,Beverly,29,Lowell,54,True,True
+577,2/12,Bedford,44,Boston Latin,30,True,True
+578,2/14,Bedford,34,Dracut,57,True,True
+579,12/27,Beverly,43,Melrose,57,True,True
+580,2/16,Bedford,50,Newton South,64,True,True
+581,12/29,Beverly,31,Malden Catholic,47,True,True
+582,12/27,Bedford,29,Medfield,62,False,True
+583,1/5,Beverly,46,Danvers,59,True,True
+584,1/10,Bedford,47,Bishop Feehan,48,False,True
+585,1/9,Beverly,62,Salem,5,True,True
+586,2/18,Bedford,52,Wachusett Regional,59,False,True
+587,1/13,Beverly,58,Gloucester,61,True,True
+588,12/12,Belchertown,30,South Hadley,64,True,True
+589,12/16,Belchertown,60,Chicopee Comp,33,True,True
+590,1/16,Beverly,41,Masconomet Regional,50,True,True
+591,12/19,Belchertown,54,Westfield,28,True,True
+592,1/20,Beverly,53,Peabody Veterans,57,True,True
+593,12/22,Belchertown,38,East Longmeadow,47,True,True
+594,1/22,Beverly,51,Saugus,49,True,True
+595,12/29,Belchertown,56,Quaboag Regional,24,True,True
+596,1/27,Beverly,46,Marblehead,51,True,True
+597,1/6,Belchertown,53,Tantasqua Regional,58,True,True
+598,2/1,Beverly,54,Dracut,69,True,True
+599,1/9,Belchertown,39,Southwick Regional,56,True,True
+600,2/3,Beverly,51,Swampscott,53,True,True
+601,1/13,Belchertown,51,Chicopee,39,True,True
+602,2/6,Beverly,37,Lowell,55,True,True
+603,2/9,Beverly,49,Masconomet Regional,42,True,True
+604,2/11,Beverly,57,Winthrop,40,True,True
+605,1/30,Bishop Stang,31,Cardinal Spellman,45,True,True
+606,2/15,Beverly,36,Danvers,39,True,True
+607,2/3,Bishop Stang,48,Cristo Rey Boston,8,True,True
+608,12/27,Biddeford,72,Franklin,35,False,True
+609,2/6,Bishop Stang,30,Wareham,41,True,True
+610,12/16,Billerica Memorial,49,Tewksbury Memorial,26,True,True
+611,2/10,Bishop Stang,15,Seekonk,39,True,True
+612,12/19,Billerica Memorial,47,Chelmsford,31,True,True
+613,2/12,Bishop Stang,48,Martha's Vineyard Regional,26,True,True
+614,12/23,Billerica Memorial,32,Westford Academy,34,True,True
+615,2/13,Bishop Stang,37,Bristol Plymouth RVT,32,True,True
+616,12/29,Billerica Memorial,43,North Attleborough,42,True,True
+617,2/16,Bishop Stang,50,Fairhaven,41,True,True
+618,1/4,Billerica Memorial,49,Quincy,47,True,True
+619,1/6,Billerica Memorial,61,North Andover,23,True,True
+620,12/15,Blackstone Valley RVT,14,Northbridge,50,True,True
+621,1/9,Billerica Memorial,51,Lawrence,26,True,True
+622,12/19,Blackstone Valley RVT,13,Hopedale,48,True,True
+623,1/18,Billerica Memorial,50,Masconomet Regional,41,True,True
+624,12/30,Blackstone Valley RVT,16,Sutton,45,True,True
+625,1/20,Billerica Memorial,46,Lowell,40,True,True
+626,1/23,Billerica Memorial,54,Methuen,45,True,True
+627,1/6,Blackstone Valley RVT,26,Notre Dame (Worcester),31,True,True
+628,1/27,Billerica Memorial,50,Dracut,44,True,True
+629,1/9,Blackstone Valley RVT,31,Doherty Memorial,28,True,True
+630,1/30,Billerica Memorial,51,Central Catholic,33,True,True
+631,1/14,Blackstone Valley RVT,43,St. Bernard's,24,True,True
+632,2/2,Billerica Memorial,46,Bishop Fenwick,37,True,True
+633,1/16,Blackstone Valley RVT,37,Quaboag Regional,34,True,True
+634,2/3,Billerica Memorial,50,Haverhill,23,True,True
+635,1/21,Blackstone Valley RVT,23,Grafton,53,True,True
+636,2/5,Billerica Memorial,43,Wakefield Memorial,29,True,True
+637,1/23,Blackstone Valley RVT,38,Notre Dame (Worcester),36,True,True
+638,2/9,Billerica Memorial,61,Central Catholic,53,True,True
+639,1/31,Blackstone Valley RVT,38,Doherty Memorial,41,True,True
+640,2/3,Blackstone Valley RVT,28,Quaboag Regional,26,True,True
+641,2/15,Billerica Memorial,38,North Attleborough,47,True,True
+642,2/9,Blackstone Valley RVT,35,St. Bernard's,16,True,True
+643,2/17,Billerica Memorial,45,Newburyport,37,True,True
+644,2/10,Blackstone Valley RVT,27,Millis,71,True,True
+645,12/13,Bishop Feehan,63,La Salle Academy,29,True,False
+646,2/12,Blackstone Valley RVT,27,Nipmuc Regional,33,True,True
+647,2/17,Blackstone Valley RVT,58,Lynn VT,35,True,True
+648,12/23,Bishop Feehan,57,Cathedral,48,True,True
+649,12/13,Blackstone-Millville,49,Maimonides,27,True,True
+650,12/28,Bishop Feehan,34,Londonderry,41,True,False
+651,12/15,Blackstone-Millville,29,Sutton,37,True,True
+652,12/29,Bishop Feehan,55,Bishop Guertin,41,True,False
+653,1/2,Blackstone-Millville,54,Narragansett Regional,29,True,True
+654,1/5,Bishop Feehan,34,South High Community,35,True,True
+655,1/7,Blackstone-Millville,40,Nipmuc Regional,20,True,True
+656,1/14,Bishop Feehan,53,Needham,41,True,True
+657,1/12,Blackstone-Millville,51,Gardner,50,True,True
+658,1/16,Bishop Feehan,53,Bishop Fenwick,45,True,True
+659,1/14,Blackstone-Millville,48,North High,15,True,True
+660,1/19,Bishop Feehan,50,Walpole,48,True,True
+661,1/16,Blackstone-Millville,41,Leicester,18,True,True
+662,1/21,Bishop Feehan,51,Needham,29,True,True
+663,1/20,Blackstone-Millville,21,Douglas,36,True,True
+664,1/21,Blackstone-Millville,63,Foxborough Charter,21,True,True
+665,1/28,Bishop Feehan,57,St. Mary's,53,True,True
+666,1/23,Blackstone-Millville,52,Nipmuc Regional,31,True,True
+667,1/30,Bishop Feehan,54,Cathedral,45,True,True
+668,2/3,Bishop Feehan,35,St. Mary's,62,True,True
+669,1/30,Blackstone-Millville,60,North High,7,True,True
+670,2/6,Bishop Feehan,46,Cardinal Spellman,17,True,True
+671,2/4,Blackstone-Millville,68,Leicester,22,True,True
+672,2/10,Bishop Feehan,38,Bishop Fenwick,16,True,True
+673,2/5,Blackstone-Millville,19,Douglas,38,True,True
+674,2/14,Bishop Feehan,39,Wachusett Regional,67,True,True
+675,2/11,Blackstone-Millville,41,Hopedale,47,True,True
+676,2/15,Bishop Feehan,63,North Quincy,44,True,True
+677,2/12,Blackstone-Millville,54,Maimonides,24,True,True
+678,2/18,Bishop Feehan,53,Dartmouth,36,True,True
+679,2/14,Blackstone-Millville,35,Hopedale,42,True,True
+680,12/17,Bishop Fenwick,64,Newton South,30,True,True
+681,2/18,Blackstone-Millville,41,Lunenburg,45,True,True
+682,12/12,Blue Hills RVT,36,Westport,30,True,True
+683,12/28,Bishop Fenwick,47,Silver Lake Regional,30,True,True
+684,12/15,Blue Hills RVT,42,Upper Cape Cod RVT,35,True,True
+685,12/29,Bishop Fenwick,40,Walpole,39,True,True
+686,12/17,Blue Hills RVT,30,West Bridgewater,36,True,True
+687,1/2,Bishop Fenwick,45,Tewksbury Memorial,34,True,True
+688,12/19,Blue Hills RVT,44,Norfolk County Agricultural,38,True,True
+689,1/7,Bishop Fenwick,55,St. Mary's,46,True,True
+690,12/22,Blue Hills RVT,43,Wareham,45,True,True
+691,1/5,Blue Hills RVT,32,Westport,30,True,True
+692,1/13,Bishop Fenwick,54,Central Catholic,29,True,True
+693,1/7,Blue Hills RVT,38,Tri-County RVT,33,True,True
+694,1/9,Blue Hills RVT,45,Diman RVT,23,True,True
+695,1/21,Bishop Fenwick,64,Masconomet Regional,28,True,True
+696,1/13,Blue Hills RVT,42,Southeastern RVT,46,True,True
+697,1/23,Bishop Fenwick,71,Cardinal Spellman,18,True,True
+698,1/16,Blue Hills RVT,47,Norfolk County Agricultural,45,True,True
+699,1/24,Bishop Fenwick,43,South High Community,55,True,True
+700,1/20,Blue Hills RVT,49,Bristol Plymouth RVT,37,True,True
+701,1/30,Bishop Fenwick,60,St. Mary's,70,True,True
+702,1/23,Blue Hills RVT,45,Tri-County RVT,37,True,True
+703,1/28,Blue Hills RVT,30,Diman RVT,24,True,True
+704,2/6,Bishop Fenwick,55,Cathedral,48,True,True
+705,1/29,Blue Hills RVT,32,Southeastern RVT,43,True,True
+706,2/2,Blue Hills RVT,47,Upper Cape Cod RVT,34,True,True
+707,2/4,Blue Hills RVT,30,West Bridgewater,41,True,True
+708,2/13,Bishop Fenwick,63,Shrewsbury,30,True,True
+709,2/6,Blue Hills RVT,30,Bristol Plymouth RVT,21,True,True
+710,2/16,Bishop Fenwick,47,Hanover,38,True,True
+711,2/13,Blue Hills RVT,46,Wareham,51,True,True
+712,2/18,Bishop Fenwick,59,Needham,42,True,True
+713,2/19,Blue Hills RVT,58,Upper Cape Cod RVT,30,True,True
+714,12/23,Bishop Guertin,50,Wachusett Regional,65,False,True
+715,12/16,Boston Collegiate Charter,40,Match Charter Public,2,True,True
+716,12/19,Boston Collegiate Charter,24,Salem Academy Charter,10,True,True
+717,1/5,Boston Collegiate Charter,34,Collegiate Charter of Lowell,43,True,True
+718,1/18,Bishop Ludden,34,Minnechaug,56,False,True
+719,12/12,Bishop Stang,16,Dighton Rehoboth Regional,48,True,True
+720,1/8,Boston Collegiate Charter,46,South Shore Charter,28,True,True
+721,12/17,Bishop Stang,39,Cardinal Spellman,42,True,True
+722,1/12,Boston Collegiate Charter,33,Pioneer Charter of Science I,31,True,True
+723,12/19,Bishop Stang,72,Cristo Rey Boston,10,True,True
+724,1/13,Boston Collegiate Charter,38,Mystic Valley Charter,22,True,True
+725,12/22,Bishop Stang,20,Bristol Plymouth RVT,30,True,True
+726,1/16,Boston Collegiate Charter,45,Codman Academy,18,True,True
+727,12/29,Bishop Stang,20,Somerset Berkley Regional,41,True,True
+728,1/20,Boston Collegiate Charter,64,Community Charter of Cambridge,24,True,True
+729,12/30,Bishop Stang,20,Case,31,True,True
+730,1/21,Boston Collegiate Charter,38,Pioneer Charter of Science II,28,True,True
+731,1/6,Bishop Stang,23,Wareham,48,True,True
+732,1/23,Boston Collegiate Charter,27,KIPP Academy Lynn Coll.,21,True,True
+733,1/8,Bishop Stang,23,Old Rochester Regional,58,True,True
+734,1/30,Boston Collegiate Charter,33,Prospect Hill Academy,31,True,True
+735,1/13,Bishop Stang,31,Durfee,59,True,True
+736,2/1,Boston Collegiate Charter,31,Mystic Valley Charter,45,True,True
+737,1/15,Bishop Stang,14,Dighton Rehoboth Regional,36,True,True
+738,1/19,Bishop Stang,16,Dartmouth,60,True,True
+739,2/3,Boston Collegiate Charter,35,Boston Preparatory,15,True,True
+740,1/22,Bishop Stang,43,Fairhaven,30,True,True
+741,2/4,Boston Collegiate Charter,48,Community Charter of Cambridge,39,True,True
+742,2/5,Boston Collegiate Charter,39,Excel Academy Charter,17,True,True
+743,1/13,Bourne,25,Seekonk,61,True,True
+744,2/11,Boston Collegiate Charter,19,Collegiate Charter of Lowell,74,True,True
+745,1/16,Bourne,38,Old Rochester Regional,76,True,True
+746,12/18,Boston Latin Academy,68,Brighton,13,True,True
+747,1/20,Bourne,53,Dighton Rehoboth Regional,51,True,True
+748,12/22,Boston Latin Academy,29,Haverhill,68,True,True
+749,1/29,Bourne,59,Monomoy,47,True,True
+750,1/3,Boston Latin Academy,12,Haverhill,55,True,True
+751,1/30,Bourne,20,Seekonk,54,True,True
+752,1/5,Boston Latin Academy,53,Madison Park,23,True,True
+753,2/3,Bourne,68,Case,31,True,True
+754,1/7,Boston Latin Academy,49,Tech Boston Academy,25,True,True
+755,2/6,Bourne,46,Greater New Bedford,68,True,True
+756,1/9,Boston Latin Academy,33,Hull,35,True,True
+757,2/10,Bourne,61,New Bedford,50,True,True
+758,1/15,Boston Latin Academy,18,O'Bryant,35,True,True
+759,2/12,Bourne,29,East Bridgewater,42,True,True
+760,1/20,Boston Latin Academy,39,Charlestown,17,True,True
+761,2/13,Bourne,53,Greater New Bedford,66,True,True
+762,1/22,Boston Latin Academy,42,Madison Park,22,True,True
+763,2/16,Bourne,38,West Bridgewater,51,True,True
+764,1/23,Boston Latin Academy,22,Bristol Plymouth RVT,26,True,True
+765,2/17,Bourne,51,Dennis Yarmouth Regional,29,True,True
+766,1/30,Boston Latin Academy,38,Randolph,40,True,True
+767,12/16,Braintree,73,Weymouth,27,True,True
+768,2/2,Boston Latin Academy,41,Chelsea,42,True,True
+769,12/18,Braintree,37,Needham,51,True,True
+770,2/3,Boston Latin Academy,16,O'Bryant,46,True,True
+771,12/22,Braintree,42,Milton,30,True,True
+772,2/5,Boston Latin Academy,45,Charlestown,14,True,True
+773,12/27,Braintree,55,Cohasset,42,True,True
+774,2/7,Boston Latin Academy,40,Tech Boston Academy,24,True,True
+775,2/9,Boston Latin Academy,50,North High,21,True,True
+776,1/6,Braintree,65,Framingham,21,True,True
+777,2/11,Boston Latin Academy,26,Hull,46,True,True
+778,1/9,Braintree,79,Natick,76,True,True
+779,2/12,Boston Latin Academy,50,Fenway,31,True,True
+780,1/13,Braintree,61,Newton North,58,True,True
+781,2/15,Boston Latin Academy,30,Boston United,31,True,True
+782,1/16,Braintree,46,Walpole,55,True,True
+783,2/18,Boston Latin Academy,16,O'Bryant,39,True,True
+784,1/19,Braintree,57,North Quincy,42,True,True
+785,12/12,Boston Latin,35,O'Bryant,36,True,True
+786,1/22,Braintree,48,Bridgewater Raynham,46,True,True
+787,12/17,Boston Latin,24,Dedham,45,True,True
+788,1/23,Braintree,53,Brookline,41,True,True
+789,12/19,Boston Latin,29,Cambridge Rindge & Latin,34,True,True
+790,1/30,Braintree,42,Walpole,44,True,True
+791,12/29,Boston Latin,44,Wellesley,40,True,True
+792,2/2,Braintree,63,Wellesley,29,True,True
+793,12/30,Boston Latin,37,Winchester,49,True,True
+794,2/3,Braintree,57,Weymouth,33,True,True
+795,1/6,Boston Latin,26,Lincoln-Sudbury,42,True,True
+796,2/6,Braintree,50,Needham,44,True,True
+797,1/9,Boston Latin,47,Concord Carlisle,41,True,True
+798,2/10,Braintree,57,Milton,34,True,True
+799,1/16,Boston Latin,24,Waltham,34,True,True
+800,2/12,Braintree,41,Quincy,33,True,True
+801,1/20,Boston Latin,41,Neighborhood House,36,True,True
+802,2/14,Braintree,50,Woburn Memorial,51,True,True
+803,1/23,Boston Latin,33,Newton South,50,True,True
+804,2/15,Braintree,51,Walpole,34,True,True
+805,1/28,Boston Latin,28,Westford Academy,69,True,True
+806,12/17,Brattleboro Union,38,Northampton,51,False,True
+807,1/30,Boston Latin,44,Wayland,30,True,True
+808,12/13,Bridgewater Raynham,44,Westwood,33,True,True
+809,12/19,Bridgewater Raynham,41,Dracut,43,True,True
+810,2/6,Boston Latin,48,Weston,31,True,True
+811,12/27,Bridgewater Raynham,52,Westford Academy,50,True,True
+812,2/9,Boston Latin,61,Edward M. Kennedy Acad.,16,True,True
+813,12/30,Bridgewater Raynham,37,Pentucket Regional,47,True,True
+814,2/13,Boston Latin,27,Brookline,54,True,True
+815,1/3,Bridgewater Raynham,33,Norwood,62,True,True
+816,1/10,Bridgewater Raynham,37,Pentucket Regional,46,True,True
+817,2/16,Boston Latin,40,Weymouth,55,True,True
+818,1/13,Bridgewater Raynham,56,Dartmouth,36,True,True
+819,2/18,Boston Latin,36,Milton,47,True,True
+820,12/12,Boston Preparatory,22,Edward M. Kennedy Acad.,26,True,True
+821,1/19,Bridgewater Raynham,55,Milton,42,True,True
+822,12/16,Boston Preparatory,16,Prospect Hill Academy,63,True,True
+823,1/30,Bridgewater Raynham,46,Lincoln-Sudbury,38,True,True
+824,1/2,Boston Preparatory,24,Neighborhood House,53,True,True
+825,2/1,Bridgewater Raynham,59,Fontbonne,42,True,True
+826,2/6,Bridgewater Raynham,44,Dartmouth,47,True,True
+827,1/8,Boston Preparatory,20,Codman Academy,27,True,True
+828,2/8,Bridgewater Raynham,64,Somerset Berkley Regional,35,True,True
+829,1/12,Boston Preparatory,18,New Heights Charter,61,True,True
+830,1/22,Boston Preparatory,6,Brooke Charter,75,True,True
+831,2/14,Bridgewater Raynham,51,Newton South,41,True,True
+832,1/29,Boston Preparatory,33,South Shore Charter,48,True,True
+833,2/16,Bridgewater Raynham,54,Dracut,37,True,True
+834,1/30,Boston Preparatory,31,Foxborough Charter,28,True,True
+835,2/17,Bridgewater Raynham,32,Old Rochester Regional,35,True,True
+836,2/2,Boston Preparatory,39,Roxbury Prep Charter,35,True,True
+837,12/16,Brighton,35,Charlestown,25,True,True
+838,2/18,Boston Preparatory,14,Prospect Hill Academy,49,True,True
+839,12/12,Boston United,29,Ursuline Academy,65,True,True
+840,1/6,Brighton,9,Fenway,55,True,True
+841,12/15,Boston United,45,O'Bryant,54,True,True
+842,1/8,Brighton,22,East Boston,37,True,True
+843,1/6,Boston United,57,East Boston,13,True,True
+844,1/12,Brighton,9,New Mission,93,True,True
+845,1/8,Boston United,44,New Mission,67,True,True
+846,1/15,Brighton,28,Boston United,32,True,True
+847,1/12,Boston United,31,Madison Park,35,True,True
+848,1/22,Brighton,32,East Boston,33,True,True
+849,1/13,Boston United,16,Brooke Charter,58,True,True
+850,1/29,Brighton,15,New Mission,59,True,True
+851,1/30,Brighton,32,Edward M. Kennedy Acad.,38,True,True
+852,1/20,Boston United,27,Fenway,35,True,True
+853,1/22,Boston United,47,New Mission,62,True,True
+854,1/24,Boston United,21,Ursuline Academy,67,True,True
+855,2/4,Boston United,52,Fenway,46,True,True
+856,2/5,Boston United,46,Tech Boston Academy,39,True,True
+857,2/9,Boston United,30,O'Bryant,66,True,True
+858,1/18,Bristol Central,54,Medfield,82,False,True
+859,2/11,Boston United,30,Tech Boston Academy,34,True,True
+860,2/12,Boston United,51,New Mission,59,True,True
+861,12/17,Bristol County Agricultural,23,Rising Tide Charter,17,True,True
+862,2/13,Boston United,33,East Boston,25,True,True
+863,12/19,Bristol County Agricultural,22,Bristol Plymouth RVT,53,True,True
+864,1/7,Bristol County Agricultural,8,Old Colony RVT,32,True,True
+865,12/15,Bourne,34,East Bridgewater,61,True,True
+866,1/9,Bristol County Agricultural,18,Norfolk County Agricultural,51,True,True
+867,12/19,Bourne,37,West Bridgewater,34,True,True
+868,1/13,Bristol County Agricultural,14,Cape Cod RVT,48,True,True
+869,12/22,Bourne,34,New Bedford,49,True,True
+870,1/14,Bristol County Agricultural,21,Upper Cape Cod RVT,44,True,True
+871,12/29,Bourne,36,Monomoy,59,True,True
+872,1/20,Bristol County Agricultural,40,South Shore VT,10,True,True
+873,1/2,Bourne,41,Somerset Berkley Regional,74,True,True
+874,1/21,Bristol County Agricultural,8,Sturgis West,38,True,True
+875,1/23,Bristol County Agricultural,12,Old Colony RVT,41,True,True
+876,1/9,Bourne,42,Case,48,True,True
+877,1/29,Bristol County Agricultural,22,Cape Cod RVT,39,True,True
+878,1/30,Bristol County Agricultural,35,Norfolk County Agricultural,70,True,True
+879,2/4,Brooke Charter,37,Prospect Hill Academy,42,True,True
+880,2/2,Bristol County Agricultural,13,Bristol Plymouth RVT,46,True,True
+881,2/5,Brooke Charter,53,South Shore Charter,25,True,True
+882,2/4,Bristol County Agricultural,16,Upper Cape Cod RVT,50,True,True
+883,2/11,Brooke Charter,43,South Shore Charter,24,True,True
+884,2/5,Bristol County Agricultural,16,Rising Tide Charter,21,True,True
+885,2/13,Brooke Charter,28,Prospect Hill Academy,51,True,True
+886,2/6,Bristol County Agricultural,47,South Shore VT,19,True,True
+887,12/12,Brookline,43,Natick,62,True,True
+888,12/16,Brookline,51,Needham,59,True,True
+889,2/11,Bristol County Agricultural,8,Sturgis West,17,True,True
+890,12/18,Brookline,42,Wellesley,46,True,True
+891,2/19,Bristol County Agricultural,19,Pathfinder RVT,55,True,True
+892,12/22,Brookline,52,Newton North,51,True,True
+893,12/12,Bristol Plymouth RVT,29,Nauset Regional,40,True,True
+894,12/29,Brookline,64,Cathedral,56,True,True
+895,12/17,Bristol Plymouth RVT,29,Norfolk County Agricultural,40,True,True
+896,1/6,Brookline,70,Weymouth,36,True,True
+897,1/9,Brookline,30,Walpole,55,True,True
+898,1/5,Bristol Plymouth RVT,34,Case,58,True,True
+899,1/13,Brookline,61,Framingham,35,True,True
+900,1/9,Bristol Plymouth RVT,33,Tri-County RVT,20,True,True
+901,1/20,Brookline,61,Newton South,51,True,True
+902,1/13,Bristol Plymouth RVT,38,Diman RVT,29,True,True
+903,1/15,Bristol Plymouth RVT,31,Southeastern RVT,40,True,True
+904,1/30,Brookline,54,Milton,56,True,True
+905,2/2,Brookline,33,Natick,77,True,True
+906,1/22,Bristol Plymouth RVT,46,Norfolk County Agricultural,50,True,True
+907,2/3,Brookline,75,Wellesley,71,True,True
+908,2/6,Brookline,61,Newton North,58,True,True
+909,1/28,Bristol Plymouth RVT,30,Tri-County RVT,38,True,True
+910,2/10,Brookline,53,Framingham,33,True,True
+911,1/30,Bristol Plymouth RVT,31,Diman RVT,44,True,True
+912,2/15,Brookline,49,East Bridgewater,37,True,True
+913,2/4,Bristol Plymouth RVT,17,Southeastern RVT,53,True,True
+914,2/16,Brookline,49,Notre Dame (Hingham),51,True,True
+915,12/12,Burlington,39,Lexington,17,True,True
+916,2/10,Bristol Plymouth RVT,34,Case,43,True,True
+917,2/12,Bristol Plymouth RVT,31,Old Colony RVT,27,True,True
+918,12/19,Burlington,51,Melrose,39,True,True
+919,12/22,Burlington,36,Wakefield Memorial,40,True,True
+920,2/18,Bristol Plymouth RVT,27,Greater Lowell Tech,33,True,True
+921,12/28,Burlington,33,Tewksbury Memorial,32,True,True
+922,12/15,Brockton,40,Stoughton,55,True,True
+923,12/18,Brockton,43,Rockland,34,True,True
+924,1/9,Burlington,43,Wilmington,45,True,True
+925,12/22,Brockton,47,New Mission,34,True,True
+926,1/13,Burlington,38,Woburn Memorial,63,True,True
+927,12/29,Brockton,30,Dartmouth,66,True,True
+928,1/16,Burlington,31,Stoneham,34,True,True
+929,12/30,Brockton,37,Shawsheen Valley Tech,44,True,True
+930,1/20,Burlington,44,Winchester,38,True,True
+931,1/6,Brockton,32,Durfee,50,True,True
+932,1/23,Burlington,35,Watertown,37,True,True
+933,1/10,Brockton,58,Scituate,62,True,True
+934,1/30,Burlington,56,Melrose,39,True,True
+935,1/13,Brockton,23,New Bedford,51,True,True
+936,2/1,Burlington,53,Reading Memorial,26,True,True
+937,1/16,Brockton,55,Weymouth,48,True,True
+938,2/3,Burlington,54,Wakefield Memorial,37,True,True
+939,1/20,Brockton,60,Weymouth,49,True,True
+940,2/6,Burlington,45,Wilmington,25,True,True
+941,2/10,Burlington,40,Stoneham,30,True,True
+942,1/24,Brockton,48,Stoughton,45,True,True
+943,2/12,Burlington,51,Watertown,46,True,True
+944,1/28,Brockton,69,New Mission,45,True,True
+945,2/14,Burlington,34,Central Catholic,70,True,True
+946,1/30,Brockton,49,Rockland,45,True,True
+947,2/6,Brockton,41,New Bedford,54,True,True
+948,12/11,Burncoat,12,Leicester,32,True,True
+949,2/10,Brockton,33,Durfee,55,True,True
+950,12/15,Burncoat,36,Prouty,35,True,True
+951,12/17,Burncoat,24,Douglas,62,True,True
+952,2/15,Brockton,48,Scituate,65,True,True
+953,1/5,Burncoat,39,University Park Campus,19,True,True
+954,2/17,Brockton,53,Plymouth North,47,True,True
+955,1/8,Burncoat,23,Oxford,59,True,True
+956,12/12,Bromfield School,34,Gardner,47,True,True
+957,1/9,Burncoat,32,Worcester Tech,40,True,True
+958,12/17,Bromfield School,28,Nipmuc Regional,42,True,True
+959,1/12,Burncoat,20,Keefe Tech,52,True,True
+960,12/22,Bromfield School,34,Murdock,33,True,True
+961,1/14,Burncoat,37,Montachusett RVT,58,True,True
+962,12/27,Bromfield School,43,Gardner,63,True,True
+963,1/16,Burncoat,30,Southbridge,28,True,True
+964,12/29,Bromfield School,39,South Lancaster Academy,14,True,True
+965,1/21,Burncoat,48,Whitinsville Christian,18,True,True
+966,1/23,Burncoat,31,Oxford,42,True,True
+967,1/9,Bromfield School,44,Narragansett Regional,31,True,True
+968,1/24,Burncoat,29,Doherty Memorial,52,True,True
+969,1/12,Bromfield School,37,Tahanto Regional,79,True,True
+970,2/4,Burncoat,18,Keefe Tech,32,True,True
+971,1/15,Bromfield School,23,Westborough,45,True,True
+972,2/6,Burncoat,20,Whitinsville Christian,23,True,True
+973,1/16,Bromfield School,54,West Boylston,41,True,True
+974,2/9,Burncoat,16,Saint Paul Diocesan,50,True,True
+975,1/20,Bromfield School,30,Hudson,80,True,True
+976,2/11,Burncoat,14,Tantasqua Regional,48,True,True
+977,1/22,Bromfield School,41,South Lancaster Academy,22,True,True
+978,2/13,Burncoat,51,Southbridge,20,True,True
+979,1/27,Bromfield School,46,Murdock,45,True,True
+980,2/14,Burncoat,46,Montachusett RVT,36,True,True
+981,2/17,Burncoat,54,Worcester Tech,48,True,True
+982,2/3,Bromfield School,34,Narragansett Regional,39,True,True
+983,2/19,Burncoat,22,St. Bernard's,36,True,True
+984,2/6,Bromfield School,26,Tahanto Regional,71,True,True
+985,12/11,Calvary Chapel Academy,24,Rockland,49,True,True
+986,2/10,Bromfield School,42,West Boylston,40,True,True
+987,12/12,Calvary Chapel Academy,37,Hull,22,True,True
+988,2/13,Bromfield School,27,Oxford,54,True,True
+989,12/15,Calvary Chapel Academy,53,Sturgis East,29,True,True
+990,12/11,Brooke Charter,46,Maimonides,47,True,True
+991,12/19,Calvary Chapel Academy,53,Holbrook,57,True,True
+992,12/16,Brooke Charter,30,Neighborhood House,44,True,True
+993,12/18,Brooke Charter,66,Foxborough Charter,9,True,True
+994,1/5,Calvary Chapel Academy,55,Whitinsville Christian,21,True,True
+995,1/5,Brooke Charter,50,Codman Academy,20,True,True
+996,1/8,Calvary Chapel Academy,47,Sturgis East,22,True,True
+997,1/7,Brooke Charter,40,Edward M. Kennedy Acad.,20,True,True
+998,1/9,Calvary Chapel Academy,34,Sturgis West,51,True,True
+999,1/9,Brooke Charter,24,O'Bryant,33,True,True
+1000,1/13,Calvary Chapel Academy,60,South Shore Charter,32,True,True
+1001,1/15,Calvary Chapel Academy,41,Randolph,26,True,True
+1002,1/22,Calvary Chapel Academy,39,Holbrook,41,True,True
+1003,1/16,Brooke Charter,41,Tech Boston Academy,30,True,True
+1004,1/23,Calvary Chapel Academy,39,Brooke Charter,33,True,True
+1005,1/21,Brooke Charter,34,New Heights Charter,62,True,True
+1006,1/29,Calvary Chapel Academy,46,Cardinal Spellman,52,True,True
+1007,1/31,Calvary Chapel Academy,45,South Shore Charter,15,True,True
+1008,2/2,Calvary Chapel Academy,42,Whitinsville Christian,18,True,True
+1009,2/3,Calvary Chapel Academy,17,Sturgis West,22,True,True
+1010,1/29,Brooke Charter,47,Roxbury Prep Charter,31,True,True
+1011,2/6,Calvary Chapel Academy,45,Hull,46,True,True
+1012,2/2,Brooke Charter,52,Maimonides,50,True,True
+1013,2/9,Calvary Chapel Academy,31,Cardinal Spellman,32,True,True
+1014,2/10,Calvary Chapel Academy,41,Maimonides,36,True,True
+1015,1/13,Cardinal Spellman,57,Randolph,34,True,True
+1016,2/12,Calvary Chapel Academy,30,Rockland,39,True,True
+1017,1/20,Cardinal Spellman,27,Shawsheen Valley Tech,34,True,True
+1018,12/22,Cambridge Rindge & Latin,54,Weymouth,51,True,True
+1019,2/2,Cardinal Spellman,40,Rockland,46,True,True
+1020,12/30,Cambridge Rindge & Latin,44,Cathedral,55,True,True
+1021,1/6,Cambridge Rindge & Latin,40,Concord Carlisle,33,True,True
+1022,1/9,Cambridge Rindge & Latin,30,Lowell,45,True,True
+1023,2/10,Cardinal Spellman,51,West Bridgewater,45,True,True
+1024,1/14,Cambridge Rindge & Latin,35,Malden Catholic,47,True,True
+1025,2/12,Cardinal Spellman,17,Fontbonne,71,True,True
+1026,1/16,Cambridge Rindge & Latin,34,Newton South,32,True,True
+1027,1/20,Cambridge Rindge & Latin,44,New Heights Charter,49,True,True
+1028,2/16,Cardinal Spellman,41,Ursuline Academy,47,True,True
+1029,1/23,Cambridge Rindge & Latin,41,Lincoln-Sudbury,42,True,True
+1030,2/17,Cardinal Spellman,28,Ursuline Academy,37,True,True
+1031,1/30,Cambridge Rindge & Latin,34,Waltham,38,True,True
+1032,12/17,Carver,63,Westport,29,True,True
+1033,2/2,Cambridge Rindge & Latin,43,Wayland,29,True,True
+1034,12/19,Carver,59,Hull,29,True,True
+1035,2/3,Cambridge Rindge & Latin,42,Weston,26,True,True
+1036,2/6,Cambridge Rindge & Latin,42,Westford Academy,54,True,True
+1037,12/29,Carver,36,Sandwich,45,True,True
+1038,12/30,Carver,54,Leominster,46,True,True
+1039,1/8,Carver,46,Cohasset,56,True,True
+1040,2/16,Cambridge Rindge & Latin,32,Milton,42,True,True
+1041,1/13,Carver,54,Mashpee,46,True,True
+1042,2/18,Cambridge Rindge & Latin,49,Somerville,46,True,True
+1043,1/20,Carver,36,Norwell,66,True,True
+1044,12/12,Canton,45,Millis,31,True,True
+1045,1/22,Carver,56,Westport,28,True,True
+1046,1/23,Carver,24,Middleborough,49,True,True
+1047,12/22,Canton,28,Foxborough,68,True,True
+1048,1/29,Carver,29,Saint John Paul II,34,True,True
+1049,1/2,Canton,29,North Attleborough,59,True,True
+1050,1/5,Canton,59,Sharon,48,True,True
+1051,2/2,Carver,65,Hull,31,True,True
+1052,1/6,Canton,43,Milford,47,True,True
+1053,2/6,Carver,38,Rockland,55,True,True
+1054,1/9,Canton,34,Oliver Ames,60,True,True
+1055,2/9,Carver,30,East Bridgewater,52,True,True
+1056,1/13,Canton,40,Taunton,32,True,True
+1057,2/10,Carver,42,Cohasset,57,True,True
+1058,1/14,Canton,50,Milton,48,True,True
+1059,2/13,Carver,33,Mashpee,40,True,True
+1060,1/16,Canton,53,Stoughton,39,True,True
+1061,2/15,Carver,41,Notre Dame (Hingham),63,True,True
+1062,1/20,Canton,42,Franklin,68,True,True
+1063,2/16,Carver,21,East Bridgewater,61,True,True
+1064,1/23,Canton,36,Mansfield,42,True,True
+1065,12/13,Cathedral,26,Georgetown Visitation,64,True,False
+1066,1/27,Canton,57,King Philip Regional,75,True,True
+1067,12/14,Cathedral,56,Jackson-Reed,17,True,False
+1068,1/30,Canton,24,Foxborough,62,True,True
+1069,12/18,Cathedral,56,Leominster,35,True,True
+1070,2/3,Canton,43,North Attleborough,66,True,True
+1071,2/5,Canton,29,Oliver Ames,58,True,True
+1072,2/10,Canton,46,Stoughton,37,True,True
+1073,1/2,Cathedral,61,Cardinal Spellman,15,True,True
+1074,2/13,Canton,31,Mansfield,54,True,True
+1075,2/16,Canton,23,Millis,56,True,True
+1076,1/11,Cathedral,56,Newton South,39,True,True
+1077,12/12,Cape Cod Academy,11,Cape Cod RVT,51,True,True
+1078,1/13,Cathedral,58,East Bridgewater,28,True,True
+1079,12/16,Cape Cod Academy,13,Sturgis West,39,True,True
+1080,1/7,Cape Cod Academy,15,Rising Tide Charter,30,True,True
+1081,1/17,Cathedral,57,Westwood,30,True,True
+1082,1/9,Cape Cod Academy,9,Falmouth Academy,59,True,True
+1083,1/23,Cathedral,57,St. Mary's,58,True,True
+1084,1/13,Cape Cod Academy,13,Nantucket,58,True,True
+1085,1/28,Cathedral,52,Shrewsbury,25,True,True
+1086,1/15,Cape Cod Academy,13,Sturgis East,50,True,True
+1087,1/21,Cape Cod Academy,8,Cape Cod RVT,61,True,True
+1088,1/23,Cape Cod Academy,18,Sturgis West,36,True,True
+1089,2/12,Cathedral,38,Needham,39,True,True
+1090,1/30,Cape Cod Academy,13,Rising Tide Charter,37,True,True
+1091,2/14,Cathedral,58,Walpole,44,True,True
+1092,2/3,Cape Cod Academy,8,Falmouth Academy,45,True,True
+1093,2/16,Cathedral,52,Woburn Memorial,34,True,True
+1094,2/6,Cape Cod Academy,23,Nantucket,58,True,True
+1095,2/18,Cathedral,54,East Bridgewater,38,True,True
+1096,2/10,Cape Cod Academy,17,Sturgis East,49,True,True
+1097,12/11,Central Catholic,49,Masconomet Regional,51,True,True
+1098,12/16,Central Catholic,43,North Andover,24,True,True
+1099,12/22,Cape Cod RVT,33,Tri-County RVT,28,True,True
+1100,12/27,Central Catholic,57,Natick,72,True,True
+1101,12/27,Cape Cod RVT,27,Martha's Vineyard Regional,44,True,True
+1102,12/28,Central Catholic,56,North Andover,33,True,True
+1103,12/29,Cape Cod RVT,47,Upper Cape Cod RVT,52,True,True
+1104,12/30,Central Catholic,45,Westford Academy,55,True,True
+1105,1/6,Cape Cod RVT,38,Upper Cape Cod RVT,41,True,True
+1106,1/6,Central Catholic,56,Methuen,39,True,True
+1107,1/7,Cape Cod RVT,33,Sturgis West,30,True,True
+1108,1/8,Central Catholic,34,Notre Dame (Hingham),45,True,True
+1109,1/9,Cape Cod RVT,42,Old Colony RVT,31,True,True
+1110,1/9,Central Catholic,58,Haverhill,30,True,True
+1111,1/15,Cape Cod RVT,49,South Shore VT,30,True,True
+1112,1/16,Central Catholic,53,Tewksbury Memorial,55,True,True
+1113,1/20,Cape Cod RVT,36,Norfolk County Agricultural,55,True,True
+1114,1/20,Central Catholic,53,Lawrence,48,True,True
+1115,1/22,Central Catholic,42,Lowell,52,True,True
+1116,2/4,Cape Cod RVT,42,South Shore VT,18,True,True
+1117,1/27,Central Catholic,48,Chelmsford,46,True,True
+1118,2/5,Cape Cod RVT,20,Sturgis West,39,True,True
+1119,2/6,Cape Cod RVT,44,Norfolk County Agricultural,64,True,True
+1120,2/3,Central Catholic,17,Dracut,38,True,True
+1121,2/13,Cape Cod RVT,56,Upper Cape Cod RVT,52,True,True
+1122,2/16,Cape Cod RVT,29,Old Colony RVT,42,True,True
+1123,2/13,Central Catholic,44,Chelmsford,40,True,True
+1124,2/17,Cape Cod RVT,35,Martha's Vineyard Regional,61,True,True
+1125,2/19,Cape Cod RVT,29,Minuteman Regional,55,True,True
+1126,12/15,Cardinal Spellman,21,Shawsheen Valley Tech,47,True,True
+1127,12/18,Charlestown,16,Muniz Academy,34,True,True
+1128,1/5,Charlestown,25,Tech Boston Academy,43,True,True
+1129,12/22,Cardinal Spellman,34,West Bridgewater,58,True,True
+1130,1/8,Charlestown,14,O'Bryant,72,True,True
+1131,12/30,Cardinal Spellman,35,Fontbonne,69,True,True
+1132,1/13,Charlestown,19,Madison Park,27,True,True
+1133,1/15,Charlestown,31,East Boston,27,True,True
+1134,1/5,Cardinal Spellman,20,Rockland,52,True,True
+1135,1/9,Cardinal Spellman,23,St. Mary's,73,True,True
+1136,1/22,Charlestown,18,Tech Boston Academy,50,True,True
+1137,1/23,Charlestown,19,Madison Park,30,True,True
+1138,1/31,Chicopee,25,Southwick Regional,41,True,True
+1139,1/30,Charlestown,23,O'Bryant,82,True,True
+1140,2/2,Chicopee,26,East Longmeadow,37,True,True
+1141,2/6,Chicopee,32,Longmeadow,50,True,True
+1142,2/12,Chicopee,41,Monument Mountain,49,True,True
+1143,2/10,Charlestown,28,Muniz Academy,26,True,True
+1144,2/12,Charlestown,25,East Boston,14,True,True
+1145,1/17,Classical HS,33,Wahconah Regional,72,False,True
+1146,12/16,Chelmsford,39,Methuen,42,True,True
+1147,1/18,Classical HS,33,Springfield International,43,False,True
+1148,12/12,Clinton,38,Millbury,49,True,True
+1149,12/22,Chelmsford,28,Greater Lawrence Tech,17,True,True
+1150,12/16,Clinton,38,Tyngsborough,35,True,True
+1151,12/27,Chelmsford,34,Tewksbury Memorial,37,True,True
+1152,12/27,Clinton,54,Tahanto Regional,52,True,True
+1153,1/6,Chelmsford,29,Lowell,42,True,True
+1154,1/2,Clinton,48,Nashoba Regional,33,True,True
+1155,1/9,Chelmsford,51,Dracut,41,True,True
+1156,1/5,Clinton,33,Millbury,67,True,True
+1157,1/11,Chelmsford,33,Tyngsborough,37,True,True
+1158,1/6,Clinton,48,Hudson,53,True,True
+1159,1/13,Chelmsford,24,Tewksbury Memorial,34,True,True
+1160,1/9,Clinton,58,Quabbin Regional,31,True,True
+1161,1/16,Chelmsford,39,North Andover,31,True,True
+1162,1/12,Clinton,49,Maynard,35,True,True
+1163,1/20,Chelmsford,54,Haverhill,33,True,True
+1164,1/14,Clinton,36,Tahanto Regional,47,True,True
+1165,1/23,Chelmsford,51,Lawrence,49,True,True
+1166,1/16,Clinton,31,Lunenburg,49,True,True
+1167,1/20,Clinton,33,Tyngsborough,42,True,True
+1168,2/1,Chelmsford,33,Westford Academy,53,True,True
+1169,1/22,Clinton,49,Littleton,50,True,True
+1170,1/27,Clinton,31,Littleton,42,True,True
+1171,2/5,Chelmsford,41,North Andover,35,True,True
+1172,1/30,Clinton,26,Hudson,51,True,True
+1173,2/3,Clinton,45,Quabbin Regional,30,True,True
+1174,2/6,Clinton,52,Maynard,57,True,True
+1175,2/16,Chelmsford,51,Shrewsbury,42,True,True
+1176,2/10,Clinton,34,Lunenburg,38,True,True
+1177,2/18,Chelmsford,34,Lowell,50,True,True
+1178,2/13,Clinton,37,Gardner,42,True,True
+1179,12/15,Chelsea,53,Excel Academy Charter,23,True,True
+1180,2/16,Clinton,48,Notre Dame (Worcester),29,True,True
+1181,12/16,Chelsea,26,Somerville,49,True,True
+1182,12/18,Chelsea,42,Everett,46,True,True
+1183,12/19,Codman Academy,14,South Shore Charter,19,True,True
+1184,12/23,Chelsea,46,Malden,61,True,True
+1185,1/6,Chelsea,35,Revere,46,True,True
+1186,1/8,Chelsea,23,Medford,61,True,True
+1187,1/9,Codman Academy,34,Innovation Academy,19,True,True
+1188,1/9,Chelsea,34,Ipswich,61,True,True
+1189,1/12,Chelsea,59,Northeast Metro RVT,28,True,True
+1190,1/14,Codman Academy,31,Roxbury Prep Charter,40,True,True
+1191,1/13,Chelsea,63,Lynn English,62,True,True
+1192,1/15,Chelsea,40,Lynn Classical,62,True,True
+1193,1/20,Chelsea,47,Somerville,73,True,True
+1194,1/22,Chelsea,51,Everett,58,True,True
+1195,1/29,Chelsea,27,Revere,51,True,True
+1196,2/3,Chelsea,52,Medford,48,True,True
+1197,12/12,Cohasset,33,Duxbury,43,True,True
+1198,2/5,Chelsea,55,Lynn English,57,True,True
+1199,12/19,Cohasset,31,Mashpee,32,True,True
+1200,2/9,Chelsea,52,Northeast Metro RVT,14,True,True
+1201,2/11,Chelsea,40,Lynn Classical,59,True,True
+1202,12/29,Cohasset,59,Georgetown,37,True,True
+1203,2/12,Chelsea,34,Ipswich,45,True,True
+1204,1/3,Cohasset,34,Old Rochester Regional,39,True,True
+1205,2/19,Chelsea,39,Malden,70,True,True
+1206,12/12,Chicopee Comp,25,Chicopee,48,True,True
+1207,1/13,Cohasset,41,Norwell,42,True,True
+1208,12/19,Chicopee Comp,22,West Springfield,51,True,True
+1209,1/16,Cohasset,43,East Bridgewater,49,True,True
+1210,12/29,Chicopee Comp,30,Granby Memorial,52,True,False
+1211,1/20,Cohasset,43,Middleborough,50,True,True
+1212,12/30,Chicopee Comp,40,Renaissance School,60,True,True
+1213,1/28,Cohasset,34,Duxbury,61,True,True
+1214,1/2,Chicopee Comp,24,Hampshire Regional,50,True,True
+1215,1/30,Cohasset,55,Mashpee,46,True,True
+1216,2/4,Cohasset,38,Silver Lake Regional,41,True,True
+1217,1/8,Chicopee Comp,29,Easthampton,50,True,True
+1218,1/9,Chicopee Comp,22,Springfield International,39,True,True
+1219,2/9,Cohasset,37,Rockland,21,True,True
+1220,1/12,Chicopee Comp,32,South Hadley,68,True,True
+1221,1/14,Chicopee Comp,32,Holyoke,41,True,True
+1222,2/14,Cohasset,50,Georgetown,54,True,True
+1223,1/15,Chicopee Comp,15,West Springfield,37,True,True
+1224,2/15,Cohasset,52,Lincoln-Sudbury,33,True,True
+1225,1/22,Chicopee Comp,20,Holyoke,47,True,True
+1226,2/17,Cohasset,39,Fontbonne,54,True,True
+1227,2/19,Cohasset,50,Silver Lake Regional,64,True,True
+1228,2/2,Chicopee Comp,32,Springfield International,56,True,True
+1229,12/11,Collegiate Charter of Lowell,44,Excel Academy Charter,26,True,True
+1230,2/4,Chicopee Comp,38,Mount Greylock Regional,66,True,True
+1231,12/15,Collegiate Charter of Lowell,69,Notre Dame Cristo Rey,20,True,True
+1232,2/5,Chicopee Comp,38,Renaissance School,69,True,True
+1233,12/17,Collegiate Charter of Lowell,29,Wayland,37,True,True
+1234,2/12,Chicopee Comp,14,Northampton,57,True,True
+1235,12/19,Collegiate Charter of Lowell,40,Lowell Catholic,44,True,True
+1236,2/13,Chicopee Comp,59,St. Mary Parish (Westfield),36,True,True
+1237,2/16,Chicopee Comp,45,Pathfinder RVT,30,True,True
+1238,1/7,Collegiate Charter of Lowell,53,Salem Academy Charter,25,True,True
+1239,1/9,Collegiate Charter of Lowell,66,Notre Dame Cristo Rey,40,True,True
+1240,12/16,Chicopee,28,Westfield,38,True,True
+1241,12/19,Chicopee,36,Hampshire Regional,43,True,True
+1242,1/13,Collegiate Charter of Lowell,58,Salem Academy Charter,16,True,True
+1243,12/29,Chicopee,32,Longmeadow,69,True,True
+1244,1/15,Collegiate Charter of Lowell,67,Pioneer Charter of Science I,23,True,True
+1245,1/2,Chicopee,31,West Springfield,46,True,True
+1246,1/20,Collegiate Charter of Lowell,29,Prospect Hill Academy,42,True,True
+1247,1/23,Collegiate Charter of Lowell,59,Nashoba Valley Tech,20,True,True
+1248,1/7,Chicopee,43,Southwick Regional,49,True,True
+1249,1/28,Collegiate Charter of Lowell,50,Rockport,24,True,True
+1250,1/9,Chicopee,47,East Longmeadow,44,True,True
+1251,1/30,Collegiate Charter of Lowell,55,Community Charter of Cambridge,34,True,True
+1252,1/31,Collegiate Charter of Lowell,56,Pioneer Charter of Science II,32,True,True
+1253,1/15,Chicopee,27,Westfield,32,True,True
+1254,2/5,Collegiate Charter of Lowell,56,Nashoba Valley Tech,14,True,True
+1255,1/19,Chicopee,56,Easthampton,53,True,True
+1256,1/20,Chicopee,44,Holyoke,27,True,True
+1257,2/13,Collegiate Charter of Lowell,30,Neighborhood House,39,True,True
+1258,1/23,Chicopee,39,Hampshire Regional,51,True,True
+1259,2/17,Collegiate Charter of Lowell,62,North Brookfield,37,True,True
+1260,12/12,Community Academy of Science & Health,26,Fenway,39,True,True
+1261,12/15,Community Academy of Science & Health,23,New Mission,67,True,True
+1262,12/18,Community Academy of Science & Health,8,Edward M. Kennedy Acad.,47,True,True
+1263,12/23,Dartmouth,60,Greater New Bedford,57,True,True
+1264,1/6,Community Academy of Science & Health,19,New Mission,59,True,True
+1265,1/9,Community Academy of Science & Health,35,Snowden International,55,True,True
+1266,1/15,Community Academy of Science & Health,39,Ruth Batson Academy,16,True,True
+1267,12/30,Dartmouth,52,Milton,56,True,True
+1268,1/16,Community Academy of Science & Health,23,Fenway,40,True,True
+1269,1/2,Dartmouth,58,Middleborough,39,True,True
+1270,1/21,Community Academy of Science & Health,34,Muniz Academy,33,True,True
+1271,1/5,Dartmouth,49,New Bedford,41,True,True
+1272,1/23,Community Academy of Science & Health,29,Snowden International,40,True,True
+1273,1/29,Community Academy of Science & Health,21,Tech Boston Academy,41,True,True
+1274,2/3,Community Academy of Science & Health,23,Ruth Batson Academy,22,True,True
+1275,2/5,Community Academy of Science & Health,37,Muniz Academy,27,True,True
+1276,1/23,Dartmouth,38,Durfee,56,True,True
+1277,2/7,Community Academy of Science & Health,49,Edward M. Kennedy Acad.,26,True,True
+1278,1/31,Dartmouth,52,Somerset Berkley Regional,47,True,True
+1279,2/9,Community Academy of Science & Health,30,Tech Boston Academy,27,True,True
+1280,12/12,Community Charter of Cambridge,32,Salem Academy Charter,40,True,True
+1281,1/2,Community Charter of Cambridge,20,Excel Academy Charter,34,True,True
+1282,2/9,Dartmouth,44,Greater New Bedford,63,True,True
+1283,1/5,Community Charter of Cambridge,32,Pioneer Charter of Science I,17,True,True
+1284,1/7,Community Charter of Cambridge,45,Match Charter Public,10,True,True
+1285,2/14,Dartmouth,36,St. Mary's,54,True,True
+1286,1/12,Community Charter of Cambridge,26,Foxborough Charter,32,True,True
+1287,2/16,Dartmouth,54,Newton North,62,True,True
+1288,1/15,Community Charter of Cambridge,33,Prospect Hill Academy,54,True,True
+1289,12/30,Prouty,50,Murdock,36,True,True
+1290,1/31,Community Charter of Cambridge,19,Prospect Hill Academy,59,True,True
+1291,1/5,Prouty,35,West Boylston,41,True,True
+1292,2/3,Community Charter of Cambridge,35,Pioneer Charter of Science II,50,True,True
+1293,1/12,Prouty,40,Oxford,45,True,True
+1294,12/13,Concord Carlisle,46,Medford,29,True,True
+1295,1/14,Prouty,46,Parker Charter School,24,True,True
+1296,1/19,Prouty,43,Southbridge,25,True,True
+1297,12/22,Concord Carlisle,34,Somerville,47,True,True
+1298,12/29,Concord Carlisle,34,Winchester,44,True,True
+1299,1/23,Prouty,61,University Park Campus,23,True,True
+1300,12/30,Concord Carlisle,38,Wellesley,45,True,True
+1301,1/29,Prouty,38,Leicester,60,True,True
+1302,1/30,Prouty,45,Parker Charter School,23,True,True
+1303,1/16,Concord Carlisle,38,Lincoln-Sudbury,42,True,True
+1304,2/3,Prouty,55,University Park Campus,40,True,True
+1305,1/19,Concord Carlisle,32,Wayland,28,True,True
+1306,2/4,Prouty,56,Southbridge,20,True,True
+1307,1/28,Concord Carlisle,36,Waltham,45,True,True
+1308,1/30,Concord Carlisle,46,Newton South,48,True,True
+1309,2/11,Prouty,23,Leicester,36,True,True
+1310,2/3,Concord Carlisle,23,Westford Academy,65,True,True
+1311,2/13,Prouty,47,Murdock,56,True,True
+1312,2/6,Concord Carlisle,48,Wayland,37,True,True
+1313,2/16,Prouty,43,Oxford,45,True,True
+1314,2/8,Concord Carlisle,40,Groton Dunstable,28,True,True
+1315,12/12,Dedham,52,Hopedale,60,True,True
+1316,12/16,Dedham,28,Hopkinton,63,True,True
+1317,2/12,Concord Carlisle,53,Weston,26,True,True
+1318,2/16,Concord Carlisle,49,Lawrence,36,True,True
+1319,2/18,Concord Carlisle,66,Lawrence,49,True,True
+1320,12/12,Cristo Rey Boston,12,Ruth Batson Academy,31,True,True
+1321,1/5,Dedham,25,Norton,33,True,True
+1322,12/15,Cristo Rey Boston,24,KIPP Academy Lynn Coll.,59,True,True
+1323,1/7,Dedham,32,Medfield,74,True,True
+1324,1/9,Dedham,32,Norwood,54,True,True
+1325,1/6,Cristo Rey Boston,19,Foxborough Charter,35,True,True
+1326,1/13,Dedham,42,Westwood,45,True,True
+1327,1/15,Dedham,55,Holliston,33,True,True
+1328,1/9,Cristo Rey Boston,12,Randolph,54,True,True
+1329,1/20,Dedham,48,Dover-Sherborn,57,True,True
+1330,1/13,Cristo Rey Boston,34,Match Charter Public,26,True,True
+1331,1/23,Dedham,47,Medway,54,True,True
+1332,1/15,Cristo Rey Boston,20,Foxborough Charter,33,True,True
+1333,1/28,Dedham,41,Millis,45,True,True
+1334,1/16,Cristo Rey Boston,40,Innovation Academy,29,True,True
+1335,1/30,Dedham,49,Hopkinton,47,True,True
+1336,1/30,Cristo Rey Boston,16,Innovation Academy,25,True,True
+1337,2/6,Dedham,40,Norwood,44,True,True
+1338,2/10,Dedham,30,Westwood,41,True,True
+1339,2/12,Dedham,50,Holliston,18,True,True
+1340,2/6,Cristo Rey Boston,17,Match Charter Public,25,True,True
+1341,2/16,Dedham,31,Marshfield,66,True,True
+1342,2/9,Cristo Rey Boston,17,KIPP Academy Lynn Coll.,40,True,True
+1343,2/18,Dedham,52,Sandwich,38,True,True
+1344,2/10,Cristo Rey Boston,25,Ruth Batson Academy,28,True,True
+1345,12/12,Dennis Yarmouth Regional,16,East Bridgewater,67,True,True
+1346,2/13,Cristo Rey Boston,27,Notre Dame Cristo Rey,22,True,True
+1347,12/16,Dennis Yarmouth Regional,18,Nauset Regional,31,True,True
+1348,2/17,Cristo Rey Boston,30,Notre Dame Cristo Rey,24,True,True
+1349,12/19,Dennis Yarmouth Regional,34,Saint John Paul II,61,True,True
+1350,12/12,Danvers,54,Marblehead,25,True,True
+1351,12/22,Dennis Yarmouth Regional,14,Notre Dame (Hingham),62,True,True
+1352,12/18,Danvers,61,Manchester Essex,44,True,True
+1353,12/30,Dennis Yarmouth Regional,17,Dover-Sherborn,47,True,True
+1354,12/19,Danvers,65,Winthrop,23,True,True
+1355,1/2,Dennis Yarmouth Regional,24,East Bridgewater,66,True,True
+1356,12/29,Danvers,21,Hamilton Wenham,26,True,True
+1357,1/9,Dennis Yarmouth Regional,14,Sandwich,39,True,True
+1358,12/30,Danvers,38,Essex North Shore,33,True,True
+1359,1/13,Dennis Yarmouth Regional,33,Martha's Vineyard Regional,50,True,True
+1360,1/16,Dennis Yarmouth Regional,23,Falmouth,50,True,True
+1361,1/8,Danvers,58,Masconomet Regional,29,True,True
+1362,1/20,Dennis Yarmouth Regional,34,Monomoy,28,True,True
+1363,1/13,Danvers,59,Salem,10,True,True
+1364,1/23,Dennis Yarmouth Regional,30,Nauset Regional,41,True,True
+1365,1/16,Danvers,57,Peabody Veterans,52,True,True
+1366,1/27,Dennis Yarmouth Regional,31,Saint John Paul II,52,True,True
+1367,1/20,Danvers,47,Marblehead,29,True,True
+1368,1/30,Dennis Yarmouth Regional,17,Notre Dame (Hingham),68,True,True
+1369,1/21,Danvers,54,Manchester Essex,45,True,True
+1370,2/3,Dennis Yarmouth Regional,38,Sandwich,61,True,True
+1371,1/23,Danvers,52,Gloucester,38,True,True
+1372,2/6,Dennis Yarmouth Regional,27,Martha's Vineyard Regional,32,True,True
+1373,1/28,Danvers,46,Revere,25,True,True
+1374,2/10,Dennis Yarmouth Regional,19,Falmouth,42,True,True
+1375,2/2,Danvers,47,Saugus,19,True,True
+1376,2/12,Dennis Yarmouth Regional,30,Monomoy,40,True,True
+1377,2/4,Danvers,38,Hamilton Wenham,35,True,True
+1378,2/6,Danvers,59,Masconomet Regional,19,True,True
+1379,2/9,Danvers,52,Peabody Veterans,28,True,True
+1380,1/17,Desoto County,29,St. Mary's,56,False,True
+1381,2/12,Danvers,37,Swampscott,31,True,True
+1382,12/16,Dighton Rehoboth Regional,60,Case,40,True,True
+1383,2/17,Danvers,50,Revere,36,True,True
+1384,12/18,Dighton Rehoboth Regional,40,Southeastern RVT,45,True,True
+1385,12/16,Dartmouth,53,Durfee,60,True,True
+1386,12/19,Dighton Rehoboth Regional,41,Greater New Bedford,62,True,True
+1387,12/20,Dartmouth,50,New Bedford,53,True,True
+1388,12/22,Dighton Rehoboth Regional,52,Westport,29,True,True
+1389,1/6,Dighton Rehoboth Regional,56,Fairhaven,44,True,True
+1390,1/7,Dover-Sherborn,27,Norwood,70,True,True
+1391,1/9,Dighton Rehoboth Regional,51,Somerset Berkley Regional,58,True,True
+1392,1/9,Dover-Sherborn,38,Norton,37,True,True
+1393,1/16,Dover-Sherborn,41,Millis,57,True,True
+1394,1/16,Dighton Rehoboth Regional,54,Greater New Bedford,62,True,True
+1395,1/23,Dover-Sherborn,50,Hopkinton,66,True,True
+1396,1/23,Dighton Rehoboth Regional,22,Old Rochester Regional,60,True,True
+1397,1/28,Dover-Sherborn,49,Holliston,30,True,True
+1398,1/30,Dighton Rehoboth Regional,36,Somerset Berkley Regional,46,True,True
+1399,1/30,Dover-Sherborn,39,Medway,56,True,True
+1400,1/31,Dighton Rehoboth Regional,31,Seekonk,43,True,True
+1401,2/3,Dover-Sherborn,13,Medfield,62,True,True
+1402,2/4,Dover-Sherborn,27,Notre Dame (Hingham),51,True,True
+1403,2/5,Dighton Rehoboth Regional,60,Westport,21,True,True
+1404,2/6,Dover-Sherborn,33,Norton,43,True,True
+1405,2/6,Dighton Rehoboth Regional,67,West Bridgewater,46,True,True
+1406,2/9,Dighton Rehoboth Regional,30,Old Rochester Regional,57,True,True
+1407,2/13,Dover-Sherborn,33,Millis,45,True,True
+1408,2/11,Dighton Rehoboth Regional,61,Fairhaven,20,True,True
+1409,2/13,Dighton Rehoboth Regional,52,Fairhaven,23,True,True
+1410,12/15,Diman RVT,35,Wareham,57,True,True
+1411,12/29,Dracut,40,St. Mary's,65,True,True
+1412,12/18,Diman RVT,30,Old Colony RVT,32,True,True
+1413,12/30,Dracut,52,Tyngsborough,49,True,True
+1414,12/22,Diman RVT,20,Case,51,True,True
+1415,1/3,Dracut,51,Waltham,47,True,True
+1416,1/5,Diman RVT,39,Randolph,40,True,True
+1417,1/5,Dracut,55,Lawrence,28,True,True
+1418,1/7,Diman RVT,22,Southeastern RVT,42,True,True
+1419,1/7,Dracut,54,Wakefield Memorial,40,True,True
+1420,1/12,Dracut,47,North Andover,26,True,True
+1421,1/15,Diman RVT,40,Tri-County RVT,42,True,True
+1422,1/14,Dracut,63,Lowell,64,True,True
+1423,1/23,Diman RVT,17,Southeastern RVT,56,True,True
+1424,1/16,Dracut,59,Methuen,39,True,True
+1425,1/22,Dracut,36,Fontbonne,55,True,True
+1426,2/2,Diman RVT,32,Wareham,54,True,True
+1427,1/23,Dracut,60,Haverhill,51,True,True
+1428,2/4,Diman RVT,25,Tri-County RVT,43,True,True
+1429,2/6,Diman RVT,23,Durfee,59,True,True
+1430,1/30,Dracut,56,Tewksbury Memorial,47,True,True
+1431,2/9,Diman RVT,25,Case,55,True,True
+1432,2/10,Diman RVT,41,Old Colony RVT,37,True,True
+1433,2/12,Diman RVT,22,Randolph,39,True,True
+1434,2/9,Dracut,41,Tewksbury Memorial,34,True,True
+1435,2/16,Diman RVT,35,Westport,46,True,True
+1436,2/13,Dracut,33,Lowell,47,True,True
+1437,2/19,Diman RVT,38,Montachusett RVT,41,True,True
+1438,12/12,Doherty Memorial,61,North High,23,True,True
+1439,12/15,Doherty Memorial,26,Saint Paul Diocesan,60,True,True
+1440,12/15,Drury,52,Lee,31,True,True
+1441,12/17,Drury,37,Wahconah Regional,31,True,True
+1442,12/19,Drury,55,Hoosac Valley,30,True,True
+1443,12/22,Doherty Memorial,31,Sutton,62,True,True
+1444,12/22,Drury,34,Frontier Regional,43,True,True
+1445,1/5,Doherty Memorial,35,Fitchburg,26,True,True
+1446,12/29,Drury,69,Taconic,20,True,True
+1447,1/2,Drury,27,Pittsfield,55,True,True
+1448,1/12,Doherty Memorial,61,West Boylston,51,True,True
+1449,1/6,Drury,39,Pope Francis,44,True,True
+1450,1/16,Doherty Memorial,34,Notre Dame (Worcester),38,True,True
+1451,1/9,Drury,70,Lenox Memorial,25,True,True
+1452,1/21,Doherty Memorial,37,Quaboag Regional,28,True,True
+1453,1/12,Drury,41,Wahconah Regional,38,True,True
+1454,1/23,Doherty Memorial,61,St. Bernard's,30,True,True
+1455,1/15,Drury,52,Hoosac Valley,43,True,True
+1456,1/20,Drury,52,Monument Mountain,20,True,True
+1457,1/30,Doherty Memorial,46,St. Bernard's,39,True,True
+1458,1/22,Drury,54,Mount Greylock Regional,19,True,True
+1459,2/4,Doherty Memorial,45,Notre Dame (Worcester),26,True,True
+1460,1/29,Drury,42,Pope Francis,28,True,True
+1461,2/6,Doherty Memorial,50,Quaboag Regional,34,True,True
+1462,2/2,Drury,51,Lenox Memorial,43,True,True
+1463,2/11,Doherty Memorial,38,Saint Paul Diocesan,44,True,True
+1464,2/4,Drury,25,South Hadley,58,True,True
+1465,2/13,Doherty Memorial,52,Marlborough,58,True,True
+1466,2/7,Drury,40,Pioneer Valley Regional,13,True,True
+1467,2/9,Drury,26,Frontier Regional,43,True,True
+1468,2/17,Doherty Memorial,39,West Boylston,27,True,True
+1469,2/11,Drury,66,Palmer,19,True,True
+1470,12/12,Douglas,45,Uxbridge,28,True,True
+1471,2/14,Drury,58,Mahar Regional,21,True,True
+1472,2/18,Drury,48,Lee,27,True,True
+1473,12/19,Douglas,46,Whitinsville Christian,11,True,True
+1474,12/22,Douglas,54,Notre Dame (Worcester),34,True,True
+1475,1/2,Douglas,45,Hopedale,40,True,True
+1476,12/18,Durfee,42,Silver Lake Regional,55,True,True
+1477,1/5,Douglas,49,Oxford,14,True,True
+1478,1/7,Douglas,48,Leicester,19,True,True
+1479,12/23,Durfee,64,Lawrence,39,True,True
+1480,1/9,Douglas,54,North High,16,True,True
+1481,12/29,Durfee,59,Case,18,True,True
+1482,1/14,Douglas,40,Nipmuc Regional,29,True,True
+1483,12/30,Durfee,46,Somerset Berkley Regional,31,True,True
+1484,1/8,Durfee,44,Tiverton,35,True,False
+1485,1/23,Douglas,43,Leicester,21,True,True
+1486,1/28,Douglas,57,North High,9,True,True
+1487,1/16,Durfee,46,New Bedford,49,True,True
+1488,1/30,Douglas,35,Nipmuc Regional,17,True,True
+1489,2/2,Douglas,48,Sutton,34,True,True
+1490,2/3,Durfee,53,Tiverton,49,True,False
+1491,2/12,Douglas,44,Northbridge,41,True,True
+1492,2/5,Durfee,61,Mount Hope,31,True,False
+1493,2/14,Douglas,55,Uxbridge,22,True,True
+1494,2/16,Douglas,42,Tyngsborough,37,True,True
+1495,12/12,Dover-Sherborn,50,Northbridge,44,True,True
+1496,2/13,Durfee,51,New Bedford,42,True,True
+1497,12/16,Dover-Sherborn,34,Medway,65,True,True
+1498,2/17,Durfee,57,Silver Lake Regional,44,True,True
+1499,12/19,Dover-Sherborn,27,Medfield,78,True,True
+1500,12/23,Dover-Sherborn,47,Westwood,52,True,True
+1501,12/16,Duxbury,53,Quincy,50,True,True
+1502,12/19,Duxbury,42,Plymouth North,32,True,True
+1503,1/2,Dover-Sherborn,47,Hingham,61,True,True
+1504,12/22,Duxbury,44,Hanover,34,True,True
+1505,12/29,Duxbury,52,Leominster,32,True,True
+1506,12/30,Duxbury,40,Sandwich,24,True,True
+1507,1/27,Easthampton,42,Pioneer Valley Christian,31,True,True
+1508,1/6,Duxbury,55,Marshfield,34,True,True
+1509,1/29,Easthampton,37,Monument Mountain,41,True,True
+1510,1/9,Duxbury,34,Hingham,36,True,True
+1511,1/30,Easthampton,28,Hampshire Regional,48,True,True
+1512,1/12,Duxbury,38,Pembroke,39,True,True
+1513,2/2,Easthampton,61,Mount Greylock Regional,40,True,True
+1514,1/14,Duxbury,48,Whitman Hanson Regional,67,True,True
+1515,1/16,Duxbury,40,Silver Lake Regional,38,True,True
+1516,2/6,Easthampton,46,Frontier Regional,72,True,True
+1517,1/20,Duxbury,43,North Quincy,46,True,True
+1518,2/12,Easthampton,55,Mount Greylock Regional,45,True,True
+1519,1/23,Duxbury,47,Plymouth South,25,True,True
+1520,1/30,Duxbury,56,Plymouth North,36,True,True
+1521,12/16,Edward M. Kennedy Acad.,29,Fenway,56,True,True
+1522,2/3,Duxbury,42,Marshfield,53,True,True
+1523,2/6,Duxbury,53,Hingham,47,True,True
+1524,2/9,Duxbury,79,Scituate,49,True,True
+1525,1/8,Edward M. Kennedy Acad.,27,Ruth Batson Academy,16,True,True
+1526,2/10,Duxbury,36,Whitman Hanson Regional,48,True,True
+1527,1/13,Edward M. Kennedy Acad.,31,Muniz Academy,27,True,True
+1528,2/13,Duxbury,48,Silver Lake Regional,46,True,True
+1529,1/21,Edward M. Kennedy Acad.,33,Snowden International,47,True,True
+1530,12/16,East Boston,16,Muniz Academy,32,True,True
+1531,12/19,East Boston,11,Snowden International,34,True,True
+1532,1/29,Edward M. Kennedy Acad.,31,Muniz Academy,30,True,True
+1533,2/5,Edward M. Kennedy Acad.,32,Fenway,54,True,True
+1534,1/12,East Boston,23,Fenway,43,True,True
+1535,2/6,Edward M. Kennedy Acad.,19,Snowden International,50,True,True
+1536,1/20,East Boston,22,New Mission,73,True,True
+1537,2/5,East Boston,32,Snowden International,45,True,True
+1538,12/12,Essex North Shore,34,Triton Regional,27,True,True
+1539,2/9,East Boston,20,Muniz Academy,37,True,True
+1540,12/16,Essex North Shore,20,Pentucket Regional,49,True,True
+1541,2/11,East Boston,19,Fenway,48,True,True
+1542,12/19,Essex North Shore,18,Lynnfield,61,True,True
+1543,12/22,Essex North Shore,23,North Reading,60,True,True
+1544,12/29,Essex North Shore,35,Swampscott,39,True,True
+1545,2/16,East Boston,19,New Mission,62,True,True
+1546,1/9,Essex North Shore,41,Georgetown,61,True,True
+1547,1/13,Essex North Shore,32,Newburyport,44,True,True
+1548,12/23,East Bridgewater,54,Rockland,26,True,True
+1549,1/15,Essex North Shore,17,North Reading,67,True,True
+1550,1/19,Essex North Shore,32,Hamilton Wenham,38,True,True
+1551,1/23,Essex North Shore,33,Triton Regional,30,True,True
+1552,1/6,East Bridgewater,37,Norwell,34,True,True
+1553,1/29,Essex North Shore,39,Greater Lawrence Tech,43,True,True
+1554,1/9,East Bridgewater,64,Middleborough,30,True,True
+1555,1/30,Essex North Shore,38,Ipswich,25,True,True
+1556,1/31,Essex North Shore,29,Winthrop,32,True,True
+1557,2/3,Essex North Shore,37,Lynnfield,47,True,True
+1558,2/6,Essex North Shore,39,Newburyport,53,True,True
+1559,1/23,East Bridgewater,56,Mashpee,21,True,True
+1560,2/11,Essex North Shore,35,Manchester Essex,53,True,True
+1561,2/3,East Bridgewater,52,Rockland,9,True,True
+1562,2/12,Essex North Shore,14,Pentucket Regional,42,True,True
+1563,2/6,East Bridgewater,47,Norwell,39,True,True
+1564,2/16,Essex North Shore,35,Saugus,45,True,True
+1565,12/16,Everett,39,Malden,44,True,True
+1566,2/10,East Bridgewater,63,Middleborough,36,True,True
+1567,12/30,Everett,45,Haverhill,62,True,True
+1568,1/6,Everett,52,Lynn English,22,True,True
+1569,1/8,Everett,24,Somerville,54,True,True
+1570,1/13,Everett,38,Revere,62,True,True
+1571,12/11,East Longmeadow,49,Pioneer Valley Christian,31,True,True
+1572,1/15,Everett,33,Medford,47,True,True
+1573,1/16,Everett,36,Marblehead,54,True,True
+1574,12/19,East Longmeadow,30,Southwick Regional,34,True,True
+1575,1/20,Everett,50,Malden,28,True,True
+1576,12/29,East Longmeadow,56,Easthampton,29,True,True
+1577,1/29,Everett,60,Lynn English,35,True,True
+1578,1/5,East Longmeadow,48,Holyoke,34,True,True
+1579,2/3,Everett,41,Somerville,60,True,True
+1580,1/7,East Longmeadow,44,Westfield,39,True,True
+1581,2/5,Everett,56,Lawrence,63,True,True
+1582,1/12,East Longmeadow,43,Hampshire Regional,38,True,True
+1583,2/10,Everett,50,Medford,52,True,True
+1584,2/12,Everett,47,Revere,31,True,True
+1585,1/20,East Longmeadow,38,West Springfield,31,True,True
+1586,2/13,Everett,33,Lynn Classical,45,True,True
+1587,1/22,East Longmeadow,40,Southwick Regional,30,True,True
+1588,2/15,Everett,32,Haverhill,56,True,True
+1589,1/28,East Longmeadow,49,Westfield,45,True,True
+1590,2/17,Everett,36,Gloucester,48,True,True
+1591,2/1,East Longmeadow,48,Ludlow,26,True,True
+1592,2/18,Everett,39,Lynn Classical,48,True,True
+1593,2/4,East Longmeadow,31,Longmeadow,55,True,True
+1594,12/13,Excel Academy Charter,24,Pioneer Charter of Science II,31,True,True
+1595,2/9,East Longmeadow,55,Hampshire Regional,61,True,True
+1596,12/17,Excel Academy Charter,34,Match Charter Public,18,True,True
+1597,2/13,East Longmeadow,54,Longmeadow,65,True,True
+1598,12/18,Excel Academy Charter,22,Salem Academy Charter,36,True,True
+1599,2/17,East Longmeadow,38,West Springfield,52,True,True
+1600,12/16,Easthampton,53,Taconic,31,True,True
+1601,1/8,Excel Academy Charter,33,Neighborhood House,43,True,True
+1602,12/19,Easthampton,51,Lee,56,True,True
+1603,1/10,Excel Academy Charter,30,Muniz Academy,13,True,True
+1604,12/22,Easthampton,58,Pioneer Valley Christian,45,True,True
+1605,1/12,Excel Academy Charter,7,Hull,32,True,True
+1606,1/13,Excel Academy Charter,14,Rockport,38,True,True
+1607,1/6,Easthampton,38,Monument Mountain,36,True,True
+1608,1/15,Excel Academy Charter,16,Pioneer Charter of Science II,35,True,True
+1609,1/21,Excel Academy Charter,28,Randolph,34,True,True
+1610,1/9,Easthampton,39,Mount Greylock Regional,41,True,True
+1611,1/22,Excel Academy Charter,27,Prospect Hill Academy,47,True,True
+1612,1/12,Easthampton,57,Taconic,24,True,True
+1613,1/24,Excel Academy Charter,16,Pioneer Charter of Science I,33,True,True
+1614,1/13,Easthampton,39,Greenfield,31,True,True
+1615,1/29,Excel Academy Charter,42,Match Charter Public,18,True,True
+1616,1/15,Easthampton,43,Lee,51,True,True
+1617,2/2,Excel Academy Charter,28,Pioneer Charter of Science I,18,True,True
+1618,1/20,Easthampton,41,Smith VT,39,True,True
+1619,2/10,Excel Academy Charter,14,Salem Academy Charter,26,True,True
+1620,12/15,Fairhaven,23,Westport,43,True,True
+1621,1/20,Fitchburg,57,Groton Dunstable,41,True,True
+1622,12/19,Fairhaven,21,Case,40,True,True
+1623,1/23,Fitchburg,58,North Middlesex Regional,46,True,True
+1624,12/22,Fairhaven,21,Martha's Vineyard Regional,42,True,True
+1625,1/29,Fitchburg,34,Wayland,52,True,True
+1626,12/29,Fairhaven,28,Wareham,52,True,True
+1627,1/30,Fitchburg,34,Oakmont Regional,61,True,True
+1628,1/2,Fairhaven,17,West Bridgewater,53,True,True
+1629,2/6,Fitchburg,28,Westborough,57,True,True
+1630,1/4,Fairhaven,21,Wareham,38,True,True
+1631,2/7,Fitchburg,26,Shepherd Hill Regional,59,True,True
+1632,2/9,Fitchburg,38,Gardner,48,True,True
+1633,1/9,Fairhaven,27,Seekonk,44,True,True
+1634,2/10,Fitchburg,36,Marlborough,59,True,True
+1635,1/13,Fairhaven,24,Greater New Bedford,69,True,True
+1636,2/13,Fitchburg,54,North Middlesex Regional,36,True,True
+1637,1/16,Fairhaven,17,West Bridgewater,42,True,True
+1638,12/20,Fontbonne,32,Oakmont Regional,31,True,True
+1639,1/27,Fairhaven,46,Case,59,True,True
+1640,12/28,Fontbonne,32,Mansfield,54,True,True
+1641,2/3,Fairhaven,31,Seekonk,63,True,True
+1642,2/4,Fairhaven,39,Martha's Vineyard Regional,46,True,True
+1643,1/2,Fontbonne,46,Milton,36,True,True
+1644,2/9,Fairhaven,32,Westport,48,True,True
+1645,1/8,Fontbonne,54,Whitman Hanson Regional,66,True,True
+1646,1/13,Fontbonne,45,Ursuline Academy,33,True,True
+1647,1/15,Fontbonne,52,Notre Dame (Hingham),39,True,True
+1648,12/16,Falmouth Academy,37,Nantucket,28,True,True
+1649,1/18,Fontbonne,49,Malden Catholic,43,True,True
+1650,12/18,Falmouth Academy,56,Sturgis East,28,True,True
+1651,1/19,Fontbonne,52,Hull,20,True,True
+1652,1/5,Falmouth Academy,27,Sturgis West,19,True,True
+1653,1/8,Falmouth Academy,30,Monomoy,36,True,True
+1654,1/28,Fontbonne,48,Notre Dame (Hingham),36,True,True
+1655,1/14,Falmouth Academy,39,Mashpee,50,True,True
+1656,2/3,Fontbonne,52,Ursuline Academy,44,True,True
+1657,1/17,Falmouth Academy,25,Sutton,48,True,True
+1658,2/6,Fontbonne,49,Malden Catholic,57,True,True
+1659,1/21,Falmouth Academy,44,Rising Tide Charter,18,True,True
+1660,1/23,Falmouth Academy,44,Nantucket,36,True,True
+1661,1/28,Falmouth Academy,55,Sturgis East,27,True,True
+1662,2/15,Fontbonne,57,Lexington,36,True,True
+1663,2/2,Falmouth Academy,49,Nauset Regional,23,True,True
+1664,12/16,Foxborough,60,Taunton,21,True,True
+1665,2/6,Falmouth Academy,38,Mashpee,46,True,True
+1666,12/19,Foxborough,41,Franklin,31,True,True
+1667,2/10,Falmouth Academy,41,Sturgis West,32,True,True
+1668,12/20,Foxborough,64,Wellesley,26,True,True
+1669,2/12,Falmouth Academy,33,Rising Tide Charter,21,True,True
+1670,2/16,Falmouth Academy,43,Nauset Regional,19,True,True
+1671,12/30,Foxborough,56,Oakmont Regional,37,True,True
+1672,2/18,Falmouth Academy,53,Monomoy,36,True,True
+1673,1/2,Foxborough,57,Oliver Ames,37,True,True
+1674,12/16,Falmouth,46,Saint John Paul II,42,True,True
+1675,1/6,Foxborough,61,King Philip Regional,52,True,True
+1676,12/19,Falmouth,48,Monomoy,36,True,True
+1677,1/9,Foxborough,59,Stoughton,29,True,True
+1678,12/22,Falmouth,28,Old Rochester Regional,37,True,True
+1679,12/29,Falmouth,42,New Bedford,32,True,True
+1680,1/16,Foxborough,46,Mansfield,44,True,True
+1681,1/2,Falmouth,28,Hanover,50,True,True
+1682,1/20,Foxborough,61,Sharon,25,True,True
+1683,1/6,Falmouth,30,Sandwich,31,True,True
+1684,1/23,Foxborough,50,North Attleborough,38,True,True
+1685,1/9,Falmouth,43,Nauset Regional,25,True,True
+1686,2/3,Foxborough,49,Oliver Ames,36,True,True
+1687,2/5,Foxborough,76,Milford,41,True,True
+1688,1/19,Falmouth,22,Hanover,31,True,True
+1689,2/6,Foxborough,68,Stoughton,36,True,True
+1690,1/20,Falmouth,48,Martha's Vineyard Regional,20,True,True
+1691,2/10,Foxborough,44,Mansfield,30,True,True
+1692,1/23,Falmouth,21,Saint John Paul II,28,True,True
+1693,2/13,Foxborough,46,North Attleborough,28,True,True
+1694,1/27,Falmouth,36,Monomoy,18,True,True
+1695,2/16,Foxborough,56,Watertown,36,True,True
+1696,1/30,Falmouth,19,Sandwich,32,True,True
+1697,2/17,Foxborough,38,South High Community,40,True,True
+1698,2/2,Falmouth,60,New Bedford,52,True,True
+1699,12/12,Foxborough Charter,26,Neighborhood House,59,True,True
+1700,2/3,Falmouth,41,Nauset Regional,17,True,True
+1701,2/11,Falmouth,33,Old Rochester Regional,43,True,True
+1702,1/14,Foxborough Charter,10,Wayland,47,True,True
+1703,2/13,Falmouth,55,Martha's Vineyard Regional,34,True,True
+1704,1/22,Foxborough Charter,31,South Shore Charter,38,True,True
+1705,1/8,Fenway,28,Madison Park,32,True,True
+1706,1/14,Fenway,32,New Mission,56,True,True
+1707,2/2,Foxborough Charter,26,Southeastern RVT,75,True,True
+1708,2/2,Fenway,40,New Mission,44,True,True
+1709,2/4,Foxborough Charter,22,Roxbury Prep Charter,25,True,True
+1710,2/5,Foxborough Charter,13,Wayland,45,True,True
+1711,2/6,Foxborough Charter,4,New Heights Charter,91,True,True
+1712,12/12,Framingham,41,Newton North,55,True,True
+1713,2/10,Fenway,45,Madison Park,25,True,True
+1714,12/16,Framingham,33,Natick,70,True,True
+1715,12/18,Framingham,31,Walpole,66,True,True
+1716,12/21,Framingham,32,Quincy,62,True,True
+1717,12/12,Fitchburg,54,Worcester Tech,18,True,True
+1718,12/29,Framingham,25,King Philip Regional,57,True,True
+1719,12/16,Fitchburg,48,Groton Dunstable,58,True,True
+1720,12/30,Framingham,37,Shrewsbury,56,True,True
+1721,12/18,Fitchburg,51,Montachusett RVT,49,True,True
+1722,12/20,Fitchburg,26,Leominster,40,True,True
+1723,1/9,Framingham,38,Weymouth,64,True,True
+1724,12/22,Fitchburg,52,University Park Campus,17,True,True
+1725,1/2,Fitchburg,37,Tantasqua Regional,55,True,True
+1726,1/20,Framingham,41,Lincoln-Sudbury,40,True,True
+1727,1/6,Fitchburg,15,Oakmont Regional,55,True,True
+1728,1/23,Framingham,38,Milton,50,True,True
+1729,1/9,Fitchburg,36,Shepherd Hill Regional,60,True,True
+1730,1/28,Framingham,31,Newton North,60,True,True
+1731,1/13,Fitchburg,27,Westborough,48,True,True
+1732,1/30,Framingham,37,Natick,66,True,True
+1733,1/16,Fitchburg,35,Marlborough,40,True,True
+1734,2/3,Framingham,23,Needham,70,True,True
+1735,2/4,Framingham,34,Shrewsbury,51,True,True
+1736,2/5,Gardner,45,South Lancaster Academy,16,True,True
+1737,2/6,Framingham,50,Wellesley,55,True,True
+1738,2/11,Gardner,53,Tahanto Regional,59,True,True
+1739,2/12,Framingham,39,Wellesley,33,True,True
+1740,12/11,Franklin County Tech,50,St. Mary Parish (Westfield),34,True,True
+1741,2/17,Gardner,60,Marlborough,62,True,True
+1742,12/12,Franklin County Tech,22,Mount Greylock Regional,65,True,True
+1743,12/16,Gateway Regional,22,Pioneer Valley Chinese Immersion,17,True,True
+1744,12/18,Franklin County Tech,33,Smith VT,38,True,True
+1745,12/19,Gateway Regional,34,Hampden Charter of Science,38,True,True
+1746,12/22,Franklin County Tech,27,Mohawk Trail Regional,32,True,True
+1747,12/29,Gateway Regional,31,St. Mary Parish (Westfield),41,True,True
+1748,12/29,Franklin County Tech,44,Hopkins Academy,26,True,True
+1749,1/2,Gateway Regional,27,Westfield Technical Academy,24,True,True
+1750,1/2,Franklin County Tech,32,Pioneer Valley Regional,37,True,True
+1751,1/8,Gateway Regional,16,McCann Tech,39,True,True
+1752,1/5,Franklin County Tech,28,Mahar Regional,50,True,True
+1753,1/13,Gateway Regional,17,Commerce,34,True,True
+1754,1/7,Franklin County Tech,51,Turners Falls,24,True,True
+1755,1/15,Gateway Regional,37,Pioneer Valley Chinese Immersion,34,True,True
+1756,1/9,Franklin County Tech,21,Greenfield,56,True,True
+1757,1/22,Gateway Regional,19,Hampden Charter of Science,39,True,True
+1758,1/12,Franklin County Tech,31,Smith Academy,40,True,True
+1759,1/24,Gateway Regional,14,St. Mary Parish (Westfield),36,True,True
+1760,1/19,Franklin County Tech,50,Pathfinder RVT,43,True,True
+1761,1/29,Gateway Regional,15,Westfield Technical Academy,24,True,True
+1762,1/20,Franklin County Tech,44,Mohawk Trail Regional,65,True,True
+1763,2/3,Gateway Regional,30,Commerce,56,True,True
+1764,1/23,Franklin County Tech,19,Hopkins Academy,24,True,True
+1765,2/5,Gateway Regional,23,McCann Tech,37,True,True
+1766,1/27,Franklin County Tech,32,Pioneer Valley Regional,48,True,True
+1767,2/10,Gateway Regional,29,Turners Falls,38,True,True
+1768,1/30,Franklin County Tech,29,Mahar Regional,62,True,True
+1769,2/11,Gateway Regional,28,Pioneer Valley Chinese Immersion,11,True,True
+1770,2/3,Franklin County Tech,24,Greenfield,48,True,True
+1771,12/12,Georgetown,61,Ipswich,28,True,True
+1772,2/6,Franklin County Tech,44,Smith Academy,39,True,True
+1773,12/16,Georgetown,42,Hamilton Wenham,51,True,True
+1774,2/12,Franklin County Tech,18,Ludlow,41,True,True
+1775,2/18,Franklin County Tech,35,Old Colony RVT,27,True,True
+1776,12/12,Franklin,33,Wachusett Regional,66,True,True
+1777,1/6,Georgetown,45,Lynnfield,60,True,True
+1778,12/16,Franklin,35,Oliver Ames,54,True,True
+1779,1/13,Georgetown,47,Manchester Essex,68,True,True
+1780,12/22,Franklin,49,King Philip Regional,72,True,True
+1781,1/14,Georgetown,62,Lynn English,29,True,True
+1782,12/26,Franklin,44,Lake Region,30,True,False
+1783,1/19,Georgetown,39,Triton Regional,52,True,True
+1784,1/29,Georgetown,32,Hamilton Wenham,48,True,True
+1785,12/30,Franklin,44,Notre Dame (Hingham),52,True,True
+1786,1/30,Georgetown,29,Pentucket Regional,59,True,True
+1787,1/2,Franklin,64,Taunton,57,True,True
+1788,1/6,Franklin,54,North Attleborough,43,True,True
+1789,2/6,Georgetown,53,Manchester Essex,64,True,True
+1790,2/10,Georgetown,34,North Reading,60,True,True
+1791,1/13,Franklin,65,Stoughton,26,True,True
+1792,2/12,Georgetown,45,Newburyport,55,True,True
+1793,1/16,Franklin,66,Milford,42,True,True
+1794,1/23,Franklin,61,Sharon,38,True,True
+1795,2/18,Georgetown,55,Lynn English,30,True,True
+1796,1/27,Franklin,45,Mansfield,44,True,True
+1797,1/30,Franklin,56,King Philip Regional,54,True,True
+1798,1/17,Glastonbury,24,Pittsfield,54,False,True
+1799,2/1,Franklin,51,Milford,47,True,True
+1800,1/18,Glastonbury,33,Greater Lawrence Tech,32,False,True
+1801,2/3,Franklin,50,Taunton,58,True,True
+1802,12/12,Gloucester,40,Swampscott,58,True,True
+1803,12/16,Gloucester,26,Saugus,55,True,True
+1804,2/11,Franklin,29,Wachusett Regional,74,True,True
+1805,12/19,Gloucester,36,Masconomet Regional,47,True,True
+1806,2/13,Franklin,53,Sharon,44,True,True
+1807,12/23,Gloucester,32,Triton Regional,50,True,True
+1808,12/13,Freedom,9,South High Community,50,False,True
+1809,12/29,Gloucester,46,Winthrop,58,True,True
+1810,12/11,Frontier Regional,36,Northampton,60,True,True
+1811,12/30,Gloucester,51,Stoneham,59,True,True
+1812,12/13,Frontier Regional,50,Springfield International,36,True,True
+1813,1/5,Gloucester,57,Salem,21,True,True
+1814,12/16,Frontier Regional,51,Hoosac Valley,42,True,True
+1815,1/8,Gloucester,56,Ipswich,37,True,True
+1816,12/30,Frontier Regional,57,Palmer,18,True,True
+1817,1/16,Gloucester,48,Winthrop,39,True,True
+1818,1/2,Frontier Regional,76,Lenox Memorial,31,True,True
+1819,1/20,Gloucester,58,Swampscott,71,True,True
+1820,1/7,Frontier Regional,58,Wahconah Regional,39,True,True
+1821,1/9,Frontier Regional,51,Pope Francis,38,True,True
+1822,1/30,Gloucester,62,Salem,8,True,True
+1823,1/12,Frontier Regional,70,Hoosac Valley,41,True,True
+1824,2/3,Gloucester,38,Peabody Veterans,68,True,True
+1825,1/13,Frontier Regional,85,Monson,8,True,True
+1826,2/6,Gloucester,49,North Middlesex Regional,32,True,True
+1827,1/15,Frontier Regional,57,Lenox Memorial,30,True,True
+1828,2/12,Gloucester,37,Marblehead,50,True,True
+1829,1/21,Frontier Regional,53,Pittsfield,55,True,True
+1830,2/13,Gloucester,32,Saugus,45,True,True
+1831,1/23,Frontier Regional,59,Southwick Regional,40,True,True
+1832,1/27,Frontier Regional,67,South Hadley,62,True,True
+1833,2/18,Gloucester,51,Whittier RVT,61,True,True
+1834,1/29,Frontier Regional,53,Wahconah Regional,39,True,True
+1835,12/12,Grafton,51,Saint Paul Diocesan,28,True,True
+1836,2/2,Frontier Regional,64,Pope Francis,42,True,True
+1837,12/16,Grafton,40,Leominster,59,True,True
+1838,12/19,Grafton,67,Notre Dame (Worcester),25,True,True
+1839,12/22,Grafton,67,Holliston,41,True,True
+1840,2/11,Frontier Regional,56,Hampshire Regional,40,True,True
+1841,12/29,Grafton,41,Shrewsbury,39,True,True
+1842,2/13,Frontier Regional,60,South Hadley,62,True,True
+1843,12/30,Grafton,61,King Philip Regional,83,True,True
+1844,1/6,Grafton,58,Nashoba Regional,50,True,True
+1845,12/16,Gardner,71,Murdock,24,True,True
+1846,1/9,Grafton,24,Shrewsbury,53,True,True
+1847,12/22,Gardner,51,Narragansett Regional,27,True,True
+1848,1/20,Grafton,36,Wachusett Regional,82,True,True
+1849,12/29,Gardner,49,Quabbin Regional,45,True,True
+1850,1/23,Grafton,65,Leominster,68,True,True
+1851,1/2,Gardner,52,Lunenburg,57,True,True
+1852,1/29,Grafton,53,Tewksbury Memorial,67,True,True
+1853,1/6,Gardner,59,West Boylston,34,True,True
+1854,1/30,Grafton,42,Nashoba Regional,44,True,True
+1855,2/8,Grafton,31,Minnechaug,67,True,True
+1856,1/16,Gardner,51,Tahanto Regional,47,True,True
+1857,2/10,Grafton,36,Wachusett Regional,84,True,True
+1858,1/21,Gardner,48,Murdock,27,True,True
+1859,1/30,Gardner,55,West Boylston,21,True,True
+1860,2/14,Grafton,49,Tantasqua Regional,47,True,True
+1861,2/16,Grafton,62,Northbridge,42,True,True
+1862,2/4,Gardner,65,Narragansett Regional,34,True,True
+1863,12/11,Granby,43,Greenfield,22,True,True
+1864,12/16,Granby,36,Ludlow,25,True,True
+1865,12/19,Granby,58,Palmer,34,True,True
+1866,2/18,Greater New Bedford,57,Shawsheen Valley Tech,38,True,True
+1867,12/23,Granby,68,Monson,34,True,True
+1868,12/30,Granby,39,Ware,45,True,True
+1869,12/17,Greenfield,60,Monson,12,True,True
+1870,12/22,Greenfield,38,Smith Academy,28,True,True
+1871,1/7,Granby,48,Mahar Regional,42,True,True
+1872,1/2,Greenfield,33,Mohawk Trail Regional,25,True,True
+1873,1/12,Granby,73,HS of Science & Technology,48,True,True
+1874,1/5,Greenfield,14,Hopkins Academy,33,True,True
+1875,1/14,Granby,61,Smith Academy,29,True,True
+1876,1/7,Greenfield,31,Hampshire Regional,44,True,True
+1877,1/16,Granby,32,Southwick Regional,64,True,True
+1878,1/20,Granby,55,Mount Greylock Regional,52,True,True
+1879,1/12,Greenfield,33,Mahar Regional,38,True,True
+1880,1/22,Granby,67,Ludlow,42,True,True
+1881,1/28,Granby,63,Palmer,45,True,True
+1882,1/15,Greenfield,40,Pioneer Valley Regional,47,True,True
+1883,1/29,Granby,58,Monson,26,True,True
+1884,1/20,Greenfield,48,Smith Academy,37,True,True
+1885,2/2,Granby,36,Ware,30,True,True
+1886,1/22,Greenfield,53,Pioneer Valley Christian,52,True,True
+1887,2/5,Granby,46,HS of Science & Technology,37,True,True
+1888,1/27,Greenfield,33,Mohawk Trail Regional,49,True,True
+1889,2/9,Granby,54,Hopkins Academy,24,True,True
+1890,1/30,Greenfield,35,Hopkins Academy,23,True,True
+1891,2/11,Granby,55,Smith Academy,42,True,True
+1892,2/13,Granby,61,Pioneer Valley Regional,23,True,True
+1893,2/5,Greenfield,41,Mahar Regional,45,True,True
+1894,2/17,Granby,64,Pioneer Valley Christian,56,True,True
+1895,2/9,Greenfield,40,Pioneer Valley Regional,35,True,True
+1896,2/12,Greenfield,33,Lee,53,True,True
+1897,12/12,Greater Lawrence Tech,52,Groton Dunstable,64,True,True
+1898,2/16,Greenfield,54,Palmer,28,True,True
+1899,12/15,Greater Lawrence Tech,26,Malden Catholic,57,True,True
+1900,12/19,Greater Lawrence Tech,60,Greater Lowell Tech,38,True,True
+1901,12/23,Groton Dunstable,33,Leominster,47,True,True
+1902,12/29,Greater Lawrence Tech,50,Malden,28,True,True
+1903,1/3,Groton Dunstable,42,Tyngsborough,53,True,True
+1904,1/6,Greater Lawrence Tech,21,Whittier RVT,54,True,True
+1905,1/6,Groton Dunstable,47,Littleton,45,True,True
+1906,1/9,Greater Lawrence Tech,47,Shawsheen Valley Tech,43,True,True
+1907,1/9,Groton Dunstable,28,Westborough,47,True,True
+1908,1/15,Greater Lawrence Tech,44,Lowell Catholic,30,True,True
+1909,1/13,Groton Dunstable,35,Oakmont Regional,54,True,True
+1910,1/17,Greater Lawrence Tech,20,Scarsdale Senior,47,True,False
+1911,1/16,Groton Dunstable,57,North Middlesex Regional,33,True,True
+1912,1/20,Greater Lawrence Tech,47,Greater Lowell Tech,43,True,True
+1913,1/23,Groton Dunstable,25,Shepherd Hill Regional,43,True,True
+1914,1/23,Greater Lawrence Tech,55,Mystic Valley Charter,38,True,True
+1915,1/28,Groton Dunstable,41,Marlborough,45,True,True
+1916,1/29,Groton Dunstable,59,Greater Lowell Tech,43,True,True
+1917,1/30,Greater Lawrence Tech,33,Whittier RVT,37,True,True
+1918,2/3,Groton Dunstable,35,Westborough,48,True,True
+1919,2/3,Greater Lawrence Tech,49,Shawsheen Valley Tech,33,True,True
+1920,2/5,Groton Dunstable,42,Marlborough,45,True,True
+1921,2/4,Greater Lawrence Tech,47,Lowell Catholic,23,True,True
+1922,2/6,Groton Dunstable,26,Oakmont Regional,43,True,True
+1923,2/9,Greater Lawrence Tech,35,Malden Catholic,54,True,True
+1924,2/12,Greater Lawrence Tech,55,Mystic Valley Charter,24,True,True
+1925,2/10,Groton Dunstable,43,North Middlesex Regional,28,True,True
+1926,2/17,Greater Lawrence Tech,50,Malden,35,True,True
+1927,2/12,Groton Dunstable,25,Shepherd Hill Regional,38,True,True
+1928,2/19,Greater Lawrence Tech,48,Southeastern RVT,52,True,True
+1929,2/14,Groton Dunstable,34,Oakmont Regional,53,True,True
+1930,12/12,Greater Lowell Tech,53,Lowell Catholic,49,True,True
+1931,12/16,Greater Lowell Tech,47,Mystic Valley Charter,28,True,True
+1932,12/23,Greater Lowell Tech,28,Lowell,52,True,True
+1933,12/18,Hamilton Wenham,38,Whittier RVT,45,True,True
+1934,1/9,Greater Lowell Tech,41,Whittier RVT,80,True,True
+1935,12/22,Hamilton Wenham,45,Manchester Essex,68,True,True
+1936,1/16,Greater Lowell Tech,39,Shawsheen Valley Tech,44,True,True
+1937,12/30,Hamilton Wenham,53,Swampscott,39,True,True
+1938,1/23,Greater Lowell Tech,46,Rockport,33,True,True
+1939,1/6,Hamilton Wenham,34,Newburyport,58,True,True
+1940,1/9,Hamilton Wenham,39,Lynnfield,42,True,True
+1941,2/2,Greater Lowell Tech,45,Lynn VT,50,True,True
+1942,1/12,Hamilton Wenham,53,Whittier RVT,50,True,True
+1943,2/3,Greater Lowell Tech,29,Mystic Valley Charter,33,True,True
+1944,1/13,Hamilton Wenham,55,Ipswich,44,True,True
+1945,2/5,Greater Lowell Tech,36,Southeastern RVT,68,True,True
+1946,1/15,Hamilton Wenham,49,Manchester Essex,38,True,True
+1947,2/6,Greater Lowell Tech,30,Whittier RVT,54,True,True
+1948,2/9,Greater Lowell Tech,27,Southeastern RVT,50,True,True
+1949,2/10,Greater Lowell Tech,37,Shawsheen Valley Tech,23,True,True
+1950,2/11,Greater Lowell Tech,23,Rockport,24,True,True
+1951,1/30,Hamilton Wenham,48,Triton Regional,24,True,True
+1952,2/12,Greater Lowell Tech,43,Lowell Catholic,38,True,True
+1953,2/15,Greater Lowell Tech,22,Minuteman Regional,39,True,True
+1954,2/6,Hamilton Wenham,46,Ipswich,28,True,True
+1955,2/17,Greater Lowell Tech,63,Lowell Catholic,48,True,True
+1956,2/10,Hamilton Wenham,19,Pentucket Regional,49,True,True
+1957,2/12,Hamilton Wenham,16,North Reading,32,True,True
+1958,12/16,Greater New Bedford,64,Somerset Berkley Regional,68,True,True
+1959,2/16,Hamilton Wenham,38,Swampscott,32,True,True
+1960,12/12,Hampden Charter of Science,24,McCann Tech,33,True,True
+1961,12/18,Hampden Charter of Science,28,Mohawk Trail Regional,44,True,True
+1962,12/27,Greater New Bedford,57,Southeastern RVT,53,True,True
+1963,1/6,Hampden Charter of Science,25,Westfield Technical Academy,17,True,True
+1964,1/6,Greater New Bedford,60,Case,36,True,True
+1965,1/7,Hampden Charter of Science,37,Pioneer Valley Chinese Immersion,24,True,True
+1966,1/7,Greater New Bedford,66,Taunton,42,True,True
+1967,1/9,Hampden Charter of Science,35,Commerce,29,True,True
+1968,1/9,Greater New Bedford,49,Old Rochester Regional,44,True,True
+1969,1/12,Hampden Charter of Science,19,McCann Tech,56,True,True
+1970,1/15,Hampden Charter of Science,31,St. Mary Parish (Westfield),63,True,True
+1971,1/20,Hampden Charter of Science,24,McCann Tech,36,True,True
+1972,1/20,Greater New Bedford,71,Seekonk,65,True,True
+1973,1/21,Greater New Bedford,50,New Bedford,58,True,True
+1974,1/23,Hampden Charter of Science,27,Smith VT,43,True,True
+1975,1/27,Hampden Charter of Science,54,Commerce,41,True,True
+1976,1/30,Greater New Bedford,64,Old Rochester Regional,52,True,True
+1977,1/28,Hampden Charter of Science,47,St. Mary Parish (Westfield),50,True,True
+1978,2/3,Greater New Bedford,57,West Bridgewater,52,True,True
+1979,2/2,Hampden Charter of Science,35,Westfield Technical Academy,39,True,True
+1980,2/4,Greater New Bedford,72,Taunton,63,True,True
+1981,2/4,Hampden Charter of Science,40,Pioneer Valley Chinese Immersion,26,True,True
+1982,2/5,Hampden Charter of Science,36,Commerce,49,True,True
+1983,2/7,Greater New Bedford,51,Somerset Berkley Regional,36,True,True
+1984,2/11,Hampden Charter of Science,43,Monson,44,True,True
+1985,2/12,Hampden Charter of Science,46,Commerce,42,True,True
+1986,2/11,Greater New Bedford,69,Southeastern RVT,72,True,True
+1987,12/12,Hampshire Regional,35,Wahconah Regional,63,True,True
+1988,12/16,Hampshire Regional,29,Southwick Regional,48,True,True
+1989,12/16,HS of Science & Technology,49,Monson,35,True,True
+1990,12/19,HS of Science & Technology,50,Ware,55,True,True
+1991,12/22,HS of Science & Technology,27,Southwick Regional,65,True,True
+1992,1/5,Hampshire Regional,54,Hoosac Valley,40,True,True
+1993,1/5,HS of Science & Technology,51,Commerce,54,True,True
+1994,1/9,HS of Science & Technology,56,Ludlow,24,True,True
+1995,1/9,Hampshire Regional,42,Westfield,33,True,True
+1996,1/13,HS of Science & Technology,55,Mohawk Trail Regional,49,True,True
+1997,1/15,HS of Science & Technology,69,Palmer,45,True,True
+1998,1/16,Hampshire Regional,35,West Springfield,36,True,True
+1999,1/19,HS of Science & Technology,33,Taconic,39,True,True
+2000,1/20,Hampshire Regional,24,Minnechaug,54,True,True
+2001,1/22,HS of Science & Technology,39,Monson,41,True,True
+2002,1/28,Hampshire Regional,37,Southwick Regional,55,True,True
+2003,1/28,HS of Science & Technology,46,John J. Duggan Academy,28,True,True
+2004,1/30,HS of Science & Technology,45,Ludlow,40,True,True
+2005,2/2,Hampshire Regional,49,Westfield,37,True,True
+2006,2/4,HS of Science & Technology,51,Putnam VT,42,True,True
+2007,2/9,HS of Science & Technology,41,Ware,40,True,True
+2008,2/10,HS of Science & Technology,48,Holyoke,57,True,True
+2009,2/19,Hampshire Regional,50,Springfield International,57,True,True
+2010,2/12,HS of Science & Technology,44,Smith VT,67,True,True
+2011,12/16,Hanover,36,Plymouth North,31,True,True
+2012,2/14,Hillhouse,41,Springfield Central,87,False,True
+2013,12/19,Hanover,40,Quincy,55,True,True
+2014,12/12,Hingham,43,Middleborough,19,True,True
+2015,12/16,Hingham,46,Pembroke,55,True,True
+2016,12/19,Hingham,51,Marshfield,30,True,True
+2017,1/6,Hanover,47,North Quincy,45,True,True
+2018,12/22,Hingham,69,Plymouth South,40,True,True
+2019,1/9,Hanover,46,Scituate,33,True,True
+2020,1/12,Hanover,47,Marshfield,32,True,True
+2021,1/5,Hingham,45,Notre Dame (Hingham),33,True,True
+2022,1/15,Hanover,56,Pembroke,52,True,True
+2023,1/6,Hingham,56,Silver Lake Regional,46,True,True
+2024,1/16,Hanover,48,Plymouth South,45,True,True
+2025,1/12,Hingham,47,Scituate,53,True,True
+2026,1/20,Hanover,50,Hingham,52,True,True
+2027,1/13,Hingham,50,Plymouth North,36,True,True
+2028,1/23,Hanover,38,Silver Lake Regional,41,True,True
+2029,1/16,Hingham,40,Whitman Hanson Regional,45,True,True
+2030,1/27,Hanover,30,Whitman Hanson Regional,51,True,True
+2031,1/29,Hanover,47,Quincy,43,True,True
+2032,1/23,Hingham,47,Quincy,56,True,True
+2033,2/3,Hanover,55,North Quincy,63,True,True
+2034,1/30,Hingham,37,Marshfield,29,True,True
+2035,2/5,Hanover,56,Scituate,48,True,True
+2036,2/3,Hingham,50,Silver Lake Regional,53,True,True
+2037,2/10,Hanover,39,Pembroke,49,True,True
+2038,2/13,Hanover,48,Plymouth South,45,True,True
+2039,2/10,Hingham,45,Plymouth North,27,True,True
+2040,2/13,Hingham,43,Whitman Hanson Regional,55,True,True
+2041,2/18,Hanover,58,Norwell,51,True,True
+2042,2/15,Hingham,72,Weymouth,47,True,True
+2043,12/16,Haverhill,52,Lawrence,37,True,True
+2044,12/19,Haverhill,32,Tewksbury Memorial,63,True,True
+2045,2/18,Hingham,57,North Quincy,55,True,True
+2046,12/12,Holbrook,49,Norfolk County Agricultural,28,True,True
+2047,12/29,Haverhill,51,Triton Regional,38,True,True
+2048,12/15,Holbrook,34,Neighborhood House,36,True,True
+2049,12/16,Holbrook,60,South Shore Charter,16,True,True
+2050,12/22,Holbrook,29,Norfolk County Agricultural,37,True,True
+2051,1/13,Haverhill,32,Methuen,65,True,True
+2052,1/9,Holbrook,56,Westport,29,True,True
+2053,1/14,Haverhill,62,North Middlesex Regional,26,True,True
+2054,1/13,Holbrook,39,Wareham,55,True,True
+2055,1/16,Haverhill,31,Lowell,50,True,True
+2056,1/14,Holbrook,33,West Bridgewater,36,True,True
+2057,1/16,Holbrook,57,Randolph,24,True,True
+2058,1/28,Haverhill,36,Holyoke,32,True,True
+2059,1/30,Haverhill,47,North Andover,50,True,True
+2060,1/23,Holbrook,42,Neighborhood House,36,True,True
+2061,1/29,Holbrook,56,Wareham,34,True,True
+2062,2/5,Haverhill,40,Triton Regional,24,True,True
+2063,1/31,Holbrook,53,Westport,36,True,True
+2064,2/12,Haverhill,22,North Andover,54,True,True
+2065,2/14,Haverhill,50,Lawrence,52,True,True
+2066,2/6,Holbrook,55,South Shore Charter,11,True,True
+2067,12/12,Hayfield,31,South High Community,28,False,True
+2068,2/10,Holbrook,77,Randolph,31,True,True
+2069,12/16,Commerce,44,Westfield Technical Academy,37,True,True
+2070,2/12,Holbrook,33,West Bridgewater,47,True,True
+2071,12/19,Commerce,43,Pioneer Valley Chinese Immersion,15,True,True
+2072,12/12,Holliston,25,Waltham,48,True,True
+2073,12/20,Commerce,28,Nightingale-Bamford,61,True,False
+2074,12/16,Holliston,23,Westwood,41,True,True
+2075,12/23,Commerce,13,McCann Tech,38,True,True
+2076,12/19,Holliston,20,Hopkinton,61,True,True
+2077,1/2,Commerce,37,St. Mary Parish (Westfield),48,True,True
+2078,12/23,Holliston,25,Medway,62,True,True
+2079,1/5,Holliston,42,Millis,62,True,True
+2080,1/15,Commerce,25,Westfield Technical Academy,19,True,True
+2081,1/16,Commerce,37,John J. Duggan Academy,54,True,True
+2082,1/12,Holliston,42,Wayland,48,True,True
+2083,1/20,Commerce,36,Putnam VT,58,True,True
+2084,1/13,Holliston,39,Norwood,76,True,True
+2085,1/22,Commerce,35,Pioneer Valley Chinese Immersion,24,True,True
+2086,1/20,Holliston,21,Norton,55,True,True
+2087,1/29,Commerce,46,St. Mary Parish (Westfield),54,True,True
+2088,1/23,Holliston,25,Medfield,74,True,True
+2089,1/30,Holliston,20,Westwood,46,True,True
+2090,2/6,Commerce,31,Westfield Technical Academy,39,True,True
+2091,2/3,Holliston,37,Hopkinton,58,True,True
+2092,2/9,Commerce,36,McCann Tech,58,True,True
+2093,2/10,Commerce,62,John J. Duggan Academy,41,True,True
+2094,2/9,Holliston,28,Wayland,38,True,True
+2095,2/10,Holliston,28,Norwood,61,True,True
+2096,12/12,HS of Science & Technology,37,Palmer,55,True,True
+2097,12/12,Holyoke,33,Shepherd Hill Regional,50,True,True
+2098,12/19,Holyoke,46,Renaissance School,62,True,True
+2099,12/23,Hopkinton,42,Millis,36,True,True
+2100,12/27,Hopkinton,74,Medford,37,True,True
+2101,12/28,Hopkinton,41,Milford,33,True,True
+2102,1/6,Holyoke,29,Springfield International,44,True,True
+2103,1/9,Holyoke,24,West Springfield,49,True,True
+2104,1/7,Hopkinton,46,Norton,40,True,True
+2105,1/12,Holyoke,23,Longmeadow,59,True,True
+2106,1/9,Hopkinton,51,Westwood,42,True,True
+2107,1/15,Holyoke,51,Renaissance School,62,True,True
+2108,1/16,Hopkinton,30,Norwood,54,True,True
+2109,1/20,Hopkinton,29,Medfield,68,True,True
+2110,1/23,Holyoke,27,Westfield,43,True,True
+2111,1/27,Hopkinton,40,Medway,54,True,True
+2112,1/30,Holyoke,31,Springfield International,53,True,True
+2113,2/2,Holyoke,20,West Springfield,57,True,True
+2114,2/6,Hopkinton,60,Westwood,47,True,True
+2115,2/12,Hopkinton,41,Norwood,60,True,True
+2116,2/9,Holyoke,33,Southwick Regional,64,True,True
+2117,2/17,Hopkinton,38,Millbury,42,True,True
+2118,2/13,Holyoke,54,Smith VT,28,True,True
+2119,12/28,Hornell,64,Pittsfield,65,False,True
+2120,12/11,Hoosac Valley,59,Taconic,18,True,True
+2121,12/11,Hudson,59,Quaboag Regional,26,True,True
+2122,12/13,Hudson,59,Marlborough,37,True,True
+2123,12/16,Hudson,59,Lincoln-Sudbury,24,True,True
+2124,12/23,Hoosac Valley,47,Pope Francis,61,True,True
+2125,12/19,Hudson,59,Quabbin Regional,36,True,True
+2126,12/29,Hoosac Valley,47,Monument Mountain,35,True,True
+2127,12/23,Hudson,48,Lunenburg,56,True,True
+2128,1/2,Hoosac Valley,59,Mount Greylock Regional,40,True,True
+2129,1/7,Hudson,57,Tahanto Regional,62,True,True
+2130,1/9,Hoosac Valley,26,Wahconah Regional,63,True,True
+2131,1/9,Hudson,42,Maynard,50,True,True
+2132,1/13,Hudson,52,Littleton,28,True,True
+2133,1/16,Hudson,45,Tyngsborough,60,True,True
+2134,1/16,Hoosac Valley,34,South Hadley,62,True,True
+2135,1/20,Hoosac Valley,54,Lee,50,True,True
+2136,1/23,Hudson,56,Quabbin Regional,20,True,True
+2137,1/22,Hoosac Valley,58,Mount Anthony Union,39,True,False
+2138,1/27,Hudson,57,Lunenburg,40,True,True
+2139,1/27,Hoosac Valley,50,Pope Francis,52,True,True
+2140,1/28,Hudson,44,Nashoba Regional,49,True,True
+2141,1/29,Hoosac Valley,53,Lenox Memorial,71,True,True
+2142,2/2,Hoosac Valley,29,Wahconah Regional,58,True,True
+2143,2/4,Hudson,57,Maynard,46,True,True
+2144,2/4,Hoosac Valley,50,Lee,55,True,True
+2145,2/6,Hudson,49,Littleton,42,True,True
+2146,2/5,Hoosac Valley,52,Lenox Memorial,46,True,True
+2147,2/10,Hudson,46,Tyngsborough,38,True,True
+2148,2/11,Hoosac Valley,50,Mohawk Trail Regional,25,True,True
+2149,2/13,Hoosac Valley,32,Pioneer Valley Christian,34,True,True
+2150,2/16,Hudson,34,Oakmont Regional,44,True,True
+2151,12/16,Hull,15,Rockland,32,True,True
+2152,12/30,Hull,24,Scituate,42,True,True
+2153,12/29,Hopedale,32,Millis,48,True,True
+2154,12/31,Hull,19,Ursuline Academy,40,True,True
+2155,12/30,Hopedale,48,Uxbridge,37,True,True
+2156,1/5,Hull,37,New Heights Charter,44,True,True
+2157,1/5,Hopedale,48,Northbridge,28,True,True
+2158,1/8,Hopedale,51,Milford,36,True,True
+2159,1/14,Hopedale,27,South High Community,51,True,True
+2160,1/16,Hull,25,Neighborhood House,48,True,True
+2161,1/16,Hopedale,51,Millbury,41,True,True
+2162,1/21,Hopedale,39,Sutton,45,True,True
+2163,1/21,Hull,58,South Shore Charter,28,True,True
+2164,1/28,Hopedale,37,Northbridge,50,True,True
+2165,1/23,Hull,21,Rockland,47,True,True
+2166,1/30,Hopedale,23,South High Community,52,True,True
+2167,2/4,Hopedale,30,Millbury,51,True,True
+2168,2/6,Hopedale,48,Sutton,42,True,True
+2169,2/4,Hull,51,South Shore Charter,32,True,True
+2170,2/9,Hopedale,39,Nipmuc Regional,26,True,True
+2171,2/17,Hull,28,New Heights Charter,48,True,True
+2172,2/16,Hopedale,34,Sutton,27,True,True
+2173,2/18,Hull,39,Neighborhood House,38,True,True
+2174,12/16,Hopkins Academy,21,Ware,32,True,True
+2175,12/11,Immaculate Heart of Mary,40,Parker Charter School,31,True,True
+2176,12/19,Hopkins Academy,31,Ludlow,35,True,True
+2177,12/22,Hopkins Academy,30,Pioneer Valley Regional,23,True,True
+2178,12/17,Immaculate Heart of Mary,40,South Lancaster Academy,31,True,True
+2179,12/19,Immaculate Heart of Mary,48,Sizer School,17,True,True
+2180,1/3,Hopkins Academy,31,Mahar Regional,43,True,True
+2181,1/5,Immaculate Heart of Mary,49,South Lancaster Academy,16,True,True
+2182,1/7,Immaculate Heart of Mary,64,Notre Dame Cristo Rey,25,True,True
+2183,1/9,Immaculate Heart of Mary,54,Trivium School,21,True,True
+2184,1/9,Hopkins Academy,39,Smith Academy,20,True,True
+2185,1/16,Immaculate Heart of Mary,42,North Brookfield,46,True,True
+2186,1/12,Hopkins Academy,28,Ware,24,True,True
+2187,1/15,Hopkins Academy,25,Mohawk Trail Regional,32,True,True
+2188,1/28,Immaculate Heart of Mary,41,North Brookfield,43,True,True
+2189,1/20,Hopkins Academy,31,Pioneer Valley Regional,45,True,True
+2190,1/30,Immaculate Heart of Mary,44,Trivium School,22,True,True
+2191,2/2,Immaculate Heart of Mary,54,Parker Charter School,40,True,True
+2192,1/27,Hopkins Academy,21,Mahar Regional,39,True,True
+2193,2/6,Immaculate Heart of Mary,62,Notre Dame Cristo Rey,24,True,True
+2194,2/9,Immaculate Heart of Mary,35,North Brookfield,39,True,True
+2195,2/3,Hopkins Academy,24,Smith Academy,23,True,True
+2196,2/11,Immaculate Heart of Mary,42,South Lancaster Academy,27,True,True
+2197,2/4,Hopkins Academy,55,Turners Falls,15,True,True
+2198,2/12,Immaculate Heart of Mary,80,Sizer School,19,True,True
+2199,2/6,Hopkins Academy,37,Mohawk Trail Regional,20,True,True
+2200,12/27,Immanuel Christian,40,Whitman Hanson Regional,39,False,True
+2201,12/12,Innovation Academy,26,Parker Charter School,40,True,True
+2202,2/11,Hopkins Academy,20,Pioneer Valley Christian,41,True,True
+2203,12/19,Innovation Academy,22,Match Charter Public,19,True,True
+2204,1/12,Innovation Academy,32,Pioneer Charter of Science II,64,True,True
+2205,1/30,Keefe Tech,40,Worcester Tech,27,True,True
+2206,2/2,Keefe Tech,42,Nashoba Valley Tech,18,True,True
+2207,1/22,Innovation Academy,28,Salem,26,True,True
+2208,1/28,Innovation Academy,28,Trivium School,33,True,True
+2209,2/5,Keefe Tech,47,Oxford,43,True,True
+2210,2/10,Keefe Tech,26,Norfolk County Agricultural,43,True,True
+2211,2/3,Innovation Academy,35,Match Charter Public,30,True,True
+2212,2/11,Keefe Tech,46,Whitinsville Christian,23,True,True
+2213,2/5,Innovation Academy,7,Pioneer Charter of Science I,23,True,True
+2214,12/16,King Philip Regional,46,Mansfield,53,True,True
+2215,12/19,King Philip Regional,38,Oliver Ames,45,True,True
+2216,2/10,Innovation Academy,34,Parker Charter School,48,True,True
+2217,2/11,Innovation Academy,19,Trivium School,26,True,True
+2218,12/15,Ipswich,24,Rockport,42,True,True
+2219,1/2,King Philip Regional,61,Sharon,26,True,True
+2220,12/16,Ipswich,30,Lynn VT,32,True,True
+2221,1/11,King Philip Regional,61,Milford,55,True,True
+2222,1/13,King Philip Regional,38,North Attleborough,46,True,True
+2223,12/27,Ipswich,49,Rockport,36,True,True
+2224,1/16,King Philip Regional,81,Taunton,29,True,True
+2225,1/20,King Philip Regional,73,Stoughton,41,True,True
+2226,1/12,Ipswich,52,Salem,2,True,True
+2227,1/16,Ipswich,64,Notre Dame Cristo Rey,26,True,True
+2228,2/3,King Philip Regional,64,Sharon,30,True,True
+2229,1/20,Ipswich,55,Winthrop,51,True,True
+2230,2/6,King Philip Regional,61,Milford,36,True,True
+2231,1/23,Ipswich,68,Notre Dame Cristo Rey,35,True,True
+2232,2/10,King Philip Regional,66,Taunton,30,True,True
+2233,1/29,Ipswich,47,Rockport,36,True,True
+2234,2/15,King Philip Regional,50,Whitman Hanson Regional,65,True,True
+2235,2/2,Ipswich,21,Marblehead,47,True,True
+2236,2/17,King Philip Regional,53,Pentucket Regional,31,True,True
+2237,2/5,Ipswich,47,Salem,13,True,True
+2238,12/11,KIPP Academy Lynn Coll.,54,Salem Academy Charter,21,True,True
+2239,2/10,Ipswich,27,Triton Regional,52,True,True
+2240,12/18,KIPP Academy Lynn Coll.,32,Northeast Metro RVT,25,True,True
+2241,12/29,KIPP Academy Lynn Coll.,37,Mystic Valley Charter,43,True,True
+2242,12/29,Issaquah,47,Whitman Hanson Regional,49,False,True
+2243,1/5,KIPP Academy Lynn Coll.,35,Northeast Metro RVT,28,True,True
+2244,12/15,John J. Duggan Academy,41,Putnam VT,52,True,True
+2245,1/9,KIPP Academy Lynn Coll.,23,Minuteman Regional,58,True,True
+2246,12/16,John J. Duggan Academy,34,Turners Falls,24,True,True
+2247,1/13,KIPP Academy Lynn Coll.,19,Lynn VT,48,True,True
+2248,12/19,John J. Duggan Academy,26,Nightingale-Bamford,56,True,False
+2249,1/15,KIPP Academy Lynn Coll.,41,Salem Academy Charter,32,True,True
+2250,1/20,KIPP Academy Lynn Coll.,37,Nashoba Valley Tech,34,True,True
+2251,12/30,John J. Duggan Academy,24,Putnam VT,54,True,True
+2252,1/2,John J. Duggan Academy,31,Pathfinder RVT,50,True,True
+2253,1/28,KIPP Academy Lynn Coll.,33,Salem,9,True,True
+2254,1/12,John J. Duggan Academy,32,Smith VT,47,True,True
+2255,1/29,KIPP Academy Lynn Coll.,21,Pioneer Charter of Science I,38,True,True
+2256,1/15,John J. Duggan Academy,32,Turners Falls,23,True,True
+2257,2/2,KIPP Academy Lynn Coll.,46,Salem,27,True,True
+2258,2/3,KIPP Academy Lynn Coll.,31,Nashoba Valley Tech,27,True,True
+2259,1/22,John J. Duggan Academy,21,Putnam VT,69,True,True
+2260,2/5,KIPP Academy Lynn Coll.,31,Minuteman Regional,62,True,True
+2261,1/29,John J. Duggan Academy,47,Pathfinder RVT,37,True,True
+2262,2/12,KIPP Academy Lynn Coll.,34,Lynn VT,63,True,True
+2263,2/4,John J. Duggan Academy,30,Smith VT,40,True,True
+2264,12/15,Lawrence,52,Methuen,74,True,True
+2265,2/12,John J. Duggan Academy,32,Monson,36,True,True
+2266,12/19,Lawrence,28,North Andover,35,True,True
+2267,12/29,Lawrence,53,Whittier RVT,62,True,True
+2268,12/30,Lawrence,60,Randolph,41,True,True
+2269,1/2,Case,29,Seekonk,52,True,True
+2270,1/12,Lawrence,27,Lowell,47,True,True
+2271,1/13,Case,25,West Bridgewater,32,True,True
+2272,1/22,Lawrence,69,Lowell Catholic,28,True,True
+2273,1/16,Case,29,Seekonk,36,True,True
+2274,1/28,Lawrence,33,Tewksbury Memorial,63,True,True
+2275,1/22,Case,36,Somerset Berkley Regional,60,True,True
+2276,1/29,Lawrence,49,Methuen,50,True,True
+2277,2/10,Lawrence,52,North Andover,48,True,True
+2278,2/6,Case,23,Old Rochester Regional,59,True,True
+2279,2/13,Case,21,Somerset Berkley Regional,48,True,True
+2280,12/11,Lee,61,Lenox Memorial,33,True,True
+2281,2/18,Case,40,West Bridgewater,47,True,True
+2282,12/11,Keefe Tech,39,Southbridge,23,True,True
+2283,12/17,Lee,59,Mount Greylock Regional,49,True,True
+2284,12/17,Keefe Tech,38,University Park Campus,34,True,True
+2285,12/23,Lee,72,Taconic,33,True,True
+2286,12/18,Keefe Tech,31,Minuteman Regional,40,True,True
+2287,12/29,Lee,56,Wahconah Regional,72,True,True
+2288,1/9,Lee,74,Monument Mountain,27,True,True
+2289,1/6,Keefe Tech,29,Montachusett RVT,37,True,True
+2290,1/12,Lee,61,Mount Greylock Regional,60,True,True
+2291,1/13,Lee,57,Pioneer Valley Christian,49,True,True
+2292,1/14,Keefe Tech,43,Worcester Tech,36,True,True
+2293,1/20,Keefe Tech,36,Oxford,56,True,True
+2294,1/22,Keefe Tech,39,Montachusett RVT,36,True,True
+2295,1/22,Lee,53,Lenox Memorial,41,True,True
+2296,1/28,Keefe Tech,46,Whitinsville Christian,37,True,True
+2297,1/23,Lee,60,Mohawk Trail Regional,26,True,True
+2298,1/29,Lee,64,Pioneer Valley Christian,35,True,True
+2299,2/12,Lexington,54,Woburn Memorial,63,True,True
+2300,1/30,Lee,67,Taconic,29,True,True
+2301,2/3,Lee,54,Monument Mountain,52,True,True
+2302,2/17,Lexington,36,Lincoln-Sudbury,47,True,True
+2303,2/6,Lee,60,Monson,10,True,True
+2304,12/22,Lincoln-Sudbury,30,Shrewsbury,31,True,True
+2305,2/15,Lee,39,Renaissance School,28,True,True
+2306,12/30,Lincoln-Sudbury,57,Lexington,35,True,True
+2307,12/15,Leicester,30,Quabbin Regional,29,True,True
+2308,1/5,Leicester,19,Pioneer Valley Regional,35,True,True
+2309,1/12,Lincoln-Sudbury,43,Peabody Veterans,48,True,True
+2310,1/14,Lincoln-Sudbury,39,Maynard,27,True,True
+2311,1/9,Leicester,19,Nipmuc Regional,45,True,True
+2312,1/27,Lincoln-Sudbury,24,Newton South,52,True,True
+2313,1/19,Leicester,49,Oxford,37,True,True
+2314,1/21,Leicester,48,North High,10,True,True
+2315,2/3,Lincoln-Sudbury,40,Wayland,26,True,True
+2316,2/6,Lincoln-Sudbury,29,Waltham,45,True,True
+2317,1/28,Leicester,28,Nipmuc Regional,49,True,True
+2318,2/10,Lincoln-Sudbury,41,Weston,39,True,True
+2319,2/12,Lincoln-Sudbury,21,Westford Academy,52,True,True
+2320,2/6,Leicester,51,North High,10,True,True
+2321,12/12,Littleton,55,North Middlesex Regional,18,True,True
+2322,2/9,Leicester,48,West Boylston,51,True,True
+2323,12/16,Littleton,42,Maynard,53,True,True
+2324,12/19,Littleton,32,Lunenburg,44,True,True
+2325,12/27,Littleton,33,Oakmont Regional,52,True,True
+2326,12/16,Lenox Memorial,43,Pope Francis,55,True,True
+2327,12/23,Lenox Memorial,44,Wahconah Regional,76,True,True
+2328,1/9,Littleton,49,Tyngsborough,55,True,True
+2329,1/5,Lenox Memorial,47,Smith VT,29,True,True
+2330,1/16,Littleton,54,Quabbin Regional,43,True,True
+2331,1/12,Lenox Memorial,36,Pope Francis,44,True,True
+2332,1/20,Littleton,41,Maynard,56,True,True
+2333,1/19,Lenox Memorial,50,Monument Mountain,38,True,True
+2334,1/23,Littleton,48,Lunenburg,31,True,True
+2335,1/23,Lenox Memorial,39,Mount Greylock Regional,47,True,True
+2336,1/27,Lenox Memorial,35,Wahconah Regional,67,True,True
+2337,2/3,Littleton,38,Tyngsborough,46,True,True
+2338,2/10,Littleton,54,Quabbin Regional,30,True,True
+2339,2/4,Lenox Memorial,46,Pioneer Valley Christian,38,True,True
+2340,2/12,Littleton,71,West Boylston,43,True,True
+2341,2/14,Littleton,31,Northbridge,51,True,True
+2342,2/12,Lenox Memorial,47,Mahar Regional,53,True,True
+2343,2/17,Littleton,35,Tantasqua Regional,48,True,True
+2344,2/18,Lenox Memorial,52,Ware,36,True,True
+2345,12/20,Londonderry,62,Wachusett Regional,53,False,True
+2346,12/11,Leominster,63,Notre Dame (Worcester),15,True,True
+2347,12/17,Longmeadow,64,Springfield International,21,True,True
+2348,12/19,Longmeadow,40,Springfield Central,73,True,True
+2349,12/23,Longmeadow,44,Minnechaug,57,True,True
+2350,12/30,Longmeadow,56,Pittsfield,70,True,True
+2351,1/2,Longmeadow,49,Pope Francis,36,True,True
+2352,1/3,Leominster,63,Northampton,45,True,True
+2353,1/6,Longmeadow,41,Northampton,46,True,True
+2354,1/9,Longmeadow,69,South Hadley,62,True,True
+2355,1/9,Leominster,29,Wachusett Regional,65,True,True
+2356,1/12,Leominster,30,South High Community,61,True,True
+2357,1/13,Longmeadow,73,Renaissance School,50,True,True
+2358,1/16,Leominster,50,Shrewsbury,25,True,True
+2359,1/20,Longmeadow,64,Westfield,33,True,True
+2360,1/20,Leominster,48,Nashoba Regional,44,True,True
+2361,1/22,Longmeadow,53,Minnechaug,50,True,True
+2362,1/29,Longmeadow,56,Northampton,68,True,True
+2363,2/2,Longmeadow,56,South Hadley,83,True,True
+2364,2/3,Leominster,37,Wachusett Regional,81,True,True
+2365,2/6,Leominster,43,Shrewsbury,49,True,True
+2366,2/9,Leominster,49,Nashoba Regional,42,True,True
+2367,2/8,Longmeadow,58,Springfield Central,63,True,True
+2368,2/11,Leominster,45,Lunenburg,36,True,True
+2369,2/9,Longmeadow,28,Pittsfield,64,True,True
+2370,2/13,Leominster,27,South High Community,57,True,True
+2371,2/16,Longmeadow,36,Springfield Central,88,True,True
+2372,12/16,Lexington,48,Wilmington,56,True,True
+2373,12/19,Lexington,38,Reading Memorial,41,True,True
+2374,12/15,Lowell Catholic,37,Whittier RVT,53,True,True
+2375,12/22,Lexington,29,Winchester,42,True,True
+2376,1/3,Lexington,47,Lynn English,22,True,True
+2377,12/21,Lowell Catholic,37,Tyngsborough,57,True,True
+2378,1/6,Lexington,32,Melrose,54,True,True
+2379,1/9,Lowell Catholic,54,Lynn VT,65,True,True
+2380,1/13,Lexington,39,Stoneham,29,True,True
+2381,1/12,Lowell Catholic,43,North Middlesex Regional,31,True,True
+2382,1/13,Lowell Catholic,31,Shawsheen Valley Tech,40,True,True
+2383,1/20,Lexington,39,Wakefield Memorial,46,True,True
+2384,1/23,Lexington,32,Woburn Memorial,56,True,True
+2385,1/20,Lowell Catholic,46,Mystic Valley Charter,32,True,True
+2386,1/27,Lexington,33,Watertown,43,True,True
+2387,1/29,Lexington,40,Reading Memorial,49,True,True
+2388,1/30,Lowell Catholic,19,Mystic Valley Charter,43,True,True
+2389,2/3,Lexington,38,Winchester,47,True,True
+2390,2/6,Lowell Catholic,42,Shawsheen Valley Tech,47,True,True
+2391,2/9,Lowell Catholic,41,Whittier RVT,60,True,True
+2392,12/16,Lynn English,20,Medford,66,True,True
+2393,12/18,Lynn English,31,Revere,52,True,True
+2394,2/15,Lowell Catholic,31,Prospect Hill Academy,47,True,True
+2395,12/18,Lowell,49,Methuen,41,True,True
+2396,1/8,Lynn English,43,Lynn Classical,65,True,True
+2397,1/15,Lynn English,34,Malden,47,True,True
+2398,12/30,Lowell,42,Waltham,40,True,True
+2399,1/20,Lynn English,38,Medford,57,True,True
+2400,1/22,Lynn English,30,Revere,36,True,True
+2401,2/2,Lynn English,31,Lynn Classical,51,True,True
+2402,2/6,Lynn English,30,Somerville,47,True,True
+2403,1/18,Lowell,44,Waltham,34,True,True
+2404,2/11,Lynn English,42,Masconomet Regional,52,True,True
+2405,2/12,Lynn English,57,Malden,52,True,True
+2406,1/27,Lowell,47,North Andover,32,True,True
+2407,2/3,Lowell,45,Tewksbury Memorial,53,True,True
+2408,1/2,Lynn VT,43,Malden,47,True,True
+2409,1/7,Lynn VT,35,Shawsheen Valley Tech,53,True,True
+2410,2/10,Lowell,57,Methuen,39,True,True
+2411,1/14,Lynn VT,46,Rockport,29,True,True
+2412,1/15,Lynn VT,51,Nashoba Valley Tech,24,True,True
+2413,1/21,Lynn VT,46,Nashoba Valley Tech,14,True,True
+2414,1/23,Lynn VT,39,Minuteman Regional,61,True,True
+2415,12/23,Ludlow,28,Palmer,32,True,True
+2416,1/29,Lynn VT,27,Swampscott,67,True,True
+2417,12/30,Ludlow,43,Monson,18,True,True
+2418,1/6,Ludlow,21,Ware,27,True,True
+2419,1/7,Ludlow,14,Smith Academy,33,True,True
+2420,2/3,Lynn VT,50,Northeast Metro RVT,19,True,True
+2421,2/5,Lynn VT,50,Northeast Metro RVT,22,True,True
+2422,2/6,Lynn VT,49,Rockport,28,True,True
+2423,1/16,Ludlow,35,Mount Greylock Regional,61,True,True
+2424,2/9,Lynn VT,41,Minuteman Regional,55,True,True
+2425,1/19,Ludlow,13,West Springfield,50,True,True
+2426,2/11,Lynn VT,46,Malden,53,True,True
+2427,1/23,Ludlow,26,Monument Mountain,47,True,True
+2428,1/29,Ludlow,35,Palmer,51,True,True
+2429,12/12,Lynnfield,34,Newburyport,38,True,True
+2430,12/16,Lynnfield,52,Triton Regional,27,True,True
+2431,2/2,Ludlow,56,Monson,34,True,True
+2432,12/22,Lynnfield,21,Pentucket Regional,42,True,True
+2433,2/5,Ludlow,23,Ware,41,True,True
+2434,12/29,Lynnfield,56,Stoneham,50,True,True
+2435,12/30,Lynnfield,61,Winthrop,23,True,True
+2436,12/15,Lunenburg,38,St. Bernard's,27,True,True
+2437,1/13,Lynnfield,27,North Reading,57,True,True
+2438,12/17,Lunenburg,41,Quabbin Regional,29,True,True
+2439,1/15,Lynnfield,37,Pentucket Regional,51,True,True
+2440,1/18,Lynnfield,49,Wakefield Memorial,45,True,True
+2441,12/22,Lunenburg,46,North Middlesex Regional,25,True,True
+2442,1/23,Lynnfield,45,Newburyport,58,True,True
+2443,1/28,Lynnfield,50,Triton Regional,46,True,True
+2444,1/30,Lynnfield,43,Manchester Essex,51,True,True
+2445,1/6,Lunenburg,42,Maynard,48,True,True
+2446,1/13,Lunenburg,49,Tyngsborough,55,True,True
+2447,2/6,Lynnfield,46,North Reading,60,True,True
+2448,2/9,Lynnfield,66,Manchester Essex,50,True,True
+2449,1/20,Lunenburg,53,Quabbin Regional,25,True,True
+2450,2/15,Lynnfield,56,Waltham,46,True,True
+2451,2/17,Lynnfield,55,Wakefield Memorial,46,True,True
+2452,1/30,Lunenburg,53,Maynard,43,True,True
+2453,12/15,Madison Park,30,Ruth Batson Academy,23,True,True
+2454,2/5,Lunenburg,47,Tyngsborough,66,True,True
+2455,12/17,Madison Park,31,Snowden International,34,True,True
+2456,1/6,Madison Park,50,Snowden International,54,True,True
+2457,2/13,Lunenburg,62,Notre Dame (Worcester),42,True,True
+2458,2/14,Lunenburg,34,Sutton,41,True,True
+2459,12/16,Lynn Classical,40,Revere,49,True,True
+2460,1/15,Madison Park,22,Tech Boston Academy,21,True,True
+2461,12/18,Lynn Classical,42,Medford,46,True,True
+2462,1/16,Madison Park,13,New Mission,67,True,True
+2463,1/6,Lynn Classical,55,Malden,46,True,True
+2464,1/20,Madison Park,11,O'Bryant,56,True,True
+2465,1/13,Lynn Classical,36,Somerville,44,True,True
+2466,1/29,Madison Park,26,Ruth Batson Academy,11,True,True
+2467,1/16,Lynn Classical,69,Pioneer Charter of Science II,17,True,True
+2468,1/30,Madison Park,50,New Mission,53,True,True
+2469,1/20,Lynn Classical,45,Revere,36,True,True
+2470,2/3,Madison Park,44,Tech Boston Academy,28,True,True
+2471,1/22,Lynn Classical,32,Medford,27,True,True
+2472,2/5,Madison Park,33,O'Bryant,59,True,True
+2473,1/29,Lynn Classical,45,Malden,31,True,True
+2474,1/30,Lynn Classical,59,Pioneer Charter of Science I,37,True,True
+2475,2/13,Madison Park,37,Snowden International,42,True,True
+2476,12/11,Mahar Regional,40,Narragansett Regional,34,True,True
+2477,2/9,Lynn Classical,24,Somerville,45,True,True
+2478,12/16,Mahar Regional,53,Smith Academy,28,True,True
+2479,12/12,Lynn English,22,Somerville,58,True,True
+2480,1/9,Mahar Regional,44,Pioneer Valley Regional,54,True,True
+2481,2/2,Manchester Essex,73,Wilmington,53,True,True
+2482,2/4,Manchester Essex,60,Saugus,34,True,True
+2483,1/15,Mahar Regional,63,Smith Academy,38,True,True
+2484,1/20,Mahar Regional,44,Ware,41,True,True
+2485,1/22,Mahar Regional,52,Mohawk Trail Regional,23,True,True
+2486,2/12,Manchester Essex,52,Triton Regional,21,True,True
+2487,2/16,Manchester Essex,56,Winthrop,44,True,True
+2488,12/12,Mansfield,33,Medway,42,True,True
+2489,1/31,Mahar Regional,49,Palmer,39,True,True
+2490,2/3,Mahar Regional,55,Pioneer Valley Regional,22,True,True
+2491,12/22,Mansfield,42,Oliver Ames,22,True,True
+2492,2/9,Mahar Regional,59,Mohawk Trail Regional,34,True,True
+2493,12/31,Mansfield,40,St. Mary's,58,True,True
+2494,1/2,Mansfield,69,Stoughton,26,True,True
+2495,1/6,Mansfield,61,Sharon,46,True,True
+2496,1/9,Mansfield,49,North Attleborough,44,True,True
+2497,1/13,Mansfield,63,Milford,62,True,True
+2498,12/17,Maimonides,37,Nashoba Valley Tech,13,True,True
+2499,1/7,Maimonides,71,Roxbury Prep Charter,37,True,True
+2500,1/20,Mansfield,65,Taunton,69,True,True
+2501,1/8,Maimonides,21,Pioneer Valley Christian,61,True,True
+2502,1/13,Maimonides,47,New Heights Charter,57,True,True
+2503,1/22,Maimonides,8,Ursuline Academy,45,True,True
+2504,1/30,Mansfield,33,Oliver Ames,41,True,True
+2505,1/28,Maimonides,37,New Heights Charter,50,True,True
+2506,2/3,Mansfield,56,Stoughton,41,True,True
+2507,2/6,Mansfield,40,North Attleborough,38,True,True
+2508,2/5,Maimonides,19,Ursuline Academy,49,True,True
+2509,2/9,Maimonides,36,Pioneer Valley Christian,49,True,True
+2510,2/16,Mansfield,49,Westford Academy,41,True,True
+2511,2/18,Mansfield,34,Natick,64,True,True
+2512,12/16,Malden Catholic,32,St. Mary's,75,True,True
+2513,12/18,Marblehead,44,Saugus,32,True,True
+2514,12/22,Malden Catholic,43,Waltham,53,True,True
+2515,12/22,Marblehead,49,Revere,22,True,True
+2516,12/27,Malden Catholic,19,North Reading,42,True,True
+2517,12/23,Marblehead,41,Shawsheen Valley Tech,28,True,True
+2518,1/5,Marblehead,26,Masconomet Regional,46,True,True
+2519,1/11,Malden Catholic,35,Winchester,41,True,True
+2520,1/12,Marblehead,39,Notre Dame (Hingham),43,True,True
+2521,1/14,Marblehead,48,Swampscott,36,True,True
+2522,1/23,Malden Catholic,41,Notre Dame (Hingham),48,True,True
+2523,1/23,Marblehead,53,Winthrop,58,True,True
+2524,1/30,Malden Catholic,69,Ursuline Academy,46,True,True
+2525,1/30,Marblehead,41,Masconomet Regional,52,True,True
+2526,2/5,Malden Catholic,46,Methuen,61,True,True
+2527,2/3,Marblehead,46,Salem,23,True,True
+2528,2/6,Marblehead,41,Peabody Veterans,46,True,True
+2529,2/10,Malden Catholic,46,Notre Dame (Hingham),40,True,True
+2530,2/9,Marblehead,54,Shawsheen Valley Tech,21,True,True
+2531,2/12,Malden Catholic,55,Somerville,44,True,True
+2532,2/14,Malden Catholic,50,Ursuline Academy,41,True,True
+2533,2/15,Marblehead,36,Peabody Veterans,44,True,True
+2534,2/16,Malden Catholic,48,Somerville,33,True,True
+2535,2/16,Marblehead,44,North Andover,31,True,True
+2536,2/18,Marblehead,40,Swampscott,33,True,True
+2537,12/18,Malden,42,Somerville,50,True,True
+2538,12/22,Malden,51,Northeast Metro RVT,17,True,True
+2539,12/16,Marlborough,25,Oakmont Regional,60,True,True
+2540,12/22,Marlborough,38,Nashoba Regional,48,True,True
+2541,12/30,Marlborough,48,Wayland,50,True,True
+2542,1/6,Marlborough,30,Westborough,54,True,True
+2543,1/8,Malden,34,Revere,51,True,True
+2544,1/9,Marlborough,56,North Middlesex Regional,37,True,True
+2545,1/13,Malden,40,Medford,54,True,True
+2546,1/13,Marlborough,42,Shepherd Hill Regional,59,True,True
+2547,1/15,Marlborough,27,Sutton,48,True,True
+2548,1/22,Malden,34,Somerville,54,True,True
+2549,1/20,Marlborough,30,Oakmont Regional,47,True,True
+2550,2/3,Malden,36,Revere,50,True,True
+2551,1/30,Marlborough,38,Westborough,65,True,True
+2552,2/5,Malden,32,Medford,49,True,True
+2553,2/3,Marlborough,48,North Middlesex Regional,32,True,True
+2554,2/6,Marlborough,15,Shepherd Hill Regional,50,True,True
+2555,2/9,Marlborough,47,Tantasqua Regional,62,True,True
+2556,2/18,Malden,62,Northeast Metro RVT,13,True,True
+2557,12/16,Marshfield,32,North Quincy,57,True,True
+2558,12/29,Manchester Essex,41,Masconomet Regional,46,True,True
+2559,12/22,Marshfield,42,Pembroke,48,True,True
+2560,1/6,Manchester Essex,24,Pentucket Regional,52,True,True
+2561,12/28,Marshfield,37,Norwell,56,True,True
+2562,1/9,Manchester Essex,29,North Reading,46,True,True
+2563,1/9,Marshfield,65,Whitman Hanson Regional,71,True,True
+2564,1/19,Manchester Essex,27,Newburyport,50,True,True
+2565,1/14,Marshfield,31,Silver Lake Regional,43,True,True
+2566,1/16,Marshfield,53,Plymouth North,43,True,True
+2567,1/23,Manchester Essex,52,Saugus,41,True,True
+2568,1/20,Marshfield,55,Quincy,66,True,True
+2569,1/22,Marshfield,38,Norwell,49,True,True
+2570,1/23,Marshfield,47,Scituate,53,True,True
+2571,1/29,Marshfield,40,Plymouth South,45,True,True
+2572,12/18,Maynard,49,Tyngsborough,46,True,True
+2573,12/23,Maynard,57,Quabbin Regional,26,True,True
+2574,2/6,Marshfield,39,Whitman Hanson Regional,68,True,True
+2575,12/29,Maynard,41,Uxbridge,34,True,True
+2576,2/10,Marshfield,50,Silver Lake Regional,44,True,True
+2577,12/30,Maynard,31,Millis,51,True,True
+2578,2/12,Marshfield,45,Plymouth North,29,True,True
+2579,12/14,Martha's Vineyard Regional,36,Nantucket,32,True,True
+2580,12/16,Martha's Vineyard Regional,46,Monomoy,50,True,True
+2581,1/23,Maynard,47,Tyngsborough,57,True,True
+2582,12/29,Martha's Vineyard Regional,24,Saint John Paul II,41,True,True
+2583,1/28,Maynard,40,Quabbin Regional,39,True,True
+2584,1/3,Martha's Vineyard Regional,28,Nantucket,46,True,True
+2585,1/6,Martha's Vineyard Regional,36,Nauset Regional,44,True,True
+2586,2/2,Maynard,31,Nashoba Regional,50,True,True
+2587,1/9,Martha's Vineyard Regional,25,Saint John Paul II,47,True,True
+2588,1/16,Martha's Vineyard Regional,21,Sandwich,44,True,True
+2589,2/14,Maynard,35,Tyngsborough,42,True,True
+2590,1/23,Martha's Vineyard Regional,30,Monomoy,48,True,True
+2591,2/17,Maynard,48,Uxbridge,59,True,True
+2592,1/30,Martha's Vineyard Regional,44,Nauset Regional,27,True,True
+2593,2/3,Martha's Vineyard Regional,39,Saint John Paul II,60,True,True
+2594,12/19,McCann Tech,41,Westfield Technical Academy,12,True,True
+2595,1/2,McCann Tech,33,Pioneer Valley Chinese Immersion,11,True,True
+2596,2/10,Martha's Vineyard Regional,23,Sandwich,54,True,True
+2597,1/16,McCann Tech,30,St. Mary Parish (Westfield),43,True,True
+2598,1/19,McCann Tech,51,St. Mary Parish (Westfield),38,True,True
+2599,12/16,Masconomet Regional,40,Peabody Veterans,68,True,True
+2600,1/22,McCann Tech,34,Westfield Technical Academy,4,True,True
+2601,1/28,McCann Tech,36,Pioneer Valley Regional,21,True,True
+2602,1/29,McCann Tech,36,Pioneer Valley Chinese Immersion,25,True,True
+2603,1/3,Masconomet Regional,49,Springfield International,37,True,True
+2604,2/2,McCann Tech,47,St. Mary Parish (Westfield),34,True,True
+2605,2/3,McCann Tech,31,Mohawk Trail Regional,33,True,True
+2606,1/13,Masconomet Regional,47,Saugus,32,True,True
+2607,2/6,McCann Tech,40,Pathfinder RVT,23,True,True
+2608,2/12,McCann Tech,44,Taconic,57,True,True
+2609,2/16,McCann Tech,48,Putnam VT,35,True,True
+2610,1/23,Masconomet Regional,34,Swampscott,40,True,True
+2611,2/19,McCann Tech,29,Norfolk County Agricultural,60,True,True
+2612,1/27,Masconomet Regional,47,Peabody Veterans,52,True,True
+2613,12/16,Medfield,63,Norton,24,True,True
+2614,2/2,Masconomet Regional,45,Methuen,55,True,True
+2615,2/3,Masconomet Regional,43,Winthrop,27,True,True
+2616,12/28,Medfield,76,Pinkerton Academy,24,True,False
+2617,1/5,Medfield,59,Norwood,32,True,True
+2618,2/12,Masconomet Regional,40,Salem,13,True,True
+2619,12/12,Mashpee,44,Saint John Paul II,50,True,True
+2620,1/13,Medfield,66,Millis,39,True,True
+2621,12/16,Mashpee,14,Sandwich,51,True,True
+2622,1/16,Medfield,63,Medway,29,True,True
+2623,1/17,Medfield,73,Medgar Evers Prep,50,True,False
+2624,12/22,Mashpee,47,Middleborough,39,True,True
+2625,1/27,Medfield,71,Westwood,34,True,True
+2626,1/30,Medfield,83,Norton,31,True,True
+2627,1/16,Mashpee,26,Rockland,32,True,True
+2628,2/12,Medfield,67,Medway,30,True,True
+2629,1/27,Mashpee,36,Norwell,69,True,True
+2630,2/14,Medfield,59,North Quincy,20,True,True
+2631,2/16,Medfield,66,Wachusett Regional,55,True,True
+2632,2/5,Mashpee,37,Sandwich,47,True,True
+2633,2/11,Mashpee,44,Saint John Paul II,63,True,True
+2634,12/23,Medford,45,Revere,34,True,True
+2635,12/11,Match Charter Public,22,Muniz Academy,26,True,True
+2636,1/18,Medford,36,Somerville,45,True,True
+2637,1/8,Match Charter Public,12,Pioneer Charter of Science I,40,True,True
+2638,1/30,Medford,32,Somerville,44,True,True
+2639,1/16,Match Charter Public,13,Salem Academy Charter,33,True,True
+2640,1/23,Match Charter Public,31,Muniz Academy,37,True,True
+2641,2/6,Medford,51,Mystic Valley Charter,25,True,True
+2642,2/14,Medford,25,Wellesley,46,True,True
+2643,2/5,Match Charter Public,5,Pioneer Charter of Science II,32,True,True
+2644,2/16,Medford,64,Mystic Valley Charter,30,True,True
+2645,2/19,Medford,52,Revere,48,True,True
+2646,1/5,Medway,58,Westwood,36,True,True
+2647,1/9,Medway,36,Millis,49,True,True
+2648,1/13,Medway,38,Norton,35,True,True
+2649,1/20,Milford,61,Oliver Ames,68,True,True
+2650,1/23,Milford,59,Taunton,55,True,True
+2651,1/20,Medway,57,Norwood,63,True,True
+2652,1/29,Milford,60,Watertown,43,True,True
+2653,1/30,Milford,68,Sharon,45,True,True
+2654,2/6,Medway,53,Millis,35,True,True
+2655,2/10,Medway,57,Norton,38,True,True
+2656,2/13,Milford,57,Taunton,55,True,True
+2657,12/15,Millbury,35,Shepherd Hill Regional,29,True,True
+2658,2/18,Medway,50,Millbury,27,True,True
+2659,12/12,Melrose,44,Reading Memorial,32,True,True
+2660,12/22,Millbury,45,Northbridge,40,True,True
+2661,12/16,Melrose,49,Winchester,45,True,True
+2662,12/28,Millbury,39,Woburn Memorial,44,True,True
+2663,12/29,Millbury,57,Newton South,31,True,True
+2664,12/22,Melrose,61,Wilmington,63,True,True
+2665,1/7,Millbury,36,Sutton,50,True,True
+2666,12/29,Melrose,34,North Reading,62,True,True
+2667,1/9,Millbury,47,Northbridge,35,True,True
+2668,1/13,Millbury,45,Nashoba Regional,41,True,True
+2669,1/9,Melrose,39,Stoneham,43,True,True
+2670,1/21,Millbury,31,South High Community,70,True,True
+2671,1/14,Melrose,44,Waltham,37,True,True
+2672,1/23,Millbury,44,Sutton,37,True,True
+2673,1/16,Melrose,31,Watertown,36,True,True
+2674,2/2,Millbury,44,Shrewsbury,29,True,True
+2675,1/20,Melrose,52,Woburn Memorial,78,True,True
+2676,1/23,Melrose,33,Wakefield Memorial,47,True,True
+2677,2/6,Millbury,39,South High Community,72,True,True
+2678,2/9,Millbury,56,Uxbridge,26,True,True
+2679,2/11,Millbury,61,North High,10,True,True
+2680,2/3,Melrose,55,Wilmington,36,True,True
+2681,2/6,Melrose,46,Stoneham,35,True,True
+2682,2/10,Melrose,46,Watertown,56,True,True
+2683,2/12,Melrose,46,Wakefield Memorial,32,True,True
+2684,2/16,Melrose,20,Waltham,43,True,True
+2685,12/19,Millis,37,Norton,33,True,True
+2686,12/22,Methuen,65,Whittier RVT,42,True,True
+2687,1/7,Millis,54,Westwood,41,True,True
+2688,12/28,Methuen,36,Westford Academy,54,True,True
+2689,12/30,Methuen,39,North Andover,32,True,True
+2690,1/9,Methuen,41,Tewksbury Memorial,49,True,True
+2691,1/23,Millis,29,Norwood,45,True,True
+2692,1/21,Methuen,46,Whittier RVT,48,True,True
+2693,2/3,Millis,40,Norton,27,True,True
+2694,2/3,Methuen,53,North Andover,48,True,True
+2695,12/12,Milton,45,Wellesley,32,True,True
+2696,12/16,Milton,36,Walpole,45,True,True
+2697,2/13,Methuen,38,Tewksbury Memorial,46,True,True
+2698,12/18,Milton,62,Weymouth,49,True,True
+2699,12/19,Middleborough,33,Norwell,56,True,True
+2700,12/29,Milton,40,Shawsheen Valley Tech,16,True,True
+2701,12/30,Middleborough,50,Ursuline Academy,47,True,True
+2702,12/31,Middleborough,39,Scituate,37,True,True
+2703,1/6,Milton,33,Natick,70,True,True
+2704,1/9,Milton,51,Newton North,50,True,True
+2705,1/11,Milton,53,Shawsheen Valley Tech,34,True,True
+2706,1/13,Milton,57,Needham,65,True,True
+2707,1/13,Middleborough,39,Rockland,27,True,True
+2708,1/27,Milton,46,Needham,41,True,True
+2709,1/29,Middleborough,64,Stoughton,33,True,True
+2710,1/30,Middleborough,41,Norwell,60,True,True
+2711,2/3,Milton,36,Walpole,62,True,True
+2712,2/6,Milton,57,Weymouth,40,True,True
+2713,2/13,Middleborough,39,Rockland,37,True,True
+2714,2/16,Middleborough,48,Stoughton,31,True,True
+2715,12/16,Milford,43,North Attleborough,45,True,True
+2716,12/12,Minnechaug,60,Westfield,17,True,True
+2717,12/19,Milford,48,Stoughton,44,True,True
+2718,12/15,Minnechaug,75,Northampton,35,True,True
+2719,12/22,Milford,52,Sharon,41,True,True
+2720,12/30,Minnechaug,59,South Hadley,51,True,True
+2721,1/8,Minnechaug,39,Springfield Central,62,True,True
+2722,1/13,Minnechaug,64,Wachusett Regional,55,True,True
+2723,1/15,Minnechaug,48,Northampton,36,True,True
+2724,1/17,Minnechaug,46,Ridgefield,27,True,False
+2725,1/2,Monson,25,Taconic,57,True,True
+2726,1/6,Monson,12,Palmer,52,True,True
+2727,1/15,Monson,16,Ware,48,True,True
+2728,1/24,Minnechaug,54,Pittsfield,37,True,True
+2729,1/29,Minnechaug,33,Pittsfield,50,True,True
+2730,1/31,Minnechaug,50,South Hadley,34,True,True
+2731,2/2,Minnechaug,48,Springfield Central,40,True,True
+2732,2/4,Minnechaug,79,Shepherd Hill Regional,25,True,True
+2733,2/3,Monson,18,North Brookfield,41,True,True
+2734,2/5,Monson,13,Palmer,59,True,True
+2735,2/12,Minnechaug,69,Westfield,21,True,True
+2736,2/14,Minnechaug,45,Northampton,33,True,True
+2737,2/18,Minnechaug,48,Springfield Central,50,True,True
+2738,12/15,Minuteman Regional,46,Weston,40,True,True
+2739,12/13,Montachusett RVT,24,St. Bernard's,41,True,True
+2740,1/5,Minuteman Regional,52,Nashoba Valley Tech,16,True,True
+2741,1/6,Minuteman Regional,36,Prospect Hill Academy,32,True,True
+2742,12/19,Montachusett RVT,55,University Park Campus,22,True,True
+2743,12/29,Montachusett RVT,34,Narragansett Regional,52,True,True
+2744,1/13,Minuteman Regional,51,Tri-County RVT,38,True,True
+2745,1/9,Montachusett RVT,41,Oxford,43,True,True
+2746,1/16,Minuteman Regional,50,Weston,38,True,True
+2747,1/12,Montachusett RVT,44,North High,38,True,True
+2748,1/20,Minuteman Regional,56,Northeast Metro RVT,14,True,True
+2749,1/16,Montachusett RVT,48,Whitinsville Christian,32,True,True
+2750,1/29,Minuteman Regional,40,Prospect Hill Academy,32,True,True
+2751,1/21,Montachusett RVT,55,Worcester Tech,38,True,True
+2752,1/30,Minuteman Regional,61,Nashoba Valley Tech,12,True,True
+2753,1/28,Montachusett RVT,36,Oxford,55,True,True
+2754,2/4,Minuteman Regional,49,Northeast Metro RVT,23,True,True
+2755,2/4,Montachusett RVT,38,Whitinsville Christian,51,True,True
+2756,2/6,Montachusett RVT,47,Worcester Tech,34,True,True
+2757,2/12,Montachusett RVT,33,St. Bernard's,44,True,True
+2758,2/17,Minuteman Regional,42,Prospect Hill Academy,22,True,True
+2759,2/18,Montachusett RVT,35,Quabbin Regional,50,True,True
+2760,12/11,Mohawk Trail Regional,56,Turners Falls,16,True,True
+2761,12/11,Monument Mountain,19,Springfield International,37,True,True
+2762,12/16,Monument Mountain,43,Pioneer Valley Christian,46,True,True
+2763,12/19,Monument Mountain,48,Taconic,24,True,True
+2764,12/23,Monument Mountain,24,Mount Greylock Regional,67,True,True
+2765,1/5,Mohawk Trail Regional,45,Smith Academy,48,True,True
+2766,1/7,Mohawk Trail Regional,29,Smith VT,39,True,True
+2767,1/12,Mohawk Trail Regional,42,Pioneer Valley Regional,50,True,True
+2768,1/12,Monument Mountain,32,Pioneer Valley Christian,50,True,True
+2769,1/15,Monument Mountain,48,Taconic,40,True,True
+2770,1/30,Mohawk Trail Regional,55,Smith Academy,27,True,True
+2771,1/28,Monument Mountain,38,Mount Greylock Regional,64,True,True
+2772,2/5,Mohawk Trail Regional,43,Pioneer Valley Regional,49,True,True
+2773,2/13,Mohawk Trail Regional,47,Smith Academy,40,True,True
+2774,1/3,Morris Catholic,40,Springfield Central,76,False,True
+2775,12/23,Monomoy,56,Nantucket,48,True,True
+2776,12/19,Mount Greylock Regional,40,Pioneer Valley Christian,55,True,True
+2777,1/2,Monomoy,46,Wareham,42,True,True
+2778,1/6,Monomoy,31,Saint John Paul II,44,True,True
+2779,1/6,Mount Greylock Regional,75,Taconic,53,True,True
+2780,1/12,Monomoy,40,Nantucket,13,True,True
+2781,1/13,Monomoy,23,Sandwich,49,True,True
+2782,1/16,Monomoy,35,Nauset Regional,37,True,True
+2783,1/15,Mount Greylock Regional,45,Pioneer Valley Christian,44,True,True
+2784,1/22,Monomoy,43,Wareham,40,True,True
+2785,1/30,Monomoy,31,Saint John Paul II,49,True,True
+2786,1/29,Mount Greylock Regional,66,Taconic,30,True,True
+2787,2/6,Monomoy,23,Sandwich,42,True,True
+2788,2/10,Monomoy,33,Nauset Regional,19,True,True
+2789,1/17,Monsignor Scanlan,121,Renaissance School,36,False,True
+2790,12/12,Monson,11,Ware,40,True,True
+2791,12/15,Muniz Academy,14,Roxbury Prep Charter,24,True,True
+2792,1/5,Narragansett Regional,53,Murdock,41,True,True
+2793,1/8,Narragansett Regional,52,Sizer School,8,True,True
+2794,1/6,Muniz Academy,22,Ruth Batson Academy,21,True,True
+2795,1/9,Muniz Academy,35,Roxbury Prep Charter,34,True,True
+2796,1/14,Narragansett Regional,49,Turners Falls,23,True,True
+2797,1/23,Narragansett Regional,43,West Boylston,51,True,True
+2798,1/16,Muniz Academy,30,Snowden International,51,True,True
+2799,1/30,Narragansett Regional,47,Murdock,33,True,True
+2800,2/11,Narragansett Regional,47,University Park Campus,25,True,True
+2801,2/3,Muniz Academy,28,Snowden International,43,True,True
+2802,2/16,Narragansett Regional,26,Quabbin Regional,45,True,True
+2803,2/18,Narragansett Regional,22,Tahanto Regional,41,True,True
+2804,12/16,Nashoba Regional,34,Shrewsbury,39,True,True
+2805,2/13,Muniz Academy,21,Ruth Batson Academy,25,True,True
+2806,12/30,Nashoba Regional,56,North Middlesex Regional,22,True,True
+2807,12/19,Murdock,30,Tahanto Regional,67,True,True
+2808,1/12,Nashoba Regional,55,Shepherd Hill Regional,53,True,True
+2809,1/12,Murdock,39,Southbridge,26,True,True
+2810,1/16,Nashoba Regional,22,Wachusett Regional,66,True,True
+2811,1/13,Murdock,38,West Boylston,66,True,True
+2812,1/23,Nashoba Regional,28,Shrewsbury,44,True,True
+2813,1/20,Murdock,24,Tahanto Regional,77,True,True
+2814,2/6,Murdock,39,West Boylston,59,True,True
+2815,2/6,Nashoba Regional,20,Wachusett Regional,64,True,True
+2816,2/9,Murdock,53,Southbridge,25,True,True
+2817,2/11,Nashoba Regional,26,Northbridge,29,True,True
+2818,2/13,Nashoba Regional,65,Westborough,61,True,True
+2819,12/12,Mystic Valley Charter,27,Shawsheen Valley Tech,46,True,True
+2820,12/15,Mystic Valley Charter,40,Salem Academy Charter,12,True,True
+2821,1/6,Nashoba Valley Tech,32,Rockport,57,True,True
+2822,1/8,Nashoba Valley Tech,25,Northeast Metro RVT,36,True,True
+2823,12/19,Mystic Valley Charter,22,Shawsheen Valley Tech,49,True,True
+2824,1/13,Nashoba Valley Tech,43,Notre Dame Cristo Rey,20,True,True
+2825,12/23,Mystic Valley Charter,43,Pioneer Charter of Science I,37,True,True
+2826,1/16,Nashoba Valley Tech,30,Rockport,56,True,True
+2827,1/8,Mystic Valley Charter,24,Rockport,35,True,True
+2828,1/16,Mystic Valley Charter,35,Whittier RVT,62,True,True
+2829,1/28,Mystic Valley Charter,35,Whittier RVT,52,True,True
+2830,2/11,Nashoba Valley Tech,36,Notre Dame Cristo Rey,23,True,True
+2831,2/9,Mystic Valley Charter,47,Rockport,49,True,True
+2832,2/12,Nashoba Valley Tech,31,Northeast Metro RVT,23,True,True
+2833,2/17,Mystic Valley Charter,39,Salem Academy Charter,11,True,True
+2834,12/18,Natick,54,Newton North,50,True,True
+2835,12/28,Natick,56,Pentucket Regional,42,True,True
+2836,1/6,Nantucket,51,Sturgis East,29,True,True
+2837,1/9,Nantucket,47,Rising Tide Charter,14,True,True
+2838,1/13,Natick,77,Wellesley,41,True,True
+2839,1/18,Natick,79,Weymouth,40,True,True
+2840,1/15,Nantucket,32,Saint John Paul II,49,True,True
+2841,1/23,Natick,40,Needham,47,True,True
+2842,1/20,Nantucket,26,Nauset Regional,33,True,True
+2843,1/29,Natick,47,Wachusett Regional,60,True,True
+2844,1/29,Nantucket,32,Sturgis West,37,True,True
+2845,2/3,Natick,63,Newton North,67,True,True
+2846,1/30,Nantucket,52,Sturgis East,27,True,True
+2847,2/10,Natick,49,Wellesley,17,True,True
+2848,2/4,Nantucket,40,Rising Tide Charter,16,True,True
+2849,2/12,Natick,58,Walpole,44,True,True
+2850,2/9,Nantucket,34,Saint John Paul II,56,True,True
+2851,2/13,Nantucket,40,Nauset Regional,25,True,True
+2852,2/16,Nantucket,37,Sturgis West,36,True,True
+2853,12/19,Nauset Regional,25,Sandwich,56,True,True
+2854,12/12,Narragansett Regional,42,Pioneer Valley Regional,21,True,True
+2855,12/30,Nauset Regional,28,Plymouth South,69,True,True
+2856,12/16,Narragansett Regional,27,Tahanto Regional,71,True,True
+2857,12/19,Narragansett Regional,38,West Boylston,35,True,True
+2858,1/13,Nauset Regional,24,Saint John Paul II,44,True,True
+2859,1/23,New Heights Charter,55,Roxbury Prep Charter,10,True,True
+2860,1/29,Nauset Regional,20,Sandwich,51,True,True
+2861,2/3,New Heights Charter,40,South Shore Charter,30,True,True
+2862,2/6,Nauset Regional,29,Saint John Paul II,45,True,True
+2863,2/4,New Heights Charter,54,Stoughton,50,True,True
+2864,2/18,New Heights Charter,48,Westport,53,True,True
+2865,12/11,Needham,72,Weymouth,35,True,True
+2866,12/17,New Mission,31,O'Bryant,51,True,True
+2867,12/20,New Mission,26,Ursuline Academy,58,True,True
+2868,12/23,Needham,59,Walpole,56,True,True
+2869,12/30,Needham,52,Westwood,36,True,True
+2870,12/27,New Mission,43,Neighborhood House,50,True,True
+2871,1/5,Needham,45,Pembroke,43,True,True
+2872,1/6,Needham,64,Newton North,32,True,True
+2873,1/9,Needham,58,Wellesley,45,True,True
+2874,1/30,Needham,73,Weymouth,30,True,True
+2875,2/10,Needham,61,Walpole,66,True,True
+2876,2/6,New Mission,50,O'Bryant,45,True,True
+2877,2/9,New Mission,33,Ursuline Academy,51,True,True
+2878,2/16,Needham,50,Norwell,39,True,True
+2879,2/18,New Mission,63,Snowden International,36,True,True
+2880,2/19,New Mission,19,O'Bryant,49,True,True
+2881,12/16,Newburyport,44,North Reading,57,True,True
+2882,12/19,Newburyport,27,Pentucket Regional,52,True,True
+2883,12/22,Newburyport,48,Triton Regional,25,True,True
+2884,1/3,Neighborhood House,48,South Shore Charter,28,True,True
+2885,12/29,Newburyport,52,Saugus,46,True,True
+2886,1/9,Neighborhood House,53,New Heights Charter,59,True,True
+2887,1/12,Neighborhood House,45,O'Bryant,56,True,True
+2888,1/7,Newburyport,58,Tewksbury Memorial,37,True,True
+2889,1/9,Newburyport,53,Peabody Veterans,31,True,True
+2890,1/21,Neighborhood House,56,Roxbury Prep Charter,10,True,True
+2891,1/15,Newburyport,46,Triton Regional,20,True,True
+2892,2/3,Newburyport,32,Pentucket Regional,54,True,True
+2893,2/4,Neighborhood House,48,Rockport,29,True,True
+2894,2/11,Neighborhood House,75,Roxbury Prep Charter,18,True,True
+2895,2/8,Newburyport,54,Tyngsborough,29,True,True
+2896,2/14,Neighborhood House,34,Prospect Hill Academy,38,True,True
+2897,12/12,New Bedford,40,Old Rochester Regional,58,True,True
+2898,2/19,Newburyport,35,North Reading,67,True,True
+2899,12/16,Newton North,52,Wellesley,40,True,True
+2900,12/28,Newton North,53,Newton South,43,True,True
+2901,1/8,New Bedford,41,Somerset Berkley Regional,54,True,True
+2902,12/29,Newton North,38,Woburn Memorial,48,True,True
+2903,1/15,Newton North,61,Peabody Veterans,34,True,True
+2904,1/23,Newton North,53,Walpole,60,True,True
+2905,2/4,New Bedford,43,Somerset Berkley Regional,53,True,True
+2906,1/30,Newton North,55,Wellesley,53,True,True
+2907,2/8,New Bedford,56,Taunton,59,True,True
+2908,2/16,New Bedford,52,Taunton,50,True,True
+2909,2/10,Newton North,74,Weymouth,40,True,True
+2910,2/19,New Bedford,31,Old Rochester Regional,63,True,True
+2911,12/16,New Heights Charter,66,Southeastern RVT,55,True,True
+2912,12/22,New Heights Charter,53,Southeastern RVT,48,True,True
+2913,12/19,Newton South,53,Weston,39,True,True
+2914,12/22,Newton South,43,South High Community,48,True,True
+2915,1/6,New Heights Charter,70,Randolph,35,True,True
+2916,1/14,New Heights Charter,54,Stoughton,51,True,True
+2917,1/16,North Attleborough,40,Oliver Ames,35,True,True
+2918,1/29,North Attleborough,50,Norton,37,True,True
+2919,1/30,North Attleborough,53,Stoughton,13,True,True
+2920,2/1,North Attleborough,63,Sharon,31,True,True
+2921,2/1,Newton South,27,South High Community,57,True,True
+2922,2/3,Newton South,32,Waltham,50,True,True
+2923,2/10,Newton South,45,Westford Academy,56,True,True
+2924,2/10,North Attleborough,40,Oliver Ames,42,True,True
+2925,2/12,Newton South,60,Wayland,30,True,True
+2926,2/17,North Attleborough,54,Norton,34,True,True
+2927,12/15,North Brookfield,38,South Lancaster Academy,23,True,True
+2928,12/22,Nipmuc Regional,32,Uxbridge,43,True,True
+2929,12/17,North Brookfield,19,Southbridge,11,True,True
+2930,12/29,Nipmuc Regional,42,Sharon,52,True,True
+2931,1/8,North Brookfield,29,South Lancaster Academy,32,True,True
+2932,12/30,Nipmuc Regional,50,Weston,41,True,True
+2933,1/12,North Brookfield,52,Trivium School,16,True,True
+2934,1/5,Nipmuc Regional,49,Sutton,41,True,True
+2935,1/14,North Brookfield,23,Palmer,31,True,True
+2936,1/20,North Brookfield,48,Trivium School,21,True,True
+2937,1/23,North Brookfield,47,Sizer School,10,True,True
+2938,1/16,Nipmuc Regional,58,North High,13,True,True
+2939,2/2,North Brookfield,25,Palmer,32,True,True
+2940,2/6,North Brookfield,38,Sizer School,23,True,True
+2941,2/3,Nipmuc Regional,57,North High,15,True,True
+2942,2/17,Nipmuc Regional,39,Tahanto Regional,40,True,True
+2943,12/15,North High,43,University Park Campus,39,True,True
+2944,12/29,Niskayuna,46,Pittsfield,54,False,True
+2945,12/19,North High,12,Saint Paul Diocesan,78,True,True
+2946,12/22,North High,22,Worcester Tech,32,True,True
+2947,12/16,Norfolk County Agricultural,36,Tri-County RVT,34,True,True
+2948,1/5,Norfolk County Agricultural,51,Tri-County RVT,33,True,True
+2949,1/7,Norfolk County Agricultural,55,South Shore VT,21,True,True
+2950,1/13,Norfolk County Agricultural,58,Upper Cape Cod RVT,29,True,True
+2951,1/15,Norfolk County Agricultural,41,Old Colony RVT,27,True,True
+2952,1/23,Norfolk County Agricultural,48,South Shore VT,13,True,True
+2953,1/29,Norfolk County Agricultural,45,Upper Cape Cod RVT,40,True,True
+2954,2/4,Norfolk County Agricultural,44,Old Colony RVT,29,True,True
+2955,12/16,North Middlesex Regional,28,Westborough,63,True,True
+2956,12/18,North Middlesex Regional,18,Oakmont Regional,49,True,True
+2957,12/22,North Andover,39,Peabody Veterans,49,True,True
+2958,1/6,North Middlesex Regional,41,Shepherd Hill Regional,51,True,True
+2959,12/27,North Andover,32,Pentucket Regional,43,True,True
+2960,1/20,North Middlesex Regional,17,Westborough,61,True,True
+2961,1/27,North Middlesex Regional,26,Oakmont Regional,43,True,True
+2962,1/20,North Andover,27,Tewksbury Memorial,43,True,True
+2963,1/30,North Middlesex Regional,30,Shepherd Hill Regional,61,True,True
+2964,1/23,North Andover,48,Whittier RVT,58,True,True
+2965,2/9,North Middlesex Regional,40,Tahanto Regional,67,True,True
+2966,12/19,North Quincy,43,Pembroke,33,True,True
+2967,2/15,North Andover,43,Reading Memorial,44,True,True
+2968,12/23,North Quincy,43,Silver Lake Regional,23,True,True
+2969,12/30,North Quincy,51,Norwell,40,True,True
+2970,12/19,North Attleborough,48,Taunton,34,True,True
+2971,1/9,North Quincy,40,Quincy,52,True,True
+2972,12/22,North Attleborough,58,Stoughton,25,True,True
+2973,1/12,North Quincy,55,Whitman Hanson Regional,62,True,True
+2974,1/14,North Quincy,59,Plymouth South,48,True,True
+2975,1/16,North Quincy,54,Scituate,25,True,True
+2976,1/23,North Quincy,49,Plymouth North,33,True,True
+2977,1/30,North Quincy,49,Pembroke,44,True,True
+2978,2/6,North Quincy,62,Quincy,59,True,True
+2979,2/10,North Quincy,56,Plymouth South,23,True,True
+2980,2/13,North Quincy,65,Scituate,39,True,True
+2981,2/16,Northeast Metro RVT,18,Revere,52,True,True
+2982,2/19,Northeast Metro RVT,35,South Shore VT,11,True,True
+2983,12/12,North Reading,52,Pentucket Regional,45,True,True
+2984,1/16,Northwest Catholic,44,Springfield Central,56,False,True
+2985,12/19,North Reading,38,Triton Regional,28,True,True
+2986,12/22,Norton,23,Norwood,51,True,True
+2987,1/10,North Reading,56,Stoneham,26,True,True
+2988,1/23,North Reading,30,Pentucket Regional,39,True,True
+2989,1/23,Norton,39,Westwood,24,True,True
+2990,2/2,North Reading,49,Oakmont Regional,48,True,True
+2991,2/3,North Reading,49,Triton Regional,32,True,True
+2992,2/17,North Reading,39,Stoneham,23,True,True
+2993,12/23,Norwell,38,Pembroke,35,True,True
+2994,12/19,Northampton,53,South High Community,42,True,True
+2995,12/23,Northampton,59,South Hadley,57,True,True
+2996,12/29,Northampton,45,Springfield Central,57,True,True
+2997,1/9,Norwell,62,Rockland,32,True,True
+2998,1/8,Northampton,55,Pittsfield,50,True,True
+2999,1/20,Northampton,57,Shepherd Hill Regional,23,True,True
+3000,1/22,Northampton,68,South Hadley,52,True,True
+3001,1/30,Northampton,40,Springfield Central,69,True,True
+3002,2/2,Norwell,40,Pembroke,46,True,True
+3003,2/2,Northampton,47,Pittsfield,64,True,True
+3004,2/4,Northampton,62,Renaissance School,57,True,True
+3005,2/9,Norwell,28,St. Mary's,65,True,True
+3006,2/6,Northampton,55,Pope Francis,46,True,True
+3007,2/10,Norwell,54,Rockland,16,True,True
+3008,2/11,Northampton,48,West Springfield,30,True,True
+3009,12/29,Northbridge,40,Tantasqua Regional,20,True,True
+3010,1/2,Northbridge,47,Notre Dame (Worcester),22,True,True
+3011,1/13,Northbridge,36,Sutton,47,True,True
+3012,1/14,Northbridge,48,Uxbridge,30,True,True
+3013,1/17,Norwood,55,Pentucket Regional,49,True,True
+3014,1/16,Northbridge,27,South High Community,58,True,True
+3015,1/19,Northbridge,42,Saint Paul Diocesan,31,True,True
+3016,1/22,Norwood,41,Walpole,46,True,True
+3017,1/30,Northbridge,34,Sutton,49,True,True
+3018,2/4,Northbridge,22,South High Community,77,True,True
+3019,2/3,Norwood,57,Westwood,38,True,True
+3020,2/11,Norwood,44,St. Mary's,62,True,True
+3021,2/16,Norwood,60,Westwood,37,True,True
+3022,12/12,Northeast Metro RVT,35,Pioneer Charter of Science I,34,True,True
+3023,12/15,Northeast Metro RVT,31,Pioneer Charter of Science II,29,True,True
+3024,12/17,Notre Dame (Hingham),57,Ursuline Academy,38,True,True
+3025,12/23,Notre Dame (Hingham),27,Scituate,45,True,True
+3026,12/26,Northeast Metro RVT,17,Rockport,43,True,True
+3027,1/9,Notre Dame (Hingham),34,Ursuline Academy,25,True,True
+3028,2/2,Notre Dame (Hingham),58,Scituate,19,True,True
+3029,12/11,Old Colony RVT,21,Tri-County RVT,34,True,True
+3030,2/12,Notre Dame (Hingham),54,Weymouth,30,True,True
+3031,1/5,Old Colony RVT,18,Upper Cape Cod RVT,37,True,True
+3032,1/13,Old Colony RVT,48,South Shore VT,17,True,True
+3033,12/16,Notre Dame (Worcester),34,Tantasqua Regional,40,True,True
+3034,1/20,Old Colony RVT,56,Upper Cape Cod RVT,44,True,True
+3035,1/21,Old Colony RVT,20,Tri-County RVT,44,True,True
+3036,12/29,Notre Dame (Worcester),20,Saint Paul Diocesan,34,True,True
+3037,1/29,Old Colony RVT,56,South Shore VT,8,True,True
+3038,1/30,Old Colony RVT,13,Sturgis West,30,True,True
+3039,1/9,Notre Dame (Worcester),28,Uxbridge,48,True,True
+3040,2/2,Old Colony RVT,22,Sturgis West,44,True,True
+3041,1/14,Notre Dame (Worcester),42,Quaboag Regional,33,True,True
+3042,1/21,Notre Dame (Worcester),39,St. Bernard's,42,True,True
+3043,1/30,Notre Dame (Worcester),35,Quaboag Regional,33,True,True
+3044,2/2,Notre Dame (Worcester),41,Saint Paul Diocesan,46,True,True
+3045,2/6,Notre Dame (Worcester),47,St. Bernard's,35,True,True
+3046,12/19,Old Rochester Regional,58,Seekonk,32,True,True
+3047,2/9,Notre Dame (Worcester),40,Sutton,52,True,True
+3048,1/6,Old Rochester Regional,54,West Bridgewater,32,True,True
+3049,12/12,Notre Dame Cristo Rey,12,Rockport,55,True,True
+3050,12/17,Notre Dame Cristo Rey,20,Pioneer Charter of Science I,46,True,True
+3051,1/13,Old Rochester Regional,53,Somerset Berkley Regional,31,True,True
+3052,12/19,Notre Dame Cristo Rey,9,Rockport,42,True,True
+3053,1/5,Notre Dame Cristo Rey,11,Pioneer Charter of Science II,55,True,True
+3054,2/3,Old Rochester Regional,59,Somerset Berkley Regional,27,True,True
+3055,2/13,Old Rochester Regional,61,West Bridgewater,28,True,True
+3056,2/2,Notre Dame Cristo Rey,18,Pioneer Charter of Science II,43,True,True
+3057,12/28,Oliver Ames,53,Walpole,56,True,True
+3058,12/29,Oliver Ames,49,Silver Lake Regional,43,True,True
+3059,1/3,Oakmont Regional,30,Shrewsbury,42,True,True
+3060,1/13,Oliver Ames,53,Sharon,24,True,True
+3061,1/15,Oakmont Regional,46,Shepherd Hill Regional,37,True,True
+3062,1/23,Oliver Ames,66,Stoughton,30,True,True
+3063,1/19,Oakmont Regional,41,Pembroke,54,True,True
+3064,1/28,Oliver Ames,62,Taunton,53,True,True
+3065,1/23,Oakmont Regional,54,Westborough,41,True,True
+3066,2/13,Oliver Ames,61,Stoughton,19,True,True
+3067,2/15,Oliver Ames,48,Pentucket Regional,41,True,True
+3068,2/9,Oakmont Regional,52,Shepherd Hill Regional,44,True,True
+3069,2/17,Oliver Ames,54,Whitman Hanson Regional,47,True,True
+3070,2/11,Oakmont Regional,36,Westborough,54,True,True
+3071,12/19,Oxford,49,Southbridge,20,True,True
+3072,1/2,Oxford,26,Quabbin Regional,41,True,True
+3073,12/27,O'Bryant,51,Somerville,49,True,True
+3074,1/14,Oxford,61,Whitinsville Christian,23,True,True
+3075,1/16,Oxford,47,Worcester Tech,23,True,True
+3076,1/13,O'Bryant,50,Tech Boston Academy,28,True,True
+3077,1/28,O'Bryant,57,Tech Boston Academy,23,True,True
+3078,1/30,Oxford,45,Whitinsville Christian,27,True,True
+3079,2/2,Oxford,33,St. Bernard's,48,True,True
+3080,2/4,Oxford,64,Worcester Tech,36,True,True
+3081,2/11,Oxford,48,Quaboag Regional,27,True,True
+3082,1/6,Pembroke,60,Scituate,38,True,True
+3083,1/9,Pembroke,51,Plymouth South,39,True,True
+3084,1/2,Palmer,40,Ware,53,True,True
+3085,1/9,Palmer,30,Ware,55,True,True
+3086,1/16,Pembroke,47,Quincy,38,True,True
+3087,1/20,Pembroke,55,Plymouth North,38,True,True
+3088,1/23,Pembroke,37,Whitman Hanson Regional,59,True,True
+3089,1/28,Pembroke,48,Silver Lake Regional,43,True,True
+3090,2/3,Pembroke,56,Scituate,37,True,True
+3091,2/6,Pembroke,53,Plymouth South,38,True,True
+3092,2/6,Palmer,47,St. Mary Parish (Westfield),35,True,True
+3093,2/9,Palmer,41,Quaboag Regional,36,True,True
+3094,2/13,Pembroke,29,Quincy,40,True,True
+3095,12/16,Parker Charter School,24,Sizer School,15,True,True
+3096,1/7,Parker Charter School,37,Trivium School,22,True,True
+3097,1/9,Parker Charter School,33,Southbridge,38,True,True
+3098,1/13,Parker Charter School,38,Sizer School,15,True,True
+3099,1/13,Pentucket Regional,43,Triton Regional,21,True,True
+3100,1/16,Parker Charter School,31,University Park Campus,23,True,True
+3101,1/24,Parker Charter School,33,South Lancaster Academy,26,True,True
+3102,1/27,Parker Charter School,18,South Lancaster Academy,20,True,True
+3103,1/29,Parker Charter School,35,Southbridge,28,True,True
+3104,2/6,Pentucket Regional,42,Triton Regional,16,True,True
+3105,2/4,Parker Charter School,21,University Park Campus,20,True,True
+3106,2/6,Parker Charter School,37,Trivium School,22,True,True
+3107,12/16,Pathfinder RVT,30,Smith VT,49,True,True
+3108,12/18,Pioneer Charter of Science I,21,Pioneer Charter of Science II,43,True,True
+3109,12/20,Pioneer Charter of Science I,23,Prospect Hill Academy,57,True,True
+3110,1/9,Pathfinder RVT,39,Putnam VT,52,True,True
+3111,1/15,Pathfinder RVT,47,Smith VT,37,True,True
+3112,1/9,Pioneer Charter of Science I,33,Pioneer Charter of Science II,38,True,True
+3113,1/20,Pathfinder RVT,52,Turners Falls,28,True,True
+3114,1/13,Pioneer Charter of Science I,32,Prospect Hill Academy,50,True,True
+3115,2/2,Pathfinder RVT,48,Turners Falls,30,True,True
+3116,1/20,Pioneer Charter of Science I,32,Salem Academy Charter,23,True,True
+3117,2/5,Pathfinder RVT,69,Putnam VT,62,True,True
+3118,2/9,Pathfinder RVT,38,Smith Academy,59,True,True
+3119,2/18,Pathfinder RVT,40,St. Mary Parish (Westfield),49,True,True
+3120,2/6,Pioneer Charter of Science I,27,Salem Academy Charter,31,True,True
+3121,1/18,Paul VI,64,Springfield Central,33,False,True
+3122,12/11,Pioneer Charter of Science II,21,Prospect Hill Academy,68,True,True
+3123,12/19,Peabody Veterans,41,Swampscott,38,True,True
+3124,12/17,Pioneer Charter of Science II,29,Rockport,36,True,True
+3125,12/29,Peabody Veterans,31,Waltham,46,True,True
+3126,12/22,Pioneer Charter of Science II,24,Rockport,55,True,True
+3127,1/13,Peabody Veterans,57,Winthrop,28,True,True
+3128,1/22,Pioneer Charter of Science II,39,Salem Academy Charter,27,True,True
+3129,1/23,Peabody Veterans,43,Salem,24,True,True
+3130,1/29,Pioneer Charter of Science II,48,Salem Academy Charter,36,True,True
+3131,2/12,Peabody Veterans,61,Saugus,31,True,True
+3132,2/11,Pioneer Charter of Science II,38,Prospect Hill Academy,49,True,True
+3133,12/11,Pioneer Valley Chinese Immersion,23,Westfield Technical Academy,26,True,True
+3134,2/16,Peabody Veterans,60,Reading Memorial,47,True,True
+3135,1/12,Plymouth North,48,Plymouth South,31,True,True
+3136,1/9,Pioneer Valley Chinese Immersion,22,St. Mary Parish (Westfield),50,True,True
+3137,1/12,Pioneer Valley Chinese Immersion,12,Westfield Technical Academy,13,True,True
+3138,2/2,Plymouth North,48,Plymouth South,44,True,True
+3139,2/3,Plymouth North,37,Whitman Hanson Regional,67,True,True
+3140,2/6,Plymouth North,45,Silver Lake Regional,52,True,True
+3141,2/9,Pioneer Valley Chinese Immersion,24,St. Mary Parish (Westfield),55,True,True
+3142,2/10,Pioneer Valley Chinese Immersion,10,Westfield Technical Academy,46,True,True
+3143,2/15,Plymouth North,39,Quincy,48,True,True
+3144,12/15,Pioneer Valley Christian,43,Renaissance School,40,True,True
+3145,12/12,Plymouth South,33,Sandwich,37,True,True
+3146,12/16,Plymouth South,55,Silver Lake Regional,42,True,True
+3147,12/19,Plymouth South,53,Scituate,68,True,True
+3148,12/23,Plymouth South,47,Sandwich,22,True,True
+3149,1/9,Pioneer Valley Christian,73,Taconic,41,True,True
+3150,1/6,Plymouth South,38,Quincy,62,True,True
+3151,1/16,Pioneer Valley Christian,67,Taconic,36,True,True
+3152,1/23,Pioneer Valley Christian,28,South Hadley,61,True,True
+3153,1/20,Plymouth South,40,Whitman Hanson Regional,60,True,True
+3154,1/28,Pioneer Valley Christian,28,Springfield International,33,True,True
+3155,1/30,Plymouth South,53,Scituate,47,True,True
+3156,2/3,Plymouth South,43,Quincy,59,True,True
+3157,12/12,Pope Francis,21,St. Mary's,53,True,True
+3158,12/17,Pioneer Valley Regional,40,Turners Falls,13,True,True
+3159,12/19,Pope Francis,39,Wahconah Regional,67,True,True
+3160,12/30,Pioneer Valley Regional,41,Smith Academy,42,True,True
+3161,1/14,Pope Francis,48,Southwick Regional,33,True,True
+3162,1/23,Pioneer Valley Regional,24,Smith Academy,25,True,True
+3163,1/22,Pope Francis,43,West Springfield,34,True,True
+3164,1/23,Pope Francis,58,Wahconah Regional,45,True,True
+3165,2/2,Pioneer Valley Regional,51,Smith VT,33,True,True
+3166,2/11,Pope Francis,46,Southwick Regional,42,True,True
+3167,2/13,Pope Francis,30,Pittsfield,64,True,True
+3168,12/19,Pittsfield,60,South Hadley,53,True,True
+3169,1/19,Port Charlotte,30,St. Mary's,54,False,True
+3170,1/8,Prospect Hill Academy,67,Salem Academy Charter,27,True,True
+3171,1/13,Pittsfield,60,Springfield Central,68,True,True
+3172,1/15,Pittsfield,79,South Hadley,64,True,True
+3173,1/18,Pittsfield,54,Scarsdale Senior,45,True,False
+3174,1/22,Pittsfield,46,Springfield Central,48,True,True
+3175,2/3,Prospect Hill Academy,40,Salem Academy Charter,12,True,True
+3176,2/4,Pittsfield,74,Wahconah Regional,48,True,True
+3177,2/6,Pittsfield,77,Taconic,30,True,True
+3178,2/11,Pittsfield,58,Springfield International,23,True,True
+3179,2/18,Pittsfield,57,South Hadley,58,True,True
+3180,12/12,Plymouth North,55,Scituate,27,True,True
+3181,1/2,Putnam VT,44,Smith VT,62,True,True
+3182,1/6,Plymouth North,32,Whitman Hanson Regional,35,True,True
+3183,1/9,Plymouth North,26,Silver Lake Regional,35,True,True
+3184,1/20,Randolph,38,Wayland,57,True,True
+3185,1/23,Putnam VT,65,Turners Falls,22,True,True
+3186,1/27,Putnam VT,62,Turners Falls,43,True,True
+3187,1/29,Putnam VT,58,Smith VT,48,True,True
+3188,2/10,Putnam VT,62,Taconic,53,True,True
+3189,12/16,Reading Memorial,46,Stoneham,48,True,True
+3190,12/28,Reading Memorial,48,Saugus,46,True,True
+3191,12/27,Quabbin Regional,40,South Lancaster Academy,13,True,True
+3192,1/6,Reading Memorial,32,Watertown,43,True,True
+3193,1/9,Reading Memorial,53,Winchester,54,True,True
+3194,1/6,Quabbin Regional,33,Tyngsborough,53,True,True
+3195,1/13,Reading Memorial,48,Wakefield Memorial,30,True,True
+3196,1/16,Reading Memorial,36,Woburn Memorial,72,True,True
+3197,1/20,Reading Memorial,40,Wilmington,31,True,True
+3198,1/29,Quabbin Regional,54,Worcester Tech,33,True,True
+3199,1/30,Quabbin Regional,34,Tyngsborough,52,True,True
+3200,2/6,Reading Memorial,35,Winchester,47,True,True
+3201,2/10,Reading Memorial,31,Woburn Memorial,39,True,True
+3202,12/15,Quaboag Regional,32,Uxbridge,39,True,True
+3203,12/23,Renaissance School,40,Springfield International,47,True,True
+3204,12/17,Quaboag Regional,24,Ware,26,True,True
+3205,12/19,Quaboag Regional,29,Tantasqua Regional,43,True,True
+3206,1/6,Renaissance School,45,West Springfield,51,True,True
+3207,1/9,Quaboag Regional,57,St. Bernard's,30,True,True
+3208,1/12,Quaboag Regional,44,University Park Campus,10,True,True
+3209,1/22,Renaissance School,35,Springfield International,51,True,True
+3210,1/28,Quaboag Regional,31,St. Bernard's,36,True,True
+3211,1/23,Renaissance School,72,Taconic,49,True,True
+3212,1/29,Renaissance School,42,West Springfield,38,True,True
+3213,2/1,Quaboag Regional,51,Ware,19,True,True
+3214,2/11,Renaissance School,63,Ware,32,True,True
+3215,2/13,Quaboag Regional,56,University Park Campus,31,True,True
+3216,12/22,Quincy,40,Whitman Hanson Regional,50,True,True
+3217,12/27,Quincy,70,Weymouth,28,True,True
+3218,1/15,Revere,35,Somerville,36,True,True
+3219,1/12,Quincy,45,Silver Lake Regional,41,True,True
+3220,1/14,Quincy,44,Scituate,40,True,True
+3221,2/1,Revere,38,Whittier RVT,51,True,True
+3222,2/10,Revere,36,Somerville,53,True,True
+3223,2/13,Revere,54,Salem,13,True,True
+3224,2/10,Quincy,65,Scituate,55,True,True
+3225,12/11,Randolph,33,Roxbury Prep Charter,13,True,True
+3226,12/15,Rising Tide Charter,31,South Shore VT,12,True,True
+3227,12/12,Randolph,36,Whitinsville Christian,35,True,True
+3228,12/22,Randolph,40,Roxbury Prep Charter,21,True,True
+3229,1/12,Rising Tide Charter,8,Sturgis West,28,True,True
+3230,1/14,Rising Tide Charter,25,Sturgis East,32,True,True
+3231,1/23,Rising Tide Charter,29,Sturgis East,38,True,True
+3232,2/6,Rising Tide Charter,30,Sturgis West,38,True,True
+3233,2/9,Rising Tide Charter,23,South Shore VT,24,True,True
+3234,1/20,Saint John Paul II,30,Sandwich,37,True,True
+3235,1/14,Rockland,55,South Shore Charter,15,True,True
+3236,2/13,Saint John Paul II,33,Sandwich,36,True,True
+3237,1/2,Saint Paul Diocesan,36,St. Bernard's,23,True,True
+3238,1/9,Saint Paul Diocesan,52,Tantasqua Regional,25,True,True
+3239,1/21,Saint Paul Diocesan,32,Uxbridge,39,True,True
+3240,2/5,Saint Paul Diocesan,23,Tantasqua Regional,29,True,True
+3241,2/6,Saint Paul Diocesan,26,Uxbridge,21,True,True
+3242,2/13,Saint Paul Diocesan,53,Whitinsville Christian,26,True,True
+3243,2/17,Saint Paul Diocesan,40,Tewksbury Memorial,44,True,True
+3244,2/18,Saint Paul Diocesan,37,Shepherd Hill Regional,45,True,True
+3245,2/2,Rockport,31,Salem Academy Charter,13,True,True
+3246,12/18,Roxbury Prep Charter,14,Weston,64,True,True
+3247,1/5,Roxbury Prep Charter,13,Weston,55,True,True
+3248,1/8,Salem,12,Winthrop,60,True,True
+3249,1/30,Roxbury Prep Charter,35,South Shore Charter,26,True,True
+3250,1/16,Salem,11,Swampscott,46,True,True
+3251,1/20,Salem,6,Saugus,50,True,True
+3252,12/17,Ruth Batson Academy,17,Tech Boston Academy,39,True,True
+3253,1/13,Ruth Batson Academy,11,Snowden International,30,True,True
+3254,2/6,Salem,24,Winthrop,63,True,True
+3255,2/9,Salem,7,Swampscott,40,True,True
+3256,2/10,Salem,5,Saugus,54,True,True
+3257,1/30,Ruth Batson Academy,19,Snowden International,40,True,True
+3258,2/6,Ruth Batson Academy,19,Tech Boston Academy,58,True,True
+3259,12/27,Saint John Paul II,51,Upper Cape Cod RVT,18,True,True
+3260,1/9,Sharon,32,Taunton,69,True,True
+3261,2/6,Sharon,32,Taunton,59,True,True
+3262,1/2,Saugus,57,Wilmington,46,True,True
+3263,1/6,Saugus,37,Winthrop,52,True,True
+3264,12/17,Shawsheen Valley Tech,32,Winchester,52,True,True
+3265,1/8,Saugus,52,Swampscott,47,True,True
+3266,1/29,Saugus,31,Winthrop,38,True,True
+3267,2/6,Saugus,52,Swampscott,49,True,True
+3268,2/5,Shawsheen Valley Tech,37,Whittier RVT,55,True,True
+3269,2/12,Shawsheen Valley Tech,30,Whittier RVT,47,True,True
+3270,12/16,Scituate,27,Whitman Hanson Regional,62,True,True
+3271,12/19,Shepherd Hill Regional,57,Westborough,46,True,True
+3272,12/27,Shepherd Hill Regional,47,Tantasqua Regional,36,True,True
+3273,1/20,Scituate,39,Silver Lake Regional,62,True,True
+3274,1/29,Shepherd Hill Regional,44,Westborough,55,True,True
+3275,2/17,Shepherd Hill Regional,40,Westborough,44,True,True
+3276,12/12,Seekonk,55,Southeastern RVT,34,True,True
+3277,12/16,Seekonk,51,West Bridgewater,58,True,True
+3278,12/23,Seekonk,56,Westport,29,True,True
+3279,1/6,Shrewsbury,27,Wachusett Regional,60,True,True
+3280,1/6,Seekonk,57,Somerset Berkley Regional,40,True,True
+3281,1/8,Seekonk,61,Southeastern RVT,37,True,True
+3282,1/13,Shrewsbury,33,Westford Academy,36,True,True
+3283,1/23,Seekonk,32,West Bridgewater,50,True,True
+3284,1/30,Shrewsbury,27,Wachusett Regional,61,True,True
+3285,2/4,Seekonk,53,Westport,36,True,True
+3286,12/16,Sharon,45,Stoughton,33,True,True
+3287,1/3,Silver Lake Regional,38,Whitman Hanson Regional,47,True,True
+3288,2/2,Snowden International,41,Tech Boston Academy,31,True,True
+3289,1/30,Silver Lake Regional,37,Whitman Hanson Regional,53,True,True
+3290,12/15,Sizer School,10,Trivium School,25,True,True
+3291,1/5,Sizer School,21,Southbridge,45,True,True
+3292,1/20,Somerset Berkley Regional,48,West Bridgewater,42,True,True
+3293,1/20,Sizer School,8,South Lancaster Academy,52,True,True
+3294,1/21,Sizer School,17,Trivium School,32,True,True
+3295,1/29,Sizer School,15,South Lancaster Academy,49,True,True
+3296,1/5,Somerville,39,Swampscott,43,True,True
+3297,1/22,Smith Academy,41,Ware,43,True,True
+3298,1/28,Smith Academy,48,Turners Falls,39,True,True
+3299,12/14,South Bronx Prep,50,Springfield Central,59,False,True
+3300,1/6,South Hadley,52,Springfield Central,66,True,True
+3301,12/19,Smith VT,51,Turners Falls,21,True,True
+3302,1/29,South Hadley,42,Springfield Central,68,True,True
+3303,1/22,Smith VT,60,Turners Falls,28,True,True
+3304,2/6,South Hadley,64,Westfield,32,True,True
+3305,2/9,South Hadley,62,Wahconah Regional,50,True,True
+3306,2/11,South Hadley,55,Wahconah Regional,53,True,True
+3307,1/9,South High Community,61,Sutton,34,True,True
+3308,2/6,Southbridge,28,University Park Campus,35,True,True
+3309,1/28,South High Community,56,Sutton,34,True,True
+3310,2/10,South High Community,58,Springfield Central,75,True,True
+3311,2/16,South High Community,62,Wellesley,27,True,True
+3312,1/20,Southeastern RVT,51,Tri-County RVT,48,True,True
+3313,1/14,South Lancaster Academy,30,Trivium School,12,True,True
+3314,2/12,Southeastern RVT,65,Tri-County RVT,34,True,True
+3315,2/2,South Lancaster Academy,32,Trivium School,17,True,True
+3316,1/12,Southwick Regional,44,Westfield,38,True,True
+3317,2/4,Southwick Regional,44,West Springfield,43,True,True
+3318,2/5,Southwick Regional,47,Westfield,39,True,True
+3319,2/17,Southwick Regional,44,Wahconah Regional,50,True,True
+3320,12/13,Springfield Central,43,Virginia Academy,50,True,False
+3321,12/12,South Shore VT,11,Tri-County RVT,51,True,True
+3322,12/22,South Shore VT,18,Upper Cape Cod RVT,52,True,True
+3323,1/12,South Shore VT,32,Sturgis East,46,True,True
+3324,1/21,South Shore VT,24,Sturgis East,58,True,True
+3325,1/28,South Shore VT,19,Upper Cape Cod RVT,51,True,True
+3326,2/2,South Shore VT,11,Tri-County RVT,42,True,True
+3327,12/15,Southbridge,19,Whitinsville Christian,23,True,True
+3328,12/30,Springfield International,48,West Springfield,43,True,True
+3329,1/2,Springfield International,41,Westfield,38,True,True
+3330,1/17,Springfield International,28,St. Johnsbury Academy,48,True,False
+3331,1/21,Southbridge,41,University Park Campus,27,True,True
+3332,2/2,Southbridge,31,West Boylston,62,True,True
+3333,2/6,Springfield International,61,West Springfield,45,True,True
+3334,2/12,Stoneham,32,Wilmington,48,True,True
+3335,12/17,St. Bernard's,44,Worcester Tech,19,True,True
+3336,1/12,St. Bernard's,47,Whitinsville Christian,19,True,True
+3337,1/6,Stoughton,38,Taunton,67,True,True
+3338,2/11,St. Bernard's,35,Worcester Tech,27,True,True
+3339,2/17,St. Bernard's,32,Whitinsville Christian,24,True,True
+3340,1/18,St. Johnsbury Academy,38,Wahconah Regional,40,False,True
+3341,12/27,St. Mary's,59,Tyngsborough,31,True,True
+3342,1/20,Sturgis East,31,Sturgis West,46,True,True
+3343,2/13,Sturgis East,36,Sturgis West,40,True,True
+3344,1/8,St. Mary Parish (Westfield),17,Westfield Technical Academy,14,True,True
+3345,2/3,St. Mary Parish (Westfield),45,Westfield Technical Academy,27,True,True
+3346,2/5,St. Mary Parish (Westfield),43,Westfield Technical Academy,16,True,True
+3347,12/17,Sutton,32,Uxbridge,47,True,True
+3348,12/12,Stoneham,51,Winchester,55,True,True
+3349,12/19,Stoneham,38,Wakefield Memorial,51,True,True
+3350,12/22,Stoneham,38,Watertown,50,True,True
+3351,1/27,Sutton,50,Whitinsville Christian,20,True,True
+3352,1/23,Stoneham,42,Wilmington,37,True,True
+3353,1/28,Stoneham,20,Woburn Memorial,72,True,True
+3354,1/30,Stoneham,43,Wakefield Memorial,45,True,True
+3355,2/3,Stoneham,33,Watertown,48,True,True
+3356,12/16,Swampscott,53,Winthrop,27,True,True
+3357,12/22,Swampscott,40,Tewksbury Memorial,34,True,True
+3358,1/28,Swampscott,51,Winthrop,37,True,True
+3359,1/21,Taconic,22,Wahconah Regional,69,True,True
+3360,2/7,Taconic,23,Wahconah Regional,74,True,True
+3361,12/26,Tahanto Regional,78,West Boylston,29,True,True
+3362,2/3,Tahanto Regional,66,West Boylston,35,True,True
+3363,2/18,Tewksbury Memorial,46,Westborough,52,True,True
+3364,1/12,Tantasqua Regional,30,Uxbridge,29,True,True
+3365,1/16,Tri-County RVT,49,Upper Cape Cod RVT,46,True,True
+3366,1/30,Tantasqua Regional,33,Uxbridge,40,True,True
+3367,2/2,Tantasqua Regional,57,Worcester Tech,11,True,True
+3368,2/11,Tri-County RVT,30,Upper Cape Cod RVT,37,True,True
+3369,1/5,Triton Regional,37,Wilmington,41,True,True
+3370,1/21,Triton Regional,46,Winthrop,39,True,True
+3371,2/9,University Park Campus,15,Whitinsville Christian,41,True,True
+3372,12/17,Upper Cape Cod RVT,33,Wareham,53,True,True
+3373,2/10,Upper Cape Cod RVT,51,Wareham,64,True,True
+3374,1/15,Ursuline Academy,17,Ursuline Academy,48,True,False
+3375,1/16,Ursuline Academy,50,Ursuline Academy,37,True,False
+3376,2/12,Turners Falls,31,Westfield Technical Academy,23,True,True
+3377,12/12,University Park Campus,13,West Boylston,57,True,True
+3378,1/4,Wachusett Regional,58,Westford Academy,31,True,True
+3379,1/9,Waltham,67,Weston,21,True,True
+3380,2/10,Waltham,30,Wayland,23,True,True
+3381,12/12,Wakefield Memorial,36,Woburn Memorial,44,True,True
+3382,1/6,Wakefield Memorial,41,Winchester,57,True,True
+3383,1/9,Wakefield Memorial,31,Watertown,41,True,True
+3384,1/16,Wakefield Memorial,45,Wilmington,31,True,True
+3385,1/15,Wareham,60,Westport,29,True,True
+3386,2/6,Wakefield Memorial,41,Watertown,53,True,True
+3387,2/10,Wakefield Memorial,45,Wilmington,48,True,True
+3388,2/11,Wareham,44,Westport,41,True,True
+3389,12/16,Watertown,45,Woburn Memorial,65,True,True
+3390,12/19,Watertown,45,Wilmington,26,True,True
+3391,1/6,Walpole,65,Wellesley,38,True,True
+3392,1/13,Watertown,45,Winchester,50,True,True
+3393,1/13,Walpole,70,Weymouth,48,True,True
+3394,1/30,Watertown,46,Wilmington,53,True,True
+3395,2/2,Walpole,67,Westwood,35,True,True
+3396,2/8,Walpole,69,Weymouth,45,True,True
+3397,2/17,Watertown,42,Wellesley,28,True,True
+3398,12/11,Wayland,35,Weston,18,True,True
+3399,12/19,Waltham,28,Westford Academy,57,True,True
+3400,1/6,Wayland,51,Weston,30,True,True
+3401,1/9,Wayland,20,Westford Academy,52,True,True
+3402,1/23,Wellesley,45,Weymouth,21,True,True
+3403,1/13,Westfield,40,West Springfield,47,True,True
+3404,1/23,Westford Academy,56,Weston,28,True,True
+3405,1/23,Whitinsville Christian,49,Worcester Tech,38,True,True
+3406,2/18,Whitinsville Christian,43,Worcester Tech,47,True,True
+3407,1/6,Wilmington,34,Woburn Memorial,60,True,True
+3408,2/8,Wilmington,79,Winchester,51,True,True
+3409,12/19,Winchester,41,Woburn Memorial,69,True,True
+3410,1/2,Winchester,49,Winthrop,39,True,True
+3411,1/30,Winchester,39,Woburn Memorial,52,True,True

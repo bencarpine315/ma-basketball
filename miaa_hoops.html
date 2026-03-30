@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MIAA Hoops — Massachusetts Basketball Analytics</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f7f6f2;
+    --surface: #ffffff;
+    --border: #e8e5de;
+    --text: #1a1a18;
+    --muted: #8a8880;
+    --accent: #c8392b;
+    --accent2: #1a3a5c;
+    --green: #2e7d4f;
+    --radius: 6px;
+    --mono: 'DM Mono', monospace;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; font-size: 15px; }
+
+  /* ── Header ── */
+  header {
+    background: var(--accent2); color: #fff; padding: 0 32px;
+    display: flex; align-items: center; justify-content: space-between;
+    height: 60px; position: sticky; top: 0; z-index: 100;
+    border-bottom: 3px solid var(--accent);
+  }
+  .logo { font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 2px; color: #fff; }
+  .logo span { color: var(--accent); }
+  nav { display: flex; gap: 24px; }
+  nav a {
+    color: rgba(255,255,255,0.7); text-decoration: none; font-size: 13px;
+    font-weight: 500; letter-spacing: 0.5px; text-transform: uppercase; cursor: pointer; transition: color 0.15s;
+  }
+  nav a:hover, nav a.active { color: #fff; }
+
+  /* ── Gender tabs ── */
+  .gender-tabs {
+    background: var(--accent2);
+    display: flex;
+    padding: 0 32px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+  .gender-tab {
+    padding: 10px 28px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: rgba(255,255,255,0.5);
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    transition: all 0.15s;
+    user-select: none;
+  }
+  .gender-tab:hover { color: rgba(255,255,255,0.8); }
+  .gender-tab.active { color: #fff; border-bottom-color: var(--accent); }
+
+  /* ── Hero ── */
+  .hero { background: var(--accent2); color: #fff; padding: 32px 32px 28px; border-bottom: 1px solid rgba(255,255,255,0.08); }
+  .hero-inner { max-width: 1100px; margin: 0 auto; }
+  .hero h1 { font-family: 'Bebas Neue', sans-serif; font-size: 48px; letter-spacing: 3px; line-height: 1; margin-bottom: 6px; }
+  .hero h1 span { color: var(--accent); }
+  .hero p { color: rgba(255,255,255,0.6); font-size: 13px; }
+  .stat-strip { display: flex; gap: 40px; margin-top: 20px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,0.1); }
+  .stat-item label { display: block; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: rgba(255,255,255,0.45); margin-bottom: 4px; }
+  .stat-item .val { font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 1px; color: #fff; }
+
+  /* ── Layout ── */
+  .page { max-width: 1100px; margin: 0 auto; padding: 32px; }
+  .section { display: none; }
+  .section.active { display: block; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+  .card-header { padding: 16px 20px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
+  .card-header h2 { font-family: 'Bebas Neue', sans-serif; font-size: 20px; letter-spacing: 1.5px; }
+  .card-header .badge { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.8px; color: var(--muted); font-family: var(--mono); }
+
+  /* ── Rankings ── */
+  .rankings-table { width: 100%; border-collapse: collapse; }
+  .rankings-table thead tr { background: #f2f0eb; }
+  .rankings-table th { padding: 10px 16px; text-align: left; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.8px; color: var(--muted); font-family: var(--mono); border-bottom: 1px solid var(--border); }
+  .rankings-table th.right, .rankings-table td.right { text-align: right; }
+  .rankings-table tbody tr { border-bottom: 1px solid var(--border); transition: background 0.1s; cursor: default; }
+  .rankings-table tbody tr:last-child { border-bottom: none; }
+  .rankings-table tbody tr:hover { background: #faf9f6; }
+  .rankings-table td { padding: 11px 16px; }
+  .rank-num { font-family: 'Bebas Neue', sans-serif; font-size: 18px; color: var(--muted); width: 40px; }
+  .rank-num.top5 { color: var(--accent); }
+  .rank-num.top25 { color: var(--accent2); }
+  .team-name { font-weight: 600; font-size: 14px; }
+  .record { font-family: var(--mono); font-size: 13px; color: var(--muted); }
+  .net-rating { font-family: var(--mono); font-size: 14px; font-weight: 500; }
+  .net-rating.pos { color: var(--green); }
+  .net-rating.neg { color: var(--accent); }
+  .avg-margin { font-family: var(--mono); font-size: 13px; color: var(--muted); }
+  .bar-cell { width: 120px; }
+  .bar-wrap { height: 6px; background: #eee; border-radius: 3px; overflow: hidden; }
+  .bar-fill { height: 100%; border-radius: 3px; background: var(--accent2); }
+  .bar-fill.neg { background: var(--accent); }
+  .search-wrap { padding: 14px 20px; border-bottom: 1px solid var(--border); }
+  .search-wrap input { width: 100%; padding: 8px 12px; border: 1px solid var(--border); border-radius: var(--radius); font-family: 'DM Sans', sans-serif; font-size: 13px; background: var(--bg); color: var(--text); }
+  .search-wrap input:focus { outline: none; border-color: var(--accent2); }
+
+  /* ── Top 25 ── */
+  .top25-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1px; background: var(--border); }
+  .top25-item { background: var(--surface); padding: 16px; transition: background 0.1s; }
+  .top25-item:hover { background: #faf9f6; }
+  .top25-rank { font-family: 'Bebas Neue', sans-serif; font-size: 32px; color: var(--border); line-height: 1; margin-bottom: 4px; }
+  .top25-item:nth-child(-n+5) .top25-rank { color: var(--accent); }
+  .top25-name { font-weight: 600; font-size: 13px; margin-bottom: 6px; line-height: 1.3; }
+  .top25-rating { font-family: var(--mono); font-size: 12px; color: var(--green); }
+  .top25-record { font-family: var(--mono); font-size: 11px; color: var(--muted); margin-top: 2px; }
+
+  /* ── Predictor ── */
+  .predictor-layout { display: grid; grid-template-columns: 1fr auto 1fr; align-items: stretch; }
+  .predictor-team { padding: 28px; }
+  .predictor-vs { display: flex; align-items: center; justify-content: center; padding: 0 24px; border-left: 1px solid var(--border); border-right: 1px solid var(--border); background: #faf9f6; }
+  .predictor-vs span { font-family: 'Bebas Neue', sans-serif; font-size: 28px; color: var(--muted); letter-spacing: 2px; }
+  .predictor-team label { display: block; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); margin-bottom: 10px; }
+  .predictor-team select { width: 100%; padding: 10px 12px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); font-family: 'DM Sans', sans-serif; font-size: 14px; font-weight: 500; color: var(--text); appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%238a8880' d='M1 1l5 5 5-5'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 12px center; cursor: pointer; margin-bottom: 12px; }
+  .venue-toggle { display: flex; gap: 8px; }
+  .venue-btn { flex: 1; padding: 7px 0; border: 1px solid var(--border); border-radius: var(--radius); background: transparent; font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 500; color: var(--muted); cursor: pointer; transition: all 0.15s; text-transform: uppercase; letter-spacing: 0.5px; }
+  .venue-btn.active { background: var(--accent2); border-color: var(--accent2); color: #fff; }
+  .predictor-result { padding: 28px 32px; border-top: 1px solid var(--border); background: #faf9f6; display: none; }
+  .predictor-result.visible { display: block; }
+  .result-main { display: flex; align-items: baseline; gap: 16px; margin-bottom: 20px; }
+  .result-winner { font-family: 'Bebas Neue', sans-serif; font-size: 36px; color: var(--accent2); letter-spacing: 1px; }
+  .result-margin { font-family: var(--mono); font-size: 14px; color: var(--muted); }
+  .prob-bars { display: flex; flex-direction: column; gap: 10px; }
+  .prob-row { display: flex; align-items: center; gap: 12px; }
+  .prob-label { width: 160px; font-size: 13px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .prob-bar-wrap { flex: 1; height: 8px; background: var(--border); border-radius: 4px; overflow: hidden; }
+  .prob-bar-fill { height: 100%; border-radius: 4px; transition: width 0.5s; }
+  .prob-bar-fill.team-a { background: var(--accent2); }
+  .prob-bar-fill.team-b { background: var(--accent); }
+  .prob-pct { width: 44px; text-align: right; font-family: var(--mono); font-size: 13px; font-weight: 500; }
+  .predict-btn { display: block; width: calc(100% - 64px); margin: 0 32px 24px; padding: 13px; background: var(--accent2); color: #fff; border: none; border-radius: var(--radius); font-family: 'Bebas Neue', sans-serif; font-size: 18px; letter-spacing: 2px; cursor: pointer; transition: background 0.15s; }
+  .predict-btn:hover { background: #142d4a; }
+
+  /* ── Two-col ── */
+  .two-col { display: grid; grid-template-columns: 1fr 320px; gap: 24px; align-items: start; }
+  .sidebar { display: flex; flex-direction: column; gap: 16px; }
+  .sigma-card { background: var(--accent2); color: #fff; border-radius: var(--radius); padding: 20px; }
+  .sigma-card label { font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: rgba(255,255,255,0.5); display: block; margin-bottom: 4px; }
+  .sigma-card .big { font-family: 'Bebas Neue', sans-serif; font-size: 42px; line-height: 1; letter-spacing: 1px; }
+  .sigma-card p { font-size: 12px; color: rgba(255,255,255,0.6); margin-top: 8px; line-height: 1.5; }
+  .quick-predict { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; }
+  .quick-predict h3 { font-family: 'Bebas Neue', sans-serif; font-size: 18px; letter-spacing: 1px; margin-bottom: 12px; }
+  .quick-predict select { width: 100%; padding: 8px 10px; border: 1px solid var(--border); border-radius: var(--radius); font-family: 'DM Sans', sans-serif; font-size: 13px; color: var(--text); background: var(--bg); margin-bottom: 8px; appearance: none; }
+  .quick-predict button { width: 100%; padding: 9px; background: var(--accent); color: #fff; border: none; border-radius: var(--radius); font-family: 'Bebas Neue', sans-serif; font-size: 16px; letter-spacing: 1.5px; cursor: pointer; margin-top: 4px; }
+  .quick-result { margin-top: 12px; padding: 12px; background: var(--bg); border-radius: var(--radius); display: none; }
+  .quick-result.visible { display: block; }
+  .quick-result .qr-winner { font-weight: 700; font-size: 14px; }
+  .quick-result .qr-detail { font-family: var(--mono); font-size: 12px; color: var(--muted); margin-top: 4px; }
+
+  @media (max-width: 768px) {
+    .two-col { grid-template-columns: 1fr; }
+    .predictor-layout { grid-template-columns: 1fr; }
+    .predictor-vs { display: none; }
+    .hero h1 { font-size: 36px; }
+    .stat-strip { flex-wrap: wrap; gap: 20px; }
+    .gender-tabs { padding: 0 16px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">MIAA<span>Hoops</span></div>
+  <nav>
+    <a class="active" onclick="showSection('rankings')">Rankings</a>
+    <a onclick="showSection('top25')">Top 25</a>
+    <a onclick="showSection('predictor')">Predictor</a>
+    <a onclick="showSection('search')">Teams</a>
+  </nav>
+</header>
+
+<div class="gender-tabs">
+  <div class="gender-tab active" onclick="switchGender('boys',this)">Boys</div>
+  <div class="gender-tab" onclick="switchGender('girls',this)">Girls</div>
+</div>
+
+<div class="hero">
+  <div class="hero-inner">
+    <h1>Massachusetts<br><span id="hero-gender">Boys</span> Basketball</h1>
+    <p>NET ratings powered by iterative margin-based strength of schedule · 2025–26 Season</p>
+    <div class="stat-strip">
+      <div class="stat-item"><label>Teams Ranked</label><div class="val" id="stat-teams">—</div></div>
+      <div class="stat-item"><label>Games Analyzed</label><div class="val" id="stat-games">—</div></div>
+      <div class="stat-item"><label>Residual σ</label><div class="val" id="stat-sigma">—</div></div>
+      <div class="stat-item"><label>Last Updated</label><div class="val">Today</div></div>
+    </div>
+  </div>
+</div>
+
+<div class="page">
+
+  <!-- RANKINGS -->
+  <section class="section active" id="section-rankings">
+    <div class="two-col">
+      <div>
+        <div class="card">
+          <div class="card-header">
+            <h2>Full Rankings</h2>
+            <span class="badge">NET Rating</span>
+          </div>
+          <div class="search-wrap">
+            <input type="text" id="search-input" placeholder="Search team…" oninput="filterTable()">
+          </div>
+          <table class="rankings-table" id="rankings-table">
+            <thead>
+              <tr>
+                <th style="width:40px">RK</th>
+                <th>Team</th>
+                <th class="right">W–L</th>
+                <th class="right">Avg Margin</th>
+                <th class="right">NET Rating</th>
+                <th class="bar-cell"></th>
+              </tr>
+            </thead>
+            <tbody id="rankings-body"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="sigma-card">
+          <label>Residual Std Dev (σ)</label>
+          <div class="big" id="sidebar-sigma">—</div>
+          <p id="sidebar-sigma-desc">Rating difference = predicted neutral-site margin.</p>
+        </div>
+        <div class="quick-predict card">
+          <h3>Quick Predict</h3>
+          <label style="font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:0.8px;display:block;margin-bottom:4px">Team A</label>
+          <select id="qp-team-a"></select>
+          <label style="font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:0.8px;display:block;margin-bottom:4px">Team B</label>
+          <select id="qp-team-b"></select>
+          <button onclick="quickPredict()">Calculate</button>
+          <div class="quick-result" id="quick-result"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TOP 25 -->
+  <section class="section" id="section-top25">
+    <div class="card">
+      <div class="card-header">
+        <h2>Top 25 Teams</h2>
+        <span class="badge" id="top25-badge">2025–26 Season</span>
+      </div>
+      <div class="top25-grid" id="top25-grid"></div>
+    </div>
+  </section>
+
+  <!-- PREDICTOR -->
+  <section class="section" id="section-predictor">
+    <div class="card" style="max-width:800px;margin:0 auto;">
+      <div class="card-header">
+        <h2>Game Predictor</h2>
+        <span class="badge">Neutral site unless specified</span>
+      </div>
+      <div class="predictor-layout">
+        <div class="predictor-team">
+          <label>Team A</label>
+          <select id="pred-team-a"></select>
+          <div class="venue-toggle">
+            <button class="venue-btn active" onclick="setVenue('home',this)">Home</button>
+            <button class="venue-btn" onclick="setVenue('neutral',this)">Neutral</button>
+            <button class="venue-btn" onclick="setVenue('away',this)">Away</button>
+          </div>
+        </div>
+        <div class="predictor-vs"><span>VS</span></div>
+        <div class="predictor-team">
+          <label>Team B</label>
+          <select id="pred-team-b"></select>
+        </div>
+      </div>
+      <button class="predict-btn" onclick="runPredictor()">Generate Prediction</button>
+      <div class="predictor-result" id="predictor-result"></div>
+    </div>
+  </section>
+
+  <!-- SEARCH -->
+  <section class="section" id="section-search">
+    <div class="card" style="max-width:700px;margin:0 auto;">
+      <div class="card-header">
+        <h2>Find a Team</h2>
+        <span class="badge" id="search-count"></span>
+      </div>
+      <div class="search-wrap">
+        <input type="text" id="team-search-input" placeholder="Type a team name…" oninput="searchTeams()" autocomplete="off">
+      </div>
+      <div id="team-search-results"></div>
+    </div>
+  </section>
+
+
+</div>
+
+<script>
+// ── Data ─────────────────────────────────────────────────────────────────────
+const DATA = {
+  boys: {
+    teams: [{"name": "Pope Francis", "w": 18, "l": 3, "margin": 19.9, "rating": 35.991}, {"name": "Central Catholic", "w": 18, "l": 2, "margin": 18.2, "rating": 35.416}, {"name": "St. Mary's", "w": 19, "l": 3, "margin": 18.2, "rating": 34.541}, {"name": "Masconomet Regional", "w": 17, "l": 3, "margin": 22.1, "rating": 31.752}, {"name": "Attleboro", "w": 20, "l": 2, "margin": 22.2, "rating": 31.324}, {"name": "Beverly", "w": 17, "l": 4, "margin": 24.2, "rating": 30.794}, {"name": "Springfield Central", "w": 15, "l": 5, "margin": 14.6, "rating": 29.965}, {"name": "Bridgewater Raynham", "w": 16, "l": 4, "margin": 17.1, "rating": 29.772}, {"name": "New Bedford", "w": 17, "l": 3, "margin": 14.9, "rating": 28.222}, {"name": "Andover", "w": 18, "l": 2, "margin": 11.4, "rating": 28.165}, {"name": "Boston College High", "w": 14, "l": 6, "margin": 5.8, "rating": 25.664}, {"name": "Needham", "w": 18, "l": 2, "margin": 13.6, "rating": 25.648}, {"name": "Salem", "w": 19, "l": 2, "margin": 16.2, "rating": 24.991}, {"name": "Hanover", "w": 19, "l": 1, "margin": 14.2, "rating": 24.976}, {"name": "Lexington", "w": 16, "l": 4, "margin": 14.6, "rating": 24.617}, {"name": "Malden Catholic", "w": 14, "l": 6, "margin": 6.5, "rating": 24.598}, {"name": "Wareham", "w": 16, "l": 5, "margin": 11.3, "rating": 24.553}, {"name": "Bishop Feehan", "w": 13, "l": 7, "margin": 8.2, "rating": 24.495}, {"name": "Burlington", "w": 17, "l": 3, "margin": 15.4, "rating": 24.067}, {"name": "Xaverian Brothers", "w": 12, "l": 8, "margin": 3.9, "rating": 23.923}, {"name": "Mansfield", "w": 17, "l": 5, "margin": 12.5, "rating": 23.342}, {"name": "Chicopee Comp", "w": 17, "l": 4, "margin": 12.5, "rating": 23.273}, {"name": "Saint John's", "w": 13, "l": 7, "margin": 7.5, "rating": 23.156}, {"name": "Plymouth South", "w": 17, "l": 3, "margin": 12.0, "rating": 22.665}, {"name": "Oliver Ames", "w": 18, "l": 4, "margin": 12.2, "rating": 22.464}, {"name": "Longmeadow", "w": 16, "l": 4, "margin": 10.4, "rating": 22.179}, {"name": "Brockton", "w": 13, "l": 7, "margin": 4.9, "rating": 22.157}, {"name": "Tewksbury Memorial", "w": 15, "l": 5, "margin": 8.3, "rating": 21.541}, {"name": "Marshfield", "w": 18, "l": 3, "margin": 14.4, "rating": 20.801}, {"name": "Catholic Memorial", "w": 11, "l": 9, "margin": -0.8, "rating": 20.662}, {"name": "Winchester", "w": 16, "l": 4, "margin": 8.9, "rating": 20.555}, {"name": "Newton North", "w": 14, "l": 6, "margin": 6.2, "rating": 20.413}, {"name": "Cambridge Rindge & Latin", "w": 14, "l": 6, "margin": 7.3, "rating": 20.367}, {"name": "Holland Tech", "w": 18, "l": 4, "margin": 17.8, "rating": 20.093}, {"name": "Archbishop Williams", "w": 13, "l": 7, "margin": 6.5, "rating": 19.834}, {"name": "Lincoln-Sudbury", "w": 15, "l": 5, "margin": 8.8, "rating": 19.766}, {"name": "Doherty Memorial", "w": 14, "l": 6, "margin": 9.2, "rating": 19.524}, {"name": "Arlington", "w": 16, "l": 6, "margin": 6.0, "rating": 19.18}, {"name": "Greater Lawrence Tech", "w": 14, "l": 7, "margin": 16.0, "rating": 18.922}, {"name": "HS of Science & Technology", "w": 17, "l": 4, "margin": 7.5, "rating": 18.753}, {"name": "Millbury", "w": 18, "l": 3, "margin": 12.3, "rating": 18.732}, {"name": "Swampscott", "w": 16, "l": 4, "margin": 11.9, "rating": 18.409}, {"name": "Acton Boxborough", "w": 15, "l": 5, "margin": 6.2, "rating": 18.354}, {"name": "Quincy", "w": 16, "l": 5, "margin": 8.5, "rating": 17.915}, {"name": "Methuen", "w": 9, "l": 11, "margin": 1.2, "rating": 17.884}, {"name": "Lawrence", "w": 10, "l": 10, "margin": 0.3, "rating": 17.309}, {"name": "Charlestown", "w": 13, "l": 7, "margin": 11.2, "rating": 16.871}, {"name": "Amherst Pelham Regional", "w": 13, "l": 7, "margin": 7.2, "rating": 16.838}, {"name": "Georgetown", "w": 15, "l": 5, "margin": 15.8, "rating": 16.083}, {"name": "Abington", "w": 14, "l": 8, "margin": 7.5, "rating": 16.079}, {"name": "Boston Latin Academy", "w": 16, "l": 5, "margin": 17.1, "rating": 16.078}, {"name": "Brookline", "w": 12, "l": 8, "margin": 4.8, "rating": 15.993}, {"name": "Lynn Classical", "w": 17, "l": 3, "margin": 10.4, "rating": 15.896}, {"name": "Newburyport", "w": 18, "l": 2, "margin": 15.4, "rating": 15.801}, {"name": "Algonquin", "w": 15, "l": 5, "margin": 8.1, "rating": 15.763}, {"name": "Norwell", "w": 14, "l": 6, "margin": 8.1, "rating": 15.394}, {"name": "Medfield", "w": 17, "l": 3, "margin": 13.3, "rating": 15.267}, {"name": "Barnstable", "w": 13, "l": 7, "margin": 5.3, "rating": 15.034}, {"name": "Belmont", "w": 12, "l": 8, "margin": 3.4, "rating": 14.897}, {"name": "Weston", "w": 16, "l": 4, "margin": 11.4, "rating": 14.896}, {"name": "Old Rochester Regional", "w": 13, "l": 7, "margin": 6.0, "rating": 14.829}, {"name": "Marblehead", "w": 13, "l": 7, "margin": 8.3, "rating": 14.583}, {"name": "Bishop Stang", "w": 12, "l": 8, "margin": 6.0, "rating": 14.512}, {"name": "Lowell", "w": 11, "l": 9, "margin": -0.3, "rating": 14.296}, {"name": "St. John's Prep", "w": 3, "l": 17, "margin": -8.7, "rating": 14.275}, {"name": "Rockland", "w": 17, "l": 3, "margin": 15.6, "rating": 14.26}, {"name": "Cathedral", "w": 13, "l": 5, "margin": 5.2, "rating": 14.214}, {"name": "Milton", "w": 13, "l": 7, "margin": 7.3, "rating": 14.068}, {"name": "Natick", "w": 10, "l": 10, "margin": 0.2, "rating": 13.901}, {"name": "Stoneham", "w": 12, "l": 8, "margin": 7.0, "rating": 13.786}, {"name": "Nashoba Regional", "w": 18, "l": 2, "margin": 14.6, "rating": 13.773}, {"name": "Whitman Hanson Regional", "w": 11, "l": 9, "margin": 1.9, "rating": 13.658}, {"name": "Foxborough", "w": 12, "l": 8, "margin": 2.6, "rating": 13.554}, {"name": "Franklin", "w": 11, "l": 10, "margin": 1.3, "rating": 13.226}, {"name": "Chelmsford", "w": 11, "l": 9, "margin": 4.8, "rating": 12.715}, {"name": "Shepherd Hill Regional", "w": 16, "l": 4, "margin": 9.8, "rating": 12.6}, {"name": "Pembroke", "w": 10, "l": 10, "margin": 2.9, "rating": 12.487}, {"name": "Wahconah Regional", "w": 14, "l": 6, "margin": 11.7, "rating": 12.393}, {"name": "Scituate", "w": 10, "l": 10, "margin": -0.5, "rating": 12.048}, {"name": "New Mission", "w": 15, "l": 6, "margin": 10.4, "rating": 12.032}, {"name": "Agawam", "w": 9, "l": 11, "margin": -3.7, "rating": 11.917}, {"name": "Woburn Memorial", "w": 9, "l": 11, "margin": -0.8, "rating": 11.477}, {"name": "Greater New Bedford", "w": 13, "l": 8, "margin": 6.2, "rating": 11.459}, {"name": "Lynn VT", "w": 13, "l": 7, "margin": 8.6, "rating": 11.379}, {"name": "Drury", "w": 19, "l": 2, "margin": 16.6, "rating": 10.9}, {"name": "Martha's Vineyard Regional", "w": 17, "l": 3, "margin": 7.0, "rating": 10.866}, {"name": "Haverhill", "w": 11, "l": 9, "margin": -0.6, "rating": 10.837}, {"name": "Shrewsbury", "w": 13, "l": 7, "margin": 4.8, "rating": 10.837}, {"name": "Westwood", "w": 15, "l": 6, "margin": 5.5, "rating": 10.668}, {"name": "Lynnfield", "w": 16, "l": 4, "margin": 12.7, "rating": 10.639}, {"name": "Somerset Berkley Regional", "w": 13, "l": 7, "margin": 8.3, "rating": 10.6}, {"name": "West Bridgewater", "w": 13, "l": 7, "margin": 8.7, "rating": 10.588}, {"name": "Nantucket", "w": 14, "l": 6, "margin": 14.4, "rating": 10.559}, {"name": "Falmouth", "w": 14, "l": 6, "margin": 7.9, "rating": 10.53}, {"name": "Minnechaug", "w": 9, "l": 11, "margin": -2.1, "rating": 10.362}, {"name": "Walpole", "w": 10, "l": 10, "margin": 0.6, "rating": 10.325}, {"name": "Canton", "w": 10, "l": 10, "margin": -1.6, "rating": 10.32}, {"name": "South High Community", "w": 9, "l": 11, "margin": 2.6, "rating": 10.258}, {"name": "Taunton", "w": 10, "l": 10, "margin": -1.6, "rating": 10.002}, {"name": "North Andover", "w": 5, "l": 15, "margin": -6.8, "rating": 9.904}, {"name": "Middleborough", "w": 13, "l": 7, "margin": 7.7, "rating": 9.898}, {"name": "Everett", "w": 12, "l": 10, "margin": 3.1, "rating": 9.75}, {"name": "Pittsfield", "w": 13, "l": 7, "margin": 3.0, "rating": 9.593}, {"name": "Braintree", "w": 7, "l": 13, "margin": -4.2, "rating": 9.391}, {"name": "Holliston", "w": 14, "l": 6, "margin": 8.6, "rating": 9.201}, {"name": "Boston Latin", "w": 11, "l": 9, "margin": 5.0, "rating": 8.968}, {"name": "Melrose", "w": 12, "l": 8, "margin": 0.8, "rating": 8.718}, {"name": "Wellesley", "w": 9, "l": 11, "margin": -2.9, "rating": 8.63}, {"name": "Newton South", "w": 9, "l": 10, "margin": -7.2, "rating": 8.253}, {"name": "Manchester Essex", "w": 11, "l": 9, "margin": 4.0, "rating": 7.775}, {"name": "Holyoke", "w": 6, "l": 13, "margin": -12.3, "rating": 7.316}, {"name": "Somerville", "w": 13, "l": 7, "margin": 4.0, "rating": 6.893}, {"name": "North Reading", "w": 14, "l": 6, "margin": 8.3, "rating": 6.863}, {"name": "Blue Hills RVT", "w": 19, "l": 1, "margin": 12.9, "rating": 6.836}, {"name": "Hopkinton", "w": 12, "l": 8, "margin": 5.0, "rating": 6.16}, {"name": "Putnam VT", "w": 6, "l": 14, "margin": -11.9, "rating": 6.08}, {"name": "Billerica Memorial", "w": 11, "l": 9, "margin": -0.2, "rating": 6.004}, {"name": "Dedham", "w": 13, "l": 7, "margin": 3.4, "rating": 5.974}, {"name": "Plymouth North", "w": 7, "l": 13, "margin": -5.2, "rating": 5.929}, {"name": "Sutton", "w": 14, "l": 6, "margin": 11.2, "rating": 5.911}, {"name": "North Quincy", "w": 5, "l": 15, "margin": -2.4, "rating": 5.826}, {"name": "Frontier Regional", "w": 18, "l": 2, "margin": 22.8, "rating": 5.801}, {"name": "Dover-Sherborn", "w": 12, "l": 8, "margin": 4.7, "rating": 5.738}, {"name": "Clinton", "w": 13, "l": 7, "margin": 7.7, "rating": 5.733}, {"name": "Wachusett Regional", "w": 10, "l": 10, "margin": -1.6, "rating": 5.676}, {"name": "Fairhaven", "w": 13, "l": 7, "margin": 1.6, "rating": 5.511}, {"name": "Chelsea", "w": 15, "l": 5, "margin": 4.7, "rating": 5.457}, {"name": "North High", "w": 8, "l": 12, "margin": -4.4, "rating": 5.365}, {"name": "East Longmeadow", "w": 13, "l": 7, "margin": 5.8, "rating": 5.244}, {"name": "Framingham", "w": 5, "l": 16, "margin": -5.5, "rating": 5.019}, {"name": "Duxbury", "w": 11, "l": 9, "margin": -2.7, "rating": 4.997}, {"name": "New Heights Charter", "w": 16, "l": 1, "margin": 20.5, "rating": 4.982}, {"name": "North Attleborough", "w": 6, "l": 14, "margin": -6.5, "rating": 4.889}, {"name": "South Hadley", "w": 10, "l": 10, "margin": 0.4, "rating": 4.835}, {"name": "Northampton", "w": 7, "l": 13, "margin": -3.7, "rating": 4.547}, {"name": "Milford", "w": 5, "l": 15, "margin": -6.5, "rating": 4.385}, {"name": "Randolph", "w": 10, "l": 10, "margin": 0.7, "rating": 4.382}, {"name": "Southeastern RVT", "w": 9, "l": 8, "margin": 2.1, "rating": 4.34}, {"name": "Lowell Catholic", "w": 11, "l": 9, "margin": 3.1, "rating": 4.262}, {"name": "Monomoy", "w": 11, "l": 9, "margin": 5.0, "rating": 4.171}, {"name": "Westford Academy", "w": 7, "l": 13, "margin": -4.0, "rating": 4.154}, {"name": "Wilmington", "w": 7, "l": 13, "margin": -4.5, "rating": 4.057}, {"name": "Cardinal Spellman", "w": 8, "l": 14, "margin": -6.6, "rating": 3.944}, {"name": "Burncoat", "w": 5, "l": 15, "margin": -6.4, "rating": 3.832}, {"name": "Bedford", "w": 6, "l": 14, "margin": -6.3, "rating": 3.795}, {"name": "North Middlesex Regional", "w": 11, "l": 9, "margin": 3.7, "rating": 3.735}, {"name": "Auburn", "w": 14, "l": 5, "margin": 10.1, "rating": 3.341}, {"name": "Oakmont Regional", "w": 10, "l": 10, "margin": 3.2, "rating": 3.31}, {"name": "Medford", "w": 8, "l": 12, "margin": -3.0, "rating": 3.165}, {"name": "Hamilton Wenham", "w": 9, "l": 11, "margin": 0.6, "rating": 3.137}, {"name": "Dighton Rehoboth Regional", "w": 11, "l": 9, "margin": -3.6, "rating": 3.13}, {"name": "Ipswich", "w": 13, "l": 7, "margin": 5.3, "rating": 3.06}, {"name": "Upper Cape Cod RVT", "w": 17, "l": 3, "margin": 15.2, "rating": 2.856}, {"name": "Medway", "w": 10, "l": 10, "margin": -0.1, "rating": 2.755}, {"name": "Gardner", "w": 18, "l": 2, "margin": 21.1, "rating": 2.667}, {"name": "Monument Mountain", "w": 10, "l": 10, "margin": 0.1, "rating": 2.415}, {"name": "Taconic", "w": 6, "l": 14, "margin": -13.7, "rating": 2.277}, {"name": "Reading Memorial", "w": 3, "l": 17, "margin": -10.8, "rating": 2.235}, {"name": "Saugus", "w": 11, "l": 9, "margin": -4.2, "rating": 2.125}, {"name": "Madison Park", "w": 10, "l": 9, "margin": 1.6, "rating": 2.025}, {"name": "Holbrook", "w": 18, "l": 2, "margin": 22.4, "rating": 1.768}, {"name": "Sharon", "w": 6, "l": 16, "margin": -9.0, "rating": 1.718}, {"name": "Apponequet Regional", "w": 6, "l": 14, "margin": -4.7, "rating": 1.576}, {"name": "Arlington Catholic", "w": 10, "l": 10, "margin": -0.3, "rating": 1.551}, {"name": "KIPP Academy Lynn Collegiate", "w": 12, "l": 8, "margin": 2.5, "rating": 1.469}, {"name": "Watertown", "w": 7, "l": 13, "margin": -4.6, "rating": 1.451}, {"name": "Hopedale", "w": 15, "l": 5, "margin": 6.7, "rating": 1.007}, {"name": "Wayland", "w": 5, "l": 15, "margin": -4.8, "rating": 0.96}, {"name": "Tantasqua Regional", "w": 4, "l": 14, "margin": -6.9, "rating": 0.93}, {"name": "Mashpee", "w": 10, "l": 10, "margin": 4.2, "rating": 0.93}, {"name": "Amesbury", "w": 8, "l": 12, "margin": 1.2, "rating": 0.759}, {"name": "King Philip Regional", "w": 5, "l": 17, "margin": -15.2, "rating": 0.725}, {"name": "Roxbury Prep Charter", "w": 14, "l": 7, "margin": 11.2, "rating": 0.586}, {"name": "Waltham", "w": 6, "l": 14, "margin": -5.9, "rating": 0.381}, {"name": "Fitchburg", "w": 11, "l": 9, "margin": -1.0, "rating": 0.356}, {"name": "Hoosac Valley", "w": 13, "l": 8, "margin": 5.0, "rating": 0.147}, {"name": "Westborough", "w": 8, "l": 12, "margin": -3.2, "rating": 0.089}, {"name": "Danvers", "w": 9, "l": 11, "margin": -8.2, "rating": 0.016}, {"name": "Concord Carlisle", "w": 3, "l": 17, "margin": -11.9, "rating": -0.08}, {"name": "Norwood", "w": 10, "l": 10, "margin": -2.7, "rating": -0.201}, {"name": "Norton", "w": 6, "l": 14, "margin": -2.5, "rating": -0.213}, {"name": "Northbridge", "w": 12, "l": 8, "margin": 4.0, "rating": -0.333}, {"name": "Springfield International", "w": 5, "l": 15, "margin": -6.0, "rating": -0.344}, {"name": "Narragansett Regional", "w": 17, "l": 3, "margin": 15.9, "rating": -0.377}, {"name": "Lunenburg", "w": 11, "l": 7, "margin": 5.9, "rating": -0.501}, {"name": "Nauset Regional", "w": 7, "l": 13, "margin": -3.1, "rating": -0.752}, {"name": "Belchertown", "w": 10, "l": 10, "margin": -0.4, "rating": -0.852}, {"name": "Prouty", "w": 15, "l": 5, "margin": 8.4, "rating": -0.911}, {"name": "Peabody Veterans", "w": 7, "l": 15, "margin": -9.4, "rating": -0.916}, {"name": "Shawsheen Valley Tech", "w": 9, "l": 11, "margin": -3.0, "rating": -0.918}, {"name": "Lynn English", "w": 4, "l": 16, "margin": -7.4, "rating": -0.999}, {"name": "Hingham", "w": 3, "l": 19, "margin": -14.8, "rating": -1.131}, {"name": "Durfee", "w": 3, "l": 17, "margin": -15.1, "rating": -1.152}, {"name": "Silver Lake Regional", "w": 2, "l": 18, "margin": -11.9, "rating": -1.42}, {"name": "Bristol Plymouth RVT", "w": 13, "l": 7, "margin": 7.6, "rating": -1.444}, {"name": "O'Bryant", "w": 9, "l": 11, "margin": -3.7, "rating": -1.49}, {"name": "Seekonk", "w": 9, "l": 11, "margin": -2.2, "rating": -1.532}, {"name": "Chicopee", "w": 9, "l": 11, "margin": -1.3, "rating": -1.553}, {"name": "Winthrop", "w": 5, "l": 15, "margin": -8.6, "rating": -1.691}, {"name": "English High", "w": 7, "l": 11, "margin": -4.2, "rating": -1.738}, {"name": "Westfield", "w": 8, "l": 13, "margin": -1.0, "rating": -1.985}, {"name": "Prospect Hill Academy", "w": 17, "l": 3, "margin": 12.7, "rating": -2.294}, {"name": "Leominster", "w": 4, "l": 16, "margin": -11.2, "rating": -2.446}, {"name": "Dracut", "w": 3, "l": 17, "margin": -13.7, "rating": -2.776}, {"name": "Gloucester", "w": 4, "l": 16, "margin": -17.8, "rating": -3.136}, {"name": "Millis", "w": 6, "l": 14, "margin": -6.2, "rating": -3.294}, {"name": "Grafton", "w": 6, "l": 12, "margin": -7.8, "rating": -3.297}, {"name": "Blackstone-Millville", "w": 12, "l": 8, "margin": 2.9, "rating": -3.332}, {"name": "Stoughton", "w": 1, "l": 19, "margin": -18.2, "rating": -3.431}, {"name": "Hudson", "w": 12, "l": 6, "margin": -0.5, "rating": -3.439}, {"name": "Maynard", "w": 8, "l": 10, "margin": 1.6, "rating": -3.445}, {"name": "East Bridgewater", "w": 3, "l": 16, "margin": -11.0, "rating": -3.709}, {"name": "Mount Everett Regional", "w": 18, "l": 3, "margin": 12.4, "rating": -3.811}, {"name": "Dartmouth", "w": 2, "l": 18, "margin": -18.6, "rating": -3.885}, {"name": "Greenfield", "w": 15, "l": 6, "margin": 11.3, "rating": -3.966}, {"name": "Bellingham", "w": 6, "l": 14, "margin": -6.2, "rating": -4.517}, {"name": "Pioneer Charter of Science", "w": 16, "l": 4, "margin": 15.8, "rating": -4.556}, {"name": "Revere", "w": 5, "l": 15, "margin": -8.3, "rating": -4.687}, {"name": "Weymouth", "w": 1, "l": 20, "margin": -19.8, "rating": -4.805}, {"name": "Wakefield Memorial", "w": 1, "l": 19, "margin": -19.6, "rating": -4.875}, {"name": "Cohasset", "w": 6, "l": 14, "margin": -5.3, "rating": -4.903}, {"name": "Whitinsville Christian", "w": 15, "l": 5, "margin": 9.4, "rating": -5.121}, {"name": "Leicester", "w": 15, "l": 5, "margin": 7.1, "rating": -5.209}, {"name": "Brooke Charter", "w": 15, "l": 5, "margin": 13.7, "rating": -5.216}, {"name": "Bishop Fenwick", "w": 2, "l": 18, "margin": -16.7, "rating": -5.238}, {"name": "Dennis Yarmouth Regional", "w": 7, "l": 12, "margin": -10.3, "rating": -5.24}, {"name": "Tech Boston Academy", "w": 4, "l": 15, "margin": -12.8, "rating": -5.378}, {"name": "Quaboag Regional", "w": 13, "l": 7, "margin": 6.7, "rating": -5.386}, {"name": "Malden", "w": 6, "l": 14, "margin": -7.6, "rating": -5.84}, {"name": "Carver", "w": 12, "l": 8, "margin": -2.1, "rating": -5.918}, {"name": "Commerce", "w": 11, "l": 9, "margin": 2.6, "rating": -6.669}, {"name": "Sandwich", "w": 6, "l": 14, "margin": -11.6, "rating": -7.257}, {"name": "Bourne", "w": 3, "l": 17, "margin": -14.5, "rating": -7.853}, {"name": "Worcester Tech", "w": 12, "l": 8, "margin": 2.4, "rating": -8.208}, {"name": "Case", "w": 7, "l": 12, "margin": -10.4, "rating": -8.816}, {"name": "West Springfield", "w": 7, "l": 13, "margin": -11.1, "rating": -8.928}, {"name": "Libertas Academy Charter", "w": 13, "l": 7, "margin": 4.6, "rating": -9.087}, {"name": "Bartlett", "w": 8, "l": 10, "margin": -0.6, "rating": -9.212}, {"name": "Ware", "w": 10, "l": 10, "margin": 3.9, "rating": -9.217}, {"name": "Avon", "w": 12, "l": 6, "margin": 10.7, "rating": -9.238}, {"name": "Fenway", "w": 5, "l": 13, "margin": -11.2, "rating": -9.569}, {"name": "Ludlow", "w": 12, "l": 8, "margin": 8.3, "rating": -9.961}, {"name": "Easthampton", "w": 14, "l": 6, "margin": 4.8, "rating": -10.056}, {"name": "Tahanto Regional", "w": 12, "l": 6, "margin": 5.4, "rating": -10.114}, {"name": "Pentucket Regional", "w": 5, "l": 15, "margin": -13.1, "rating": -10.197}, {"name": "Nipmuc Regional", "w": 9, "l": 9, "margin": -1.7, "rating": -10.377}, {"name": "Cape Cod Academy", "w": 10, "l": 11, "margin": 13.4, "rating": -10.57}, {"name": "Palmer", "w": 11, "l": 9, "margin": 2.1, "rating": -11.144}, {"name": "Bethany Christian", "w": 12, "l": 0, "margin": 25.5, "rating": -11.404}, {"name": "Blackstone Valley RVT", "w": 9, "l": 10, "margin": -1.2, "rating": -11.652}, {"name": "Tyngsborough", "w": 4, "l": 16, "margin": -8.6, "rating": -11.831}, {"name": "East Boston", "w": 1, "l": 18, "margin": -22.2, "rating": -11.902}, {"name": "Groton Dunstable", "w": 3, "l": 15, "margin": -13.6, "rating": -12.226}, {"name": "Collegiate Charter of Lowell", "w": 12, "l": 7, "margin": 14.9, "rating": -12.377}, {"name": "Old Colony RVT", "w": 15, "l": 5, "margin": 14.6, "rating": -12.454}, {"name": "Boston United", "w": 5, "l": 13, "margin": -8.6, "rating": -12.574}, {"name": "Lee", "w": 9, "l": 11, "margin": -1.4, "rating": -12.639}, {"name": "Littleton", "w": 7, "l": 11, "margin": -8.2, "rating": -12.771}, {"name": "John J. Duggan Academy", "w": 10, "l": 9, "margin": 0.7, "rating": -12.936}, {"name": "Boston Preparatory", "w": 5, "l": 12, "margin": -3.2, "rating": -12.957}, {"name": "Ruth Batson Academy", "w": 11, "l": 7, "margin": 5.6, "rating": -12.968}, {"name": "Saint Paul Diocesan", "w": 7, "l": 13, "margin": -3.5, "rating": -13.171}, {"name": "Hull", "w": 12, "l": 8, "margin": 2.2, "rating": -13.183}, {"name": "Uxbridge", "w": 7, "l": 11, "margin": -3.1, "rating": -13.408}, {"name": "Quabbin Regional", "w": 5, "l": 15, "margin": -5.7, "rating": -13.81}, {"name": "Hampshire Regional", "w": 12, "l": 8, "margin": 0.5, "rating": -14.199}, {"name": "Snowden International", "w": 8, "l": 11, "margin": -4.2, "rating": -14.261}, {"name": "Ayer Shirley", "w": 10, "l": 10, "margin": 4.0, "rating": -14.351}, {"name": "Marlborough", "w": 5, "l": 15, "margin": -13.1, "rating": -14.497}, {"name": "Greater Lowell Tech", "w": 3, "l": 15, "margin": -19.7, "rating": -14.959}, {"name": "South Shore Charter", "w": 8, "l": 11, "margin": -2.4, "rating": -15.294}, {"name": "Westport", "w": 3, "l": 17, "margin": -13.4, "rating": -15.363}, {"name": "Bromfield School", "w": 10, "l": 9, "margin": 6.4, "rating": -15.429}, {"name": "Brighton", "w": 5, "l": 13, "margin": -15.9, "rating": -15.454}, {"name": "Whittier RVT", "w": 1, "l": 19, "margin": -22.3, "rating": -15.651}, {"name": "Keefe Tech", "w": 11, "l": 9, "margin": 3.4, "rating": -16.024}, {"name": "Southbridge", "w": 12, "l": 7, "margin": 4.9, "rating": -16.349}, {"name": "Maimondes", "w": 6, "l": 9, "margin": -4.4, "rating": -16.606}, {"name": "Argosy Collegiate Charter", "w": 8, "l": 8, "margin": 1.6, "rating": -16.913}, {"name": "South Shore VT", "w": 13, "l": 7, "margin": 4.2, "rating": -17.158}, {"name": "Assabet Valley RVT", "w": 10, "l": 10, "margin": 3.6, "rating": -17.234}, {"name": "Oxford", "w": 4, "l": 14, "margin": -11.0, "rating": -17.318}, {"name": "Essex North Shore", "w": 11, "l": 8, "margin": 3.2, "rating": -17.383}, {"name": "Mystic Valley Charter", "w": 10, "l": 10, "margin": 2.3, "rating": -17.442}, {"name": "Salem Academy Charter", "w": 7, "l": 12, "margin": -7.0, "rating": -17.964}, {"name": "Monson", "w": 8, "l": 12, "margin": -0.2, "rating": -18.055}, {"name": "Northeast Metro RVT", "w": 11, "l": 9, "margin": 1.9, "rating": -18.116}, {"name": "Diman RVT", "w": 4, "l": 16, "margin": -15.4, "rating": -18.476}, {"name": "Hopkins Academy", "w": 11, "l": 9, "margin": 0.8, "rating": -18.952}, {"name": "Montachusett RVT", "w": 4, "l": 16, "margin": -5.0, "rating": -19.076}, {"name": "Academy of the Pacific Rim", "w": 13, "l": 7, "margin": -1.1, "rating": -19.475}, {"name": "Baystate Academy", "w": 13, "l": 7, "margin": 9.4, "rating": -19.535}, {"name": "Ashland", "w": 1, "l": 19, "margin": -23.4, "rating": -19.577}, {"name": "Calvary Chapel Academy", "w": 10, "l": 10, "margin": -1.1, "rating": -19.849}, {"name": "Cape Cod RVT", "w": 9, "l": 11, "margin": -3.9, "rating": -20.011}, {"name": "Veritas Prep Charter", "w": 7, "l": 13, "margin": -6.6, "rating": -20.025}, {"name": "McCann Tech", "w": 12, "l": 7, "margin": 5.1, "rating": -20.114}, {"name": "Triton Regional", "w": 2, "l": 18, "margin": -23.6, "rating": -20.232}, {"name": "Rockport", "w": 3, "l": 17, "margin": -22.9, "rating": -20.905}, {"name": "Minuteman Regional", "w": 12, "l": 8, "margin": 3.2, "rating": -21.063}, {"name": "Lenox Memorial", "w": 4, "l": 14, "margin": -11.2, "rating": -21.336}, {"name": "Mount Greylock Regional", "w": 5, "l": 15, "margin": -8.4, "rating": -21.394}, {"name": "Excel Academy Charter", "w": 8, "l": 10, "margin": -1.2, "rating": -21.489}, {"name": "Smith VT", "w": 12, "l": 8, "margin": 6.2, "rating": -21.571}, {"name": "Bay Path RVT", "w": 5, "l": 15, "margin": -12.3, "rating": -21.606}, {"name": "Advanced Math & Science", "w": 4, "l": 16, "margin": -8.3, "rating": -21.892}, {"name": "Renaissance School", "w": 11, "l": 9, "margin": 3.5, "rating": -22.068}, {"name": "Muniz Academy", "w": 6, "l": 12, "margin": -2.7, "rating": -22.385}, {"name": "Match Charter Public", "w": 7, "l": 13, "margin": -4.5, "rating": -22.477}, {"name": "Athol", "w": 11, "l": 9, "margin": -5.2, "rating": -22.507}, {"name": "Pioneer Valley Chinese Immersion", "w": 12, "l": 6, "margin": 6.9, "rating": -22.676}, {"name": "Community Academy of Science & Health", "w": 5, "l": 11, "margin": -16.3, "rating": -22.811}, {"name": "Edward M. Kennedy Acad.", "w": 4, "l": 12, "margin": -14.1, "rating": -24.068}, {"name": "Saint John Paul II", "w": 10, "l": 10, "margin": 0.7, "rating": -24.115}, {"name": "Notre Dame Cristo Rey", "w": 7, "l": 13, "margin": -7.8, "rating": -24.256}, {"name": "Cristo Rey Boston", "w": 9, "l": 11, "margin": -3.4, "rating": -24.767}, {"name": "Neighborhood House", "w": 6, "l": 14, "margin": -9.6, "rating": -24.807}, {"name": "Southwick Regional", "w": 6, "l": 14, "margin": -6.1, "rating": -24.91}, {"name": "Abby Kelley Foster", "w": 14, "l": 6, "margin": 3.6, "rating": -25.308}, {"name": "Mahar Regional", "w": 5, "l": 15, "margin": -10.5, "rating": -25.426}, {"name": "St. Bernard's", "w": 6, "l": 12, "margin": -3.8, "rating": -25.998}, {"name": "Granby", "w": 5, "l": 15, "margin": -9.8, "rating": -26.012}, {"name": "West Boylston", "w": 3, "l": 15, "margin": -11.1, "rating": -26.13}, {"name": "Tri-County RVT", "w": 0, "l": 17, "margin": -17.2, "rating": -26.458}, {"name": "Pioneer Valley Christian", "w": 9, "l": 11, "margin": 2.2, "rating": -26.654}, {"name": "Sizer School", "w": 10, "l": 10, "margin": 2.5, "rating": -26.775}, {"name": "University Park Campus", "w": 6, "l": 13, "margin": -3.0, "rating": -27.77}, {"name": "Franklin County Tech", "w": 10, "l": 10, "margin": 0.1, "rating": -28.09}, {"name": "Foxborough Charter", "w": 4, "l": 13, "margin": -13.7, "rating": -28.3}, {"name": "Westfield Technical Academy", "w": 9, "l": 10, "margin": 1.5, "rating": -28.795}, {"name": "Atlantis Charter", "w": 6, "l": 10, "margin": -7.9, "rating": -29.125}, {"name": "Turners Falls", "w": 7, "l": 13, "margin": 0.5, "rating": -30.123}, {"name": "Norfolk County Agricul.", "w": 8, "l": 12, "margin": -2.9, "rating": -30.583}, {"name": "Hampden Charter of Science", "w": 3, "l": 16, "margin": -16.0, "rating": -31.431}, {"name": "Innovation Academy", "w": 9, "l": 10, "margin": -2.8, "rating": -31.832}, {"name": "Pathfinder RVT", "w": 7, "l": 11, "margin": -3.4, "rating": -31.838}, {"name": "Pioneer Valley Regional", "w": 4, "l": 16, "margin": -17.2, "rating": -31.954}, {"name": "Douglas", "w": 0, "l": 20, "margin": -21.1, "rating": -32.939}, {"name": "Boston Collegiate Charter", "w": 2, "l": 16, "margin": -15.7, "rating": -34.049}, {"name": "Smith Academy", "w": 4, "l": 16, "margin": -16.6, "rating": -34.49}, {"name": "Pioneer Charter of Science II", "w": 2, "l": 16, "margin": -18.3, "rating": -35.991}, {"name": "South Lancaster Academy", "w": 8, "l": 11, "margin": -8.5, "rating": -36.947}, {"name": "Sturgis West", "w": 2, "l": 16, "margin": -23.5, "rating": -39.122}, {"name": "Murdock", "w": 0, "l": 17, "margin": -37.0, "rating": -39.612}, {"name": "Rising Tide Charter", "w": 6, "l": 10, "margin": -8.1, "rating": -39.807}, {"name": "Falmouth Academy", "w": 7, "l": 11, "margin": -11.1, "rating": -40.645}, {"name": "Community Charter of Cambridge", "w": 0, "l": 11, "margin": -32.4, "rating": -43.085}, {"name": "Sturgis East", "w": 3, "l": 13, "margin": -13.4, "rating": -43.17}, {"name": "Codman Academy", "w": 2, "l": 13, "margin": -29.7, "rating": -43.19}, {"name": "North Brookfield", "w": 3, "l": 13, "margin": -21.9, "rating": -43.603}, {"name": "Nashoba Valley Tech", "w": 3, "l": 13, "margin": -18.4, "rating": -43.794}, {"name": "Gateway Regional", "w": 2, "l": 12, "margin": -13.6, "rating": -45.572}, {"name": "Trivium School", "w": 3, "l": 12, "margin": -17.8, "rating": -46.203}, {"name": "Academy of Notre Dame", "w": 2, "l": 17, "margin": -29.8, "rating": -46.441}, {"name": "Bristol County Agricultural", "w": 2, "l": 17, "margin": -18.5, "rating": -47.129}, {"name": "Mohawk Trail Regional", "w": 3, "l": 17, "margin": -22.1, "rating": -47.658}, {"name": "Parker Charter School", "w": 0, "l": 20, "margin": -23.4, "rating": -49.139}, {"name": "St. Mary", "w": 2, "l": 18, "margin": -27.6, "rating": -50.415}],
+    sigma: 10.857,
+    games: '3,557'
+  },
+  girls: {
+    teams: [{"name": "Medfield", "w": 20, "l": 0, "margin": 38.8, "rating": 47.459}, {"name": "Springfield Central", "w": 17, "l": 3, "margin": 16.7, "rating": 46.234}, {"name": "Wachusett Regional", "w": 17, "l": 3, "margin": 26.9, "rating": 43.55}, {"name": "St. Mary's", "w": 19, "l": 3, "margin": 19.1, "rating": 41.414}, {"name": "Minnechaug", "w": 17, "l": 4, "margin": 18.5, "rating": 40.105}, {"name": "South High Community", "w": 17, "l": 3, "margin": 20.8, "rating": 39.17}, {"name": "Foxborough", "w": 19, "l": 1, "margin": 22.9, "rating": 39.044}, {"name": "Bishop Feehan", "w": 17, "l": 4, "margin": 9.4, "rating": 38.522}, {"name": "Pittsfield", "w": 16, "l": 5, "margin": 14.0, "rating": 38.157}, {"name": "Whitman Hanson Regional", "w": 19, "l": 2, "margin": 13.2, "rating": 37.365}, {"name": "Natick", "w": 16, "l": 4, "margin": 20.2, "rating": 36.985}, {"name": "Bishop Fenwick", "w": 15, "l": 5, "margin": 12.0, "rating": 36.177}, {"name": "Andover", "w": 19, "l": 1, "margin": 18.8, "rating": 35.949}, {"name": "Cathedral", "w": 12, "l": 8, "margin": 10.2, "rating": 34.583}, {"name": "Norwood", "w": 17, "l": 3, "margin": 17.9, "rating": 34.413}, {"name": "King Philip Regional", "w": 14, "l": 6, "margin": 16.9, "rating": 32.977}, {"name": "Apponequet Regional", "w": 21, "l": 1, "margin": 20.6, "rating": 32.507}, {"name": "Archbishop Williams", "w": 12, "l": 7, "margin": 14.6, "rating": 32.235}, {"name": "Walpole", "w": 14, "l": 6, "margin": 9.0, "rating": 32.074}, {"name": "Braintree", "w": 15, "l": 5, "margin": 11.4, "rating": 31.609}, {"name": "Oliver Ames", "w": 15, "l": 5, "margin": 9.7, "rating": 30.58}, {"name": "North Quincy", "w": 13, "l": 7, "margin": 5.2, "rating": 30.153}, {"name": "Needham", "w": 14, "l": 6, "margin": 8.8, "rating": 30.05}, {"name": "Pentucket Regional", "w": 16, "l": 5, "margin": 13.8, "rating": 29.819}, {"name": "North Attleborough", "w": 13, "l": 7, "margin": 9.7, "rating": 29.306}, {"name": "Medway", "w": 16, "l": 4, "margin": 9.4, "rating": 29.286}, {"name": "South Hadley", "w": 11, "l": 10, "margin": 5.9, "rating": 29.265}, {"name": "North Reading", "w": 19, "l": 2, "margin": 19.2, "rating": 29.002}, {"name": "Duxbury", "w": 14, "l": 6, "margin": 7.5, "rating": 28.836}, {"name": "Northampton", "w": 13, "l": 7, "margin": 2.9, "rating": 28.512}, {"name": "Quincy", "w": 13, "l": 7, "margin": 7.9, "rating": 28.126}, {"name": "Billerica Memorial", "w": 16, "l": 4, "margin": 9.1, "rating": 27.498}, {"name": "Mansfield", "w": 13, "l": 8, "margin": 5.2, "rating": 27.346}, {"name": "Hingham", "w": 13, "l": 8, "margin": 6.2, "rating": 27.315}, {"name": "Woburn Memorial", "w": 19, "l": 1, "margin": 16.1, "rating": 27.045}, {"name": "Pembroke", "w": 13, "l": 7, "margin": 4.3, "rating": 26.934}, {"name": "Acton Boxborough", "w": 15, "l": 6, "margin": 11.3, "rating": 26.86}, {"name": "Westford Academy", "w": 15, "l": 5, "margin": 13.1, "rating": 26.815}, {"name": "Frontier Regional", "w": 17, "l": 3, "margin": 18.6, "rating": 26.067}, {"name": "East Bridgewater", "w": 16, "l": 4, "margin": 19.4, "rating": 26.004}, {"name": "Longmeadow", "w": 11, "l": 9, "margin": 2.5, "rating": 25.529}, {"name": "Old Rochester Regional", "w": 16, "l": 4, "margin": 16.1, "rating": 24.86}, {"name": "Bridgewater Raynham", "w": 11, "l": 9, "margin": 3.6, "rating": 24.257}, {"name": "Arlington Catholic", "w": 16, "l": 6, "margin": 13.0, "rating": 24.215}, {"name": "Norwell", "w": 11, "l": 9, "margin": 4.8, "rating": 23.619}, {"name": "Franklin", "w": 13, "l": 8, "margin": 0.4, "rating": 23.616}, {"name": "Hanover", "w": 12, "l": 8, "margin": 0.8, "rating": 23.215}, {"name": "Lowell", "w": 17, "l": 3, "margin": 10.8, "rating": 22.909}, {"name": "Hopkinton", "w": 14, "l": 6, "margin": 7.3, "rating": 22.491}, {"name": "Silver Lake Regional", "w": 9, "l": 13, "margin": -1.6, "rating": 21.707}, {"name": "Fontbonne", "w": 14, "l": 6, "margin": 8.1, "rating": 21.677}, {"name": "Wahconah Regional", "w": 12, "l": 8, "margin": 12.6, "rating": 21.498}, {"name": "Newton North", "w": 9, "l": 11, "margin": 1.1, "rating": 21.309}, {"name": "Brookline", "w": 11, "l": 8, "margin": 1.9, "rating": 21.26}, {"name": "Dracut", "w": 14, "l": 8, "margin": 5.2, "rating": 21.207}, {"name": "Millis", "w": 15, "l": 5, "margin": 7.0, "rating": 21.132}, {"name": "Drury", "w": 16, "l": 5, "margin": 15.1, "rating": 19.115}, {"name": "Newburyport", "w": 14, "l": 6, "margin": 5.5, "rating": 18.648}, {"name": "Millbury", "w": 14, "l": 6, "margin": 6.3, "rating": 18.615}, {"name": "Danvers", "w": 19, "l": 1, "margin": 18.2, "rating": 18.405}, {"name": "Notre Dame (Hingham)", "w": 13, "l": 7, "margin": 8.8, "rating": 18.373}, {"name": "Malden Catholic", "w": 13, "l": 7, "margin": 4.0, "rating": 18.339}, {"name": "Marshfield", "w": 6, "l": 14, "margin": -4.6, "rating": 18.293}, {"name": "Arlington", "w": 16, "l": 4, "margin": 6.5, "rating": 17.907}, {"name": "Durfee", "w": 16, "l": 4, "margin": 12.7, "rating": 17.417}, {"name": "Milford", "w": 9, "l": 11, "margin": -1.9, "rating": 17.365}, {"name": "Bedford", "w": 14, "l": 10, "margin": 0.2, "rating": 17.065}, {"name": "Greater New Bedford", "w": 16, "l": 6, "margin": 8.1, "rating": 17.033}, {"name": "Norton", "w": 6, "l": 14, "margin": -6.0, "rating": 16.972}, {"name": "Central Catholic", "w": 8, "l": 12, "margin": -1.1, "rating": 16.938}, {"name": "Milton", "w": 12, "l": 9, "margin": -0.4, "rating": 16.609}, {"name": "Tewksbury Memorial", "w": 11, "l": 9, "margin": 0.8, "rating": 16.141}, {"name": "Oakmont Regional", "w": 14, "l": 6, "margin": 10.8, "rating": 16.091}, {"name": "Dartmouth", "w": 9, "l": 11, "margin": 0.3, "rating": 16.085}, {"name": "Southwick Regional", "w": 15, "l": 5, "margin": 11.9, "rating": 16.051}, {"name": "Belmont", "w": 13, "l": 7, "margin": 6.0, "rating": 15.772}, {"name": "Leominster", "w": 11, "l": 9, "margin": -1.7, "rating": 15.455}, {"name": "Taunton", "w": 8, "l": 12, "margin": -4.6, "rating": 15.411}, {"name": "Attleboro", "w": 9, "l": 13, "margin": -4.5, "rating": 15.382}, {"name": "Waltham", "w": 11, "l": 9, "margin": 4.7, "rating": 15.301}, {"name": "Hopedale", "w": 13, "l": 7, "margin": 2.6, "rating": 15.043}, {"name": "Algonquin", "w": 9, "l": 11, "margin": -7.4, "rating": 14.929}, {"name": "Plymouth North", "w": 5, "l": 15, "margin": -6.5, "rating": 14.697}, {"name": "Pope Francis", "w": 12, "l": 8, "margin": -0.8, "rating": 14.603}, {"name": "Westborough", "w": 16, "l": 4, "margin": 15.9, "rating": 14.516}, {"name": "Lynnfield", "w": 13, "l": 7, "margin": 4.3, "rating": 14.228}, {"name": "Douglas", "w": 20, "l": 0, "margin": 21.6, "rating": 14.191}, {"name": "Newton South", "w": 7, "l": 13, "margin": -4.2, "rating": 14.11}, {"name": "Shrewsbury", "w": 9, "l": 11, "margin": -4.6, "rating": 14.016}, {"name": "Westwood", "w": 8, "l": 12, "margin": -7.0, "rating": 13.704}, {"name": "Cohasset", "w": 8, "l": 12, "margin": 0.3, "rating": 13.471}, {"name": "Burlington", "w": 11, "l": 9, "margin": 2.1, "rating": 13.288}, {"name": "Plymouth South", "w": 5, "l": 15, "margin": -6.9, "rating": 13.287}, {"name": "Methuen", "w": 9, "l": 11, "margin": -2.5, "rating": 12.814}, {"name": "Manchester Essex", "w": 12, "l": 8, "margin": 3.9, "rating": 12.774}, {"name": "Sandwich", "w": 16, "l": 4, "margin": 10.9, "rating": 12.575}, {"name": "Sutton", "w": 12, "l": 8, "margin": 5.0, "rating": 12.256}, {"name": "Watertown", "w": 12, "l": 8, "margin": 1.1, "rating": 12.108}, {"name": "Dedham", "w": 6, "l": 14, "margin": -5.8, "rating": 11.969}, {"name": "Bellingham", "w": 7, "l": 13, "margin": -7.4, "rating": 11.81}, {"name": "Chelmsford", "w": 7, "l": 13, "margin": -4.4, "rating": 11.804}, {"name": "Hudson", "w": 14, "l": 6, "margin": 12.4, "rating": 11.774}, {"name": "Ashland", "w": 7, "l": 13, "margin": -4.8, "rating": 11.591}, {"name": "Peabody Veterans", "w": 14, "l": 6, "margin": 6.1, "rating": 11.131}, {"name": "Shepherd Hill Regional", "w": 12, "l": 8, "margin": 5.0, "rating": 10.996}, {"name": "Falmouth", "w": 12, "l": 8, "margin": 6.7, "rating": 10.883}, {"name": "Northbridge", "w": 10, "l": 10, "margin": 0.5, "rating": 10.866}, {"name": "Grafton", "w": 9, "l": 11, "margin": -4.8, "rating": 10.767}, {"name": "Somerset Berkley Regional", "w": 10, "l": 10, "margin": -2.8, "rating": 10.449}, {"name": "Seekonk", "w": 14, "l": 6, "margin": 11.7, "rating": 10.397}, {"name": "Scituate", "w": 7, "l": 15, "margin": -9.5, "rating": 10.235}, {"name": "Hampshire Regional", "w": 12, "l": 8, "margin": 2.0, "rating": 9.957}, {"name": "Winchester", "w": 13, "l": 8, "margin": 1.0, "rating": 9.947}, {"name": "Wellesley", "w": 5, "l": 15, "margin": -10.6, "rating": 9.824}, {"name": "Canton", "w": 6, "l": 14, "margin": -13.8, "rating": 9.813}, {"name": "Saint John Paul II", "w": 18, "l": 3, "margin": 13.8, "rating": 9.724}, {"name": "East Longmeadow", "w": 12, "l": 8, "margin": 3.9, "rating": 9.696}, {"name": "Tyngsborough", "w": 13, "l": 7, "margin": 3.9, "rating": 9.56}, {"name": "Middleborough", "w": 9, "l": 9, "margin": -4.6, "rating": 9.391}, {"name": "West Springfield", "w": 12, "l": 8, "margin": 8.2, "rating": 9.364}, {"name": "Springfield International", "w": 15, "l": 5, "margin": 3.0, "rating": 9.248}, {"name": "Nashoba Regional", "w": 8, "l": 12, "margin": -2.8, "rating": 8.981}, {"name": "Cambridge Rindge & Latin", "w": 7, "l": 13, "margin": -4.7, "rating": 8.972}, {"name": "New Bedford", "w": 8, "l": 11, "margin": -2.6, "rating": 8.765}, {"name": "Hamilton Wenham", "w": 11, "l": 9, "margin": -0.1, "rating": 8.531}, {"name": "Whittier RVT", "w": 17, "l": 3, "margin": 13.4, "rating": 8.444}, {"name": "Dover-Sherborn", "w": 6, "l": 14, "margin": -13.6, "rating": 8.408}, {"name": "Lee", "w": 17, "l": 4, "margin": 13.6, "rating": 8.374}, {"name": "Belchertown", "w": 11, "l": 9, "margin": 1.1, "rating": 8.069}, {"name": "Melrose", "w": 8, "l": 12, "margin": -3.0, "rating": 7.676}, {"name": "Amesbury", "w": 13, "l": 7, "margin": 8.0, "rating": 6.912}, {"name": "Marblehead", "w": 13, "l": 8, "margin": 5.5, "rating": 6.648}, {"name": "Tahanto Regional", "w": 18, "l": 2, "margin": 26.3, "rating": 6.497}, {"name": "Somerville", "w": 15, "l": 5, "margin": 11.2, "rating": 6.283}, {"name": "Barnstable", "w": 8, "l": 12, "margin": -0.1, "rating": 6.204}, {"name": "Wakefield Memorial", "w": 6, "l": 14, "margin": -5.4, "rating": 6.159}, {"name": "Swampscott", "w": 12, "l": 8, "margin": 7.2, "rating": 5.847}, {"name": "Masconomet Regional", "w": 11, "l": 9, "margin": -1.6, "rating": 5.762}, {"name": "Renaissance School", "w": 9, "l": 10, "margin": -1.4, "rating": 5.639}, {"name": "Reading Memorial", "w": 7, "l": 13, "margin": -6.3, "rating": 5.228}, {"name": "Ursuline Academy", "w": 11, "l": 11, "margin": 5.0, "rating": 5.112}, {"name": "Dighton Rehoboth Regional", "w": 9, "l": 11, "margin": 1.9, "rating": 5.086}, {"name": "West Bridgewater", "w": 12, "l": 8, "margin": 2.4, "rating": 5.013}, {"name": "Concord Carlisle", "w": 7, "l": 11, "margin": -2.7, "rating": 4.894}, {"name": "Lunenburg", "w": 13, "l": 7, "margin": 6.5, "rating": 4.715}, {"name": "Westfield", "w": 5, "l": 14, "margin": -9.8, "rating": 4.231}, {"name": "North Andover", "w": 3, "l": 17, "margin": -9.7, "rating": 4.229}, {"name": "Rockland", "w": 11, "l": 9, "margin": 1.4, "rating": 4.213}, {"name": "Auburn", "w": 12, "l": 8, "margin": 6.7, "rating": 3.889}, {"name": "Blackstone-Millville", "w": 11, "l": 9, "margin": 11.2, "rating": 3.849}, {"name": "Lincoln-Sudbury", "w": 8, "l": 12, "margin": -6.2, "rating": 3.766}, {"name": "Saint Paul Diocesan", "w": 14, "l": 6, "margin": 11.5, "rating": 3.637}, {"name": "Carver", "w": 7, "l": 12, "margin": -2.9, "rating": 3.56}, {"name": "Wilmington", "w": 8, "l": 12, "margin": -7.3, "rating": 3.52}, {"name": "Maynard", "w": 11, "l": 9, "margin": 1.1, "rating": 3.31}, {"name": "Mashpee", "w": 8, "l": 10, "margin": -5.6, "rating": 3.284}, {"name": "Tantasqua Regional", "w": 13, "l": 7, "margin": 7.8, "rating": 2.944}, {"name": "Stoneham", "w": 5, "l": 15, "margin": -9.6, "rating": 2.83}, {"name": "Hoosac Valley", "w": 7, "l": 13, "margin": -4.8, "rating": 2.716}, {"name": "Sharon", "w": 3, "l": 17, "margin": -16.4, "rating": 2.607}, {"name": "Southeastern RVT", "w": 14, "l": 5, "margin": 10.7, "rating": 2.236}, {"name": "Uxbridge", "w": 10, "l": 10, "margin": -0.5, "rating": 2.17}, {"name": "Haverhill", "w": 9, "l": 11, "margin": -1.6, "rating": 1.937}, {"name": "Beverly", "w": 5, "l": 15, "margin": -5.5, "rating": 1.933}, {"name": "Georgetown", "w": 5, "l": 14, "margin": -7.2, "rating": 1.676}, {"name": "Clinton", "w": 8, "l": 12, "margin": 1.2, "rating": 1.421}, {"name": "Weymouth", "w": 2, "l": 18, "margin": -21.4, "rating": 1.414}, {"name": "Gardner", "w": 15, "l": 5, "margin": 15.5, "rating": 1.103}, {"name": "Easthampton", "w": 11, "l": 9, "margin": 3.5, "rating": 0.998}, {"name": "Advanced Math & Science", "w": 11, "l": 9, "margin": 0.7, "rating": 0.939}, {"name": "Littleton", "w": 8, "l": 12, "margin": 1.2, "rating": 0.496}, {"name": "Chicopee", "w": 6, "l": 14, "margin": -4.8, "rating": 0.177}, {"name": "Framingham", "w": 2, "l": 17, "margin": -23.3, "rating": 0.097}, {"name": "Abington", "w": 6, "l": 14, "margin": -5.0, "rating": 0.048}, {"name": "Greater Lawrence Tech", "w": 11, "l": 9, "margin": 1.6, "rating": -0.01}, {"name": "Boston Latin", "w": 6, "l": 14, "margin": -8.9, "rating": -0.125}, {"name": "Lawrence", "w": 5, "l": 15, "margin": -8.6, "rating": -0.21}, {"name": "Holbrook", "w": 15, "l": 5, "margin": 17.6, "rating": -0.401}, {"name": "Saugus", "w": 8, "l": 12, "margin": -1.1, "rating": -0.439}, {"name": "Triton Regional", "w": 4, "l": 16, "margin": -10.2, "rating": -0.474}, {"name": "Mount Greylock Regional", "w": 11, "l": 9, "margin": 6.0, "rating": -0.531}, {"name": "Minuteman Regional", "w": 19, "l": 0, "margin": 21.8, "rating": -0.626}, {"name": "Pioneer Valley Christian", "w": 10, "l": 11, "margin": 2.0, "rating": -0.666}, {"name": "Agawam", "w": 6, "l": 14, "margin": -8.4, "rating": -0.726}, {"name": "Lexington", "w": 2, "l": 18, "margin": -11.0, "rating": -0.777}, {"name": "Brockton", "w": 9, "l": 11, "margin": -5.8, "rating": -0.793}, {"name": "Nipmuc Regional", "w": 8, "l": 11, "margin": 2.2, "rating": -0.793}, {"name": "Essex North Shore", "w": 3, "l": 17, "margin": -14.1, "rating": -1.124}, {"name": "Lenox Memorial", "w": 5, "l": 13, "margin": -10.9, "rating": -1.146}, {"name": "New Heights Charter", "w": 17, "l": 1, "margin": 20.0, "rating": -1.302}, {"name": "Wayland", "w": 10, "l": 10, "margin": -0.3, "rating": -1.395}, {"name": "Stoughton", "w": 1, "l": 21, "margin": -22.0, "rating": -1.401}, {"name": "Granby", "w": 18, "l": 3, "margin": 15.0, "rating": -1.552}, {"name": "Medford", "w": 12, "l": 8, "margin": 5.4, "rating": -1.636}, {"name": "Wareham", "w": 17, "l": 3, "margin": 14.6, "rating": -2.027}, {"name": "O'Bryant", "w": 17, "l": 1, "margin": 23.7, "rating": -2.228}, {"name": "Groton Dunstable", "w": 6, "l": 14, "margin": -5.0, "rating": -2.257}, {"name": "Bourne", "w": 6, "l": 14, "margin": -12.0, "rating": -2.289}, {"name": "Lynn Classical", "w": 12, "l": 4, "margin": 10.8, "rating": -2.314}, {"name": "Mahar Regional", "w": 17, "l": 3, "margin": 12.6, "rating": -3.747}, {"name": "Monomoy", "w": 10, "l": 10, "margin": -1.3, "rating": -3.919}, {"name": "Marlborough", "w": 9, "l": 11, "margin": -7.0, "rating": -4.027}, {"name": "Cardinal Spellman", "w": 6, "l": 15, "margin": -21.0, "rating": -4.331}, {"name": "Revere", "w": 10, "l": 10, "margin": 3.4, "rating": -4.533}, {"name": "Falmouth Academy", "w": 13, "l": 4, "margin": 13.8, "rating": -4.662}, {"name": "Shawsheen Valley Tech", "w": 9, "l": 11, "margin": -3.7, "rating": -4.858}, {"name": "Winthrop", "w": 7, "l": 13, "margin": -7.0, "rating": -5.339}, {"name": "Holliston", "w": 1, "l": 19, "margin": -25.4, "rating": -5.464}, {"name": "Case", "w": 8, "l": 12, "margin": -7.2, "rating": -5.536}, {"name": "Blue Hills RVT", "w": 13, "l": 6, "margin": 4.6, "rating": -5.832}, {"name": "Gloucester", "w": 7, "l": 12, "margin": -2.1, "rating": -6.301}, {"name": "Blackstone Valley RVT", "w": 8, "l": 10, "margin": -5.8, "rating": -6.511}, {"name": "Doherty Memorial", "w": 12, "l": 8, "margin": 3.2, "rating": -6.514}, {"name": "Norfolk County Agricultural", "w": 17, "l": 3, "margin": 15.1, "rating": -6.655}, {"name": "Holyoke", "w": 6, "l": 14, "margin": -8.9, "rating": -6.726}, {"name": "Monument Mountain", "w": 7, "l": 12, "margin": -6.8, "rating": -7.355}, {"name": "Neighborhood House", "w": 14, "l": 6, "margin": 16.7, "rating": -7.424}, {"name": "Prospect Hill Academy", "w": 16, "l": 4, "margin": 18.4, "rating": -7.467}, {"name": "Collegiate Charter of Lowell", "w": 14, "l": 4, "margin": 23.0, "rating": -8.982}, {"name": "Calvary Chapel Academy", "w": 10, "l": 10, "margin": 5.9, "rating": -9.087}, {"name": "Weston", "w": 2, "l": 16, "margin": -12.3, "rating": -9.666}, {"name": "Baystate Academy", "w": 16, "l": 4, "margin": 12.6, "rating": -9.744}, {"name": "Notre Dame (Worcester)", "w": 5, "l": 15, "margin": -11.8, "rating": -10.165}, {"name": "Everett", "w": 6, "l": 13, "margin": -4.7, "rating": -10.473}, {"name": "Fitchburg", "w": 6, "l": 14, "margin": -8.1, "rating": -10.555}, {"name": "Lynn VT", "w": 13, "l": 7, "margin": 7.0, "rating": -10.677}, {"name": "Nantucket", "w": 10, "l": 10, "margin": 4.5, "rating": -10.794}, {"name": "Oxford", "w": 15, "l": 5, "margin": 12.1, "rating": -11.108}, {"name": "Greenfield", "w": 10, "l": 10, "margin": 2.9, "rating": -11.308}, {"name": "Quabbin Regional", "w": 6, "l": 14, "margin": -7.0, "rating": -11.4}, {"name": "Martha's Vineyard Regional", "w": 8, "l": 12, "margin": -6.0, "rating": -11.464}, {"name": "Ware", "w": 13, "l": 7, "margin": 3.8, "rating": -12.089}, {"name": "Ipswich", "w": 10, "l": 10, "margin": 2.9, "rating": -12.328}, {"name": "Greater Lowell Tech", "w": 7, "l": 13, "margin": -7.0, "rating": -12.338}, {"name": "Malden", "w": 8, "l": 12, "margin": -0.9, "rating": -12.48}, {"name": "Quaboag Regional", "w": 4, "l": 15, "margin": -2.9, "rating": -12.883}, {"name": "Leicester", "w": 8, "l": 10, "margin": -1.3, "rating": -13.299}, {"name": "Sturgis West", "w": 14, "l": 4, "margin": 10.8, "rating": -13.518}, {"name": "Bishop Stang", "w": 6, "l": 14, "margin": -8.9, "rating": -13.623}, {"name": "Nauset Regional", "w": 6, "l": 14, "margin": -13.6, "rating": -13.702}, {"name": "Westport", "w": 8, "l": 12, "margin": -6.5, "rating": -14.104}, {"name": "Dennis Yarmouth Regional", "w": 1, "l": 18, "margin": -24.0, "rating": -14.457}, {"name": "Brooke Charter", "w": 11, "l": 7, "margin": 13.1, "rating": -14.486}, {"name": "New Mission", "w": 15, "l": 7, "margin": 14.8, "rating": -14.493}, {"name": "Tri-County RVT", "w": 9, "l": 10, "margin": 2.7, "rating": -14.821}, {"name": "Hull", "w": 7, "l": 13, "margin": -9.6, "rating": -15.076}, {"name": "St. Bernard's", "w": 10, "l": 8, "margin": -0.3, "rating": -15.242}, {"name": "Chicopee Comp", "w": 3, "l": 17, "margin": -19.4, "rating": -15.31}, {"name": "Pioneer Valley Regional", "w": 11, "l": 9, "margin": -0.7, "rating": -15.728}, {"name": "Lowell Catholic", "w": 3, "l": 16, "margin": -14.5, "rating": -15.789}, {"name": "Bristol Plymouth RVT", "w": 7, "l": 13, "margin": -2.6, "rating": -16.557}, {"name": "Narragansett Regional", "w": 11, "l": 9, "margin": 0.8, "rating": -16.758}, {"name": "Amherst Pelham Regional", "w": 9, "l": 11, "margin": -5.3, "rating": -16.906}, {"name": "West Boylston", "w": 9, "l": 11, "margin": 1.3, "rating": -17.143}, {"name": "Atlantis Charter", "w": 10, "l": 6, "margin": 9.5, "rating": -17.167}, {"name": "Rockport", "w": 13, "l": 7, "margin": 7.2, "rating": -17.339}, {"name": "Keefe Tech", "w": 13, "l": 4, "margin": 8.9, "rating": -17.747}, {"name": "Maimonides", "w": 4, "l": 10, "margin": -7.3, "rating": -17.788}, {"name": "Smith VT", "w": 12, "l": 8, "margin": 5.8, "rating": -18.041}, {"name": "Bromfield School", "w": 9, "l": 9, "margin": -8.8, "rating": -18.078}, {"name": "Boston Collegiate Charter", "w": 14, "l": 3, "margin": 10.5, "rating": -18.218}, {"name": "Palmer", "w": 9, "l": 11, "margin": -4.5, "rating": -18.389}, {"name": "North Middlesex Regional", "w": 1, "l": 19, "margin": -21.7, "rating": -18.63}, {"name": "Boston Latin Academy", "w": 9, "l": 11, "margin": 3.2, "rating": -18.681}, {"name": "Bay Path RVT", "w": 2, "l": 16, "margin": -17.2, "rating": -18.76}, {"name": "Taconic", "w": 3, "l": 17, "margin": -25.1, "rating": -18.806}, {"name": "Upper Cape Cod RVT", "w": 8, "l": 11, "margin": -0.5, "rating": -18.849}, {"name": "Mohawk Trail Regional", "w": 9, "l": 11, "margin": -1.4, "rating": -19.336}, {"name": "Hopkins Academy", "w": 8, "l": 12, "margin": -3.3, "rating": -19.379}, {"name": "HS of Science & Technology", "w": 9, "l": 11, "margin": -2.0, "rating": -19.671}, {"name": "Prouty", "w": 11, "l": 7, "margin": 11.7, "rating": -19.961}, {"name": "Putnam VT", "w": 11, "l": 6, "margin": 10.5, "rating": -20.086}, {"name": "Mystic Valley Charter", "w": 7, "l": 13, "margin": -7.5, "rating": -20.097}, {"name": "Chelsea", "w": 6, "l": 14, "margin": -7.8, "rating": -20.157}, {"name": "Randolph", "w": 11, "l": 9, "margin": -2.0, "rating": -21.054}, {"name": "McCann Tech", "w": 16, "l": 4, "margin": 12.3, "rating": -21.32}, {"name": "Fairhaven", "w": 0, "l": 18, "margin": -22.0, "rating": -21.797}, {"name": "Bethany Christian", "w": 11, "l": 1, "margin": 15.5, "rating": -21.954}, {"name": "Lynn English", "w": 2, "l": 16, "margin": -19.0, "rating": -22.18}, {"name": "Cape Cod RVT", "w": 10, "l": 9, "margin": 3.3, "rating": -22.227}, {"name": "Ludlow", "w": 5, "l": 15, "margin": -8.4, "rating": -23.045}, {"name": "Old Colony RVT", "w": 9, "l": 11, "margin": 3.4, "rating": -23.049}, {"name": "Academy of Notre Dame", "w": 13, "l": 7, "margin": 5.5, "rating": -23.144}, {"name": "Montachusett RVT", "w": 8, "l": 12, "margin": -0.4, "rating": -23.152}, {"name": "Smith Academy", "w": 7, "l": 13, "margin": -6.5, "rating": -23.225}, {"name": "Immaculate Heart of Mary", "w": 11, "l": 5, "margin": 17.5, "rating": -23.596}, {"name": "Diman RVT", "w": 2, "l": 17, "margin": -14.4, "rating": -23.741}, {"name": "Fenway", "w": 9, "l": 5, "margin": 10.4, "rating": -24.26}, {"name": "North Brookfield", "w": 11, "l": 6, "margin": 7.9, "rating": -24.471}, {"name": "Abby Kelley Foster", "w": 15, "l": 5, "margin": 13.2, "rating": -25.49}, {"name": "Franklin County Tech", "w": 7, "l": 13, "margin": -7.3, "rating": -25.507}, {"name": "Snowden International", "w": 14, "l": 1, "margin": 12.2, "rating": -25.771}, {"name": "Murdock", "w": 5, "l": 13, "margin": -11.5, "rating": -26.133}, {"name": "Pioneer Charter of Science II", "w": 11, "l": 8, "margin": 1.9, "rating": -26.283}, {"name": "Ayer Shirley", "w": 4, "l": 16, "margin": -19.9, "rating": -26.708}, {"name": "St. Mary Parish (Westfield)", "w": 15, "l": 5, "margin": 8.8, "rating": -26.916}, {"name": "Burncoat", "w": 7, "l": 13, "margin": -9.4, "rating": -27.207}, {"name": "Pathfinder RVT", "w": 8, "l": 10, "margin": -1.1, "rating": -28.074}, {"name": "Boston United", "w": 6, "l": 11, "margin": -9.5, "rating": -28.667}, {"name": "KIPP Academy Lynn Coll.", "w": 10, "l": 9, "margin": -1.9, "rating": -28.997}, {"name": "Whitinsville Christian", "w": 5, "l": 15, "margin": -13.4, "rating": -29.603}, {"name": "Sturgis East", "w": 6, "l": 10, "margin": -6.2, "rating": -29.879}, {"name": "Tech Boston Academy", "w": 6, "l": 10, "margin": -0.6, "rating": -29.963}, {"name": "North High", "w": 2, "l": 17, "margin": -35.1, "rating": -31.253}, {"name": "Worcester Tech", "w": 5, "l": 15, "margin": -11.3, "rating": -31.388}, {"name": "Pioneer Charter of Science I", "w": 6, "l": 12, "margin": -3.9, "rating": -31.434}, {"name": "Madison Park", "w": 8, "l": 10, "margin": -8.0, "rating": -31.757}, {"name": "Salem", "w": 0, "l": 19, "margin": -35.9, "rating": -32.078}, {"name": "South Shore Charter", "w": 4, "l": 13, "margin": -18.1, "rating": -32.659}, {"name": "Athol", "w": 5, "l": 15, "margin": -8.6, "rating": -34.101}, {"name": "Rising Tide Charter", "w": 4, "l": 12, "margin": -8.7, "rating": -34.562}, {"name": "Excel Academy Charter", "w": 5, "l": 13, "margin": -7.9, "rating": -34.934}, {"name": "Argosy Collegiate Charter", "w": 4, "l": 10, "margin": -11.2, "rating": -34.967}, {"name": "Community Charter of Cambridge", "w": 2, "l": 9, "margin": -11.3, "rating": -35.129}, {"name": "South Lancaster Academy", "w": 6, "l": 12, "margin": -6.1, "rating": -35.28}, {"name": "Foxborough Charter", "w": 4, "l": 11, "margin": -21.6, "rating": -35.312}, {"name": "Parker Charter School", "w": 12, "l": 8, "margin": 3.2, "rating": -35.505}, {"name": "Roxbury Prep Charter", "w": 5, "l": 11, "margin": -18.2, "rating": -35.676}, {"name": "Monson", "w": 3, "l": 17, "margin": -27.9, "rating": -36.347}, {"name": "Salem Academy Charter", "w": 5, "l": 13, "margin": -13.5, "rating": -36.535}, {"name": "Commerce", "w": 9, "l": 11, "margin": -1.9, "rating": -36.902}, {"name": "Nashoba Valley Tech", "w": 3, "l": 15, "margin": -18.1, "rating": -37.091}, {"name": "Northeast Metro RVT", "w": 4, "l": 16, "margin": -19.2, "rating": -37.63}, {"name": "Hampden Charter of Science", "w": 8, "l": 10, "margin": -3.4, "rating": -37.824}, {"name": "John J. Duggan Academy", "w": 5, "l": 13, "margin": -13.5, "rating": -37.965}, {"name": "Bristol County Agricultural", "w": 4, "l": 16, "margin": -15.9, "rating": -38.235}, {"name": "Southbridge", "w": 5, "l": 15, "margin": -8.8, "rating": -38.684}, {"name": "Codman Academy", "w": 4, "l": 5, "margin": -4.0, "rating": -38.74}, {"name": "Community Academy of Science & Health", "w": 6, "l": 8, "margin": -10.2, "rating": -39.546}, {"name": "Boston Preparatory", "w": 2, "l": 10, "margin": -23.1, "rating": -39.714}, {"name": "Edward M. Kennedy Acad.", "w": 6, "l": 7, "margin": -9.0, "rating": -39.881}, {"name": "Muniz Academy", "w": 7, "l": 11, "margin": -5.0, "rating": -41.302}, {"name": "University Park Campus", "w": 3, "l": 17, "margin": -16.5, "rating": -41.59}, {"name": "Avon", "w": 1, "l": 15, "margin": -24.9, "rating": -42.366}, {"name": "Westfield Technical Academy", "w": 6, "l": 10, "margin": -4.9, "rating": -43.463}, {"name": "Charlestown", "w": 3, "l": 10, "margin": -19.2, "rating": -44.549}, {"name": "Turners Falls", "w": 2, "l": 18, "margin": -22.1, "rating": -44.995}, {"name": "Ruth Batson Academy", "w": 3, "l": 10, "margin": -10.2, "rating": -46.17}, {"name": "Cape Cod Academy", "w": 0, "l": 12, "margin": -34.3, "rating": -46.188}, {"name": "Brighton", "w": 1, "l": 8, "margin": -27.2, "rating": -46.23}, {"name": "Gateway Regional", "w": 4, "l": 10, "margin": -9.0, "rating": -47.532}, {"name": "East Boston", "w": 2, "l": 12, "margin": -18.8, "rating": -47.536}, {"name": "South Shore VT", "w": 2, "l": 17, "margin": -24.9, "rating": -48.572}, {"name": "Assabet Valley RVT", "w": 0, "l": 18, "margin": -34.6, "rating": -48.691}, {"name": "Trivium School", "w": 4, "l": 12, "margin": -16.6, "rating": -49.007}, {"name": "Notre Dame Cristo Rey", "w": 0, "l": 17, "margin": -29.0, "rating": -49.682}, {"name": "Innovation Academy", "w": 4, "l": 10, "margin": -10.7, "rating": -49.764}, {"name": "Cristo Rey Boston", "w": 4, "l": 12, "margin": -16.2, "rating": -49.841}, {"name": "Academy of the Pacific Rim", "w": 0, "l": 4, "margin": -41.2, "rating": -52.227}, {"name": "Match Charter Public", "w": 1, "l": 13, "margin": -16.6, "rating": -52.601}, {"name": "Pioneer Valley Chinese Immersion", "w": 0, "l": 16, "margin": -19.1, "rating": -53.879}, {"name": "Sizer School", "w": 0, "l": 17, "margin": -32.5, "rating": -55.513}],
+    sigma: 11.022,
+    games: '3,411'
+  }
+};
+
+const HOME_ADV = 0;
+let currentGender = 'boys';
+let venueMode = 'home';
+
+// ── Slugify ────────────────────────────────────────────────────────────────
+function slugify(name) {
+  return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
+
+// ── Normal CDF ───────────────────────────────────────────────────────────────
+function normalCDF(z) {
+  const t = 1 / (1 + 0.2316419 * Math.abs(z));
+  const d = 0.3989423 * Math.exp(-z * z / 2);
+  const p = d * t * (0.3193815 + t * (-0.3565638 + t * (1.7814779 + t * (-1.8212560 + t * 1.3302744))));
+  return z > 0 ? 1 - p : p;
+}
+
+function winProb(ratingA, ratingB, venue) {
+  let margin = ratingA - ratingB;
+  if (venue === 'home')  margin += HOME_ADV;
+  if (venue === 'away')  margin -= HOME_ADV;
+  return { margin, prob: normalCDF(margin / DATA[currentGender].sigma) };
+}
+
+// ── Gender switch ─────────────────────────────────────────────────────────────
+function switchGender(gender, el) {
+  currentGender = gender;
+  document.querySelectorAll('.gender-tab').forEach(t => t.classList.remove('active'));
+  el.classList.add('active');
+  document.getElementById('hero-gender').textContent = gender === 'boys' ? 'Boys' : 'Girls';
+  rebuildAll();
+  document.getElementById('quick-result').className = 'quick-result';
+  document.getElementById('predictor-result').className = 'predictor-result';
+}
+
+// ── Section switching ─────────────────────────────────────────────────────────
+function showSection(id) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.getElementById('section-' + id).classList.add('active');
+  document.querySelectorAll('nav a').forEach((a, i) => {
+    a.classList.toggle('active', ['rankings','top25','predictor','search'][i] === id);
+  });
+}
+
+// ── Build rankings table ──────────────────────────────────────────────────────
+function buildRankings() {
+  const teams = DATA[currentGender].teams;
+  const sigma = DATA[currentGender].sigma;
+  const tbody = document.getElementById('rankings-body');
+  tbody.innerHTML = '';
+  const maxAbs = Math.max(...teams.map(t => Math.abs(t.rating)));
+
+  teams.forEach((t, i) => {
+    const rank = i + 1;
+    const rankClass = rank <= 5 ? 'top5' : rank <= 25 ? 'top25' : '';
+    const ratingClass = t.rating >= 0 ? 'pos' : 'neg';
+    const barPct = Math.round((Math.abs(t.rating) / maxAbs) * 100);
+    const barClass = t.rating < 0 ? 'neg' : '';
+    const sign = t.margin >= 0 ? '+' : '';
+    tbody.innerHTML += `
+      <tr data-name="${t.name.toLowerCase()}">
+        <td class="rank-num ${rankClass}">${rank}</td>
+        <td class="team-name"><a href="team.html?team=${slugify(t.name)}&gender=${currentGender}" style="color:var(--text);text-decoration:none;font-weight:600;" onmouseover="this.style.color='var(--accent2)'" onmouseout="this.style.color='var(--text)'">${t.name}</a></td>
+        <td class="record right">${t.w}–${t.l}</td>
+        <td class="avg-margin right">${sign}${t.margin.toFixed(1)}</td>
+        <td class="net-rating right ${ratingClass}">${t.rating >= 0 ? '+' : ''}${t.rating.toFixed(2)}</td>
+        <td class="bar-cell"><div class="bar-wrap"><div class="bar-fill ${barClass}" style="width:${barPct}%"></div></div></td>
+      </tr>`;
+  });
+
+  // Update stats
+  document.getElementById('stat-teams').textContent = teams.length;
+  document.getElementById('stat-games').textContent = DATA[currentGender].games;
+  document.getElementById('stat-sigma').textContent = sigma.toFixed(1);
+  document.getElementById('sidebar-sigma').textContent = sigma.toFixed(3);
+  const winPct = (normalCDF(sigma / sigma) * 100).toFixed(0);
+  document.getElementById('sidebar-sigma-desc').textContent =
+    `A team favored by ${sigma.toFixed(1)} pts wins ~84% of the time. Rating difference = predicted neutral-site margin.`;
+}
+
+function filterTable() {
+  const q = document.getElementById('search-input').value.toLowerCase();
+  document.querySelectorAll('#rankings-body tr').forEach(row => {
+    row.style.display = row.dataset.name.includes(q) ? '' : 'none';
+  });
+}
+
+// ── Build Top 25 ──────────────────────────────────────────────────────────────
+function buildTop25() {
+  const teams = DATA[currentGender].teams;
+  const grid = document.getElementById('top25-grid');
+  grid.innerHTML = '';
+  teams.slice(0, 25).forEach((t, i) => {
+    grid.innerHTML += `
+      <div class="top25-item">
+        <div class="top25-rank">${i + 1}</div>
+        <div class="top25-name">${t.name}</div>
+        <div class="top25-rating">${t.rating >= 0 ? '+' : ''}${t.rating.toFixed(2)}</div>
+        <div class="top25-record">${t.w}–${t.l}</div>
+      </div>`;
+  });
+  document.getElementById('top25-badge').textContent =
+    (currentGender === 'boys' ? 'Boys' : 'Girls') + ' · 2025–26 Season';
+}
+
+// ── Populate selects ───────────────────────────────────────────────────────────
+function populateSelects() {
+  const teams = DATA[currentGender].teams;
+  const selects = ['pred-team-a','pred-team-b','qp-team-a','qp-team-b'];
+  selects.forEach(id => {
+    const el = document.getElementById(id);
+    el.innerHTML = '';
+    teams.forEach(t => {
+      const opt = document.createElement('option');
+      opt.value = t.name; opt.textContent = t.name;
+      el.appendChild(opt);
+    });
+  });
+  document.getElementById('pred-team-b').selectedIndex = 1;
+  document.getElementById('qp-team-b').selectedIndex = 1;
+}
+
+// ── Venue toggle ──────────────────────────────────────────────────────────────
+function setVenue(val, btn) {
+  venueMode = val;
+  btn.closest('.venue-toggle').querySelectorAll('.venue-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+}
+
+// ── Predictor ─────────────────────────────────────────────────────────────────
+function runPredictor() {
+  const teams = DATA[currentGender].teams;
+  const nameA = document.getElementById('pred-team-a').value;
+  const nameB = document.getElementById('pred-team-b').value;
+  const tA = teams.find(t => t.name === nameA);
+  const tB = teams.find(t => t.name === nameB);
+  if (!tA || !tB || nameA === nameB) return;
+
+  const { margin, prob } = winProb(tA.rating, tB.rating, venueMode);
+  const probA = prob, probB = 1 - prob;
+  const winner = margin >= 0 ? nameA : nameB;
+
+  const res = document.getElementById('predictor-result');
+  res.className = 'predictor-result visible';
+  res.innerHTML = `
+    <div class="result-main">
+      <div class="result-winner">${winner} by ${Math.abs(margin).toFixed(1)}</div>
+      <div class="result-margin">predicted margin</div>
+    </div>
+    <div class="prob-bars">
+      <div class="prob-row">
+        <div class="prob-label">${nameA}</div>
+        <div class="prob-bar-wrap"><div class="prob-bar-fill team-a" style="width:${(probA*100).toFixed(1)}%"></div></div>
+        <div class="prob-pct ${probA > 0.5 ? 'fav' : ''}" style="color:${probA>0.5?'var(--green)':'var(--muted)'}">${(probA*100).toFixed(1)}%</div>
+      </div>
+      <div class="prob-row">
+        <div class="prob-label">${nameB}</div>
+        <div class="prob-bar-wrap"><div class="prob-bar-fill team-b" style="width:${(probB*100).toFixed(1)}%"></div></div>
+        <div class="prob-pct ${probB > 0.5 ? 'fav' : ''}" style="color:${probB>0.5?'var(--green)':'var(--muted)'}">${(probB*100).toFixed(1)}%</div>
+      </div>
+    </div>`;
+}
+
+// ── Quick predict ─────────────────────────────────────────────────────────────
+function quickPredict() {
+  const teams = DATA[currentGender].teams;
+  const nameA = document.getElementById('qp-team-a').value;
+  const nameB = document.getElementById('qp-team-b').value;
+  const tA = teams.find(t => t.name === nameA);
+  const tB = teams.find(t => t.name === nameB);
+  if (!tA || !tB || nameA === nameB) return;
+  const { margin, prob } = winProb(tA.rating, tB.rating, 'neutral');
+  const winner = margin >= 0 ? nameA : nameB;
+  const res = document.getElementById('quick-result');
+  res.className = 'quick-result visible';
+  res.innerHTML = `
+    <div class="qr-winner">${winner} wins</div>
+    <div class="qr-detail">by ${Math.abs(margin).toFixed(1)} pts · ${(Math.max(prob,1-prob)*100).toFixed(1)}% probability</div>`;
+}
+
+
+// ── Team search ───────────────────────────────────────────────────────────────
+function searchTeams() {
+  const q = document.getElementById('team-search-input').value.toLowerCase().trim();
+  const teams = DATA[currentGender].teams;
+  const results = q ? teams.filter(t => t.name.toLowerCase().includes(q)) : teams.slice(0, 30);
+  const total = q ? results.length : teams.length;
+
+  document.getElementById('search-count').textContent =
+    q ? `${results.length} result${results.length !== 1 ? 's' : ''}` : `${teams.length} teams`;
+
+  if (results.length === 0) {
+    document.getElementById('team-search-results').innerHTML =
+      '<div style="padding:32px;text-align:center;color:var(--muted);font-family:var(--mono);">No teams found</div>';
+    return;
+  }
+
+  const rows = results.map(t => `
+    <a href="team.html?team=${slugify(t.name)}&gender=${currentGender}"
+       style="display:flex;align-items:center;justify-content:space-between;padding:14px 20px;border-bottom:1px solid var(--border);text-decoration:none;color:var(--text);transition:background 0.1s;"
+       onmouseover="this.style.background='#faf9f6'" onmouseout="this.style.background=''">
+      <div>
+        <span style="font-weight:600;font-size:14px;">${t.name}</span>
+        <span style="font-family:var(--mono);font-size:12px;color:var(--muted);margin-left:10px;">${t.w}–${t.l}</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:16px;">
+        <span style="font-family:var(--mono);font-size:13px;color:${t.rating >= 0 ? 'var(--green)' : 'var(--accent)'};">
+          ${t.rating >= 0 ? '+' : ''}${t.rating.toFixed(2)}
+        </span>
+        <span style="font-family:var(--mono);font-size:12px;color:var(--muted);">#${t.net_rank}</span>
+        <span style="color:var(--muted);font-size:18px;">›</span>
+      </div>
+    </a>`).join('');
+
+  const footer = !q && teams.length > 30
+    ? `<div style="padding:14px 20px;text-align:center;font-size:13px;color:var(--muted);font-family:var(--mono);">Type a name to search all ${teams.length} teams</div>`
+    : '';
+
+  document.getElementById('team-search-results').innerHTML = rows + footer;
+}
+
+// ── Init & rebuild ────────────────────────────────────────────────────────────
+function rebuildAll() {
+  buildRankings();
+  buildTop25();
+  populateSelects();
+  searchTeams();
+  document.getElementById('search-input').value = '';
+}
+
+rebuildAll();
+</script>
+
+<footer style="background:var(--accent2);color:rgba(255,255,255,0.5);text-align:center;padding:24px 32px;font-size:13px;margin-top:40px;">
+  <p>MIAA Hoops — Independent analytics. Not affiliated with or endorsed by the MIAA. &nbsp;·&nbsp;
+  <a href="methodology.html" style="color:rgba(255,255,255,0.7);text-decoration:none;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(255,255,255,0.7)'">How It Works</a> &nbsp;·&nbsp; <a href="about.html" style="color:rgba(255,255,255,0.7);text-decoration:none;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(255,255,255,0.7)'">About</a></p>
+</footer>
+
+</body>
+</html>
