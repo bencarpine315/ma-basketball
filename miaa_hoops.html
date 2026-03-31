@@ -524,7 +524,7 @@ function searchTeams() {
         <span style="font-family:var(--mono);font-size:13px;color:${t.rating >= 0 ? 'var(--green)' : 'var(--accent)'};">
           ${t.rating >= 0 ? '+' : ''}${t.rating.toFixed(2)}
         </span>
-        <span style="font-family:var(--mono);font-size:12px;color:var(--muted);">#${teams.index0f(t) + 1}</span>
+        <span style="font-family:var(--mono);font-size:12px;color:var(--muted);">#${teams.indexOf(t) + 1}</span>
         <span style="color:var(--muted);font-size:18px;">›</span>
       </div>
     </a>`).join('');
